@@ -1,0 +1,3 @@
+prompt1 = '1. Identify parasites or pathogens' \
+          '2. Identify host species infected by each parasite/pathogen' \
+          '3. Output a table with parasites in the first column, and the infected hosts in the second column'
