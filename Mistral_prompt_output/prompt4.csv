@@ -1,0 +1,492 @@
+Generated Text,absID
+"```cql
+CREATE (Lynx:Carnivora {name: ""Eurasian lynx"", scientific_name: ""Lynx lynx""}),
+(Fox:Carnivora {name: ""red fox"", scientific_name: ""Vulpes vulpes""})
+
+CREATE (Helicobacter:Bacteria),
+(Hheilmannii:Helicobacter {scientific_name: ""Helicobacter heilmannii""}),
+(Hsalomonis:Helicobacter {scientific_name: ""Helicobacter salomonis""})
+LEAVE (Hsalomonis)
+
+CREATE (Species:Mammalia),
+(Lynx)-[:BELONGS_TO]->(Species),
+(Fox)-[:BELONGS_TO]->(Species)
+
+CREATE (G",60336
+"[
+  {
+    ""id"": ""Odocoileus_virginianus"",
+    ""type"": ""Organism"",
+    ""name"": ""Odocoileus virginianus""
+  },
+  {
+    ""id"": ""Borrelia_burgdorferi"",
+    ""type"": ""Organism"",
+    ""name"": ""Borrelia burgdorferi""
+  },
+  {
+    ""id"": ""Georgia_(US_state)"",
+    ""type"": ""Location"",
+    ""name"": ""Georgia (US state)""
+  },
+  {
+    ""id"": ""serologic_survey"",
+    ""type"": ""Event"",
+    ""name"": ""serologic survey""
+  },
+  {
+    ""id"": ""enzyme-linked_immunosorbent_assay",60475
+"```neo4j
+CREATE (PasteurellaSpp:Entity {name: ""Pasteurella spp.""}), (BisonBison:Entity {name: ""Bison bison""})
+CREATE (NasalSample:Entity {name: ""nasal sample"", type: ""Swab Sample""}, PharyngealSample:Entity {name: ""pharyngeal sample"", type: ""Swab Sample""}), 
+      (PasteurellaHaemolytica:Entity {name: ""Pasteurella haemolytica""}, PasteurellaMultocida:Entity {name: ""Pasteurella multocida""})
+CREATE (NasalSample)-[:COLLECTED_FROM]->(BisonBison), 
+      (PharyngealSample)-[:COLLECTED_FROM]->(BisonBison)
+CREATE (NasalSample)-",60058
+"```neovault/create 3
+0 neovault/set 1
+1 key ""entity:common_seal""
+2 value Phoca vitulina
+1 neovault/incr-id
+0 neovault/set 1
+1 key ""type:organism""
+2 value true
+1 neovault/incr-id
+0 neovault/set 1
+1 key ""entity:harbour_porpoise""
+2 value Phocoena phocoena
+1 neovault/incr-id
+0 neovault/set 1
+1 key ""type:organism""
+2 value true
+1 neovault/incr-id
+0 neovault/set 1
+1 key ""entity:grey_seal""
+2 value Halichoerus grypus
+1 neovault/incr-id
+0 neovault/",60289
+"```neo4j
+CREATE TYPE EntityType {label}
+MERGE (Entity:EntityType {name: toUpperCase(replaceCollection(collect(distinct labels(.)),~""\s+"",'')[0])})
+SET Entity.types = [labels]
+RETURN Entity;
+
+// Create Entities and their types
+WITH ""grizzly bears"" AS grizzlyBearName, ""black bears"" AS blackBearName, ""Alaska"" AS alaskaLocation, 
+     ""parvovirus"" AS parvovirusDisease, ""distemper"" AS distemperDisease, ""infectious hepatitis"" AS infectiousHepatitisDisease, 
+     ""brucellosis"" AS brucellosisDisease, ""tularaemia"" AS tularaemiaDisease, ""Trichinella spp."" AS tr",57739
+"```neo4j
+CREATE TYPE Seal 
+CREATE TYPE Morbillivirus 
+CREATE TYPE Virus 
+CREATE TYPE Dermatitis 
+CREATE TYPE Histology 
+CREATE TYPE RehabilitationCenter 
+CREATE TYPE MarineMammalRehabilitation 
+CREATE TYPE Pathologist 
+CREATE TYPE Technician 
+CREATE TYPE Diagnosis 
+CREATE TYPE Immunohistochemistry 
+CREATE TYPE PolymeraseChainReaction 
+CREATE TYPE SouthernBlotTechnique 
+CREATE TYPE USAState 
+
+ON CREATE CONSTRAINT on_seal_create
+FOR (s:Seal) REQUIRE NOT ((s)-[:hasType*]->(t)) OR t IN [ {Name:""Hooded Seal""},{Name:""Harp Seal""}]
+ON UPDATE NOOP
+
+ON CREATE CONSTRAINT on_morbilliv",57006
+"```cql
+CREATE (:Study { id: ""10.1371/journal.pone.0029586"",
+    title: ""Microbiological and Molecular Characterization of Bacteria Isolated from Chimpanzees and Gorillas with Anthrax-Like Disease in Côte d'Ivoire and Cameroon"" })
+CREATE (:Publication { id: ""29586"", journal_title: ""PLoS ONE"", year: 2011, month: ""7"", day: ""14"" })
+Merge (s:Study{id:""10.1371/journal.pone.0029586""})<-[:HAS_ID]-(p:Publication{id:""29586""})
+
+WITH *
+MERGE (a:",60272
+"Loading...
+Title: Detection of Antibodies Reactive to the Agent of Human Granulocytic Ehrlichiosis in Black Bears
+Abstract: Serum samples from 381 black bears (Ursus americanus) killed in Pennsylvania (USA) on 24 November 1997 were analyzed for antibodies reactive to the agent of human granulocytic ehrlichiosis (HGE; Ehrlichia sp.) by indirect immunofluorescence assay. Antibody reactivity to HGE antigen was detected in 21% (81/381) of the samples collected. Reactive samples were reported from 56% (14/25) of the counties where bear samples were collected. Endpoint antibody titer ranged from 1:8 to 1:16, 192, with a geometric mean",60742
+"```cql
+CREATE (T1:Entity {id:""Tuberculosis"", name:""Tuberculosis"", type:"":Disease""}),
+(Mbovis:Entity {id:""Mycobacterium bovis"", name:""Mycobacterium bovis"", type:"":BacterialSpecies""})
+CREATE (BrushtailPossum:Entity {id:""Trichosurus vulpecula"", name:""Brushtail possum"", type:"":AnimalSpecies""}),
+(Stoat:Entity {id:""Mustela erminea"", name:""Stoat"", type:"":AnimalSpecies""})
+CREATE (Hare:Entity {id:""Lepus europaeus occidentalis"", name:""European hare"", type:"":AnimalSpecies""}),
+(Westland:Entity {id:""New Zealand West Coast"", name:""",60434
+"Neo4j Cypher Query Format:
+
+```cypher
+CREATE (FalloDeer:Animal {name: ""Fallow Deer"", scientific_name: ""Dama dama""}) 
+SET FalloDeer.synonyms = [""European fallow deer""]
+CREATE (Paratuberculosis:Disease {name: ""Paratuberculosis""})
+CREATE (ElSueveReserve:Location {name: ""Regional Hunting Reserve of El Sueve"", city: ""Asturias"", country: ""Spain""})
+CREATE (DeerWithDiarrhea:Animal {name: ""Five of eight animals observed with diarrhea""}, has_disease: Paratuberculosis)
+CREATE (GrossLesions:Pathology {name: ""gross lesions at postmortem examination and histopathology""})",60226
+"```neovault/create 3
+0
+NeoVault: Creating new database at 'neo4j.db'...
+1
+NeoVault: Database created successfully!
+2
+Transaction started for Neo4J DB located at 'neo4j.db'.
+# Added entities to the transaction stack, ready for commit or rollback.
+```
+
+```neovault/add 0
+0
+Entity: (Acanthocephala_species_Profilicollis_altmani {id ""profilicollis_altmani"", name ""Profilicollis altmani""}) as Acanthocephala_species
+1
+Entity: (Acanthocephala_species_Profilicollis_altmani {id ""profilicollis_altmani"", name ""Profilicoll",60232
+"```neo4j
+CREATE TYPE EntityType {label: String, type: String}
+CREATE CONSTRAINT ON (e:EntityType) ASCENDING e.id UNIQUE
+CREATE CONSTRAINT ON (t:EntityType) ASSERT t.type IN [""Animal"", ""TimePeriod"", ""Location""]
+CREATE TYPE Animal {label: String, type: String}
+CREATE CONSTRAINT ON (a:Animal) ASCENDING a.id UNIQUE
+CREATE CONSTRAINT ON (t:EntityType) ASSERT t.type IN [""Animal""]
+CREATE TYPE TimePeriod {startYear: Int, endYear: Int, label: String}
+CREATE CONSTRAINT ON (p:TimePeriod) ASCENDING p.id UNIQUE
+CREATE CONSTRAINT ON (t:EntityType) ASSERT t.type IN [""TimePeriod""]
+CREATE TYPE Location {label",60457
+"```graphql
+CREATE (EntityType: EntityType {name: ""Species"", type: ""Organism""})
+CREATE (Species1: Entity {name: ""Capreolus capreolus"", synonyms: [""Roe deer""], is_a: EntityType.name})
+CREATE (Species2: Entity {name: ""Alces alces"", synonyms: [""Moose""], is_a: EntityType.name})
+CREATE (Species3: Entity {name: ""Dama dama"", synonyms: [""Fallow deer""], is_a: EntityType.name})
+CREATE (Species4: Entity {name: ""Cervus elaphus"", synonyms: [""Red deer""], is_a: EntityType.name})
+CREATE (Species5: Entity {name: ""Rangifer tarandus"", synonyms: [""Reindeer""], is_",60010
+"```neovault/cql
+CREATE TYPE Person { label ""Person"", properties [name: String, affiliation: String] }
+CREATE TYPE Publication { label ""Publication"", properties [title: String, year: Integer]}
+CREATE TYPE Relationship_author2publication { label ""Relationship_author2publication"", source_type ""Person"", target_type ""Publication"", relationship_name ""authored"" }
+CREATE TYPE Relationship_citation { label ""Relationship_citation"", source_type ""Publication"", target_type ""Publication"", relationship_name ""cites""}
+CREATE TYPE Organism { label ""Organism"", properties [scientificName: String, commonNames: Object] }
+CREATE TYPE Taxon { label ""Taxon"", properties [rank: String, scientificName: String]}
+CREATE TYPE Relationship_partOf { label ""Relationship_partOf"", source_type ""Organ",60697
+"```cql
+CREATE (A:Entity {id:""Entamoeba histolytica"", name:""Entamoeba histolytica"", type:""Organism""})-[:IS_SYNONYM_OF]->(B:Entity {id:""Amöben-Darmkrankheit"", name:""Amöben-Darmkrankheit"", type:""Organism""})
+CREATE (A)-[:IS_SYNONYM_OF]->(C:Entity {id:""amoeba histolytica"", name:""amoeba histolytica"", type:""Organism""})
+CREATE (A)-(D:Relationship {type:""is pathogen of"", from_entity:A, to_entity:E})-(:Entity {id:""macaque monkeys"", name:""macaque monkeys"", type:""Host""})
+CREATE (F:Entity {id:""Entamoeba dispar"", name",60358
+"```neovault/cql
+CREATE TYPE SpeciesKGNode {
+    label: String,
+    scientificName: String,
+    commonNames: [String],
+    hostSpecies: [HostSpeciesKGNode]
+}
+
+CREATE TYPE HostSpeciesKGNode {
+    label: String,
+    speciesName: String,
+    parasites: [ParasiteKGNode]
+}
+
+CREATE TYPE ParasiteKGNode {
+    label: String,
+    genus: String,
+    species: String,
+    synonyms: [String],
+    hostSpecies: [HostSpeciesKGNode]
+}
+
+CREATE RELATIONSHIP HasType {
+    from: SpeciesKGNode | HostSpeciesKGNode | ParasiteKGNode,
+    to: Type,
+    typeLabel: String
+}
+
+CREATE R",60382
+"```neo4j
+CREATE DATABASE neo4j;
+USING PERSISTENCE NEIGHBORHOOD 'neo4j' MAKES TOTAL_MEMORY 100;
+CREATE (type:Type {name:'Raccoon', typeName:'Animal', synonyms:""Procyon lotor""}),
+(type2:Type {name:'HelminthParasite', typeName:'BiologicalEntity', synonyms:""helminth, parasites""}),
+(rel1:RelationshipType {name:'has_species', minCardinality: 0, maxCardinality: 1}) SAME AS (type)-[:HAS_SPECIES]->(type2),
+(residentRaccoon:Entity {id:""Resident raccoons"", synonyms:""raccoons from characteristic release areas""}),
+(translocatedRacco",60632
+"Neo4j Cypher Query:
+```cypher
+CREATE (Physaloptera_sibirica {name: ""Physaloptera sibirica"", type: ""Nematode""})-[:PARASITE]-(Foxes {name: ""Vulpes vulpes"", type: ""Mammal""})
+CREATE (Badgers {name: ""Meles meles"", type: ""Mammal""})-[:HOST]-(Physaloptera_sibirica)
+CREATE (Sarcoptes_scabiei {name: ""Sarcoptes scabiei"", type: ""Nematode""})-[:PARASITE]-(Foxes {name: ""Vulpes vulpes"", type: ""Mammal""})
+CREATE (EnvironmentalFactors {name: ""Altitudes"", type: ""Factor""})-[:FACTOR]-(Phys",60405
+"```neo4jcql
+CREATE TYPE NematodeParasite {name: 'NematodeParasite', base_type: [Node]}
+CREATE TYPE AnimalHost {name: 'AnimalHost', base_type: [Node]}
+CREATE TYPE State {name: 'State', base_type: [Node]}
+CREATE TYPE Species {name: 'Species', base_type: [Node]}
+CREATE CONSTRAINT ON (s:State) ASSERT s.name IS UNIQUE;
+CREATE CONSTRAINT ON (sp:Species) ASSERT sp.name IS UNIQUE;
+MERGE (nematodeParasite:NematodeParasite {name:'Dioctophyme renale'})
+SET nematodeParasite.synonyms = ['Giant kidney nematode']
+MERGE (animalHost:AnimalHost {name:'",60261
+"```neovault/cql
+CREATE TYPE Species {labels: [""Species""]}
+CREATE TYPE AnimalKingdom {labels: [""AnimalKingdom""], supertype_of: [LifeDomain]}
+CREATE TYPE LifeDomain {labels: [""LifeDomain"", ""supertype_of""]}
+CREATE TYPE MustelaVison {labels: [""MustelaVison""], subclass_of: [Species]}
+CREATE TYPE TroglotremaAcutum {labels: [""TroglotremaAcutum""], subclass_of: [Species]}
+CREATE TYPE Digenean {labels: [""Digenean""]}
+CREATE TYPE Spermiogenesis {labels: [""Spermiogenesis""]}
+CREATE TYPE ZoneOfDifferentiation {labels: [""ZoneOfDifferentiation""]}
+CREATE TYPE CorticalMicrotubules {labels: [""CorticalMicrotubules""]}",60446
+"```neovault/create 3
+neovault/set 1 type Entity
+neovault/add 0 key ""Giardia spp."" as Giardiasis, value Type.MICROBIOLOGICAL_ENTITY, labels [Microorganism]
+neovault/add 0 key ""harbor seals"" as HarborSeal, value Species.ANIMAL_SPECIES, labels [AnimalSpecies]
+neovault/add 0 key ""Phoca vitulina richardsi"" as PhocaVitulinaRichardsii, value Species.ANIMAL_SPECIES, labels [AnimalSpecies], properties {synonym: ""harbor seals""}
+neovault/add 1 key ""Washington State's inland marine waters"", value Location.GEOGRAPHICAL_LOCATION, labels [GeographicalLocation",60597
+"```neo4j
+CREATE TYPE Person;
+CREATE CONSTRAINT ON (p:Person) ASSERT p.name IS UNIQUE;
+CREATE INDEX FOR COLLABORATIONS(paper_title STRING);
+CREATE INDEX FOR COLLABORATORS(person_name LUCENE FULLTEXT);
+CREATE TYPE Paper;
+CREATE CONSTRAINT ON (p:Paper) ASSERT p.title IS UNIQUE;
+CREATE TYPE Entity;
+CREATE CONSTRAINT ON (e:Entity) ASSERT e.name IS UNIQUE;
+CREATE CONSTRAINT ON (r:Relationship) ASSERT r.type IN ['IS_A', 'LOCATION'];
+CREATE CONSTRAIGNT ON (p:Paper) ASSERT p.year INTEGER;
+CREATE CONSTRAINT ON (e:Entity) ASSERT e.synonyms IS UNIQUE;
+MERGE (",60218
+"```cql
+CREATE (P_fragile:Parasite {name: ""Plasmodium fragile"", synonym: ""P. fragile""})
+CREATE (M_radiata:Primate {name: ""Macaca radiata"", synonyms: [""bonnet monkey""]}), (M_mulatta:Primate {name: ""Macaca mulatta"", synonyms: [""rhesus monkey""]}), (P_entellus:Primate {name: ""Presbytis entellus"", synonyms: [""Indian langur""]})
+CREATE (Infection:InfectionType {name: ""Plasmodium fragile infection""})
+CREATE (Mildness:Severity {value: 0}, Anemia:Symptom, Death:Outcome {severity: Severity.dead}, AcuteInitialInfection:InfectionStage)
+M",60363
+"```neo4j
+CREATE TYPE Person;
+CREATE TYPE Animal;
+CREATE TYPE Primate;
+CREATE TYPE Chimpanzee;
+CREATE TYPE StudySubject;
+CREATE TYPE DominanceRank;
+CREATE TYPE HormoneLevel;
+CREATE TYPE ParasiteBurden;
+CREATE TYPE IntestinalParasiteSpecies;
+CREATE TYPE Helminth;
+CREATE TYPE Protozoan;
+CREATE TYPE ObservationData;
+
+MERGE (p:Person {name:""author""})
+MERGE (a1:Animal {name:""male members of primate species that form multi-male groups""})
+MERGE (p)-[:AUTHOR]->(a1)
+MERGE (p)-[:AUTHOR]->(s1:StudySubject{name:""wild adult male chimpanzees""})
+MERGE (p)-[:AUTHOR]->(s2:",60537
+"Neo4jCQLEntityKnowledgeGraph{
+  nodes {
+    id: ""Hepatozoon_ursi_n._sp.""
+    type: ""Species""
+    synonyms: [""H. ursi n. sp.""]
+    relationships {
+      type: ""isSubTypeOf""
+      target: ""Hepatozoon""
+    }
+    relationships {
+      type: ""infects""
+      target: ""Japanese_black_bear""
+    }
+  }
+  nodes {
+    id: ""Japanese_black_bear""
+    type: ""Species""
+    synonyms: [""Ursus_thibetanus_japonicus""]
+    relationships {
+      type: ""isHostTo""
+      target: ""Hepatozoon_ursi_n._sp.""
+   ",60761
+"```cql
+CREATE (A:Entity {id:""Parasite richness"", type:""Attribute""})-[:ATTRIBUTE_OF {relationship"":""is Measure of"", target_type:""Ecosystem Health""}]->(B:Entity {id:""Ecosystem Health"", type:""Concept""})
+WITH B
+CREATE (C:Entity {id:""Wild Animals"", type:""Object""})-[:HAS_PROPERTY {property_name:""Indicators"", property_value:""Population and Ecosystem Health""}]->(B)
+CREATE (D:Entity {id:""Boabeng-Fiema Monkey Sanctuary (BFMS)"", type:""Location""})
+CREATE (E:Entity {id:""Ghana"", type:""Country""})-[:LOCATED_IN {relationship:""is in"", target:""Boabeng-Fiema Monkey Sanctuary (BFMS)""}]->(",60209
+"```cql
+CREATE (Bobcat:Entity {name:""A bobcat"", type:""Species"", subType:""Felis rufus""}),
+(HeadPressing:Symptom), (Stupor:Symptom), (Seizures:Symptom), (Vocalization:Symptom)
+CREATE (ClinicalSigns:Entity {name:""Head pressing, stupor, intermittent seizures, and vocalization"", type:""Observation""})
+CREATE (Diagnosis:Entity {name:""Severe focally extensive protozoal meningoencephalitis"", type:""Disease""}),
+(ClinicalSigns)-[:HAS]->(Bobcat)
+CREATE (ImmunoTest:Method {name:""Avidin-biotin immunohistochemical test"", type:""Diagnostic Test""})
+CREATE (Etiolog",60352
+"```neovault/create 30-08-2021
+neo4j-cypher
+CREATE (study:Study { id:""Cryptosporidium_and_Giardia_infections_among_wild_primates"",
+title:""Cryptosporidium and Giardia infections among wild primates"",
+abstract:""In June 2005, we collected 115 fecal samples from wild primates in western Uganda and examined them for Cryptosporidium sp. and Giardia sp. with the use of immunofluorescent antibody (IFA) detection. We sampled primates from an undisturbed forest in Kibale National Park and from 3 highly disturbed forest fragments outside the park. Of disturbed forest samples, red colobus (Pilocolobus tephrosceles)",60154
+"```cql
+CREATE (Toxoplasma_gondii:Organism {name: ""Toxoplasma gondii"", type: ""Parasite""}),
+(Neospora_caninum:Organism {name: ""Neospora caninum"", type: ""Parasite""}),
+(Canine_distemper_virus:Virus {name: ""Canine distemper virus"", type: ""Virus""}),
+(Canine_adenovirus:Virus {name: ""Canine adenovirus"", type: ""Virus""}),
+(Rabies_virus:Virus {name: ""Rabies virus"", type: ""Virus""}),
+(Yersinia_pseudotuberculosis:Organism {name: ""Yersinia pseudotuberculosis"", type: ""Bacterium""}),
+(Sal",57491
+"```cql
+CREATE (A:Entity {id:""Hawaiian_monk_seal"", name:""Hawaiian monk seal"", type:""Species""}),
+(B:Entity {id:""Monachus_schauinslandi"", name:""Monachy schauinslandi"", type:""Scientific Name""})
+CREATE (A)-[:IS_TYPE_OF]->(B)
+
+CREATE (C:Entity {id:""1997-2001"", name:""1997-2001"", type:""Time Period""}),
+(D:Entity {id:""northwestern_Hawaiian_Islands"", name:""Northwestern Hawaiian Islands"", type:""Geographic Location""})
+CREATE (A)-[:OCCURRED_IN]->(D),
+(C)-[:OCCURRED_IN]->(A)
+
+CREATE",60431
+"```neovault/create 3
+0
+Neo4j
+cypher
+CREATE (Type:{name:""Rodent"", type:""Species""})-[:IS_TYPE]->(Entity1:{name:""Calomys laucha"", synonyms:[""C. laucha""], type:""Animal""})
+CREATE (Type)-[:IS_TYPE]->(Entity2:{name:""Calomys musculinus"", synonyms:[""C. musculinus""], type:""Animal""})
+CREATE (Type)-[:IS_TYPE]->(Entity3:{name:""Argentine hemorrhagic fever"", synonyms:[""AHS"", ""Junin virus disease""], type:""Disease""})
+CREATE (Relationship1:{name:""sex"", polarity:""attribute"", direction:""one-to-many""})-[:HAS]->(Entity2)-[:",58927
+"```neo4j
+CREATE TYPE Person 
+CREATE TYPE Organization
+CREATE TYPE Publication
+CREATE TYPE Genus
+CREATE TYPE Species
+CREATE TYPE Disease
+CREATE TYPE Virus
+CREATE TYPE AnimalPopulation
+CREATE TYPE PathogenicityTestResult
+CREATE TYPE SeroprevalenceStudy
+CREATE TYPE AntibodyDetectionMethod
+CREATE TYPE Location
+CREATE TYPE GeographicRegion
+CREATE TYPE BiologicalSampleType
+CREATE TYPE SampleCollectionEvent
+CREATE TYPE SamplingMethod
+CREATE TYPE VirusFamily
+CREATE TYPE TestedVirus
+CREATE TYPE ViralInfectionOutcome
+CREATE TYPE HealthProblem
+CREATE TYPE PotentialPathogen
+CREATE TYPE HostOrganism
+CREATE TYPE PathogenicRelationship
+CREATE TYPE BelongsTo
+CREATE TYPE HasType
+CREATE TYPE LocatedIn
+CREATE TYPE ConductedAt
+CREATE TYPE DetectedBy
+CREATE TYPE CitedAs
+CREATE TYPE Involves
+CREATE TYPE OccursDuring
+",60757
+"```neo4j
+// Entities
+CREATE (Rabies:Entity {name: ""Rabies"", type: ""Disease""})
+CREATE (DesmodusRotundus:Entity {name: ""Desmodus rotundus"", type: ""Animal Species""})
+CREATE (BlastocerusDichotomus:Entity {name: ""Blastocerus dichotomus"", type: ""Animal Species""})
+CREATE (MazamaAmericana:Entity {name: ""Mazama americana"", type: ""Animal Species""})
+CREATE (HydrochoerusHydrochaeris:Entity {name: ""Hydrochoerus hydrochaeris"", type: ""Animal Species""})
+CREATE (CerdocyonThous:Entity {name: ""Cerdocyon thous"", type: ""Animal Species""",58559
+"```neo4j
+CREATE TYPE Disease;
+CREATE TYPE FoxSpecies {name: 'SwiftFox', scientificName:'Vulpes velox'} INHERITS Disease;
+CREATE TYPE FoxSpecies {name: 'KitFox', scientificName:'Vulpes macrotis'} INHERITS Disease;
+CREATE TYPE VirusSubtype {name: 'NewJersey', parentType:Disease};
+CREATE TYPE VirusSubtype {name: 'Indiana', parentType:Disease};
+CREATE TYPE VirusSubtype {name: 'CacheValleyVirus', parentType:Disease};
+CREATE TYPE VirusSubtype {name: 'JamestownCanyonVirus', parentType:Disease};
+CREATE TYPE VirusSubtype {name: 'RabiesVirus', parentType:Disease};
+CREATE TYPE VirusSubtype {name",59104
+"```neovault,prose
+Create type Poxvirus {
+  id: InternalId()
+  name: String
+  nucleotide_identity: Float
+  amino_acid_identity: Float
+  genus: Relationship.to[Genus]
+}
+
+Create type Genus {
+  id: InternalId()
+  name: String
+  species: [Relationship.to[Species]]
+}
+
+Create type Species {
+  id: InternalId()
+  scientific_name: String
+  common_names: [String]
+  poxvirus: Relationship.to[Poxvirus]
+}
+
+Create type VirusDetection {
+  id: InternalId()
+  species: Relationship.to[Species]
+  poxvirus: Relationship.to[Poxvirus]
+}
+
+Merge Poxvirus {",60252
+"```neo4j
+CREATE TYPE Person 
+CREATE TYPE Organization 
+CREATE TYPE Disease 
+CREATE TYPE Publication 
+CREATE TYPE HasDiseaseSymptom 
+CREATE TYPE HasCause 
+CREATE TYPE WrittenBy 
+CREATE TYPE PublishedIn 
+CREATE TYPE HasEntityType 
+CREATE TYPE Synonym 
+
+MERGE (:Person{name:'Jose M. Gallego-Giraldo'})
+MERGE (:Person{name:'Rafael Sobrino'})
+MERGE (:Person{name:'Victoria Lopez-Gonzalez'})
+MERGE (:Person{name:'Carlos Rodriguez-Leal'})
+MERGE (:Person{name:'Jose A. Garcia-Parras'})
+MERGE (:Organization{name:'University of Oviedo'",58752
+"```neovault/create 3.0
+CREATE TYPE Person {name: String}
+CREATE TYPE Publication {title: String, year: Integer}
+CREATE TYPE Disease {name: String}
+CREATE TYPE Species {scientificName: String, synonyms: List[String]}
+CREATE TYPE Location {state: String, country: String}
+CREATE TYPE Virus {name: String}
+CREATE TYPE TissueSample {takenFrom: String}
+CREATE TYPE Necropsy {performedOn: Species}
+CREATE TYPE Histology {analyzedFrom: TissueSample}
+CREATE TYPE Isolation {virusIsolatedFrom: Species, method: String}
+CREATE RELATIONSHIP HasType {source: Person/Species/Location/Virus/TissueSample/Necropsy/Histology, target: Type}
+CREATE RELATIONSHIP OccursIn {source",58087
+"```neovault/create 3.0
+CREATE TYPE Person { }
+CREATE TYPE Animal { }
+CREATE TYPE Disease { }
+CREATE TYPE Behavior { }
+CREATE TYPE Condition { }
+CREATE TYPE AgeGroup { }
+CREATE TYPE Structure { }
+CREATE TYPE Season { }
+CREATE TYPE Activity { }
+CREATE TYPE Movement { }
+CREATE RELATIONSHIP has_type { from Type, to Thing }
+CREATE RELATIONSHIP is_in_group { from Animal, to Person }
+CREATE RELATIONSHIP suffers_from { from Animal, to Disease }
+CREATE RELATIONSHIP exhibits_behavior { from Animal, to Behavior }
+CREATE RELATIONSHIP has_age { from Animal, to AgeGroup }
+CREATE RELATIONSHIP is_in_location { from Thing, to Structure }
+CREATE RELATIONSHIP occurs_d",60414
+"```neovault/dig
+GET /db/data/transaction/commit-async-1
+Content-Type: application/vnd.neo4j.cypher+cql
+
+CREATE (type:Astrovirus {name: ""astroviruses""})
+SET type:Type, type[""category""]=""Viruses"", type[""sub category""]=""Non-enveloped viruses""
+CREATE (host1:MarineMammal {name:""California sea lion"", scientificName:""Zalophus californianus""})
+SET host1:Animal, host1:Host
+CREATE (host2:MarineMammal {name:""Steller sea lion"", scientificName:""Eumetopias jubatus""})
+SET host2:Animal, host2:Host
+CREATE (host3:MarineMammal {name:""bottlenose dolphin"",",58978
+"CREATE (Bunyavirus:Entity {id:""bunyavirus"", name:""Bunyavirus"", type:""Biological Entity""})-[:is_type_of]->(Virus:Type)
+CREATE (Deer:Entity {id:""deer"", name:""Deer"", type:""Biological Entity""})-[:is_type_of]->(Animal:Type)
+CREATE (MuleDeer:Entity {id:""mule deer"", name:""Mule Deer"", type:""Biological Entity""}) WITH MuleDeer, Deer, Animal
+MERGE (MuleDeer)-[:IS_SUBTYPE_OF]->(Deer)
+MERGE (Deer)-[:IS_PART_OF]->(Animal)
+CREATE (BlackTailedDeer:Entity {id:""black-tailed deer"", name:""Black-tailed Deer"", type:""Biological Entity""}) WITH",59109

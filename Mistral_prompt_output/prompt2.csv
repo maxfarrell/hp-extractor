@@ -1,0 +1,259 @@
+Generated Text,absID
+"Table: Host-Pathogen/Parasite Relationships in the Study
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Helicobacter spp.           | N/A                    | Pathogens            |
+| Lynx lynx                  | Eurasian Lynx          | Host                 |
+| Vulpes vulpes               | Red Fox                | Host                 |",60336
+"Table: Host-Pathogen/Parasite Relationships in the Abstract
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Borrelia burgdorferi         |                        | Pathogen             |
+| Odocoileus virginianus       | White-tailed deer      | Host                 |",60475
+"| Organism Name (Scientific) | Organism Name (Common) | Host Species | Relationship |
+|----------------------------|------------------------|--------------|---------------|
+| Pasteurella haemolytica     | -                      | Bison bison   | Pathogen      |
+| Pasteurella multocida       | -                      | Bison bison   | Pathogen      |",60058
+"| Organism Name | Relationship |
+| --- | --- |
+| Brucella species | Pathogen (to) Common seals, Harbour porpoises, Grey seals and other marine mammals |
+| Parafilaroides spp. | Parasite (in) Lungworms of common seals |",60289
+"Table: Host-Pathogen/Parasite Relationships in the Study
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Ursus arctos horribilis    | Grizzly bear           | Host                 |
+| Canine distemper virus     | -                      | Pathogen             |
+| Parvovirus                 | -                      | Pathogen             |
+| Rubulavirus                | Infectious hepatitis    | Pathogen             |
+| Brucella spp.              | Brucellosis            | Pathogen             |
+| Francisella tularensis     | Tularaemia             | Pathogen             |
+| Trichinella spp.           | Trichinellosis         | Parasite             |
+| Ursus americanus           | Black bear",57739
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Cystophora cristata | Hooded Seal | Host |
+| Phoca groenlandica | Harp Seal | Host |
+| Morbillivirus | - | Pathogen |",57006
+"| Organism Name (Scientific) | Organism Name (Common) | Host - Pathogen/Parasite Relationship |
+| --- | --- | --- |
+| Bacillus anthracis | Anthrax | Chimpanzees and Gorilla are thought to have died of an anthrax-like disease. |",60272
+"| Organism Name | Relationship |
+| --- | --- |
+| Black bears (Ursus americanus) | Host |
+| Ehrlichia sp. | Pathogen/Parasite |",60742
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+|----------------------------|------------------------|--------------|
+| Mycobacterium bovis         |                        | Pathogen     |
+| Trichosurus vulpecula       | Brushtail possum       | Host         |
+| Mustela erminea             | Stoat                  | Host (also infected) |
+| Lepus europaeus occidentalis | Hare                   | Host (infected) |",60434
+"| Organism Name | Relationship |
+| --- | --- |
+| Mycobacterium avium subsp. paratuberculosis | Pathogen to Fallow deer (Dama dama) |
+| Fallow deer (Dama dama) | Host of Mycobacterium avium subsp. paratuberculosis |",60226
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Profilicollis altmani | - | Parasite |
+| Profilicollis kenti | - | Parasite |
+| Profilicollis major | - | Parasite |
+| Corynosoma enhydri | - | Parasite |
+| Microphallus pirum | - | Parasite |
+| Microphallus nicolli | - | Parasite |
+| Plenosoma minimum | - | Parasite |
+| Enhydra lutris nereis (Southern Sea Otter) | Southern sea otter | Host |",60232
+"| Organism Name | Relationship |
+| --- | --- |
+| Columbian black-tailed deer (Odocoileus hemionus columbianus) | Host |
+| Hair loss syndrome | Pathogen/Parasite |
+| Columbian black-tailed deer (Odocoileus hemionus columbianus), fawns, and does | Host |",60457
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Dictyocaulus capreolus | N/A | Host - Pathogen for roe deer and identified in moose |
+| Dictyocaulus eckerti | N/A | Host - Pathogen for red deer, moose, and reindeer |
+| Dictyocaulus viviparus | N/A | Not found in any of the hosts examined |
+| Capreolus capreolus | Roe Deer | Host - Pathogen with D. capreolus |
+| Alces alces | Moose | Host - Pathogen with D. capreolus (81.1%) and D. eckerti (18.9%) |
+| Dama dama | Fallow Deer | Host",60010
+"| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Rupicapra rupicapra rupicapra | Chamois | Host-Parasite |",60697
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Entamoeba histolytica | N/A | Pathogen to macaque monkeys |
+| E. dispar | N/A | Parasite to macaque monkeys |
+| Macaca fuscata | Japanese macaque | Host to Entamoeba species |",60358
+"Table: Host-Parasite Relationships Extracted from Title and Abstract
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Martes melampus melampus    | M. melampus            | Host                 |
+| Nyctereutes procyonoides viverrinus | Raccoon dog           | Host                 |
+| Vulpes vulpes japonica       | Japanese red fox       | Host                 |
+| Mesocestoides paucitesticulus | M. paucitesticulus    | Parasite             |
+| Brachylaima tokudai          | B. tokudai             | Parasite             |",60382
+"Table: Host-Parasite Relationships in Raccoons
+
+| Organism Name | Type of Relationship |
+| --- | --- |
+| Procyon lotor (Raccoon) | Host |
+| Various helminth parasites including trematodes, nematodes and cestodes | Parasite |
+
+Note: The specific species of helminth parasites are not mentioned in the abstract. However, it is stated that 19 exotic helminth species were found in translocated raccoons while another 5 species were present only in resident raccoons and an additional 19 species were found in both groups. Three of these exotic species and 10 of the enzootic species are known to have some degree of pathogenicity. |
+| Title: Influence of Raccoon Translocation on Parasitic Diseases | Abstract: The study aimed to evaluate the influence",60632
+"Table: Host-Pathogen/Parasite Relationships in the Study
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|-----------------------------|------------------------|----------------------|
+| Physaloptera sibirica        |                       | Parasite             |
+| Vulpes vulpes                | Fox                    | Host                 |
+| Meles meles                  | Badger                | Host                 |
+| Sarcoptes scabiei            |                       | Pathogen/Parasite   |",60405
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Dioctophyme renale | Giant kidney nematode | Pathogen/Parasite to Little grison (Galictis cuja) |",60261
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Troglotrema acutum |  | Parasite of American mink (Mustela vison) |
+
+Table created using information from the title and abstract.",60446
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Giardia spp. | N/A | Pathogens of harbor seals and hybrid glaucous-winged/western gulls |
+| Cryptosporidium spp. | N/A | Potential pathogens of harbor seals and hybrid glaucous-winged/western gulls (not detected in this study) |
+| Phoca vitulina richardsi | Harbor Seal | Host to Giardia spp. |
+| Larus glaucescens / occidentalis hybrid | Hybrid Glaucous-Winged/Western Gull | Host to Giardia sp. and potential host to Cryptosporidium spp. (not detected in this study) |",60597
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Babesia cynicti | N/A | Pathogen to yellow mongoose (Cynictis penicillata) |
+| Cynictis penicillata | Yellow mongoose | Host to Babesia cynicti, Vector of rabies |",60218
+"| Organism Pair | Relationship |
+| --- | --- |
+| Plasmodium fragile, Macaca radiata (bonnet monkey) | Host-Parasite |
+| Plasmodium fragile, Macaca mulatta (rhesus monkey) | Host-Parasite |
+| Plasmodium fragile, Presbytis entellus (Indian langur) | Host-Parasite |",60363
+"Table: Host-Pathogen/Host-Parasite Relationships in the Abstract
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|-----------------------------|------------------------|----------------------|
+| Pan troglodytes schweinfurthii | Wild adult male chimpanzees at Ngogo, Kibale National Park, Uganda | Host-Parasite |
+| Intestinal parasites (unspecified) |  | Parasite |",60537
+"Table: Organisms with Host-Pathogen/Parasite Relationships in the Title and Abstract
+
+| Scientific Name | Common Name | Role (Host/Pathogen/Parasite) |
+| --- | --- | --- |
+| Hepatozoon ursi n. sp. | N/A | Pathogen (in Japanese black bear) |
+| Ursus thibetanus japonicus | Japanese Black Bear | Host of Hepatozoon ursi n. sp. |
+| Haemaphysalis japonica | Japonica Tick | Vector for Hepatozoon ursi n. sp. (Pathogen) |
+| Haemaphysalis flava | Flavus Tick | Vector for Hepatozoon ursi n. sp. (Pathogen) |",60761
+"Table: Host-Pathogen/Parasite Relationships in Colobus Vellerosus at Boabeng-Fiema Monkey Sanctuary, Ghana
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Entamoeba sp.               |                        | Protozoan            |
+| Isospora sp.                |                        | Protozoan            |
+| Ascaris sp.                 |                        | Nematode             |
+| Enterobius sp.              |                        | Nematode             |
+| Trichuris sp.               |                        | Nematode             |
+| Strongyle sp. (2)           |                        | Nematode             |
+| Giardia duodenalis Assemblage B | Giardia duoden",60209
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+|----------------------------|------------------------|--------------|
+| Felis rufus                | Bobcat                 | Host         |
+| Toxoplasma gondii           | N/A                    | Pathogen     |",60352
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Cryptosporidium sp. | N/A | Pathogens found in red colobus and red-tailed guenons from forest fragments |
+| Giardia sp. | N/A | Pathogens found in red colobus and red-tailed guenons from forest fragments |
+| Pilocolobus tephrosceles (red colobus) | Red Colobus Monkey | Host of Cryptosporidium or Giardia species, but not when living in undisturbed forests |
+| Cercopithecus ascanius (red-tailed guenon) | Red-Tailed Guenon | Host of Cryptosporidium or Giardia species, but not when living in undisturbed forests |",60154
+"| Organism Name | Relationship |
+| --- | --- |
+| Toxoplasma gondii | Pathogen (to arctic foxes) |
+| Yersinia pseudotuberculosis serotype 2b | Co-pathogen (with T. gondii in one pup) |
+| Salmonella Enteritidis phage type 1 | Co-pathogen (with T. gondii in one pup) |",57491
+"Table: Host-Pathogen/Parasite Relationships in Hawaiian Monk Seals
+
+| Organism (Scientific Name) | Organism (Common Name) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Leptospira bratislava        |                       | Pathogen             |
+| Leptospira hardjo           |                       | Pathogen             |
+| Leptospira icterohaemorrhagiae |                      | Pathogen            |
+| Leptospira pomona          |                       | Pathogen             |
+| Brucella spp.                |                       | Pathogen             |
+| Canis lupus familiaris (B. canis) | Dog | Negative Relationship (Card Test) |
+| Chlamydophila abortus        |                       | Pathogen             |
+| Toxop",60431
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Junin virus | - | Pathogen |
+| Calomys laucha | Long-tailed Woolly rat, Grassland vleming | Host |
+| C. musculinus | Short-tailed Woolly rat, Veldhond | Host |",58927
+"Table: Host-Pathogen/Parasite Relationships in the Abstract
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|-----------------------------|------------------------|----------------------|
+| Canine distemper virus (CDV)| N/A                   | Pathogen             |
+| Calicivirus                | N/A                    | Pathogen             |
+| Phocid herpesvirus type 1 (PhHV-1)     | N/A                    | Pathogen             |
+| Rabies virus              | N/A                   | Pathogen             |
+| Ursus maritimus (Polar bear)| Polar Bear            | Host                 |",60757
+"| Organism Pair | Relationship |
+| --- | --- |
+| Desmodus rotundus (common vampire bat) - Rabies virus | Host-Pathogen |
+| Blastocerus dichotomus (marsh deer) - Rabies virus | Host-Pathogen |
+| Mazama americana (red brocket deer) - Rabies virus | Host-Pathogen |
+| Hydrochoerus hydrochaeris (capybara) - Rabies virus | Host-Pathogen |
+| Cerdocyon thous (savanna fox) - Rabies virus | Host-Pathogen |
+| Artibeus lituratus (great fruit-eating bat) - Rabies virus | Host-Parasite |
+| Humans - Rabies virus transmitted by infected great fruit-eating bats and savanna foxes | Potential Threat |",58559
+"| Organism Name (Scientific) | Organism Name (Common) | Relationship |
+| --- | --- | --- |
+| Vulpes velox | Swift fox | Host to Canine parvovirus, Canine distemper virus, Vesicular stomatitis New Jersey, Vesicular stomatitis Indiana, Cache Valley virus, Jamestown Canyon virus, Rabies virus, Colorado tick fever virus, Western equine encephalitis virus<br>No evidence of infection by Yersinia pestis, Francisella tularensis, or Borrelia burgdorferi |
+| Vulpes macrotis | Kit fox | Host to Canine parvovirus, Canine distemper virus, Vesicular stomatitis New Jersey, Vesicular stomatitis Indiana, Cache Valley virus, Jamestown Canyon virus<br>No evidence of",59104
+"| Organism Name | Relationship |
+| --- | --- |
+| cetacean poxvirus 1 (CPV-1) | Pathogen of Asian bottlenose dolphin, Atlantic bottlenose dolphin, rough-toothed dolphin, and striped dolphin |
+| cetacean poxvirus 2 (CPV-2) | Provisional pathogen of bowhead whale |
+| Steller sea lion parapoxviruses | Pathogens of Steller sea lions |
+| spotted seal parapoxvirus | Parasite of spotted seals and harbor seals |",60252
+"Table: Host-Pathogen/Parasite Relationships in the Study
+
+| Organism (Scientific Name) | Organism (Common Name) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Theilovirus              | N/A                    | Virus                |
+| Phleboviruses            | N/A                    | Viruses              |
+| Amdovirus                | N/A                    | Virus                |
+| Kobuvirus                | N/A                    | Virus                |
+| Picobirnaviruses         | N/A                    | Viruses              |",58752
+"| Organism Name | Relationship |
+| --- | --- |
+| Duck viral enteritis virus (DVE) | Pathogen to muscovy ducks (Cairina moschata) |
+| Muscovy ducks (Cairina moschata) | Host to Duck viral enteritis virus (DVE) |",58087
+"Table: Host-Pathogen/Parasite Relationships in the Abstract
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|----------------------------|------------------------|----------------------|
+| Procyon lotor              | Raccoon                | Host                 |
+| Mephitis mephitis         | Striped skunk           | Host                 |
+| Erethizon dorsatum        | Porcupine              | Pathogen/Parasite    |
+| Rabies virus (unspecified) | Rabies Virus           | Pathogen             |",60414
+"Table: Host-Pathogen/Parasite Relationships in Marine Mammals Astroviruses Study
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|-----------------------------|------------------------|----------------------|
+| Zalophus californianus      | California sea lion     | Host-Pathogen        |
+| Eumetopias jubatus          | Steller sea lion        | Host-Pathogen        |
+| Tursiops truncatus          | Bottlenose dolphin      | Host-Pathogen        |
+| Astrovirus (Human)           | N/A                     | Potential Recombination Event with California Sea Lion Astrovirus |",58978
+"Table: Host-Pathogen/Parasite Relationships in the Abstract
+
+| Organism Name (Scientific) | Organism Name (Common) | Type of Relationship |
+|-----------------------------|------------------------|----------------------|
+| Bunyavirus                | N/A                    | Pathogen             |
+| Mule deer (Odocoileus hemionus hemionus, O. hemionus californicus, and O. hemionus inyoensis)<br>Black-tailed deer (O. hemionus columbianus)  | Deer                   | Host                 |
+| Aedes mosquitoes           | Snow pool Aedes mosquitoes | Vector               |
+| Culiseta inornata          | N/A                    | Vector               |
+| California encephalitis virus<br>La Crosse virus<br>Snowsh",59109

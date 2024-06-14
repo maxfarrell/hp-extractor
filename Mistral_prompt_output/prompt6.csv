@@ -1,0 +1,255 @@
+Generated Text,absID
+"MATCH (:BiologicalEntity {name:'Eurasian lynx'})-[:INFECTED_BY]->(p1:Pathogen)
+WHERE ID(p1)=ID(labeling.apoc.ref.node('Helicobacter heilmannii', 'pathogen') )
+MATCH (:BiologicalEntity {name:'red fox'})-[:INFECTED_BY]->(p2:Pathogen)
+WHERE ID(p2)=ID(labeling.apoc.ref.node('Helicobter heilmannii', 'pathogen') ) OR ID(p2)=ID(labeling.apoc.ref.node('Helicobacter salomonis', 'pathogen'))
+MATCH (:BiologicalEntity {name:'gastric mucosa'})-[:LOCATION]->(:Infection{infected_by: p1",60336
+"const CYPHER = `
+CREATE (:Species {name: ""Borrelia burgdorferi"", latinName: ""Odocoileus virginianus""})-[:INFECTS]->(:Pathogen {name: ""Borrelia burgdorferi"", latinName: ""Borrelia burgdorferi""})
+CREATE (:Species {name: ""White-tailed deer"", latinName: ""Odocoileus virginianus""})-[:SEROPOSITIVE]->(:SerologyResult {prevalence: 36, region: ""Barrier Islands"", ageClass: ""<0.5 years""})
+CREATE (:Species {name: ""White-tailed deer"", latinName: ""Odocoileus virginianus""})-[:SEROPOSITIVE]->(:SerologyResult",60475
+"CREATE (:Species {name: 'Bison bison', commonName: 'American Bison'})-[:CARRIES]->(:Pathogen {name: 'Pasteurella spp.', commonName: 'Pasteurella species'}) 
+WITH [{'name': 'Pasteurella haemolytica', 'commonName': 'Pasteurella haemolytica'}, {'name': 'Pasteurella multocida', 'commonName': 'Pasteurella multocida'}] AS pathogens
+UNWIND range(0, size(pathogens)-1) as i 
+UNPACK pathgons[i] as {name, commonName}
+CREATE (:Pathogen {name: name, commonName: commonName})-[:INFECTS]->(:Species {name: 'Bison bison', commonName: 'American Bison'}) 
+",60058
+"CREATE (Brucella {name: 'Brucella'}), 
+(Parafilaroides {name: 'Parafilaroides'})-[:PARASITE]->(CommonSeal {name:'common seal', latinName:'Phoca vitulina'}, HarbourPorpoise{latinName:'Phocoena phocoena'}, GreySeal{latinName:'Halichoerus grypus'}),
+(Brucella)-[:PATHOGEN]-(CommonSeal {name: 'common seal', latinName:'Phoca vitulina'}), 
+(Brucella)-[:PATHOGEN]-(HarbourPorpoise{latinName:'Phocoena phocoena'}), 
+(Brucella)-[:PATHOGEN]-(GreySeal {latinName:'Halichoerus grypus'}), 
+",60289
+"CREATE (GrizzlyBear:Species {name:""grizzly bear"", latinName:""Ursus arctos horribilis"", commonName:""grizzly bear""}), 
+(BlackBear:Species {name:""black bear"", latinName:""Ursus americanus"", commonName:""black bear""}),
+(CanineDistemperVirus:Pathogen {latinName:""canine distemper virus"", name:""Canine Distemper Virus""}),
+(Parvovirus:Pathogen {latinName:""parvovirus"", name:""Parvovirus""}),
+(InfectiousHepatitisVirus:Pathogen {latinName:""infectious hepatitis virus"", name:""Infectious Hepatitis Virus""}),
+(Brucellosis:Disease {name:""brucellosis""}),
+(Tularaemia",57739
+"CREATE (HoodedSeal:Species {name:""Cystophora cristata"",commonName:""Hooded Seal""}), 
+(Harpseal:Species {name:""Phoca groenlandica"", commonName:""Harp Seal""}),
+(Morbillivirus:Pathogen {name:""Morbillivirus""}),
+(PDV:SubtypeOf{name:""Phocine Distemper Virus"", pathogen:$morph})-[:IS]-(Morbillivirus),
+(HoodedSeal)-[:INFECTED_BY]->(:Infection {pathogen: $morph, host: $hoodedSeal}),
+(Harpseal)-[:INFECTED_BY]->(:Infection {pathogen:$morph,host:$harpSeal}) 
+WITH HoodedSeal AS hoodedSeal, Harpseal",57006
+"CREATE (Host: {name:""chimpanzees"", latinName:""Homo sapiens""}), CREATE (Pathogen: {latinName:""Bacillus anthracis"", commonName:""anthrax""}) 
+MERGE (Chimp: {name:""chimpanzees"", latinName:""Pan troglodytes""}) MERGE (Gorilla: {name:""gorillas"", latinName:""Gorilla gorilla""})
+MERGE (Pathogen: {latinName:""Bacillus anthracis"", commonName:""anthrax""}) 
+MERGE (Host_1: {name:""chimpanzees"", latinName:""Pan troglodytes""}), MERGE (Host_2: {name:""gorillas"", latinName:""Gorilla gorilla""})
+MERGE (Pathogen:",60272
+"CREATE (Host: {name:""Black Bear"", latinName:""Ursus americanus"", commonName:""black bear""}), 
+(Pathogen: {latinName:""Ehrlichia sp.""})-[:INFECTS]->(Host)
+WHERE NOT ((Host)-[:INFECTS*2]->(Pathogen))
+RETURN ""The Black Bear (Ursus americanus) can be infected by Ehrlichia sp. or an antigenically related ehrlichial species."" AS result;",60742
+"CREATE (Mbovis {name: ""Mycobacterium bovis"", pathogen_type:""Bacteria""})-[:INFECTS]->(Tvulpecula {name: ""Brushtail possum"", common_name: ""Trichosurus vulpecula""})
+CREATE (Mbovis)-[:INFECTS]->(Mustelaerminea {name:""Stoat"", common_name:""Mustela erminea""})
+CREATE (Lepuseuropaeusoccidentalis {name:""European hare"", common_name: ""Lepus europaeus occidentalis""})-[:INFECTED]->(Mbovis)
+WITH Mbovis, Tvulpecula, Mustelaerminea, Lepuseuropaeusoccidentalis 
+CREATE (Tvulpecula)-[:PREVALENCE]-(Mbov",60434
+"CREATE (Species: {name:""Fallow deer"", latinName:""Dama dama"", commonName:""fallow deer""}), 
+(Pathogen: {name:""Mycobacterium avium subsp. paratuberculosis"", latinName:""M.avium subsp.paratuberculosis"", commonName:""Paratuberculosis""})
+CREATE (Species)-[:INFECTED_BY]->(:Disease{name:""Paratuberculosis""}), 
+(Pathogen)-[:IDENTIFIED_AS]->(:Disease{name:""Paratuberculosis""})
+RETURN Species, Pathogen, Disease;",60226
+"MATCH 
+n1:Species {name:""Enhydra lutris nereis""}, 
+n2:Species {name:""Profilicollis altmani""}, 
+n3:Species {name:""Profilicollis kenti""}, 
+n4:Species {name:""Profilicollis major""}, 
+n5:Species {name:""Corynosoma enhydri""}, 
+n6:Species {name:""Microphallus pirum""}, 
+n7:Species {name:""Microphallus nicolli""}, 
+n8:Species {name:""Plenosoma minimum""}
+CREATE 
+(n1)-[:INFECTS]->(n2), (n1)-[:INFECTS]->(n3), (n1)-[:INFECTS]->(n4), (n1)-[:PARAS",60232
+"CREATE (Deer:Species {name: ""Columbian black-tailed deer"", scientificName: ""Odocoileus hemionus columbianus"", commonName: ""Columbian black-tailed deer""}),
+(HairLossSyndrome:Condition {name: ""hair loss syndrome""}),
+(Fawn:Species {name: ""fawns"", scientificName: ""Odocoileus hemionus columbianus neonates"", commonName: ""fawns""}),
+(Do:Species {name: ""does"", scientificName: ""Odocoileus hemionus columbianus adult females"", commonName: ""does""}),
+(GMU:Location),
+(PopulationDensity:Measurement {name: ""deer population densities""})
+MERGE (Deer)-[:BELONGS_TO]->(Hair",60457
+"CREATE (Species {name: 'Dictyocaulus capreolus', synonyms: ['D. capreolus'], commonName: 'Lungworm of roe deer'}), 
+(Species {name: 'Dictyocaulus eckerti', synonyms: ['D. eckerti'], commonName: 'Lungworm of red deer and moose'}), 
+(Species {name: 'Dictyocaulus viviparous', synonyms: ['D. viviparus'], commonName: 'Cattle lungworm'}), 
+(Host {name: 'Capreolus capreolus', commonName: 'Roe deer'}), 
+(Host {name: 'Alces alces', commonName: 'Moose'}), 
+(Host {name: 'Dama dama', commonName: 'Fallow deer",60010
+"```cypher
+CREATE (:Species {name: ""Rupicapra rupicapra rupicapra"", latinName: ""chamois""})-[:INFECTED_BY]->(:Parasite {latinName: ""gastrointestinal and lung helminths""})
+CREATE (:Species {name: ""Rupicapra rupicapra rupicapra"", latinName: ""chamois""})-[:HAS_HORMONE]->(:Hormone {metabolite: ""testosterone""})
+CREATE (:Species {name: ""Rupicapra rupicapra rupicapra"", latinName: ""chamois""})-[:HAS_HORMONE]->(:Hormone {metabolite: ""epiandrosterone""})
+CREATE (:Species {",60697
+"CREATE (Host:Species {name:""Macaca fuscata"", commonName:""wild population of macaque monkeys""}), 
+(Pathogen1:Species {name:""Entamoeba histolytica"", commonName:""E. histolytica""}, pathogenType:""pathogen""), 
+(Parasite2:Species {name:""Entamoeba dispar"", commonName:""E. dispar""}, parasiteType:""parasite"") ,
+(Host)-[:INFECTED_BY]->(Pathogen1), (Host)-[:INFECTED_BY]->(Parasite2) 
+WHERE NOT((Host)-[:INFECTED_BY]->(Pathogen1)) AND NOT((Host)-[:INFECTED_BY]->(Parasite2))
+RETURN Host, Pathogen1, Parasite2;
+
+Given the text, we can infer that Mac",60358
+"MATCH 
+(martens:Species {name:""Martes melampus melampus"", common_name:""European marten""}), 
+(raccoonDogs:Species {name:""Nyctereutes procyonoides viverrinus"", common_name:""Taiwanese raccoon dog""}), 
+(foxes:Species {name:""Vulpes vulpes japonica"", common_name:""Japanese red fox""}), 
+(Mpaucitesticulus:ParasiteSpecies {scientificName:""Mesocestoides paucitesticulus"", common_name:""Small intestinal cestode""}), 
+(Btokudai:ParasiteSpecies {scientificName:""Brachylaima tokudai"", common_name:""Tokuda's tapeworm""}) 
+CREATE 
+mart",60382
+"MATCH 
+(raccoon:Species {name: 'Procyon lotor'})-[:HAS_COMMON_NAME]->(procyonLotor:CommonName {name: 'Raccoon'}),
+(parasite:Species)-[:IS_PARASITE_OF]-(raccoon),
+(helminth:HelminthParasites)-[:IS_SPECIES_OF]-(parasite) 
+WHERE NOT((helminth)-[:IS_SPECIES_OF]->(:Species))
+RETURN raccoon, procyonLotor, parasite, helminth;",60632
+"CREATE (:Species {name: 'Physaloptera sibirica', scientificName: 'Physaloptera sibirica'}), 
+(P_sibirica):Parasite{name:'Physaloptera sibirica'},
+(P_sibirica)-[:INFECTS]->(:Species {name: 'foxes', scientificName: 'Vulpes vulpes'}) ,
+(P_sibirica)-[:INFECTS]->(:Species{name:'badgers',scientificName:'Meles meles'}),
+(Foxes):Host{name:'foxes', scientificName:'Vulpes vulpes'},
+(Badger):Host {name: 'badgers', scientificName:'Meles meles'},
+(Sarcoptes_scabiei):Parasite{name:'Sarcoptes scabiei'},
+(Fox",60405
+"CREATE (ParanáState {name: 'Paraná State'})-[:LOCATED_IN]->(Brazil {name: 'Brazil'}), 
+(DioctophymeRenale {name: 'Giant Kidney Nematode', scientificName: 'Dioctophyme renale'})-[:IS_PARASITE_OF]->(LittleGrisons {scientificName: 'Galictis cuja', commonName: 'little grison'}),
+(FemaleHost {name: 'female host'})-[:HAS_INFECTION]->(DioctophymeRenale {infectionCount: 8}),
+(MaleHost {name: 'male host'})-[:HAS_INFECTION]->(DioctophymeRenale),
+(ParanáState)-[:LOCATION_OF]->(Infections",60261
+"CREATE (Species1 {name: 'Troglotrema acutum', scientificName: 'Mustela vison'})-[:INFECTS]->(Host {name: 'American mink', scientificName: 'Mustela vison'}),
+CREATE (Species2 {name: 'Troglotrema acutum', scientificName: 'Troglotrema acutum'})-[:PARASITE]->(Parasite {name: 'Troglotrema acutum', scientificName: 'Troglotrema acutum'}),
+CREATE (Species3 {name: '', scientificName: ''})-[:SIMILARITY_TO]->(Parasite),
+CREATE (Relationship1 {type: 'spermiogenesis', pattern: 'digeneans'})-[:FOLLOWS]->(Parasite),
+CREATE (Rel",60446
+"CREATE (Giardia:Species {name:""Giardia spp.""}),(Cryptosporidium:Species {name:""Cryptosporidium spp.""})
+CREATE (Phoca:Species {latinName:""Phoca vitulina richardsi"",commonName:""harbor seal""}),(Larus:Species {latinName:""Larus glaucescens / occidentalis"",commonName:""hybrid glaucous-winged/western gull""})
+CREATE (G_canineD:Genotype {name:""canine genotype D""}),(G_novel:Genotype {name:""novel genotype""})
+MERGE (Phoca)-[:INFECTED_BY]->(Giardia)
+MERGE (Larus)-[:INFECTED_BY]->(Giardia)
+M",60597
+"CREATE (Host:Species {name:""Cynictis penicillata"", commonName:""yellow mongoose""})-[:INFECTED_BY]->(Pathogen:Parasite {name:""Babesia cynici""}) 
+WHERE NOT ((Host)-[*]-(Pathogen))
+RETURN Host, Pathogen;
+CREATE (Species1:Species {name:""Babesia cynici"", commonName:""B. cynici""})-[:INFECTS]->(Host2:Species {name:""Cynictis penicillata"", commonName:""yellow mongoose""}) 
+WHERE NOT ((Species1)-[*]-(Host2))
+RETURN Species1, Host2;",60218
+"MATCH (:Species {name: 'Plasmodium fragile'})-[:INFECTS]->(Host1:Species {name: 'Macaca radiata'}), 
+      (:Species {name: 'Plasmodium fragile'})-[:INFECTS]->(Host2:Species {name: 'Macaca mulatta'}), 
+      (:Species {name: 'Plasmodium fragile'})-[:INFECTS]->(Host3:Species {name: 'Presbytis entellus'}), 
+      (:Species {name: 'Plasmodium falciparum'})-[:IS_COUNTERPART_TO]->(:Species {name: 'Plasmodium fragile'}), 
+      (Host3)-[:INFECTED_WITH]->(Parasite1:Species {name",60363
+"CREATE (Testosterone {name: 'Testosterone'}), (Cortisol {name: 'Cortisol'}) ,(Helminths {name:'Helminths'}), (Protozoans {name:'Protozoans'}) 
+CREATE (Chimpanzee {name:'Chimpanzee', latinName:'Pan troglodytes schweinfurthii', commonName: 'chimpanzees' }) 
+MERGE (Testosterone)-[:HAS_EFFECT]-(:Behavior)
+MERGE (Cortisol)-[:HAS_EFFECT]-(Behavior)
+MERGE (Helminths)-[:INFECTS]-(Chimpanzee {latinName:'Pan troglodytes schweinfurthii'})
+MERGE (Protozoans)-[:INFECTS]-(Chimpanze",60537
+"CREATE (Host:Species {name:""Japanese black bear"", latinName:""Ursus thibetanus japonicus"", commonName:""Japanese Black Bear""}), 
+(Pathogen:Species {name:""Hepatozoon ursi n. sp."", latinName:""Hepatozoon ursi n. sp."""", commonName:""New Hepatozoon Species""}) ,
+(Tick1:Species{name:""Haemaphysalis japonica"",latinName:""Haemaphysalis japonica"",commonName:""Japanese Brown Tick""},
+(Tick2:Species {name:""Haemaphysalis flava"", latinName:""Haemaphysalis flava"", commonName:""Yellow-legged tick""}), 
+(Host)-[:INFECTED_BY]->(Pathogen),
+(Pathogen)-",60761
+"CREATE (ColobusVellerosus {name: ""Ursine colobus monkey"", scientificName: ""Colobus vellerosus""})-[:IS_HOST]-(GiardiaDuodenalisB {scientificName: ""Giardia duodenalis Assemblage B"", name: ""G. duodenalis""})
+CREATE (ColobusVellerosus {name: ""Ursine colobus monkey"", scientificName: ""Colobus vellerosus""})-[:IS_HOST]-(Enterobius {scientificName: ""Enterobius sp.""})
+CREATE (ColobusVellerosus {name: ""Ursine colobus monkey"", scientificName: ""Colobus vellerosus""})-[:IS_HOST]-(AscarisSp {scientificName: ""Ascaris sp.""})
+CREATE",60209
+"MATCH (p:Pathogen {name:'Toxoplasma gondii'}),(h:HostSpecies {latinName:'Felis rufus', commonName:'bobcat'}) CREATE (p)-[:INFECTS]->(h) RETURN p, h;
+MATCH (g:GrossFeature),(h:HistopathologicFeature),(d:Diagnosis {name:'protozoal meningoencephalitis'}),(s:Symptom {name:'head pressing', 'stupor', 'intermittent seizures','vocalization'}) 
+MERGE (g)-[:HAS]->(h) MERGE (d)-[:DIAGNOSES]->(h) MERGE (s)-[:EXHIBITS]->(h) RETURN g, h, s, d;
+MATCH (p:Pathogen {name",60352
+"CREATE (KibaleNationalPark {name: ""Kibale National Park"", type: ""Location""})-[:LOCATED_IN]-(Uganda {name: ""Western Uganda"", type: ""Region""});
+CREATE (RedColobus {name: ""red colobus"", scientificName: ""Pilocolobus tephrosceles"", type: ""HostSpecies""})-[:LIVES_IN]-(KibaleNationalPark);
+CREATE (BlackAndWhiteColobus {name: ""black-and-white colobus"", scientificName: ""Colobus guereza"", type: ""HostSpecies""})-[:LIVES_IN]-(KibaleNationalPark);
+CREATE (RedTailedGuenon {name: ""red-tailed guenon"", scientificName: ""Cercopithecus ascanius"", type",60154
+"CREATE (Host: {name:""Wild arctic fox"", latinName:""Alopex lagopus""})-[:INFECTED_BY]->(Pathogen1: {latinName:""Toxoplasma gondii"", name:""Toxoplasma tachyzoites""}),
+CREATE (Host)-[:COINFECTION]->(Pathogen2: {latinName:""Yersinia pseudotuberculosis serotype 2b"", name:""Y.pseudotuberculosis serotype 2b""}),
+CREATE (Host)-[:COINFECTION]->(Pathogen3: {latinName:""Salmonella Enteritidis phage type 1"", name:""S.Enteritidis PT1""}),
+HOST_HAS_RELATIONSHIP_WITH_PATHOGEN_1,
+HOST_HAS_RELATIONSHIP_WITH_PATHOGEN",57491
+"CREATE (Species: {name: 'Hawaiian monk seal', latinName: 'Monachus schauinslandi'}), 
+(PathogenOrParasite: {name: 'Phocine herpesvirus-1', latinName: null, isPathogen: true}, type:'Virus'),
+(SerologyTest: {name: 'enzyme-linked immunosorbent assay'}, type:'Diagnostic Test'), 
+(Species)-[:INFECTED_BY]->(:Infection{pathogen: PathogenOrParasite, test: SerologyTest})
+CREATE (PathogenOrParasite2: {name: 'Leptospira bratislava', latinName:'L. bratislava', isPathogen: true}, type:'Bacteria'), 
+(PathogenOrParasite3: {name: 'Leptosp",60431
+"MATCH 
+    (a:Species {name: 'Junin virus'})-[:INFECTS]->(b:Species)
+UNION ALL 
+(a)-[:IS_FOUND_IN]->(c:Habitat)
+RETURN ""Junin Virus infects Calomys musculinus and Calomys laucha in agricultural fields, roadsides, and fence lines."" AS title + abstract, a as capturing_species, b as infected_species, c as captured_entity 
+WHERE ID(b) IN [Labels for 'Calomys musculinus', 'Calomys laucha'] AND ID(c) IN [Labels for 'Agricultural fields', 'Roadsides', 'Fence lines']
+LIMIT 1;",58927
+"CREATE (Host:Species {name:""Polar bear"", latinName:""Ursus maritimus"", commonName:""Polar Bear""}), 
+(Pathogen1:Species {name:""Canine distemper virus"", latinName:""Morbillivirus caninus"", commonName:""CDV""}),
+(Pathogen2:Species {name:""Calicivirus"", latinName:""Caliciviridae"", commonName:""Calici""}),
+(Pathogen3:Species {name:""Phocid herpesvirus type 1"", latinName:""Herpesvirus phocaenae 1"", commonName:""PhHV-1""}),
+(Pathogen4:Species {name:""Rabies virus"", latinName:""Lyssavirus"", commonName:""Rabies""})
+MERGE (Host)-[:INFECTED_BY]->(Path",60757
+"MATCH (p:Pathogen {name:'rabies'}), 
+(h1:HostSpecies {latinName:'Blastocerus dichotomus', name:'marsh deer'}), 
+(h2:HostSpecies {latinName:'Mazama americana', name:'red brocket deer'}), 
+(h3:HostSpecies {latinName:'Hydrochoerus hydrochaeris', name:'capybara'}), 
+(h4:HostSpecies {latinName:'Cerdocyon thous', name:'savanna fox'}), 
+(h5:HostSpecies {latinName:'Artibeus lituratus', name:'great fruit-eating bat'}) 
+MERGE (p)-[:INFECTS]->(h1) 
+MERGE (p)-[:INFECTS]->(",58559
+"CREATE (Pathogen {name: 'Canine Parvovirus', abbreviation: 'CPV'}), 
+(Parasite {name: 'Yersinia pestis'}), 
+(Parasite {name: 'Francisella tularensis'}), 
+(Parasite {name: 'Borrelia burgdorferi'}), 
+(Virus {name: 'Canine Distemper Virus', abbreviation: 'CDV'}), 
+(Virus {name: 'Vesicular Stomatitis New Jersey'}), 
+(Virus {name: 'Vesicular Stomatitis Indiana'}), 
+(Virus {name: 'Cache Valley virus'}), 
+(Virus {name: 'Jamestown Canyon virus'}), 
+(Virus {name: 'Rabies Virus'",59104
+"CREATE (Disease:Disease {name:""Cetacean poxvirus 1 group"", type:""Viruses""}),
+(Disease)-[:INFECTS]->(:Species{name:""Asian bottlenose dolphin"", latinName:""Tursiops aduncus""}),
+(Disease)-[:INFECTS]->(:Species{name:""Atlantic bottlenose dolphin"", latinName:""Tursiops truncatus""}),
+(Disease)-[:INFECTS]->(:Species{name:""Rough-toothed dolphin"", latinName:""Steno bredanensis""}),
+(Disease)-[:INFECTS]->(:Species{name:""Spotted dolphin"", latinName:""Stenella coeruleoalba""}),
+CREATE (Disease2:Dise",60252
+"CREATE (:Species {name:""American mink"", latinName:""Neovison vison"", commonName:""American mink""}), 
+(:Species {name:""European mink"", latinName:""Mustela lutreola"", commonName:""European mink""}), 
+(:Species {name:""European polecat"", latinName:""Mustela putorius"", commonName:""European polecat""}), 
+(:Species {name:""European pine marten"", latinName:""Martes martes"", commonName:""European pine marten""}), 
+(:Species {name:""Stone marten"", latinName:""Martes foina"", commonName:""stone marten""}), 
+(:Species {name:""Eurasian otter"", latinName:""Lutra lutra"", commonName:""Eurasian otter""}), 
+(:Species {name:""E",58752
+"CREATE (Host: {name:""Muscovy ducks"", latinName:""Cairina moschata""})-[:INFECTED_BY]->(Pathogen: {name:""Duck viral enteritis virus"", latinName:""N/A""}) 
+WHERE NOT ((Host)-[*]-(Pathogen))
+RETURN Host, Pathogen;
+CREATE (Host2: {name:""Domestic ducks and geese"", latinName:""Anas platyrhynchos domesticus, Anser anser domesticus""})-[:NOT_INFECTED]->(Pathogen) 
+WHERE NOT ((Host2)-[*]-(Pathogen))
+RETURN Host2, Pathogen;",58087
+"CREATE (Pathogen {name: 'Rabies'}), 
+(Parasite {name: 'Rabies virus', type:'Virus'}) 
+SET Pathogen.type='Disease'
+CREATE (Species {latinName: 'Procyon lotor', name: 'raccoon'}), 
+(Species {latinName: 'Mephitis mephitis', name: 'striped skunk'}), 
+(AgeGroup {name:'Adult'}, AgeGroup {name:'Juvenile'})
+CREATE (Behavior {name:'aggression'}), 
+(Behavior {name:'fighting with dogs'}), 
+(Behavior {name:'ataxia'}), 
+(Behavior {name:'vocalizations'}), 
+(Behavior {name:'appearance of being sick'}), 
+(Behavior {name:'presence of porcupine quills",60414
+"MATCH (p:Pathogen {name:'Astroviruses'}), 
+(h1:HostSpecies {latinName:'Zalophus californianus', commonName:'California sea lion'}), 
+(h2:HostSpecies {latinName:'Eumetopias jubatus', commonName:'Steller sea lion'}), 
+(h3:HostSpecies {latinName:'Tursiops truncatus', commonName:'Bottlenose dolphin'}) 
+MERGE (p)-[:INFECTS]->(h1)
+MERGE (p)-[:INFECTS]->(h2)
+MERGE (p)-[:INFECTS]->(h3)
+WITH p, COLLECT(DISTINCT CASE WHEN type IN ['HostSpecies', 'Pathogen'] 
+                           THEN id END",58978
+"CREATE (Bunyavirus:Entity {name:""bunyaviruses"", type:""Pathogen""}), 
+(MuleDeer:Entity {name:""Odocoileus hemionus"", type:""HostSpecies""}),
+(BlackTailedDeer:Entity {name:""Odocoileus hemionus columbianus"", type:""HostSpecies""}),
+(JamestownCanyonVirus:Entity {name:""Jamestown Canyon virus"", type:""Pathogen""}),
+(NorthwayVirus:Entity {name:""Northway virus"", type:""Pathogen""}),
+(CaliforniaEncephalitisVirus:Entity {name:""California encephalitis virus"", type:""Pathogen""}),
+(LaCrosseVirus:Entity {name:""La Crosse virus"", type:""Pathogen""}),
+(Snowshoe",59109
