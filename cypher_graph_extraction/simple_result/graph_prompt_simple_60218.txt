@@ -1,0 +1,69 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Detection of gastric Helicobacter species in free-ranging lynx (Lynx lynx) and red foxes (Vulpes vulpes) in Sweden"})
+
+CREATE (host_type:HostType {name: "Eurasian Lynx", synonym: "Lynx lynx"})
+CREATE (host:Host {name: "Lynx lynx", host_type: host_type, abs: abs})
+
+CREATE (host_type2:HostType {name: "Red Fox", synonym: "Vulpes vulpes"})
+CREATE (host2:Host {name: "Vulpes vulpes", host_type: host_type2, abs: abs})
+
+CREATE (pathogen_type:PathogenType {name: "Helicobacter", synonym: "Helicobacter species"})
+
+CREATE (pathogen:Pathogen {name: "Helicobacter species", pathogen_type: pathogen_type, abs: abs})
+
+CREATE (specimen:Specimen {name: "Gastric mucosa", abs: abs})
+CREATE (specimen2:Specimen {name: "Liver", abs: abs})
+
+CREATE (lynx_specimen:Sample {host: host, specimen: specimen, abs: abs})
+CREATE (fox_specimen:Sample {host: host2, specimen: specimen2, abs: abs})
+
+CREATE (detected:Detection {sample: lynx_specimen, pathogen: pathogen, abs: abs})
+CREATE (detected2:Detection {sample: fox_specimen, pathogen: pathogen, abs: abs})
+
+CREATE (study:Study {name: "Free-ranging lynx and red foxes in Sweden", abs: abs})
+
+CREATE (location:Location {name: "Sweden", abs: abs})
+CREATE (study_location:StudyLocation {study: study, location: location, abs: abs})
+
+CREATE (host_pathogen_relationship:HostPathogenRelationship {host: host, pathogen: pathogen, abs: abs})
+CREATE (host_pathogen_relationship2:HostPathogenRelationship {host: host2, pathogen: pathogen, abs: abs})
+
+CREATE (sample_detection:SampleDetection {sample: lynx_specimen, detection: detected, abs: abs})
+CREATE (sample_detection2:SampleDetection {sample: fox_specimen, detection: detected2, abs: abs})
+
+CREATE (study_sample:StudySample {study: study, sample: lynx_specimen, abs: abs})
+CREATE (study_sample2:StudySample {study: study, sample: fox_specimen, abs: abs})
+```
+
+This graph database includes the following entities:
+
+* `Abstract`: represents the abstract of the study
+* `HostType`: represents the type of host (e.g. species)
+* `Host`: represents a specific host individual
+* `PathogenType`: represents the type of pathogen (e.g. genus)
+* `Pathogen`: represents a specific pathogen
+* `Specimen`: represents a specific specimen (e.g. tissue sample)
+* `Sample`: represents a sample of a host individual
+* `Detection`: represents the detection of a pathogen in a sample
+* `Study`: represents a study
+* `Location`: represents a location
+* `StudyLocation`: represents the location of a study
+* `HostPathogenRelationship`: represents the relationship between a host and a pathogen
+* `SampleDetection`: represents the detection of a pathogen in a sample
+* `StudySample`: represents the relationship between a study and a sample
+
+The relationships between these entities include:
+
+* `abs` property: connects each entity to the abstract of the study
+* `host_type` property: connects a host to its host type
+* `host` property: connects a sample to its host individual
+* `pathogen_type` property: connects a pathogen to its pathogen type
+* `pathogen` property: connects a detection to its pathogen
+* `specimen` property: connects a sample to its specimen
+* `study` property: connects a sample to its study
+* `location` property: connects a study to its location
+* `host_pathogen_relationship` property: connects a host to a pathogen
+* `sample_detection` property: connects a sample to its detection
+* `study_sample` property: connects a study to its sample

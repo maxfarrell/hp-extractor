@@ -1,0 +1,36 @@
+Here is the detailed graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (study:Study {name: "Bovine Tuberculosis in Brushtail Possums", description: "Prevalence and spatial distribution of bovine tuberculosis in brushtail possums on a forest-scrub margin"})
+
+CREATE (location:Location {name: "Westland", type: "region"})
+
+CREATE (population:Population {name: "Brushtail Possum Population", description: "Population of exceptionally low density (trap catch <3%)"})
+
+CREATE (host:Host {name: "Brushtail Possum", synonym: "Trichosurus vulpecula", type: "mammal"})
+
+CREATE (pathogen:Pathogen {name: "Mycobacterium bovis", synonym: "M. bovis", type: "bacterium"})
+
+CREATE (disease:Disease {name: "Bovine Tuberculosis", synonym: "TB", type: "infectious disease"})
+
+CREATE (study_location:Study_Location {study: study, location: location})
+CREATE (study_population:Study_Population {study: study, population: population})
+
+CREATE (host_pathogen:Host_Pathogen {host: host, pathogen: pathogen, disease: disease})
+
+CREATE (possum:Possum {name: "Brushtail Possum", absID: "1", host: host})
+CREATE (possums:Possums {name: "Brushtail Possums", absID: "1", host: host})
+
+CREATE (tuberculosis:Tuberculosis {name: "Tuberculosis", absID: "1", disease: disease})
+CREATE (tuberculosis_prevalence:Tuberculosis_Prevalence {tuberculosis: tuberculosis, prevalence: 0.53})
+
+CREATE (possum_tuberculosis:Possum_Tuberculosis {possum: possums, tuberculosis: tuberculosis})
+CREATE (possum_tuberculosis_count:Possum_Tuberculosis_Count {possum_tuberculosis: possum_tuberculosis, count: 36})
+
+CREATE (trap_catch:Trap_Catch {name: "Trap Catch", absID: "1", value: "<3%"})
+CREATE (population_trap_catch:Population_Trap_Catch {population: population, trap_catch: trap_catch})
+```
+
+Note: I assumed that the abstract is the top-level entity, and the study is a related entity. I also assumed that the host-pathogen relationship is a many-to-many relationship, as a single host can have multiple pathogens and a single pathogen can infect multiple hosts. Similarly, a single possum can have multiple tuberculosis cases and a single tuberculosis case can be detected in multiple possums.

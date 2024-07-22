@@ -1,0 +1,43 @@
+Here is the detailed graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Helminth parasites of the southern sea otter Enhydra lutris nereis in central California: abundance"})
+
+CREATE (host:Host {name: "Southern sea otter", synonym: "Enhydra lutris nereis", absID: "abs"})
+CREATE (pathogen:Pathogen {name: "Helminth", synonym: "Helminth parasites", absID: "abs"})
+
+CREATE (enhydra_lutris_nereis:Species {name: "Enhydra lutris nereis", absID: "abs"})
+CREATE (enhydra_lutris_nereis)-[:HOST_OF {absID: "abs"}]->(host)
+
+CREATE (central_california:Location {name: "Central California", absID: "abs"})
+CREATE (central_california)-[:LOCATION_OF {absID: "abs"}]->(host)
+
+CREATE (helminth:Helminth {name: "Helminth", absID: "abs"})
+CREATE (helminth)-[:PATHOGEN {absID: "abs"}]->(pathogen)
+
+CREATE (abundance:Abundance {name: "Abundance", absID: "abs"})
+CREATE (abundance)-[:RELATES_TO {absID: "abs"}]->(helminth)
+
+CREATE (southern_sea_otter:Taxon {name: "Southern sea otter", absID: "abs"})
+CREATE (southern_sea_otter)-[:TAXON_OF {absID: "abs"}]->(enhydra_lutris_nereis)
+
+CREATE (sea_otter:Taxon {name: "Sea otter", absID: "abs"})
+CREATE (sea_otter)-[:TAXON_OF {absID: "abs"}]->(southern_sea_otter)
+
+CREATE (otter:Taxon {name: "Otter", absID: "abs"})
+CREATE (otter)-[:TAXON_OF {absID: "abs"}]->(sea_otter)
+
+CREATE (lutra:Taxon {name: "Lutra", absID: "abs"})
+CREATE (lutra)-[:TAXON_OF {absID: "abs"}]->(otter)
+
+CREATE (enhydra:Taxon {name: "Enhydra", absID: "abs"})
+CREATE (enhydra)-[:TAXON_OF {absID: "abs"}]->(lutra)
+
+CREATE (lutris:Taxon {name: "Lutris", absID: "abs"})
+CREATE (lutris)-[:TAXON_OF {absID: "abs"}]->(enhydra)
+
+CREATE (nereis:Taxon {name: "Nereis", absID: "abs"})
+CREATE (nereis)-[:TAXON_OF {absID: "abs"}]->(lutris)
+```
+
+Note that I've created separate nodes for each taxon (e.g. Enhydra, Lutra, Lutris, Nereis) as well as for the location (Central California) and abundance. I've also created relationships between the host, pathogen, and abundance nodes to reflect the relationships described in the abstract. Let me know if you'd like me to make any changes!

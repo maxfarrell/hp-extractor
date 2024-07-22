@@ -1,0 +1,62 @@
+Here is the detailed graph database in Neo4j Cypher format:
+```
+CREATE (abs:Abstract {absID: "Novel and canine genotypes of Giardia duodenalis in harbor seals (Phoca vitulina richardsi)"})
+
+CREATE (host:Host {name: "Harbor Seal", synonym: "Phoca vitulina richardsi", absID: "abs"})
+CREATE (gull:Host {name: "Gull", synonym: "Larus glaucescens / occidentalis", absID: "abs"})
+
+CREATE (pathogen:Pathogen {name: "Giardia duodenalis", absID: "abs"})
+
+CREATE (species:Species {name: "Harbor Seal", absID: "abs"})
+CREATE (subspecies:Subspecies {name: "richardsi", absID: "abs", parent: species})
+
+CREATE (gull_species:Species {name: "Gull", absID: "abs"})
+CREATE (gull_subspecies:Subspecies {name: "glaucous-winged/western", absID: "abs", parent: gull_species})
+
+CREATE (genus:Genus {name: "Phoca", absID: "abs"})
+CREATE (family:Family {name: "Otariidae", absID: "abs"})
+CREATE (order:Order {name: "Carnivora", absID: "abs"})
+CREATE (class:Class {name: "Mammalia", absID: "abs"})
+CREATE (phylum:Phylum {name: "Chordata", absID: "abs"})
+
+CREATE (laboratory:Location {name: "Washington State", absID: "abs"})
+
+CREATE (sample:Sample {name: "Feces", absID: "abs"})
+
+CREATE (giardia:Giardia {name: "Giardia duodenalis", absID: "abs", pathogen: pathogen})
+
+CREATE (cryptosporidium:Cryptosporidium {name: "Cryptosporidium spp.", absID: "abs", pathogen: pathogen})
+
+CREATE (host_pathogen:Host_Pathogen {host: host, pathogen: giardia, absID: "abs"})
+CREATE (gull_host_pathogen:Host_Pathogen {host: gull, pathogen: giardia, absID: "abs"})
+CREATE (host_pathogen2:Host_Pathogen {host: host, pathogen: cryptosporidium, absID: "abs"})
+
+CREATE (examined_by:Examined_By {sample: sample, laboratory: laboratory, absID: "abs"})
+
+CREATE (uses:Uses {method: "Immunomagnetic separation", absID: "abs"})
+CREATE (uses2:Uses {method: "Direct fluorescent antibody detection", absID: "abs"})
+
+CREATE (examines:Examines {host_pathogen: host_pathogen, uses: uses, absID: "abs"})
+CREATE (examines2:Examines {host_pathogen: host_pathogen2, uses: uses2, absID: "abs"})
+CREATE (examines3:Examines {host_pathogen: gull_host_pathogen, uses: uses, absID: "abs"})
+```
+Note that I've used the following node and relationship types:
+
+* `Host`: a host organism
+* `Pathogen`: a pathogen organism
+* `Species`: a species of host or pathogen
+* `Subspecies`: a subspecies of host or pathogen
+* `Genus`: a genus of host or pathogen
+* `Family`: a family of host or pathogen
+* `Order`: an order of host or pathogen
+* `Class`: a class of host or pathogen
+* `Phylum`: a phylum of host or pathogen
+* `Location`: a location where the sample was taken
+* `Sample`: a sample of feces
+* `Giardia` and `Cryptosporidium`: specific pathogens
+* `Host_Pathogen`: a relationship between a host and a pathogen
+* `Examined_By`: a relationship between a sample and a location
+* `Uses`: a method used to examine the host-pathogen relationship
+* `Examines`: a relationship between a host-pathogen relationship and a method used to examine it
+
+Each node has an `absID` property that references the original abstract. The relationships have an `absID` property that references the original abstract as well.

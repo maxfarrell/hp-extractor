@@ -1,0 +1,25 @@
+Here is the graph database in Neo4j Cypher format:
+```
+CREATE (abs:Abstract {absID: "1"})
+CREATE (journal:Journal {name: "unknown", synonym: ""})
+CREATE (state:State {name: "Paraná", synonym: ""})
+CREATE (country:Country {name: "Brazil", synonym: ""})
+CREATE (host:Host {name: "Little Grison", synonym: "", scientificName: "Galictis cuja"})
+CREATE (pathogen:Pathogen {name: "Giant Kidney Nematode", synonym: "Dioctophyme renale"})
+
+CREATE (abs)-[:PUBLISHED_IN]->(journal)
+CREATE (abs)-[:LOCATED_IN]->(state)
+CREATE (state)-[:PART_OF]->(country)
+CREATE (abs)-[:STUDYED_HOST]->(host)
+CREATE (abs)-[:INFECTED_WITH]->(pathogen)
+
+CREATE (female_host:Host {name: "Female Little Grison", synonym: "", scientificName: "Galictis cuja"})
+CREATE (male_host:Host {name: "Male Little Grison", synonym: "", scientificName: "Galictis cuja"})
+
+CREATE (female_host)-[:INFECTED_WITH]->(pathogen {count: 8})
+CREATE (male_host)-[:INFECTED_WITH]->(pathogen {count: 1})
+
+CREATE (abs)-[:HAS_HOST]->(female_host)
+CREATE (abs)-[:HAS_HOST]->(male_host)
+```
+Note: I assumed that the "absID" property is a unique identifier for the abstract, and that the "name" property is the common name of the entity (e.g. "Little Grison" for the host). The "synonym" property is optional and can be used to store alternative names or synonyms for the entity. The "scientificName" property is used to store the scientific name of the host. The "count" property is used to store the number of nematodes found in the host.

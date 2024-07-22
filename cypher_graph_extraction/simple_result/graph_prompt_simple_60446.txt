@@ -1,0 +1,35 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (disease:Disease {name: "Anthrax-like disease", synonym: "anthrax-like disease"})
+
+CREATE (host:Host {name: "Great apes", synonym: "wild great apes"})
+
+CREATE (chimpanzee:Host {name: "Chimpanzee", synonym: "Pan troglodytes", parent: host})
+CREATE (gorilla:Host {name: "Gorilla", synonym: "Gorilla gorilla", parent: host})
+
+CREATE (pathogen:Pathogen {name: "Bacillus anthracis-like bacteria", synonym: "Bacillus anthracis-like bacteria"})
+
+CREATE (isolate:Isolate {name: "Isolate 1", parent: pathogen})
+CREATE (isolate:Isolate {name: "Isolate 2", parent: pathogen})
+CREATE (isolate:Isolate {name: "Isolate 3", parent: pathogen})
+CREATE (isolate:Isolate {name: "Isolate 4", parent: pathogen})
+CREATE (isolate:Isolate {name: "Isolate 5", parent: pathogen})
+
+CREATE (chimpanzee)-[:INFECTED_BY {absID: "1"}]->(isolate:Isolate {name: "Isolate 1"})
+CREATE (chimpanzee)-[:INFECTED_BY {absID: "1"}]->(isolate:Isolate {name: "Isolate 2"})
+CREATE (gorilla)-[:INFECTED_BY {absID: "1"}]->(isolate:Isolate {name: "Isolate 3"})
+
+CREATE (disease)-[:CAUSED_BY {absID: "1"}]->(pathogen)
+CREATE (pathogen)-[:CHARACTERIZED {absID: "1"}]->(abs)
+
+CREATE (pathogen)-[:DIFFERS_FROM {absID: "1"}]->(classicBacillusAnthraxis:BacillusAnthraxis {name: "Classic Bacillus anthracis"})
+
+CREATE (classicBacillusAnthraxis)-[:HAS_PROPERTY {absID: "1", property: "motility"}]->(property:Property {name: "Motility", value: "non-motile"})
+
+CREATE (pathogen)-[:HAS_PROPERTY {absID: "1", property: "motility"}]->(property:Property {name: "Motility", value: "motile"})
+```
+
+Note: I assumed that "Bacillus anthracis" is a subtype of "Pathogen" and created a new node for it. If you want to model it differently, please let me know.

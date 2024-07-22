@@ -1,0 +1,40 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+CREATE (host:Host {name: "Yellow mongoose", synonym: "Cynictis penicillata", absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+CREATE (pathogen:Pathogen {name: "Babesia cynicti", absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+
+CREATE (study:Study {name: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal", absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+CREATE (study)-[:HAS_HOST]->(host)
+CREATE (study)-[:HAS_PATHOGEN]->(pathogen)
+
+CREATE (population1:Population {name: "Population 1", absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+CREATE (population2:Population {name: "Population 2", absID: "Prevalence of Babesia cynictis infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+CREATE (population3:Population {name: "Population 3", absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+
+CREATE (study)-[:HAS_POPULATION]->(population1)
+CREATE (study)-[:HAS_POPULATION]->(population2)
+CREATE (study)-[:HAS_POPULATION]->(population3)
+
+CREATE (location:Location {name: "Transvaal", absID: "Prevalence of Babesia cynicti infection in three populations of yellow mongooses (Cynictis penicillata) in the Transvaal"})
+CREATE (study)-[:IS_LOCATED_IN]->(location)
+```
+
+This graph database includes the following entities:
+
+* `Abstract`: represents the abstract of the study
+* `Host`: represents the yellow mongoose species
+* `Pathogen`: represents the Babesia cynicti species
+* `Study`: represents the study itself
+* `Population`: represents the three populations of yellow mongooses
+* `Location`: represents the Transvaal region
+
+The relationships between these entities are as follows:
+
+* `HAS_HOST`: connects the study to the host species
+* `HAS_PATHOGEN`: connects the study to the pathogen species
+* `HAS_POPULATION`: connects the study to the three populations of yellow mongooses
+* `IS_LOCATED_IN`: connects the study to the Transvaal region
+
+Each node and relationship includes the `absID` property, which is set to the same value as the abstract ID.

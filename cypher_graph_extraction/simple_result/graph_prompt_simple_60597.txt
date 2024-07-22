@@ -1,0 +1,39 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Incidence of Brucella species in marine mammals of the German North Sea"})
+
+CREATE (study:Study {name: "Incidence of Brucella species in marine mammals of the German North Sea"})
+
+CREATE (host:Host {name: "Marine Mammals", synonym: ["Marine mammals"]})
+CREATE (pathogen:Pathogen {name: "Brucella", synonym: ["Brucella species"]})
+
+CREATE (study)-[:STUDYED_HOST {absID: "Incidence of Brucella species in marine mammals of the German North Sea"}]->(host)
+CREATE (study)-[:STUDYED_PATHOGEN {absID: "Incidence of Brucella species in marine mammals of the German North Sea"}]->(pathogen)
+
+CREATE (sea:Location {name: "German North Sea", type: "Sea"})
+
+CREATE (study)-[:LOCATED_IN {absID: "Incidence of Brucella species in marine mammals of the German North Sea"}]->(sea)
+
+CREATE (mammal:Taxon {name: "Marine Mammals", type: "Taxon"})
+CREATE (brucella:Taxon {name: "Brucella", type: "Taxon"})
+
+CREATE (host)-[:BELONGS_TO {absID: "Incidence of Brucella species in marine mammals of the German North Sea"}]->(mammal)
+CREATE (pathogen)-[:BELONGS_TO {absID: "Incidence of Brucella species in marine mammals of the German North Sea"}]->(brucella)
+
+CREATE (study)-[:PUBLISHED_ABSTRACT {absID: "Incidence of Brucella species in marine mammals of the German North Sea"}]->(abs)
+```
+
+Note:
+
+* `abs` node represents the abstract of the study.
+* `study` node represents the study itself.
+* `host` node represents the host species (marine mammals).
+* `pathogen` node represents the pathogen species (Brucella).
+* `sea` node represents the location (German North Sea).
+* `mammal` node represents the taxon (marine mammals).
+* `brucella` node represents the taxon (Brucella).
+* `STUDYED_HOST` and `STUDYED_PATHOGEN` relationships represent the study of the host and pathogen, respectively.
+* `LOCATED_IN` relationship represents the location of the study.
+* `BELONGS_TO` relationships represent the taxonomic classification of the host and pathogen.
+* `PUBLISHED_ABSTRACT` relationship represents the abstract published for the study.

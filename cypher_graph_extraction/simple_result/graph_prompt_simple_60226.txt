@@ -1,0 +1,31 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Prevalence of neutralizing antibodies against California and Bunyamwera serogroup viruses in deer from mountainous areas of California"})
+
+CREATE (study:Study {name: "Bunyavirus activity in deer in mountainous areas of California", abs: abs})
+CREATE (location:Location {name: "Mountainous areas of California", abs: abs})
+CREATE (host:Host {name: "Mule Deer", synonym: "Odocoileus hemionus hemionus", abs: abs})
+CREATE (pathogen:Bunyavirus {name: "Bunyavirus", synonym: "Bunyamwera serogroup viruses", abs: abs})
+
+CREATE (study)-[:LOCATED_IN {absID: "locatedIn"}]->(location)
+CREATE (study)-[:STUDYED {absID: "studied"}]->(host)
+CREATE (study)-[:INFECTED_WITH {absID: "infectedWith"}]->(pathogen)
+
+CREATE (antibody:Antibody {name: "Neutralizing Antibody", abs: abs})
+CREATE (neutralization:Neutralization {name: "Plaque reduction-serum dilution neutralization", abs: abs})
+
+CREATE (host)-[:PRODUCES {absID: "produces"}]->(antibody)
+CREATE (antibody)-[:MEASURED {absID: "measured"}]->(neutralization)
+
+CREATE (virus:Virus {name: "California serogroup virus", abs: abs})
+CREATE (virus2:Virus {name: "Bunyamwera serogroup virus", abs: abs})
+
+CREATE (pathogen)-[:INCLUDES {absID: "includes"}]->(virus)
+CREATE (pathogen)-[:INCLUDES {absID: "includes"}]->(virus2)
+
+CREATE (deer:Deer {name: "Mule Deer", abs: abs})
+CREATE (deer)-[:HOST {absID: "host"}]->(host)
+```
+
+Note that I've created nodes for the abstract, study, location, host, pathogen, antibody, neutralization, virus, and deer. I've also created relationships between these nodes to represent the entities and their relationships as described in the abstract. The `absID` property is included on each node and relationship to link them back to the original abstract.

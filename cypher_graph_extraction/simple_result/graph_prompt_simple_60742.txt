@@ -1,0 +1,31 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Characterization of phylogenetically diverse astroviruses of marine mammals"})
+
+CREATE (astrovirus:Pathogen {name: "Astrovirus", synonym: "AstV"})
+
+CREATE (marine_mammals:Host {name: "Marine Mammals", synonym: "MM"})
+
+CREATE (astroviruses_of_marine_mammals:Relationship {type: "hosts", name: "Astroviruses of Marine Mammals", absID: "Characterization of phylogenetically diverse astroviruses of marine mammals"})
+CREATE (astroviruses_of_marine_mammals)-[:RELATIONSHIP_TO {type: "hosts"}]->(marine_mammals)
+CREATE (astroviruses_of_marine_mammals)-[:RELATIONSHIP_TO {type: "pathogen"}]->(astrovirus)
+
+CREATE (phylogenetically_diverse:Property {name: "Phylogenetically Diverse"})
+
+CREATE (astroviruses_of_marine_mammals)-[:HAS_PROPERTY {type: "phylogenetically diverse"}]->(phylogenetically_diverse)
+
+CREATE (marine_mammals)-[:HAS_HOST {type: "marine mammals"}]->(marine_mammals)
+
+CREATE (astroviruses_of_marine_mammals)-[:IS_ABSTRACT {type: "abstract"}]->(abs)
+
+CREATE (astroviruses_of_marine_mammals)-[:IS_RELATED_TO {type: "astroviruses"}]->(astrovirus)
+
+CREATE (astroviruses_of_marine_mammals)-[:IS_RELATED_TO {type: "marine mammals"}]->(marine_mammals)
+
+CREATE (abs)-[:HAS_TITLE {type: "title"}]->(abs)
+
+CREATE (abs)-[:HAS_ABSTRACT {type: "abstract"}]->(abs)
+```
+
+Note: The `RELATIONSHIP_TO` and `HAS_PROPERTY` relationships are used to establish the relationships between the nodes. The `IS_ABSTRACT`, `IS_RELATED_TO`, `HAS_HOST`, and `HAS_TITLE` relationships are used to establish the relationships between the nodes and the abstract. The `absID` property is used to identify each node and relationship.

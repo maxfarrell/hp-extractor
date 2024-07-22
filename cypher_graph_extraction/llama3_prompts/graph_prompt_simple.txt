@@ -1,0 +1,1 @@
+Using the given abstract, create a very detailed graph database from all possible entities with detailed labels (including Host and Pathogen) and properties (including name and synonym) and relationships. For each node and relationship include the absID property as well. Export it in the Neo4j cypher format without semicolons.

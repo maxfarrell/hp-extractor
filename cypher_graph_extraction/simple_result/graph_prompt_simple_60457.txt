@@ -1,0 +1,39 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+
+CREATE (host:Host {name: "American bison", synonym: "Bison bison", absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+CREATE (bison:Bison {name: "American bison", absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+
+CREATE (pathogen:Pathogen {name: "Pasteurella spp.", synonym: "Pasteurella spp.", absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+
+CREATE (study:Study {name: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992", absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+
+CREATE (location:Location {name: "Free-ranging", absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+
+CREATE (time:Time {start: "1991-11-01", end: "1992-03-31", absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"})
+
+CREATE (host)-[:HOSTED_BY {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"}]->(bison)
+CREATE (bison)-[:FOUND_IN {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"}]->(location)
+CREATE (bison)-[:INFECTED_WITH {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"}]->(pathogen)
+CREATE (study)-[:STUDIED {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"}]->(host)
+CREATE (study)-[:OCCURRED_DURING {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"}]->(time)
+CREATE (pathogen)-[:ISOLATED {absID: "Isolation of Pasteurella spp. from free-ranging American bison (Bison bison). From November 1991 through March 1992"}]->(study)
+```
+
+Here's a brief explanation of each node and relationship:
+
+* `Abstract`: represents the abstract of the study
+* `Host`: represents the American bison (Bison bison)
+* `Bison`: represents the American bison (Bison bison) as a node for further relationships
+* `Pathogen`: represents the Pasteurella spp.
+* `Study`: represents the study itself
+* `Location`: represents the free-ranging environment where the study took place
+* `Time`: represents the time period during which the study occurred
+* `HOSTED_BY`: represents the relationship between the host (American bison) and the study
+* `FOUND_IN`: represents the relationship between the host (American bison) and the location (free-ranging environment)
+* `INFECTED_WITH`: represents the relationship between the host (American bison) and the pathogen (Pasteurella spp.)
+* `STUDIED`: represents the relationship between the study and the host (American bison)
+* `OCCURRED_DURING`: represents the relationship between the study and the time period during which it occurred
+* `ISOLATED`: represents the relationship between the pathogen (Pasteurella spp.) and the study

@@ -1,0 +1,42 @@
+Here is the detailed graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (fox:Host {name: "Arctic Fox", synonym: "Alopex lagopus", absID: "1"})
+CREATE (fox:hasHost {name: "Wild Arctic Fox", absID: "1"})
+
+CREATE (toxoplasma:Pathogen {name: "Toxoplasma", synonym: "Toxoplasma gondii", absID: "1"})
+CREATE (toxoplasma:hasPathogen {name: "Acute Toxoplasmosis", absID: "1"})
+
+CREATE (salmonella:Pathogen {name: "Salmonella", synonym: "Salmonella Enteritidis PT1", absID: "1"})
+CREATE (yersinia:Pathogen {name: "Yersinia", synonym: "Yersinia pseudotuberculosis serotype 2b", absID: "1"})
+
+CREATE (fox)-[:INFECTED_BY {absID: "1"}]->(toxoplasma)
+CREATE (fox)-[:INFECTED_BY {absID: "1"}]->(salmonella)
+CREATE (fox)-[:INFECTED_BY {absID: "1"}]->(yersinia)
+
+CREATE (fox:HAS_SYMPTOM {name: "Jaundice", absID: "1"})
+
+CREATE (necropsy:Observation {name: "Necropsy", absID: "1"})
+CREATE (fox)-[:HAD_OBSERVATION {absID: "1"}]->(necropsy)
+
+CREATE (multifocal:Observation {name: "Multifocal", absID: "1"})
+CREATE (fox)-[:HAD_OBSERVATION {absID: "1"}]->(multifocal)
+
+CREATE (locality:Location {name: "Svalbard", absID: "1"})
+CREATE (fox)-[:FOUND_IN {absID: "1"}]->(locality)
+
+CREATE (norway:Country {name: "Norway", absID: "1"})
+CREATE (locality)-[:LOCATED_IN {absID: "1"}]->(norway)
+
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(fox)
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(toxoplasma)
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(salmonella)
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(yersinia)
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(necropsy)
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(multifocal)
+CREATE (abstract)-[:RELATED_TO {absID: "1"}]->(locality)
+```
+
+Note: I've used the absID property to link each node and relationship to the abstract. I've also used the HAS_SYMPTOM relationship to link the fox to the symptom "Jaundice". The INFECTED_BY relationship is used to link the fox to the pathogens. The HAD_OBSERVATION relationship is used to link the fox to the necropsy and multifocal observations. The FOUND_IN relationship is used to link the fox to the locality, and the LOCATED_IN relationship is used to link the locality to the country Norway.

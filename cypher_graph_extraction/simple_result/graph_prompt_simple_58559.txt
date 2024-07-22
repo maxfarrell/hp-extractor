@@ -1,0 +1,44 @@
+Here is the graph database in Neo4j cypher format:
+```
+CREATE (abs:Abstract {absID: "1"})
+CREATE (study:Study {name: "Serologic survey for antibodies to Borrelia burgdorferi in white-tailed deer in Georgia", abs: abs})
+CREATE (location:Location {name: "Georgia", country: "USA"})
+CREATE (region1:Region {name: "Barrier Islands"})
+CREATE (region2:Region {name: "Other regions"})
+CREATE (host:Host {name: "White-tailed deer", scientificName: "Odocoileus virginianus", synonym: "O. virginianus"})
+CREATE (pathogen:Pathogen {name: "Borrelia burgdorferi", synonym: "B. burgdorferi"})
+
+CREATE (study)-[:LOCATED_IN {absID: "1"}]->(location)
+CREATE (study)-[:STUDIED_REGION {absID: "1"}]->(region1)
+CREATE (study)-[:STUDIED_REGION {absID: "1"}]->(region2)
+CREATE (study)-[:STUDIED_HOST {absID: "1"}]->(host)
+CREATE (study)-[:STUDIED_PATHOGEN {absID: "1"}]->(pathogen)
+
+CREATE (serum_sample:SerumSample {absID: "1"})
+CREATE (sample_collection:SampleCollection {absID: "1"})
+CREATE (study)-[:COLLECTED_SAMPLE {absID: "1"}]->(serum_sample)
+CREATE (serum_sample)-[:BELONGS_TO {absID: "1"}]->(sample_collection)
+
+CREATE (elisa:ELISA {absID: "1"})
+CREATE (study)-[:USED_TECHNIQUE {absID: "1"}]->(elisa)
+```
+Note: The `absID` property is used to link each node and relationship to the original abstract. The `abs` property on the `Study` node is used to link the study to the abstract.
+
+Here's a brief explanation of each node and relationship:
+
+* `Abstract`: represents the abstract of the study
+* `Study`: represents the study itself, with properties for name and abstract
+* `Location`: represents the location where the study was conducted, with properties for name and country
+* `Region`: represents a region within the location, with properties for name
+* `Host`: represents the host species (white-tailed deer) with properties for name and scientific name
+* `Pathogen`: represents the pathogen (Borrelia burgdorferi) with properties for name and synonym
+* `SerumSample`: represents a serum sample collected from the host
+* `SampleCollection`: represents the collection of serum samples
+* `ELISA`: represents the enzyme-linked immunosorbent assay technique used in the study
+* `LOCATED_IN`: relationship between the study and the location where it was conducted
+* `STUDIED_REGION`: relationship between the study and the region(s) where it was conducted
+* `STUDIED_HOST`: relationship between the study and the host species
+* `STUDIED_PATHOGEN`: relationship between the study and the pathogen
+* `COLLECTED_SAMPLE`: relationship between the study and the serum sample
+* `BELONGS_TO`: relationship between the serum sample and the sample collection
+* `USED_TECHNIQUE`: relationship between the study and the ELISA technique used

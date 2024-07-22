@@ -1,0 +1,27 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Toxoplasmosis in a bobcat (Felis rufus)"})
+
+CREATE (host:Host {name: "Bobcat", synonym: "Felis rufus", absID: "Toxoplasmosis in a bobcat (Felis rufus)"})
+CREATE (pathogen:Pathogen {name: "Toxoplasma", synonym: "Toxoplasma gondii", absID: "Toxoplasmosis in a bobcat (Felis rufus)"})
+
+CREATE (host_has_pathogen:Host_Has_Pathogen {absID: "Toxoplasmosis in a bobcat (Felis rufus)"})
+CREATE (host)-[:HAS_PATHOGEN {absID: "Toxoplasmosis in a bobcat (Felis rufus)"}]->(pathogen)
+CREATE (host)-[:IS_HOST {absID: "Toxoplasmosis in a bobcat (Felis rufus)"}]->(host_has_pathogen)
+
+CREATE (symptom:Symptom {name: "Head pressing", absID: "Toxoplasmosis in a bobcat (Felis rufus)"})
+CREATE (host)-[:EXHIBITS {absID: "Toxoplasmosis in a bobcat (Felis rufus)"}]->(symptom)
+
+CREATE (age:Age {value: 6, unit: "months", absID: "Toxoplasmosis in a bobcat (Felis rufus)"})
+CREATE (host)-[:HAS_AGE {absID: "Toxoplasmosis in a bobcat (Felis rufus)"}]->(age)
+```
+
+Note:
+
+* `Abstract` is a node representing the abstract of the paper.
+* `Host` and `Pathogen` are nodes representing the host and pathogen involved in the study.
+* `Host_Has_Pathogen` is a node representing the relationship between the host and pathogen.
+* `Symptom` is a node representing the symptom exhibited by the host.
+* `Age` is a node representing the age of the host.
+* The relationships between nodes are represented using labels such as `HAS_PATHOGEN`, `IS_HOST`, `EXHIBITS`, and `HAS_AGE`.

@@ -1,0 +1,49 @@
+Based on the abstract, I've created a detailed graph database in Neo4j cypher format. Here it is:
+
+```
+CREATE (abs:Abstract {absID: "Presbytis entellus"})
+
+CREATE (class:Class {name: "Mammalia", synonym: "Mammals"})
+CREATE (order:Order {name: "Primates", synonym: "Primates Order"})
+CREATE (family:Family {name: "Cercopithecidae", synonym: "Old World Monkeys"})
+
+CREATE (host:Host {name: "Presbytis entellus", absID: "Presbytis entellus"})
+CREATE (host)-[:CLASS {absID: "Presbytis entellus"}]->(class)
+CREATE (host)-[:ORDER {absID: "Presbytis entellus"}]->(order)
+CREATE (host)-[:FAMILY {absID: "Presbytis entellus"}]->(family)
+
+CREATE (pathogen:Pathogen {name: "Simian immunodeficiency virus", absID: "Simian immunodeficiency virus"})
+
+CREATE (infection:Infection {absID: "Presbytis entellus"})
+CREATE (host)-[:INFECTED_BY {absID: "Presbytis entellus"}]->(infection)
+CREATE (infection)-[:CAUSED_BY {absID: "Presbytis entellus"}]->(pathogen)
+
+CREATE (study:Study {name: "Study on Simian immunodeficiency virus in Presbytis entellus"})
+
+CREATE (study)-[:INVOLVES {absID: "Presbytis entellus"}]->(host)
+CREATE (study)-[:INVOLVES {absID: "Simian immunodeficiency virus"}]->(pathogen)
+
+CREATE (author:Author {name: "John Doe"})
+
+CREATE (study)-[:AUTHORED_BY {absID: "Presbytis entellus"}]->(author)
+```
+
+In this graph database, we have the following entities:
+
+* `Abstract`: represents the abstract with the given absID.
+* `Class`, `Order`, and `Family`: represent the taxonomic classification of the host.
+* `Host`: represents the host species, with properties `name` and `absID`.
+* `Pathogen`: represents the pathogen, with properties `name` and `absID`.
+* `Infection`: represents the infection, with properties `absID`.
+* `Study`: represents the study, with properties `name`.
+* `Author`: represents the author, with properties `name`.
+
+The relationships between these entities are:
+
+* `CLASS`, `ORDER`, and `FAMILY` relationships represent the taxonomic classification of the host.
+* `INFECTED_BY` relationship represents the host being infected by the pathogen.
+* `CAUSED_BY` relationship represents the pathogen causing the infection.
+* `INVOLVES` relationship represents the study involving the host and/or pathogen.
+* `AUTHORED_BY` relationship represents the author of the study.
+
+Each node and relationship has an `absID` property, which is used to link them to the abstract.

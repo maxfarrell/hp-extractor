@@ -1,0 +1,48 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (study:Study {name: "Paratuberculosis in free-ranging fallow deer in Spain"})
+CREATE (study)-[:HAS_ABSTRACT {absID: "1"}]->(abs)
+
+CREATE (host:Host {name: "Fallow Deer", synonym: "Dama dama"})
+CREATE (pathogen:Pathogen {name: "Mycobacterium avium subsp. paratuberculosis", synonym: "MAP"})
+
+CREATE (paratuberculosis:Paratuberculosis {name: "Paratuberculosis"})
+
+CREATE (study)-[:STUDIES {absID: "1"}]->(paratuberculosis)
+
+CREATE (paratuberculosis)-[:AFFECTS {absID: "1"}]->(host)
+CREATE (paratuberculosis)-[:CAUSED_BY {absID: "1"}]->(pathogen)
+
+CREATE (population:Population {name: "Free-ranging fallow deer in Spain", size: 1000})
+CREATE (study)-[:OBSERVES {absID: "1"}]->(population)
+
+CREATE (diagnosis:Diagnosis {name: "Paratuberculosis diagnosis"})
+CREATE (study)-[:MAKES_DIAGNOSIS {absID: "1"}]->(diagnosis)
+
+CREATE (result:Result {name: "Paratuberculosis diagnosis result", value: "Positive"})
+CREATE (diagnosis)-[:HAS_RESULT {absID: "1"}]->(result)
+```
+
+Here's a breakdown of the entities and relationships:
+
+* `Abstract`: represents the abstract of the study
+* `Study`: represents the study itself
+* `Host`: represents the host organism (Fallow Deer)
+* `Pathogen`: represents the pathogen (Mycobacterium avium subsp. paratuberculosis)
+* `Paratuberculosis`: represents the disease (Paratuberculosis)
+* `Population`: represents the population of free-ranging fallow deer in Spain
+* `Diagnosis`: represents the diagnosis of Paratuberculosis
+* `Result`: represents the result of the diagnosis (Positive)
+
+The relationships are:
+
+* `HAS_ABSTRACT`: a study has an abstract
+* `STUDIES`: a study is about a disease (Paratuberculosis)
+* `AFFECTS`: a disease affects a host organism (Fallow Deer)
+* `CAUSED_BY`: a disease is caused by a pathogen (Mycobacterium avium subsp. paratuberculosis)
+* `OBSERVES`: a study observes a population
+* `MAKES_DIAGNOSIS`: a study makes a diagnosis
+* `HAS_RESULT`: a diagnosis has a result

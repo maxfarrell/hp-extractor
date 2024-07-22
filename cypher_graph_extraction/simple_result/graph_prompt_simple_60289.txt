@@ -1,0 +1,30 @@
+Here is the graph database created from the given abstract:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (location1:Location {name: "Pennsylvania", absID: "1"})
+CREATE (location2:Location {name: "Pennsylvania", absID: "1"})
+
+CREATE (outbreak1:Outbreak {name: "1991 Outbreak", absID: "1"})
+CREATE (outbreak2:Outbreak {name: "1992 Outbreak", absID: "1"})
+
+CREATE (host:Host {name: "Muscovy Duck", absID: "1", synonym: "Cairina moschata"})
+CREATE (pathogen:Pathogen {name: "Duck Viral Enteritis", absID: "1", synonym: "DVE"})
+
+CREATE (location1)-[:LOCATED_AT {absID: "1"}]->(outbreak1)
+CREATE (location2)-[:LOCATED_AT {absID: "1"}]->(outbreak2)
+
+CREATE (outbreak1)-[:INVOLVES {absID: "1"}]->(host)
+CREATE (outbreak2)-[:INVOLVES {absID: "1"}]->(host)
+
+CREATE (outbreak1)-[:INFECTED_WITH {absID: "1"}]->(pathogen)
+CREATE (outbreak2)-[:INFECTED_WITH {absID: "1"}]->(pathogen)
+
+CREATE (host)-[:IS_HOST {absID: "1"}]->(pathogen)
+
+CREATE (abs)-[:CONTAINS {absID: "1"}]->(outbreak1)
+CREATE (abs)-[:CONTAINS {absID: "1"}]->(outbreak2)
+```
+
+Note: The `absID` property is used to link each node and relationship to the original abstract.

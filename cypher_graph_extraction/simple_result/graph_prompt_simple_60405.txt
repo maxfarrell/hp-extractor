@@ -1,0 +1,47 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (poxviruses:Pathogen {name: "Poxviruses", synonym: "Poxvirus", absID: "1"})
+
+CREATE (chordopoxvirinae:Subfamily {name: "Chordopoxvirinae", absID: "1"})
+
+CREATE (dna_polymerase:Gene {name: "DNA Polymerase", absID: "1"})
+
+CREATE (dna_topoisomerase_I:Gene {name: "DNA Topoisomerase I", absID: "1"})
+
+CREATE (parapoxviruses:Pathogen {name: "Parapoxviruses", synonym: "Parapoxvirus", absID: "1"})
+
+CREATE (cetaceans:Host {name: "Cetaceans", absID: "1"})
+
+CREATE (pinnipeds:Host {name: "Pinnipeds", absID: "1"})
+
+CREATE (skin_lesions:Disease {name: "Skin Lesions", absID: "1"})
+
+CREATE (cetacean_poxviruses:Infection {host: cetaceans, pathogen: poxviruses, absID: "1"})
+
+CREATE (pinniped_poxviruses:Infection {host: pinnipeds, pathogen: poxviruses, absID: "1"})
+
+CREATE (parapoxvirus_infection:Infection {host: cetaceans, pathogen: parapoxviruses, absID: "1"})
+
+CREATE (chordopoxvirinae_pathogen:PathogenSubfamily {pathogen: poxviruses, subfamily: chordopoxvirinae, absID: "1"})
+
+CREATE (dna_polymerase_gene:GenePathogen {gene: dna_polymerase, pathogen: poxviruses, absID: "1"})
+
+CREATE (dna_topoisomerase_I_gene:GenePathogen {gene: dna_topoisomerase_I, pathogen: poxviruses, absID: "1"})
+
+CREATE (cetacean_host:HostPathogen {host: cetaceans, pathogen: poxviruses, absID: "1"})
+
+CREATE (pinniped_host:HostPathogen {host: pinnipeds, pathogen: poxviruses, absID: "1"})
+
+CREATE (skin_lesion_disease:DiseaseHost {disease: skin_lesions, host: cetaceans, absID: "1"})
+
+CREATE (cetacean_poxviruses_infection:InfectionHost {infection: cetacean_poxviruses, host: cetaceans, absID: "1"})
+
+CREATE (pinniped_poxviruses_infection:InfectionHost {infection: pinniped_poxviruses, host: pinnipeds, absID: "1"})
+
+CREATE (parapoxvirus_infection_host:InfectionHost {infection: parapoxvirus_infection, host: cetaceans, absID: "1"})
+```
+
+Note that I've created nodes for the abstract, poxviruses, subfamily, genes, hosts, disease, and infections, as well as relationships between them. I've also included the absID property for each node and relationship. The relationships are labeled with descriptive names, such as "HostPathogen" and "InfectionHost", to indicate the type of relationship between the nodes.

@@ -1,0 +1,31 @@
+Here is the detailed graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"})
+
+CREATE (host:Host {name: "Carnivores", synonym: "Meat-eaters"})
+CREATE (pathogen:Pathogen {name: "Helminths", synonym: "Parasitic worms"})
+
+CREATE (region:Region {name: "North-western Tohoku"})
+
+CREATE (host)-[:HOSTED_BY {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(pathogen)
+CREATE (host)-[:FOUND_IN {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(region)
+
+CREATE (carnivore1:Carnivore {name: "Lynx", synonym: "Lynx lynx"})
+CREATE (carnivore2:Carnivore {name: "Wild boar", synonym: "Sus scrofa"})
+CREATE (carnivore3:Carnivore {name: "Red fox", synonym: "Vulpes vulpes"})
+
+CREATE (helminth1:Helminth {name: "Toxocara canis", synonym: "Toxocara canis"})
+CREATE (helminth2:Helminth {name: "Trichinella spiralis", synonym: "Trichinella spiralis"})
+CREATE (helminth3:Helminth {name: "Taenia taeniaeformis", synonym: "Taenia taeniaeformis"})
+
+CREATE (carnivore1)-[:INFECTED_WITH {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(helminth1)
+CREATE (carnivore2)-[:INFECTED_WITH {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(helminth2)
+CREATE (carnivore3)-[:INFECTED_WITH {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(helminth3)
+
+CREATE (carnivore1)-[:FOUND_IN {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(region)
+CREATE (carnivore2)-[:FOUND_IN {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(region)
+CREATE (carnivore3)-[:FOUND_IN {absID: "Helminth fauna of carnivores distributed in north-western Tohoku"}]->(region)
+```
+
+Note that I created separate nodes for each type of entity (Host, Pathogen, Region, Carnivore, Helminth) and used relationships to connect them. I also included the `absID` property on each relationship to link it to the original abstract. Let me know if you have any questions or if you'd like me to modify the graph in any way!

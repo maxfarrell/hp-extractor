@@ -1,0 +1,32 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"})
+
+CREATE (host:Host {name: "Colobus vellerosus", synonym: "Black-and-white colobus", absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"})
+CREATE (host:LABEL {name: "Host"})
+
+CREATE (pathogen:Pathogen {name: "Gastrointestinal parasites", synonym: "Gastrointestinal worms", absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"})
+CREATE (pathogen:LABEL {name: "Pathogen"})
+
+CREATE (location:Location {name: "Boabeng-Fiema", absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"})
+CREATE (location:LABEL {name: "Location"})
+
+CREATE (study:Study {name: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema", absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"})
+CREATE (study:LABEL {name: "Study"})
+
+CREATE (host)-[:HOST_OF {absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"}]->(study)
+CREATE (pathogen)-[:PATHOGEN_OF {absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"}]->(study)
+CREATE (study)-[:LOCATED_IN {absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"}]->(location)
+CREATE (host)-[:INFECTED_BY {absID: "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema"}]->(pathogen)
+```
+
+Note:
+
+* I assumed that the "Ecology of the gastrointestinal parasites of Colobus vellerosus at Boabeng-Fiema" is the abstract of the study, so I created a node for it with the label "Abstract".
+* I created nodes for the host, pathogen, location, and study, and assigned them labels and properties accordingly.
+* I created relationships between the nodes to represent the relationships between the host, pathogen, location, and study. The relationships are:
+	+ HOST_OF: represents the relationship between the host and the study
+	+ PATHOGEN_OF: represents the relationship between the pathogen and the study
+	+ LOCATED_IN: represents the relationship between the study and the location
+	+ INFECTED_BY: represents the relationship between the host and the pathogen

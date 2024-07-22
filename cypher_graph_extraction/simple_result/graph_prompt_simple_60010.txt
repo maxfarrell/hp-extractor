@@ -1,0 +1,18 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Giardia sp. and Cryptosporidium sp. infections in primates in fragmented and undisturbed forest in western Uganda. In June 2005"})
+CREATE (location:Location {name: "Western Uganda", type: "region"})
+CREATE (forest:Forest {name: "Fragmented and Undisturbed Forest", type: "ecosystem"})
+CREATE (primate:Host {name: "Primates", type: "mammal", synonym: "Old World monkeys"})
+CREATE (giardia:Pathogen {name: "Giardia sp.", type: "protozoan", synonym: "Giardia lamblia"})
+CREATE (cryptosporidium:Pathogen {name: "Cryptosporidium sp.", type: "protozoan", synonym: "Cryptosporidium parvum"})
+
+CREATE (abs)-[:LOCATED_IN {absID: "Giardia sp. and Cryptosporidium sp. infections in primates in fragmented and undisturbed forest in western Uganda. In June 2005"}]->(location)
+CREATE (location)-[:CONTAINS {absID: "Giardia sp. and Cryptosporidium sp. infections in primates in fragmented and undisturbed forest in western Uganda. In June 2005"}]->(forest)
+CREATE (forest)-[:INHABITED_BY {absID: "Giardia sp. and Cryptosporidium sp. infections in primates in fragmented and undisturbed forest in western Uganda. In June 2005"}]->(primate)
+CREATE (primate)-[:INFECTED_WITH {absID: "Giardia sp. and Cryptosporidium sp. infections in primates in fragmented and undisturbed forest in western Uganda. In June 2005"}]->(giardia)
+CREATE (primate)-[:INFECTED_WITH {absID: "Giardia sp. and Cryptosporidium sp. infections in primates in fragmented and undisturbed forest in western Uganda. In June 2005"}]->(cryptosporidium)
+```
+
+Note: The `absID` property is added to each node and relationship to link them to the original abstract. The `LOCATED_IN` relationship represents the location where the abstract was published, the `CONTAINS` relationship represents the ecosystem where the primates were found, the `INHABITED_BY` relationship represents the host species, and the `INFECTED_WITH` relationship represents the pathogens.

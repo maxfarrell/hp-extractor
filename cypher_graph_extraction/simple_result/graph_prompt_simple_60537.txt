@@ -1,0 +1,44 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"})
+
+CREATE (study:Study {name: "Wild population of macaque monkeys in Mt. Takasaki", abs: abs})
+CREATE (location:Location {name: "Mt. Takasaki", abs: abs})
+CREATE (host:Host {name: "Macaque monkeys", synonym: "Macaca fuscata", abs: abs})
+CREATE (pathogen:Pathogen {name: "Entamoeba dispar", synonym: "E. dispar", abs: abs})
+
+CREATE (study)-[:LOCATED_IN {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"}]->(location)
+CREATE (study)-[:STUDIED_HOST {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"}]->(host)
+CREATE (study)-[:STUDIED_PATHOGEN {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"}]->(pathogen)
+
+CREATE (method:Method {name: "Polymerase chain reaction", abs: abs})
+CREATE (test:Test {name: "PCR", abs: abs})
+
+CREATE (study)-[:USED_METHOD {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"}]->(method)
+CREATE (method)-[:PERFORMED_TEST {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"}]->(test)
+
+CREATE (result:Result {abs: abs})
+
+CREATE (study)-[:OBTAINED_RESULT {absID: "Detection of Entamoeba dispar DNA in macaque feces by polymerase chain reaction"}]->(result)
+```
+
+Note: I used the following labels and properties:
+
+* `Abstract`: represents the abstract of the study
+* `Study`: represents the study itself
+* `Location`: represents the location where the study was conducted
+* `Host`: represents the host organism (in this case, macaque monkeys)
+* `Pathogen`: represents the pathogen being studied (in this case, Entamoeba dispar)
+* `Method`: represents the method used in the study (in this case, polymerase chain reaction)
+* `Test`: represents the specific test performed (in this case, PCR)
+* `Result`: represents the result of the study
+
+The relationships between these nodes are:
+
+* `LOCATED_IN`: represents the location where the study was conducted
+* `STUDIED_HOST`: represents the host organism being studied
+* `STUDIED_PATHOGEN`: represents the pathogen being studied
+* `USED_METHOD`: represents the method used in the study
+* `PERFORMED_TEST`: represents the specific test performed
+* `OBTAINED_RESULT`: represents the result of the study

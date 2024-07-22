@@ -1,0 +1,67 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+CREATE (paper:Paper {title: "Serologic survey for selected infectious disease agents in swift and kit foxes from the western United States"})
+
+CREATE (fox:Host {name: "Vulpes velox", synonym: "Swift Fox", absID: "1"})
+CREATE (fox2:Host {name: "Vulpes macrotis", synonym: "Kit Fox", absID: "1"})
+CREATE (paper)-[:HAS_HOST]->(fox)
+CREATE (paper)-[:HAS_HOST]->(fox2)
+
+CREATE (disease:Disease {name: "Infectious Disease Agent", absID: "1"})
+CREATE (paper)-[:HAS_DISEASE]->(disease)
+
+CREATE (agent:Pathogen {name: "Selected Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent)
+
+CREATE (sample:Sample {name: "Swift Fox Sample", absID: "1"})
+CREATE (fox)-[:HAS_SAMPLE]->(sample)
+
+CREATE (location:Location {name: "Western United States", absID: "1"})
+CREATE (sample)-[:IS_FROM]->(location)
+
+CREATE (time:Time {name: "1987-1992", absID: "1"})
+CREATE (sample)-[:COLLECTED_AT]->(time)
+
+CREATE (state:State {name: "Colorado", absID: "1"})
+CREATE (sample)-[:COLLECTED_IN]->(state)
+
+CREATE (number:Count {name: "44", absID: "1"})
+CREATE (sample)-[:NUM_SAMPLES]->(number)
+
+CREATE (agent2:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent2)
+
+CREATE (agent3:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent3)
+
+CREATE (agent4:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent4)
+
+CREATE (agent5:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent5)
+
+CREATE (agent6:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent6)
+
+CREATE (agent7:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent7)
+
+CREATE (agent8:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent8)
+
+CREATE (agent9:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent9)
+
+CREATE (agent10:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent10)
+
+CREATE (agent11:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent11)
+
+CREATE (agent12:Pathogen {name: "Infectious Disease Agent", absID: "1"})
+CREATE (disease)-[:IS_CAUSED_BY]->(agent12)
+```
+
+Note: I assume that the 12 infectious diseases are not specified in the abstract, so I created 12 different Pathogen nodes with the same name and absID. If you have more information about the specific diseases, you can modify the graph accordingly.

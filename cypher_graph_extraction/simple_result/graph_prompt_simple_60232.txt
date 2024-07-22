@@ -1,0 +1,38 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."})
+
+CREATE (study:Study {name: "Molecular identification and prevalence of Dictyocaulus spp."})
+CREATE (study)-[:HAS_ABSTRACT {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(abs)
+
+CREATE (host:Host {name: "Roe Deer", synonym: "Capreolus capreolus"})
+CREATE (study)-[:STUDY_HOST {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(host)
+
+CREATE (pathogen:Pathogen {name: "Dictyocaulus spp.", synonym: "Dictyocaulidae", classification: "Trichostrongyloidea"})
+CREATE (study)-[:STUDY_PATHOGEN {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(pathogen)
+
+CREATE (lungs:Lung {name: "Lungs"})
+CREATE (host)-[:HAS_ORGAN {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(lungs)
+
+CREATE (samples:Sample {name: "Lung samples"})
+CREATE (study)-[:HAS_SAMPLE {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(samples)
+
+CREATE (cervids:Cervid {name: "Semi-domestic and free-living cervids"})
+CREATE (study)-[:STUDY_SUBJECT {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(cervids)
+
+CREATE (Sweden:Country {name: "Sweden"})
+CREATE (study)-[:STUDY_LOCATION {absID: "Molecular identification and prevalence of Dictyocaulus spp. (Trichostrongyloidea: Dictyocaulidae) in Swedish semi-domestic and free-living cervids."}]->(Sweden)
+```
+
+Note: The `absID` property is used to link the nodes and relationships to the original abstract. The `name` and `synonym` properties are used to provide additional information about the entities. The relationships between the nodes are defined using the following labels:
+
+* `HAS_ABSTRACT`: The study has an abstract.
+* `STUDY_HOST`: The study is conducted on a host.
+* `STUDY_PATHOGEN`: The study is conducted on a pathogen.
+* `HAS_ORGAN`: The host has an organ.
+* `HAS_SAMPLE`: The study has a sample.
+* `STUDY_SUBJECT`: The study is conducted on a subject.
+* `STUDY_LOCATION`: The study is conducted in a location.
+
+Please note that this is a simplified representation of the entities and relationships, and you may need to add or modify nodes and relationships based on your specific use case.

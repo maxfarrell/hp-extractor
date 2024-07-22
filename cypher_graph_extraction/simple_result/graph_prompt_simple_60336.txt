@@ -1,0 +1,32 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Morbilliviral dermatitis in seals"})
+
+CREATE (host1:Host {name: "Hooded seal", synonym: "Cystophora cristata"})
+CREATE (host2:Host {name: "Harp seal", synonym: "Phoca groenlandica"})
+
+CREATE (pathogen:Pathogen {name: "Morbillivirus"})
+
+CREATE (seal1:Seal {name: "Juvenile female hooded seal", host: host1})
+CREATE (seal2:Seal {name: "Juvenile male harp seal", host: host2})
+
+CREATE (seal1)-[:INFECTED_BY {absID: "Morbilliviral dermatitis in seals"}]->(pathogen)
+CREATE (seal2)-[:INFECTED_BY {absID: "Morbilliviral dermatitis in seals"}]->(pathogen)
+
+CREATE (seal1)-[:STRANDED {absID: "Morbilliviral dermatitis in seals"}]->(location:Location {name: "New Jersey coast"})
+CREATE (seal2)-[:STRANDED {absID: "Morbilliviral dermatitis in seals"}]->(location)
+
+CREATE (seal1)-[:TAKEN_TO {absID: "Morbilliviral dermatitis in seals"}]->(rehabilitation_center:Rehabilitation_Center)
+CREATE (seal2)-[:TAKEN_TO {absID: "Morbilliviral dermatitis in seals"}]->(rehabilitation_center)
+
+CREATE (seal1)-[:LETHARGIC {absID: "Morbilliviral dermatitis in seals"}]->()
+CREATE (seal1)-[:EMACIATED {absID: "Morbilliviral dermatitis in seals"}]->()
+CREATE (seal2)-[:LETHARGIC {absID: "Morbilliviral dermatitis in seals"}]->()
+CREATE (seal2)-[:EMACIATED {absID: "Morbilliviral dermatitis in seals"}]->()
+
+CREATE (rehabilitation_center)-[:HAS_SEAL {absID: "Morbilliviral dermatitis in seals"}]->(seal1)
+CREATE (rehabilitation_center)-[:HAS_SEAL {absID: "Morbilliviral dermatitis in seals"}]->(seal2)
+```
+
+Note that I added a `Location` node to represent the New Jersey coast, and a `Rehabilitation_Center` node to represent the marine mammal rehabilitation center. I also added relationships to represent the lethargy and emaciation of the seals.

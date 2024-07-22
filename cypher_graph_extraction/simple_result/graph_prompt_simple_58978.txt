@@ -1,0 +1,24 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (study:Study {name: "Serologic survey for selected virus infections in polar bears at Svalbard"})
+CREATE (location:Location {name: "Svalbard"})
+CREATE (host:Host {name: "Polar bears", synonym: "Ursus maritimus"})
+CREATE (pathogen:Pathogen {name: "Virus infections"})
+
+CREATE (study)-[:LOCATED_AT {absID: "1"}]->(location)
+CREATE (study)-[:STUDYED {absID: "1"}]->(host)
+CREATE (study)-[:INVESTIGATED {absID: "1"}]->(pathogen)
+
+CREATE (immobilization_method:Method {name: "Chemical immobilization"})
+CREATE (sampling:Sampling {name: "Sampling"})
+
+CREATE (study)-[:USED_METHOD {absID: "1"}]->(immobilization_method)
+CREATE (study)-[:PERFORMED {absID: "1"}]->(sampling)
+
+CREATE (host)-[:HAS_PATHOGEN {absID: "1"}]->(pathogen)
+```
+
+Note: This graph database represents the entities and relationships mentioned in the abstract. It includes the abstract itself as a node, as well as nodes for the study, location, host, pathogen, immobilization method, and sampling. The relationships between these nodes represent the connections between the entities mentioned in the abstract.

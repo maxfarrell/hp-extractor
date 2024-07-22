@@ -1,0 +1,42 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (country:Country {name: "Argentina", synonym: "Argentinian Republic"})
+CREATE (region:Region {name: "Northern Argentina", synonym: "Northern Argentine Region"})
+
+CREATE (pathogen:Pathogen {name: "Rabies virus", synonym: "Rabies"})
+CREATE (vampire_bat:Host {name: "Desmodus rotundus", synonym: "Common vampire bat"})
+
+CREATE (cattle:Host {name: "Cattle", synonym: "Bos taurus"})
+CREATE (paralytic_rabies:Form {name: "Paralytic rabies", synonym: "Paralytic form"})
+
+CREATE (outbreak:Outbreak {name: "Rabies outbreak in cattle", synonym: "Cattle rabies outbreak"})
+
+CREATE (vampire_bat)-[:HOST_OF {absID: "1"}]->(pathogen)
+CREATE (vampire_bat)-[:RESIDES_IN {absID: "1"}]->(region)
+CREATE (cattle)-[:HOST_OF {absID: "1"}]->(pathogen)
+CREATE (cattle)-[:RESIDES_IN {absID: "1"}]->(country)
+
+CREATE (paralytic_rabies)-[:FORM_OF {absID: "1"}]->(pathogen)
+CREATE (outbreak)-[:ASSOCIATED_WITH {absID: "1"}]->(paralytic_rabies)
+CREATE (outbreak)-[:ASSOCIATED_WITH {absID: "1"}]->(vampire_bat)
+```
+
+Here's a breakdown of the nodes and relationships:
+
+* `Abstract`: represents the abstract of the paper, with an `absID` property.
+* `Country`: represents the country where the outbreak occurred, with a `name` and `synonym` property.
+* `Region`: represents the region where the outbreak occurred, with a `name` and `synonym` property.
+* `Pathogen`: represents the pathogen (Rabies virus) with a `name` and `synonym` property.
+* `Host`: represents the hosts (vampire bat and cattle) with a `name` and `synonym` property.
+* `Form`: represents the form of the pathogen (paralytic rabies) with a `name` and `synonym` property.
+* `Outbreak`: represents the outbreak of rabies in cattle with a `name` and `synonym` property.
+* Relationships:
+	* `HOST_OF`: connects a host to a pathogen, indicating that the host is infected with the pathogen.
+	* `RESIDES_IN`: connects a host or pathogen to a region or country, indicating where it resides.
+	* `FORM_OF`: connects a form of the pathogen to the pathogen, indicating that the form is a manifestation of the pathogen.
+	* `ASSOCIATED_WITH`: connects an outbreak to a form of the pathogen or a host, indicating that the outbreak is associated with that form or host.
+
+Note that I used the `absID` property to link the relationships to the abstract, so that you can easily retrieve all the nodes and relationships associated with the abstract.

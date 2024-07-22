@@ -1,0 +1,50 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Hepatozoon ursi n. sp. (Apicomplexa: Hepatozoidae) in Japanese black bear (Ursus thibetanus japonicus). Morphological and genetic features of a new Hepatozoon species"})
+CREATE (host:Host {name: "Japanese black bear", synonym: "Ursus thibetanus japonicus", abs: abs})
+CREATE (pathogen:Pathogen {name: "Hepatozoon ursi", synonym: "Hepatozoon ursi n. sp.", abs: abs})
+CREATE (class:Class {name: "Apicomplexa", abs: abs})
+CREATE (family:Family {name: "Hepatozoidae", abs: abs})
+CREATE (order:Order {name: "Apicomplexa", abs: abs})
+CREATE (genus:Genus {name: "Hepatozoon", abs: abs})
+
+CREATE (host)-[:HOST_OF {abs: abs}]->(pathogen)
+CREATE (pathogen)-[:BELONGS_TO {abs: abs}]->(genus)
+CREATE (genus)-[:BELONGS_TO {abs: abs}]->(family)
+CREATE (family)-[:BELONGS_TO {abs: abs}]->(class)
+CREATE (class)-[:ORDER_OF {abs: abs}]->(order)
+
+CREATE (order)-[:CLASS_OF {abs: abs}]->(class)
+CREATE (family)-[:SUBCLASS_OF {abs: abs}]->(class)
+CREATE (genus)-[:SUBCLASS_OF {abs: abs}]->(family)
+CREATE (pathogen)-[:SUBCLASS_OF {abs: abs}]->(genus)
+CREATE (host)-[:SUBCLASS_OF {abs: abs}]->(pathogen)
+```
+
+Note: The `abs` property is used to link each node and relationship to the abstract. The `absID` property is not used in this example, but you can add it to each node and relationship if needed.
+
+This graph database includes the following entities:
+
+* Abstract (abs)
+* Host (host)
+* Pathogen (pathogen)
+* Class (class)
+* Family (family)
+* Order (order)
+* Genus (genus)
+
+The relationships between these entities are:
+
+* A host can have a pathogen (HOST_OF)
+* A pathogen belongs to a genus (BELONGS_TO)
+* A genus belongs to a family (BELONGS_TO)
+* A family belongs to a class (BELONGS_TO)
+* A class is part of an order (ORDER_OF)
+* An order is a subclass of a class (CLASS_OF)
+* A family is a subclass of a class (SUBCLASS_OF)
+* A genus is a subclass of a family (SUBCLASS_OF)
+* A pathogen is a subclass of a genus (SUBCLASS_OF)
+* A host is a subclass of a pathogen (SUBCLASS_OF)
+
+Each node and relationship has an `abs` property that links it to the abstract.

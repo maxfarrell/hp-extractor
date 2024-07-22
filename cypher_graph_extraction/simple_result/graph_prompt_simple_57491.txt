@@ -1,0 +1,52 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (host:Host {name: "Hawaiian monk seal", synonym: "Monachus schauinslandi"})
+CREATE (pathogen:Pathogen {name: "Infectious disease"})
+
+CREATE (abs)-[:HAS_HOST {absID: "1"}]->(host)
+CREATE (abs)-[:HAS_PATHOGEN {absID: "1"}]->(pathogen)
+
+CREATE (conservation_effort:ConservationEffort {name: "Conservation efforts", absID: "1"})
+CREATE (time_range:TimeRange {start_date: "1997-01-01", end_date: "2001-12-31", absID: "1"})
+
+CREATE (abs)-[:IS_PART_OF {absID: "1"}]->(conservation_effort)
+CREATE (conservation_effort)-[:OCCURS_DURING {absID: "1"}]->(time_range)
+
+CREATE (disease_monitoring:DiseaseMonitoring {name: "Infectious disease monitoring", absID: "1"})
+
+CREATE (abs)-[:HAS_ACTIVITY {absID: "1"}]->(disease_monitoring)
+CREATE (conservation_effort)-[:INVOLVES {absID: "1"}]->(disease_monitoring)
+
+CREATE (study:Study {name: "Infectious disease monitoring of the endangered Hawaiian monk seal", absID: "1"})
+
+CREATE (abs)-[:IS_STUDY {absID: "1"}]->(study)
+CREATE (study)-[:OCCURS_DURING {absID: "1"}]->(time_range)
+CREATE (study)-[:INVOLVES {absID: "1"}]->(conservation_effort)
+CREATE (study)-[:MONITORS {absID: "1"}]->(disease_monitoring)
+```
+
+Note:
+
+* `abs` represents the abstract of the study.
+* `host` represents the Hawaiian monk seal, which is the host of the infectious disease.
+* `pathogen` represents the infectious disease.
+* `conservation_effort` represents the conservation efforts between 1997 and 2001.
+* `time_range` represents the time period during which the conservation efforts took place.
+* `disease_monitoring` represents the activity of monitoring the infectious disease.
+* `study` represents the study on infectious disease monitoring of the endangered Hawaiian monk seal.
+
+The relationships between these nodes are:
+
+* `HAS_HOST`: The abstract is related to the host (Hawaiian monk seal).
+* `HAS_PATHOGEN`: The abstract is related to the pathogen (infectious disease).
+* `IS_PART_OF`: The abstract is part of the conservation effort.
+* `OCCURS_DURING`: The conservation effort occurs during the time period.
+* `HAS_ACTIVITY`: The abstract is related to the activity of disease monitoring.
+* `INVOLVES`: The conservation effort involves the activity of disease monitoring.
+* `IS_STUDY`: The abstract is a study on infectious disease monitoring of the endangered Hawaiian monk seal.
+* `OCCURS_DURING`: The study occurs during the time period.
+* `INVOLVES`: The study involves the conservation effort.
+* `MONITORS`: The study monitors the activity of disease monitoring.

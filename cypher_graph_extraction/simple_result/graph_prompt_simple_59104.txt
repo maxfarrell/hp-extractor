@@ -1,0 +1,28 @@
+Here is the graph database based on the abstract:
+
+```
+CREATE (abs:Abstract {absID: "The costs of dominance: testosterone"})
+CREATE (costs:Node {name: "Costs", label: "Concept", absID: "The costs of dominance: testosterone"})
+CREATE (dominance:Node {name: "Dominance", label: "Concept", absID: "The costs of dominance: testosterone"})
+CREATE (testosterone:Node {name: "Testosterone", label: "Concept", absID: "The costs of dominance: testosterone"})
+
+CREATE (costs)-[:RELATES_TO {absID: "The costs of dominance: testosterone"}]->(dominance)
+CREATE (dominance)-[:RELATES_TO {absID: "The costs of dominance: testosterone"}]->(testosterone)
+
+CREATE (host:Node {name: "Host", label: "Biological Entity", absID: "The costs of dominance: testosterone"})
+CREATE (pathogen:Node {name: "Pathogen", label: "Biological Entity", absID: "The costs of dominance: testosterone"})
+
+CREATE (host)-[:IS_INVOLVED_IN {absID: "The costs of dominance: testosterone"}]->(dominance)
+CREATE (pathogen)-[:IS_INVOLVED_IN {absID: "The costs of dominance: testosterone"}]->(dominance)
+
+CREATE (testosterone)-[:IS_ASSOCIATED_WITH {absID: "The costs of dominance: testosterone"}]->(host)
+CREATE (testosterone)-[:IS_ASSOCIATED_WITH {absID: "The costs of dominance: testosterone"}]->(pathogen)
+
+CREATE (synonym1:Node {name: "Costs of dominance", label: "Synonym", absID: "The costs of dominance: testosterone"})
+CREATE (synonym2:Node {name: "Dominance costs", label: "Synonym", absID: "The costs of dominance: testosterone"})
+
+CREATE (costs)-[:HAS_SYNONYM {absID: "The costs of dominance: testosterone"}]->(synonym1)
+CREATE (dominance)-[:HAS_SYNONYM {absID: "The costs of dominance: testosterone"}]->(synonym2)
+```
+
+Note: The labels and properties used are based on the provided abstract and may not be exhaustive or accurate for all possible entities and relationships in the field of biology.

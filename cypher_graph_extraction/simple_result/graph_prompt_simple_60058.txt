@@ -1,0 +1,36 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Serological survey of selected canine viral pathogens and zoonoses in grizzly bears (Ursus arctos horribilis) and black bears (Ursus americanus) from Alaska. Between 1988 and 1991"})
+
+CREATE (study:Study {name: "Serological survey", startDate: "1988", endDate: "1991", location: "Alaska"})
+
+CREATE (host:Host {name: "Grizzly bear", synonym: "Ursus arctos horribilis", scientificName: "Ursus arctos horribilis", absID: "Grizzly bear"})
+CREATE (host2:Host {name: "Black bear", synonym: "Ursus americanus", scientificName: "Ursus americanus", absID: "Black bear"})
+
+CREATE (pathogen:Pathogen {name: "Canine viral pathogen", synonym: "Canine viral pathogen", absID: "Canine viral pathogen"})
+
+CREATE (grizzly_bear_host)-[:HOST_OF {study: study}]->(study)
+CREATE (black_bear_host)-[:HOST_OF {study: study}]->(study)
+
+CREATE (study)-[:STUDYED {pathogen: pathogen}]->(pathogen)
+
+CREATE (pathogen)-[:IS_PATHOGEN_OF {host: host}]->(host)
+CREATE (pathogen)-[:IS_PATHOGEN_OF {host: host2}]->(host2)
+
+CREATE (study)-[:PUBLISHED_IN {abstract: abs}]->(abs)
+```
+
+This graph database includes the following entities:
+
+* Abstract: represents the abstract of the study
+* Study: represents the study itself, including its name, start and end dates, and location
+* Host: represents the hosts (grizzly bears and black bears) studied in the paper, including their names, synonyms, scientific names, and absID
+* Pathogen: represents the canine viral pathogen studied in the paper, including its name, synonym, and absID
+
+The relationships between these entities are:
+
+* HOST_OF: represents the relationship between a host and a study
+* STUDYED: represents the relationship between a study and a pathogen
+* IS_PATHOGEN_OF: represents the relationship between a pathogen and a host
+* PUBLISHED_IN: represents the relationship between a study and an abstract

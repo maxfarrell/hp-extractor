@@ -1,0 +1,45 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Steroid hormone related male biased parasitism in chamois"})
+CREATE (host:Host {name: "Chamois", synonym: "Rupicapra rupicapra"})
+CREATE (pathogen:Pathogen {name: "Steroid hormone related male biased parasitism"})
+
+CREATE (abs)-[:STUDIES]->(host)
+CREATE (abs)-[:STUDIES]->(pathogen)
+
+CREATE (host)-[:HOST_OF]->(pathogen)
+
+CREATE (pathogen)-[:RELATED_TO]->(hormone:Hormone {name: "Steroid hormone", synonym: "Sex steroid"})
+CREATE (pathogen)-[:BIASED_TOWARDS]->(male:Sex {name: "Male", synonym: "Male sex"})
+
+CREATE (hormone)-[:PART_OF]->(endocrine_system:System {name: "Endocrine system", synonym: "Endocrine system of chamois"})
+
+CREATE (male)-[:SEX_OF]->(host)
+
+CREATE (parasitism:Parasitism {name: "Male biased parasitism", synonym: "Steroid hormone related male biased parasitism"})
+
+CREATE (pathogen)-[:CAUSES]->(parasitism)
+
+CREATE (parasitism)-[:AFFECTS]->(host)
+```
+
+Here's a brief explanation of each node and relationship:
+
+* `Abstract`: The abstract of the study.
+* `Host`: The chamois, the host species.
+* `Pathogen`: The steroid hormone related male biased parasitism, the pathogen.
+* `Hormone`: The steroid hormone, a type of hormone.
+* `System`: The endocrine system, a biological system.
+* `Sex`: The male sex, a biological characteristic.
+* `Parasitism`: The male biased parasitism, a type of parasitism.
+* `STUDIES`: The relationship between the abstract and the host/pathogen.
+* `HOST_OF`: The relationship between the host and the pathogen.
+* `RELATED_TO`: The relationship between the pathogen and the hormone.
+* `BIASED_TOWARDS`: The relationship between the pathogen and the male sex.
+* `PART_OF`: The relationship between the hormone and the endocrine system.
+* `SEX_OF`: The relationship between the male sex and the host.
+* `CAUSES`: The relationship between the pathogen and the parasitism.
+* `AFFECTS`: The relationship between the parasitism and the host.
+
+Note that some of these nodes and relationships may not be explicitly mentioned in the abstract, but they are inferred based on the context and the biological concepts involved.

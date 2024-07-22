@@ -1,0 +1,46 @@
+Here is the graph database in Neo4j cypher format:
+```
+CREATE (abs:Abstract {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"})
+
+CREATE (population:Population {name: "Columbian black-tailed deer", synonym: "Odocoileus hemionus columbianus"})
+CREATE (host:Host {name: "Black-tailed deer", synonym: "Odocoileus hemionus columbianus", population: population})
+
+CREATE (syndrome:Syndrome {name: "Hair loss syndrome", synonym: "HLS"})
+
+CREATE (pathogen:Pathogen {name: "Unknown", synonym: "Unknown"})
+
+CREATE (mortality: Mortality {name: "Overwinter fawn mortality"})
+
+CREATE (study:Study {name: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"})
+
+CREATE (fawn:Fawn {name: "Fawn", population: population})
+CREATE (fawn)-[:HOST_TO {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(host)
+
+CREATE (fawn)-[:AFFLICTED_BY {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(syndrome)
+CREATE (syndrome)-[:CAUSED_BY {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(pathogen)
+
+CREATE (fawn)-[:MORTALITY {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(mortality)
+CREATE (study)-[:STUDIED {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(fawn)
+CREATE (study)-[:LOCATED_IN {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(population)
+
+CREATE (abs)-[:RELATED_TO {absID: "Winter fawn survival in black-tailed deer populations affected by hair loss syndrome"}]->(study)
+```
+Note: I've used the following labels and properties:
+
+* `Abstract`: represents the abstract of the study
+* `Population`: represents a population of animals
+* `Host`: represents the host organism (in this case, the black-tailed deer)
+* `Syndrome`: represents a medical condition (in this case, hair loss syndrome)
+* `Pathogen`: represents a disease-causing agent (in this case, unknown)
+* `Mortality`: represents a type of mortality
+* `Fawn`: represents a young deer
+* `Study`: represents the study itself
+* `AFFLICTED_BY`: represents the relationship between a host and a syndrome
+* `CAUSED_BY`: represents the relationship between a syndrome and a pathogen
+* `HOST_TO`: represents the relationship between a host and a population
+* `MORTALITY`: represents the relationship between a fawn and mortality
+* `STUDIED`: represents the relationship between a study and a fawn
+* `LOCATED_IN`: represents the relationship between a study and a population
+* `RELATED_TO`: represents the relationship between an abstract and a study
+
+I hope this helps! Let me know if you have any questions.

@@ -1,0 +1,55 @@
+Here is the graph database in Neo4j cypher format:
+```
+CREATE (abs:Abstract {absID: "A longitudinal study of Junin virus activity in the rodent reservoir of Argentine hemorrhagic fever"})
+
+CREATE (study:Study {name: "Longitudinal Study", abs: abs})
+CREATE (location:Location {name: "Agricultural fields and adjacent roadsides and fence lines", abs: abs})
+CREATE (endemic_area:Location {name: "Endemic areas of Argentine hemorrhagic fever", abs: abs})
+CREATE (nonendemic_area:Location {name: "Nonendemic areas of Argentine hemorrhagic fever", abs: abs})
+
+CREATE (virus:Pathogen {name: "Junin virus", synonym: "JV", abs: abs})
+CREATE (rodent:Host {name: "Rodent", synonym: "Calomys laucha and C. musculinus", abs: abs})
+
+CREATE (study)-[:LOCATED_IN {name: "Study Location"}]->(location)
+CREATE (study)-[:OCCURRED_IN {name: "Study Timeframe"}]->(timeframe:Timeframe {start: "30 months", abs: abs})
+CREATE (study)-[:INVESTIGATED {name: "Investigated Entity"}]->(virus)
+CREATE (study)-[:INVESTIGATED {name: "Investigated Entity"}]->(rodent)
+
+CREATE (virus)-[:INFECTS {name: "Infects"}]->(rodent)
+
+CREATE (location)-[:CONTAINS {name: "Contains"}]->(endemic_area)
+CREATE (location)-[:CONTAINS {name: "Contains"}]->(nonendemic_area)
+
+CREATE (rodent)-[:CAPTURED {name: "Captured"}]->(capture:Capture {frequency: "five-week intervals", abs: abs})
+CREATE (capture)-[:ANALYZED {name: "Analyzed"}]->(sample:Sample {type: "Blood and oral swabs", abs: abs})
+CREATE (sample)-[:TESTED {name: "Tested"}]->(test:Test {method: "Enzyme-linked immunosorbent assay", abs: abs})
+CREATE (test)-[:DETECTED {name: "Detected"}]->(virus)
+
+CREATE (abs)-[:HAS_ENTITY {name: "Has Entity"}]->(study)
+CREATE (abs)-[:HAS_ENTITY {name: "Has Entity"}]->(virus)
+CREATE (abs)-[:HAS_ENTITY {name: "Has Entity"}]->(rodent)
+```
+Note that I used the following conventions:
+
+* `abs` nodes represent abstracts, and have an `absID` property.
+* `Study` nodes represent studies, and have a `name` property.
+* `Location` nodes represent locations, and have a `name` property.
+* `Pathogen` nodes represent pathogens, and have a `name` and `synonym` property.
+* `Host` nodes represent hosts, and have a `name` and `synonym` property.
+* `Timeframe` nodes represent timeframes, and have a `start` property.
+* `Capture` nodes represent captures, and have a `frequency` property.
+* `Sample` nodes represent samples, and have a `type` property.
+* `Test` nodes represent tests, and have a `method` property.
+
+I also used the following relationships:
+
+* `LOCATED_IN` represents the location of a study.
+* `OCCURRED_IN` represents the timeframe of a study.
+* `INVESTIGATED` represents the entities investigated in a study.
+* `INFECTS` represents the infection of a host by a pathogen.
+* `CONTAINS` represents the containment of a location by another location.
+* `CAPTURED` represents the capture of a host.
+* `ANALYZED` represents the analysis of a sample.
+* `TESTED` represents the testing of a sample.
+* `DETECTED` represents the detection of a pathogen in a sample.
+* `HAS_ENTITY` represents the relationship between an abstract and an entity.

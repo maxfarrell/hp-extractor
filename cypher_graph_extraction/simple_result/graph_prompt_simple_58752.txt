@@ -1,0 +1,120 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "Helminth parasites of translocated raccoons"})
+
+CREATE (study:Study {name: "Translocated Raccoon Helminth Study"})
+
+CREATE (location:Location {name: "Appalachian Mountains", region: "Southeastern United States"})
+
+CREATE (host:Host {name: "Raccoon", species: "Procyon lotor", synonym: "Procyon lotori"})
+
+CREATE (pathogen:Pathogen {name: "Helminth", type: "Parasite"})
+
+CREATE (translocated_raccoon:Host {name: "Translocated Raccoon", species: "Procyon lotor", synonym: "Procyon lotori", study: study, location: location})
+
+CREATE (resident_raccoon:Host {name: "Resident Raccoon", species: "Procyon lotor", synonym: "Procyon lotori", study: study, location: location})
+
+CREATE (helminth_parasite:Pathogen {name: "Helminth Parasite", type: "Parasite", abs: abs})
+
+CREATE (trematode:Pathogen {name: "Trematode", type: "Parasite", abs: abs, parent: helminth_parasite})
+
+CREATE (raccoon_host:Host_Pathogen {host: host, pathogen: helminth_parasite, abs: abs})
+
+CREATE (translocated_raccoon_host:Host_Pathogen {host: translocated_raccoon, pathogen: helminth_parasite, abs: abs})
+
+CREATE (resident_raccoon_host:Host_Pathogen {host: resident_raccoon, pathogen: helminth_parasite, abs: abs})
+
+CREATE (exotic_parasite:Pathogen {name: "Exotic Helminth Parasite", type: "Parasite", abs: abs})
+
+CREATE (translocated_raccoon_exotic_host:Host_Pathogen {host: translocated_raccoon, pathogen: exotic_parasite, abs: abs})
+
+CREATE (resident_raccoon_exotic_host:Host_Pathogen {host: resident_raccoon, pathogen: exotic_parasite, abs: abs})
+
+CREATE (helminth_species:Pathogen {name: "Helminth Species", type: "Parasite", abs: abs})
+
+CREATE (trematode_species:Pathogen {name: "Trematode Species", type: "Parasite", abs: abs, parent: helminth_species})
+
+CREATE (raccoon_host_helminth_species:Host_Pathogen {host: host, pathogen: helminth_species, abs: abs})
+
+CREATE (translocated_raccoon_host_helminth_species:Host_Pathogen {host: translocated_raccoon, pathogen: helminth_species, abs: abs})
+
+CREATE (resident_raccoon_host_helminth_species:Host_Pathogen {host: resident_raccoon, pathogen: helminth_species, abs: abs})
+
+CREATE (exotic_helminth_species:Pathogen {name: "Exotic Helminth Species", type: "Parasite", abs: abs})
+
+CREATE (translocated_raccoon_exotic_helminth_host:Host_Pathogen {host: translocated_raccoon, pathogen: exotic_helminth_species, abs: abs})
+
+CREATE (resident_raccoon_exotic_helminth_host:Host_Pathogen {host: resident_raccoon, pathogen: exotic_helminth_species, abs: abs})
+
+CREATE (helminth_parasite_type:Type {name: "Helminth Parasite", type: "Parasite"})
+
+CREATE (trematode_type:Type {name: "Trematode", type: "Parasite"})
+
+CREATE (helminth_parasite_type)-[:IS_SUBTYPE_OF {abs: abs}]->(helminth_parasite)
+
+CREATE (trematode_type)-[:IS_SUBTYPE_OF {abs: abs}]->(trematode)
+
+CREATE (helminth_parasite)-[:HAS_HOST {abs: abs}]->(host)
+
+CREATE (helminth_parasite)-[:HAS_HOST {abs: abs}]->(translocated_raccoon)
+
+CREATE (helminth_parasite)-[:HAS_HOST {abs: abs}]->(resident_raccoon)
+
+CREATE (trematode)-[:HAS_HOST {abs: abs}]->(translocated_raccoon)
+
+CREATE (trematode)-[:HAS_HOST {abs: abs}]->(resident_raccoon)
+
+CREATE (exotic_parasite)-[:HAS_HOST {abs: abs}]->(translocated_raccoon)
+
+CREATE (exotic_parasite)-[:HAS_HOST {abs: abs}]->(resident_raccoon)
+
+CREATE (helminth_species)-[:HAS_HOST {abs: abs}]->(host)
+
+CREATE (helminth_species)-[:HAS_HOST {abs: abs}]->(translocated_raccoon)
+
+CREATE (helminth_species)-[:HAS_HOST {abs: abs}]->(resident_raccoon)
+
+CREATE (exotic_helminth_species)-[:HAS_HOST {abs: abs}]->(translocated_raccoon)
+
+CREATE (exotic_helminth_species)-[:HAS_HOST {abs: abs}]->(resident_raccoon)
+
+CREATE (study)-[:HAS_LOCATION {abs: abs}]->(location)
+
+CREATE (study)-[:HAS_HOST {abs: abs}]->(host)
+
+CREATE (study)-[:HAS_HOST {abs: abs}]->(translocated_raccoon)
+
+CREATE (study)-[:HAS_HOST {abs: abs}]->(resident_raccoon)
+
+CREATE (study)-[:HAS_PATHOGEN {abs: abs}]->(helminth_parasite)
+
+CREATE (study)-[:HAS_PATHOGEN {abs: abs}]->(trematode)
+
+CREATE (study)-[:HAS_PATHOGEN {abs: abs}]->(exotic_parasite)
+
+CREATE (study)-[:HAS_PATHOGEN {abs: abs}]->(helminth_species)
+
+CREATE (study)-[:HAS_PATHOGEN {abs: abs}]->(exotic_helminth_species)
+```
+
+This graph database includes the following nodes:
+
+* `Abstract`: represents the abstract of the study
+* `Study`: represents the study itself
+* `Location`: represents the location of the study
+* `Host`: represents the raccoons (translocated and resident)
+* `Pathogen`: represents the helminth parasites (helminth, trematode, exotic helminth, etc.)
+* `Type`: represents the type of helminth parasite (helminth parasite, trematode, etc.)
+* `Host_Pathogen`: represents the relationship between a host and a pathogen
+* `Exotic_Parasite`: represents the exotic helminth parasites found in translocated raccoons
+
+The relationships between these nodes include:
+
+* `HAS_HOST`: represents the relationship between a pathogen and its host
+* `IS_SUBTYPE_OF`: represents the relationship between a type and its parent type
+* `HAS_LOCATION`: represents the relationship between a study and its location
+* `HAS_HOST`: represents the relationship between a study and its host
+* `HAS_PATHOGEN`: represents the relationship between a study and its pathogen
+
+Note that this is a simplified representation of the data and may not capture all the nuances and complexities of the original abstract.

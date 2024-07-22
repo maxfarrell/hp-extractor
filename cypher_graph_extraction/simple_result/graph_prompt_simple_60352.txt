@@ -1,0 +1,39 @@
+Here is the graph database in Neo4j cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+CREATE (study:Study {absID: "1"})
+CREATE (location:Location {name: "Western Alps", absID: "1"})
+CREATE (country:Country {name: "Italy", absID: "1"})
+CREATE (host:Host {name: "Foxes", absID: "1", synonym: ["Foxes"]})
+CREATE (host2:Host {name: "Badgers", absID: "1", synonym: ["Badgers"]})
+CREATE (pathogen:Pathogen {name: "Physaloptera sibirica", absID: "1", synonym: ["Physaloptera sibirica"]})
+
+CREATE (study)-[:LOCATED_IN {absID: "1"}]->(location)
+CREATE (study)-[:FOUND_IN {absID: "1"}]->(country)
+CREATE (study)-[:INFECTED_HOST {absID: "1"}]->(host)
+CREATE (study)-[:INFECTED_HOST {absID: "1"}]->(host2)
+CREATE (study)-[:INFECTED_BY {absID: "1"}]->(pathogen)
+CREATE (host)-[:IS_HOST_OF {absID: "1"}]->(pathogen)
+CREATE (host2)-[:IS_HOST_OF {absID: "1"}]->(pathogen)
+```
+
+This graph database includes the following entities:
+
+* `Abstract`: represents the abstract of the study
+* `Study`: represents the study itself
+* `Location`: represents the location where the study was conducted
+* `Country`: represents the country where the study was conducted
+* `Host`: represents the hosts (foxes and badgers) that were infected with the pathogen
+* `Pathogen`: represents the pathogen (Physaloptera sibirica) that was found in the hosts
+
+The relationships between these entities are as follows:
+
+* `study` is located in `location`
+* `study` was conducted in `country`
+* `study` infected `host` with `pathogen`
+* `study` infected `host2` with `pathogen`
+* `host` is a host of `pathogen`
+* `host2` is a host of `pathogen`
+
+Note that the `absID` property is used to link each node and relationship to the original abstract.

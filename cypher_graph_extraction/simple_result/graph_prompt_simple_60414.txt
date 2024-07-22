@@ -1,0 +1,43 @@
+Here is the graph database in Neo4j Cypher format:
+
+```
+CREATE (abs:Abstract {absID: "1"})
+
+CREATE (host:Host {name: "Black Bear", synonym: "Ursus americanus"})
+CREATE (pathogen:Pathogen {name: "Granulocytic Ehrlichia", synonym: "Ehrlichia sp."})
+
+CREATE (hge:PathogenStrain {name: "Human Granulocytic Ehrlichiosis", synonym: "HGE"})
+CREATE (hge)-[:IS_CAUSED_BY {absID: "1"}]->(pathogen)
+
+CREATE (sample:Sample {collectionDate: "24 November 1997"})
+CREATE (bear:HostIndividual {name: "Black Bear"})
+CREATE (sample)-[:COLLECTED_FROM {absID: "1"}]->(bear)
+
+CREATE (serum:SampleType {name: "Serum"})
+CREATE (sample)-[:CONTAINS {absID: "1"}]->(serum)
+
+CREATE (antibody:Antibody {titer: ["1:8", "1:16"]})
+CREATE (sample)-[:TESTED_FOR {absID: "1"}]->(antibody)
+
+CREATE (reactive_sample:Sample {result: "Reactive"})
+CREATE (non_reactive_sample:Sample {result: "Non-Reactive"})
+CREATE (sample)-[:HAS_RESULT {absID: "1"}]->(reactive_sample)
+CREATE (reactive_sample)-[:HAS_COUNTY {absID: "1"}]->(county:County {name: "Pennsylvania"})
+CREATE (non_reactive_sample)-[:HAS_COUNTY {absID: "1"}]->(county)
+
+CREATE (county)-[:HAS_BEAR_SAMPLE {absID: "1"}]->(sample)
+CREATE (bear)-[:FOUND_IN {absID: "1"}]->(county)
+
+CREATE (prevalence:Prevalence {percentage: 21})
+CREATE (sample)-[:HAS_PREVALENCE {absID: "1"}]->(prevalence)
+
+CREATE (hge_antigen:Antigen {name: "HGE Antigen"})
+CREATE (sample)-[:TESTED_AGAINST {absID: "1"}]->(hge_antigen)
+
+CREATE (immunofluorescence:Assay {name: "Indirect Immunofluorescence Assay"})
+CREATE (sample)-[:PERFORMED_WITH {absID: "1"}]->(immunofluorescence)
+
+CREATE (abs)-[:RELATES_TO {absID: "1"}]->(sample)
+```
+
+Note: This graph database includes nodes for Abstract, Host, Pathogen, Pathogen Strain, Sample, Host Individual, Sample Type, Antibody, and County, as well as relationships between them. The properties for each node include the absID property, as well as other relevant information such as names, synonyms, collection dates, and results.
