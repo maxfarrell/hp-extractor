@@ -1,0 +1,20 @@
+Please analyze the following abstract and extract the relationships between hosts and pathogens. Return the results in JSON format with two keys: "Host" and "Pathogen". Each key should be associated with a list of corresponding values.
+
+Example output format:
+{
+  "Host": ["Eurasian Lynx", "Red Fox"],
+  "Pathogen": ["Helicobacter spp. (H. heilmannii)", "Helicobacter spp. (H. heilmannii, H. salomonis)"]
+}
+
+Please return the results in the above JSON format
+
+Also, a few factors you should consider:
+1.Based on this information, identify all species mentioned either by their common name of latin name. 
+2.Create a comprehensive list of all the species. Include every synonym as a separate species. Double-check that you have identified all species, including those that may be abbreviated (in which case infer the whole name).  
+3.Categorise each species into host and pathogen. ' 
+4.Create a table with exactly 2 columns: host (latin name), pathogen (latin name)
+5.Only include information that is included in the given abstract.  
+6.Just strictly like the above example Json format， no need to provide other information.
+
+
+Now, here is the abstract:
