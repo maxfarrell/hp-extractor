@@ -1,0 +1,27 @@
+entity_id,entity,doc_id,label
+1,Batrachochytrium dendrobatidis,1,Pathogen
+2,Chytrid Fungus,1,Term
+3,Texas Salamander,1,Host
+4,Blanco River Springs Salamander,1,Host
+5,San Marcos Salamander,1,Host
+6,Barton Springs Salamander,1,Host
+7,Jollyville Plateau Salamander,1,Host
+8,Salamander,1,Taxon
+9,Central Texas,1,Location
+10,Endangered Species,1,Epidemiological Concept
+11,PCR Protocol,1,Process
+12,5.8S rRNA gene,1,Property
+13,Internal Transcribed Spacer (ITS) regions,1,Property
+14,Nonconsumptive Tail Clippings,1,Sampling Method
+15,Spirometra erinacei,2,Helminth
+16,Cyclops,2,Organism
+17,Rana nigromaculata,2,Organism
+18,ICR mice,2,Organism
+19,Dogs,2,Organism
+20,Cats,2,Organism
+21,Coracidium,2,Larva
+22,Mesocyclops leuckarti,2,Organism
+23,Eucyclops serrulatus,2,Organism
+24,Procercoids,2,Undefined
+25,Plerocercoids,2,Undefined
+26,Coracidial infection,2,Undefined

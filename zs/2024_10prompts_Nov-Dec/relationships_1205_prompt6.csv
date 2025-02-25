@@ -1,0 +1,886 @@
+source,target,relation_type,doc_id
+Batrachochytrium dendrobatidis,Salamander,infects,1
+Batrachochytrium dendrobatidis,Central Texas,detected in,1
+Batrachochytrium dendrobatidis,Texas,detected in,1
+Batrachochytrium dendrobatidis,USA,detected in,1
+Batrachochytrium dendrobatidis,Jollyville Plateau,detected in,1
+Batrachochytrium dendrobatidis,Blanco River Springs,detected in,1
+Batrachochytrium dendrobatidis,San Marcos,detected in,1
+Batrachochytrium dendrobatidis,Barton Springs,detected in,1
+PCR protocol,Batrachochytrium dendrobatidis,used to detect,1
+5.8S rRNA gene,Batrachochytrium dendrobatidis,confirmed the detection of,1
+ITS regions,Batrachochytrium dendrobatidis,confirmed the detection of,1
+Nonconsumptive tail clippings,samples,used to collect,1
+Spirometra erinacei,Cyclops,infects,2
+Spirometra erinacei,Rana nigromaculata,infects,2
+Spirometra erinacei,ICR mice,infects,2
+Spirometra erinacei,Dogs,infects,2
+Spirometra erinacei,Cats,infects,2
+Spirometra erinacei,Mesocyclops leuckarti,infects,2
+Spirometra erinacei,Eucyclops serrulatus,infects,2
+Coracidium,Procercoids,develops into,2
+Procercoids,Plerocercoids,develops into,2
+Plerocercoids,Larval worms,develops into,2
+Larval worms,Adult worms,develops into,2
+Spirometra erinacei,Laboratory,maintained in,2
+Batrachochytrium dendrobatidis,Amphibian,infects,3
+Batrachochytrium dendrobatidis,International Trade,was introduced by,3
+Batrachochytrium dendrobatidis,Chytridiomycosis,causes,3
+Batrachochytrium dendrobatidis,Africa,originated from,3
+International Trade,Batrachochytrium dendrobatidis,spread,3
+Xenopus,Batrachochytrium dendrobatidis,was infected by,3
+Protopolystoma xenopodis,Xenopus laevis,infects,4
+Protopolystoma xenopodis,Urinary bladder,occurs in,4
+Protopolystoma xenopodis,South Wales,introduced to,4
+Protopolystoma xenopodis,in U.K.,produces eggs,4
+Pseudodiplorchis americanus,Desert toad,infects,5
+Protopolystoma xenopodis,Aquatic Xenopus laevis,infects,5
+Protopolystoma xenopodis,Xenopus laevis,infects,5
+Adult worms,Environmental factors,are regulated by,5
+Adult worms,Host factors,are regulated by,5
+Adult worms,Parasite factors,are regulated by,5
+Immune response,Protopolystoma xenopodis,responds to,5
+Parasite,Host species,infects,6
+Protopolystoma xenopodis,Xenopus laevis laevis,infects,6
+Protopolystoma xenopodis,Xenopus muelleri,infects,6
+Host species,Host species,hybridizes,6
+Host species,Parasite,resists,6
+Parasite,Parasite,co-occurs,6
+Parasite,Host genotype,interacts,6
+Host genotype,Parasite genotype,interacts,6
+Hybridization,Selective advantage,confers,6
+Protopolystoma xenopodis,Xenopus laevis,introduced,7
+Protopolystoma xenopodis,Xenopus laevis,infects,7
+Protopolystoma xenopodis,Eggs,develops in,7
+Temperatures,Egg Development,affect,7
+Protopolystoma xenopodis,Temperatures (15°C),requires,7
+Field Temperature Records,Calibration,provide,7
+Global Warming,Infection,enhances,7
+Habitat Temperatures,Life-Cycle Progress,allow,7
+Trypanosoma avium,Raptors,infects,8
+Trypanosoma avium,Black flies,transmitted by,8
+Trypanosoma avium,Hippoboscid flies,transmitted by,8
+Trypanosoma avium,Mosquitoes,transmitted by,8
+Trypanosoma avium,Biting midges,transmitted by,8
+Trypanosoma avium,Raptors,isolated from,8
+Trypanosoma avium,Black flies,isolated from,8
+Trypanosoma avium,Hippoboscid flies,isolated from,8
+Trypanosoma avium,Mosquitoes,isolated from,8
+Trypanosoma avium,Kinetoplast,has feature,8
+Trypanosoma avium,Minicircle size,has feature,8
+Trypanosoma avium,Kinetoplast disc dimensions,has feature,8
+Mycoplasma gallisepticum,Songbirds,infects,9
+Mycoplasma gallisepticum,House Finches,infects,9
+Mycoplasma gallisepticum,Blue Jay,infects,9
+Mycoplasma gallisepticum,American Goldfinches,infects,9
+House Finches,Mycoplasma gallisepticum,hosts,9
+Blue Jay,Mycoplasma gallisepticum,hosts,9
+American Goldfinches,Mycoplasma gallisepticum,hosts,9
+Mycoplasma gallisepticum,Lesions,isolated from,9
+Lesions,Infected Birds,found on,9
+Mycoplasma gallisepticum,Cage,isolated from,9
+Cage,House Finches,previously occupied by,9
+Mycoplasma gallisepticum,Free-ranging American Goldfinches,isolated from,9
+United States,Mycoplasma gallisepticum,location of outbreak,9
+North Carolina,Mycoplasma gallisepticum,location of mg isolates,9
+Mycoplasma gallisepticum,Vaccine and Reference Strains,comparable to,9
+Mycoplasma gallisepticum,Contemporary MG Isolates,comparable to,9
+Mycoplasma gallisepticum,Commercial Poultry,not shared with,9
+Mycoplasma sturni,Blue Jays,infects,10
+Mycoplasma sturni,Northern Mockingbirds,infects,10
+Mycoplasma sturni,House Finches,infects,10
+Mycoplasma sturni,American Goldfinches,infects,10
+Mycoplasma sturni,Conjunctival/Corneal Swabs,cultured_from,10
+Mycoplasma sturni,Indirect Immunofluorescence,identified_by,10
+Mycoplasmal Conjunctivitis,Songbirds,affects,11
+Mycoplasma gallisepticum,House Finches,infects,11
+Mycoplasma gallisepticum,American Goldfinches,infects,11
+Mycoplasma gallisepticum,Purple Finches,infects,11
+Mycoplasma gallisepticum,Brown-headed Cowbirds,infects,11
+Mycoplasma gallisepticum,Tufted Titmice,infects,11
+House Finches,Mycoplasma gallisepticum,hosts,11
+American Goldfinches,Mycoplasma gallisepticum,hosts,11
+Purple Finches,Mycoplasma gallisepticum,hosts,11
+Brown-headed Cowbirds,Mycoplasma gallisepticum,hosts,11
+Tufted Titmice,Mycoplasma gallisepticum,hosts,11
+New York,Tompkins County,located,11
+Tompkins County,USA,located,11
+Mycoplasma gallisepticum,Passerine bird species,infects,12
+Mycoplasma gallisepticum,House finch,infects,12
+Mycoplasma gallisepticum,American goldfinch,infects,12
+Mycoplasma gallisepticum,House sparrow,infects,12
+American goldfinch,House finches,remains infectious,12
+House finches,Mycoplasma gallisepticum,are infected,12
+Mycoplasma gallisepticum,Evening Grosbeaks,infects,13
+Mycoplasma gallisepticum,Pine Grosbeaks,infects,13
+Mycoplasma gallisepticum,House Finches,infects,13
+Mycoplasma gallisepticum,American Gold Finches,infects,13
+Mycoplasma gallisepticum,Quebec,infects,13
+Mycoplasma gallisepticum,Conjunctivitis,causes,13
+Mycoplasma gallisepticum,House Finches,infects,14
+Mycoplasma gallisepticum,American Goldfinches,infects,14
+Mycoplasma gallisepticum,Purple Finches,infects,14
+Mycoplasma gallisepticum,House Sparrows,infects,14
+House Finches,Mycoplasma gallisepticum,transmits,14
+House Finches,American Goldfinches,spills over to,14
+House Finches,Purple Finches,spills over to,14
+House Finches,House Sparrows,spills over to,14
+Mycoplasma gallisepticum,House Finches,infects,15
+Mycoplasma gallisepticum,American Goldfinch,infects,15
+House Finches,Birds,is a species of,15
+American Goldfinch,Birds,is a species of,15
+Wild Songbirds,Birds,is a group of,15
+Poultry,Mycoplasma gallisepticum,hosts,15
+House Finches,Mid-Atlantic region,resided in,15
+American Goldfinch,Eastern United States,resided in,15
+Wild Songbirds,Eastern United States and Canada,resided in,15
+Mycoplasma sturni,European Starling,infects,16
+Mycoplasma sturni,Glucose,ferments,16
+Mycoplasma sturni,37 C,grows,16
+Mycoplasma sturni,Chicken Erythrocytes,does not hemadsorb,16
+Mycoplasma sturni,Chicken Erythrocytes,does not hemagglutinate,16
+Mycoplasma sturni,Conjunctiva,is isolated from,16
+Mycoplasma sturni,Mycoplasmal Conjunctivitis,causes,16
+Mycoplasma gallisepticum,Conjunctivitis in House Finches,causes,16
+Mycoplasma gallisepticum,House Finches,infects,17
+House Finches,Mycoplasma gallisepticum,carry,17
+House Finches,Eastern North America,migrate,17
+House Finches,Eastern North America,disperse,17
+House Finches,Conjunctivitis,contract,17
+Conjunctivitis,House Finches,affect,17
+Conjunctivitis,Eastern House Finch Population,spread,17
+Conjunctivitis,Seasonally,fluctuate,17
+House Finches,Conjunctivitis,die,17
+Mycoplasma gallisepticum,House Finches,infects,18
+Mycoplasma gallisepticum,Eastern House Finches,infects,18
+Mycoplasma gallisepticum,Carpodacus mexicanus,infects,18
+Mycoplasma gallisepticum,Passerine species,infects,18
+House Finches,Bird feeders,maintains,18
+House Finches,Conjunctivitis,is affected by,18
+Bird feeders,House Finches,hosts,18
+Residential bird feeding sites,House Finches,hosts,18
+Eight state region,House Finches,hosts,18
+Eastern USA,House Finches,hosts,18
+November 1994,Study,starts,18
+October 1996,Study,ends,18
+Year of the study,Conjunctivitis,affects,18
+Season,Conjunctivitis,affects,18
+Platform type feeders,Conjunctivitis,affects,18
+Hopper type feeders,Conjunctivitis,affects,18
+Tube type feeders,Conjunctivitis,affects,18
+Raised platform type feeders,Conjunctivitis,affects,18
+Mycoplasma gallisepticum,House Finches,infects,19
+Mycoplasma gallisepticum,Conjunctivitis,causes,19
+Mycoplasma gallisepticum,Lesions,causes,19
+Mycoplasma gallisepticum,Lymphoplasmacytic inflammation,causes,19
+Mycoplasma gallisepticum,Epithelial and lymphoid hyperplasia,causes,19
+Mycoplasma gallisepticum,Polymerase chain reaction (PCR),detected by,19
+Mycoplasma gallisepticum,Arbitrary primer PCR,detected by,19
+Mycoplasma gallisepticum,Serum plate agglutination (SPA),confirmed by,19
+Mycoplasma gallisepticum,Hemagglutination inhibition (HI),confirmed by,19
+Mycoplasma gallisepticum,Enzyme-linked immunosorbent assay (ELISA),confirmed by,19
+Mycoplasma gallisepticum,Field strain,associated with,19
+House Finches,Captive,maintained in,19
+House Finches,Clinical signs,monitored for,19
+House Finches,Necropsy and mycoplasma testing,euthanatized for,19
+November 1995,Study,during,19
+January 1996,Study,during,19
+House Finch,Mycoplasma gallisepticum,infected by,20
+House Finch,Auburn,examined in,20
+House Finch,Alabama,trapped in,20
+House Finch,Serum Plate Agglutination,tested with,20
+House Finch,Polymerase Chain Reaction,tested with,20
+Mycoplasma gallisepticum,House Finch,infects,20
+Mycoplasma gallisepticum,House Finch,detected in,20
+Mycoplasma gallisepticum,House Finches,infects,21
+Mycoplasma gallisepticum,Wild Birds,infects,21
+House Finches,Poultry Production Facilities,associated with,21
+House Finches,Mycoplasma gallisepticum,exposed to,21
+Tufted Titmice,Mycoplasma gallisepticum,associated with,21
+Passerine Birds,Mycoplasma gallisepticum,exposed to,21
+Poultry Farms,Farm,has,21
+Feeder Stations,Setting,has,21
+Farm,Setting,has,21
+Mycoplasma gallisepticum,Serum Plate Agglutination,tested using,21
+Mycoplasma gallisepticum,Polymerase Chain Reaction,tested using,21
+Mycoplasma gallisepticum,Hemagglutination Inhibition,tested using,21
+Mycoplasma gallisepticum,Histopathology,tested using,21
+Mycoplasma gallisepticum,House Finch,infects,22
+Mycoplasma gallisepticum,Chickens,infects,22
+Mycoplasma gallisepticum,Turkeys,infects,22
+Mycoplasma gallisepticum,Eastern House Finches,is present in,22
+Mycoplasma gallisepticum,House Finch,has evolved with,22
+pvpA gene,Cytadhesin Protein PvpA,encodes for,22
+Polymerase Chain Reaction,pvpA gene,used to analyze,22
+Restriction Fragment Length Polymorphism,pvpA gene,used to analyze,22
+Nucleotide Sequencing,pvpA gene,used to analyze,22
+House Finch,Mycoplasma gallisepticum,is affected by,22
+Eastern United States,Mycoplasma gallisepticum,is affected by,22
+1994,Mycoplasma gallisepticum was first observed in House Finch,is the year,22
+House Finch,Mycoplasma gallicepticum,hosts,23
+House Finch,Carotenoid-based Plumage Coloration,display,23
+Carotenoid-based Plumage Coloration,Resistance,predicts,23
+Carotenoid-based Plumage Coloration,Female Mate Choice,influences,23
+House Finch,Mycoplasma gallicepticum,clear,23
+Redder Plagume,Better Clearance of Disease,predicts,23
+Yellower Plumage,Worse Clearance of Disease,predicts,23
+Mycoplasma gallisepticum,House Finches,infects,24
+Mycoplasma gallisepticum,Songbirds,infects,24
+Mycoplasma gallisepticum,North America,emerges,24
+Mycoplasma gallisepticum,House Finches,infects,25
+Mycoplasma gallisepticum,Poultry,infects,25
+Mycoplasma gallisepticum,Chickens,infects,25
+Mycoplasma gallisepticum,Turkeys,infects,25
+Mycoplasma gallisepticum,North America,emerges,25
+Mycoplasma gallisepticum,Portland,spreads,25
+Mycoplasma gallisepticum,Oregon,spreads,25
+Mycoplasma gallisepticum,Montana,spreads,25
+Mycoplasma gallisepticum,Missoula,spreads,25
+Mycoplasma gallisepticum,House Finches,infects,26
+Mycoplasma gallisepticum,Asymptomatic Carriers,transmitted by,26
+Mycoplasma gallisepticum,Novel Locations,spreads through,26
+West Nile Virus,Asymptomatic Carriers,may be transmitted by,26
+Avian Influenza,Asymptomatic Carriers,may be transmitted by,26
+Mycoplasma gallisepticum,Elevation,restricted by,26
+Mycoplasma gallisepticum,Host Abundance,restricted by,26
+Disease Spread,Seasonality in Host Movement,affected by,26
+Disease Spread,Seasonality in Disease Prevalence,affected by,26
+Mycoplasma gallisepticum,House Finch,infects,27
+IgA,Antibody,produces,27
+IgA,Pathogen,neutralizes,27
+IgA,Pathogen,impedes,27
+House Finch,IgA,produces,27
+Rabbit,Antiserum,produces,27
+Antiserum,House Finch Serum Protein,reacts with,27
+Antiserum,Plasma Cells,identifies,27
+Antiserum,Mycoplasma gallisepticum-specific IgA antibodies,detects,27
+Bacterial Expression System,Recombinant Protein,produces,27
+Recombinant Protein,Antiserum,generates,27
+ELISA,Mycoplasma gallisepticum-specific IgA antibodies,detects,27
+ELISA,Antiserum,uses,27
+Harderian Gland,Plasma Cells,contains,27
+Conjunctiva,Plasma Cells,contains,27
+Lachrymal Samples,Mycoplasma gallisepticum-specific IgA antibodies,contains,27
+Mycoplasma sturni,California House Finch,infects,28
+Mycoplasma sturni,House Finches,infects,28
+Mycoplasma sturni,European Starling,isolated from,28
+Mycoplasma gallisepticum,House Finches,infects,28
+Mycoplasma gallisepticum,conjunctivitis,causes,28
+Male House Finches,Diseased Conspecifics,prefer to feed near,29
+Pathogen,Male House Finches,infects,29
+Pathogen,Healthy Conspecifics,infects,29
+Sickness Behaviour,Evolutionary Trap, acting as,29
+Healthy Males,Mycoplasma Gallisepticum,increase risk of contracting,29
+Mycoplasma gallisepticum,House Finches,infects,30
+Mycoplasma gallisepticum,American Goldfinches,infects,30
+Mycoplasma gallisepticum,House Finches,transmits,30
+Mycoplasma gallisepticum,American Goldfinches,transmits,30
+Northern Cardinals,House Finches,co-occurs with,30
+American Goldfinches,House Finches,co-occurs with,30
+Higher disease prevalence,Higher numbers of Northern Cardinals,is associated with,30
+Higher disease prevalence,Higher numbers of American Goldfinches,is associated with,30
+Mycoplasma gallisepticum,House Finches,infects,31
+Mycoplasma gallisepticum,Eastern house finch population,affects,31
+Eastern house finch population,Location,migrates,31
+Eastern house finch population,Location,declines,31
+Northerly inland populations,Location,declines,31
+Mycoplasma gallisepticum,House Finches,infects,32
+Mycoplasma gallisepticum,Host cells,attaches to,32
+Mycoplasma gallisepticum,Host cells,invades,32
+Mycoplasma gallisepticum,Conjunctival samples,detected in,32
+Mycoplasma gallisepticum,Real-time polymerase chain reaction,detected by,32
+Mycoplasma gallisepticum,"TaqMan-based real-time, quantitative polymerase chain reaction",detected by,32
+Mycoplasma gallisepticum,mgc2 qPCR assay,detected by,32
+Mycoplasma gallisepticum,Rag-1 qPCR assay,detected by,32
+Mycoplasma gallisepticum,Conjunctivitis,correlates with,32
+Mycoplasma gallisepticum,Birds,found in,32
+Birds,Mycoplasma gallisepticum,harbour,32
+Birds,Conjunctivitis,develop,32
+Mycoplasma gallisepticum,House Finches,infects,33
+Mycoplasma gallisepticum,Mosquito blood feeding patterns,affects,33
+House Finches,Mosquitoes,are exposed to,33
+House Finches,Mycoplasma gallisepticum,are inoculated with,33
+House Finches,Mycoplasma gallisepticum,are cured of,33
+Mosquitoes,House Finches,feed on,33
+Mosquitoes,House Finches,prefer,33
+Sick birds,Defensive behaviors,make fewer,33
+Mycoplasma gallisepticum,Mosquito feeding patterns,may influence,33
+House Finches,Mycoplasma gallisepticum,infects,34
+Mycoplasma gallisepticum,House Finches,infects,34
+House Finches,House Sparrows,competes with,34
+House Sparrows,House Finches,affected by,34
+House Finch,Mycoplasma gallisepticum,infected by,35
+Mycoplasma gallisepticum,House Finch,infects,35
+Detection Probabilities,Disease Prevalence,affect,35
+Biotic Factors,Abiotic Factors,interact with,35
+Mark-Recapture Data,State-Specific Detection Probabilities,used to estimate,35
+State-Specific Detection Probabilities,Estimated Disease Prevalence,influence,35
+House Finches,Mycoplasma gallisepticum,hosts,36
+Mycoplasma gallisepticum,House Finches,infects,36
+Multilocus heterozygosity,Pathogen resistance,predicts,36
+Multilocus heterozygosity,Cell-mediated immunocompetence,influences,36
+Multilocus heterozygosity,Humoral immunocompetence,influences,36
+Mycoplasma gallisepticum,Cell-mediated immune responses,elicits,36
+Mycoplasma gallisepticum,Humoral immune responses,elicits,36
+Carpodacus mexicanus,Mycoplasma gallisepticum,hosts,37
+Mycoplasma gallisepticum,House Finches,infects,37
+House Finches,Eastern United States,introduced,37
+Amplified Fragment Length Polymorphism,genetic diversity survey,used,37
+Major Histocompatibity Complex,candidate gene for pathogen resistance,contains,37
+Mycoplasma gallisepticum,dramatic declines in House Finches population,causes,37
+Mycoplasma gallisepticum,finch immune system,manipulates,37
+Mycoplasma gallisepticum,Mice,infects,37
+Cytomegalovirus,Mice,infects,37
+Mycoplasma gallisepticum,House Finches,infects,38
+House Finches,Mycoplasma gallisepticum,hosts,38
+Mycoplasma gallisepticum,Differentially Expressed Genes,regulates,38
+Differentially Expressed Genes,Mycoplasma gallisepticum,expressed in,38
+Heat Shock Protein,House Finches,expressed in,38
+MHC II-associated Invariant Chain,House Finches,expressed in,38
+T-cell Immunoglobulin Mucin,House Finches,expressed in,38
+TIM1,House Finches,expressed in,38
+CD74,House Finches,expressed in,38
+HSP 90,House Finches,expressed in,38
+Novel Expressed Genes,House Finches,expressed in,38
+Mycoplasma gallisepticum,House Finch,infects,39
+Mycoplasma gallisepticum,Songbirds,infects,39
+Mycoplasma gallisepticum,Wild Birds,infects,39
+Mycoplasma gallisepticum,Avian Species,infects,39
+Mycoplasma gallisepticum,Mourning Doves,infects,39
+Mycoplasma gallisepticum,Fringillidae,infects,39
+Mycoplasma gallisepticum,Eastern Tufted Titmice,infects,39
+University of Auburn,Experimental Infections,hosts,39
+Peri-urban Environment,Wild Birds,hosts,39
+Auburn University,Field Study,hosts,39
+Campus,Field Study,hosts,39
+Polymerase Chain Reaction,Mycoplasma gallisepticum,tests,39
+Agglutination Reactions,Mycoplasma gallisepticum,tests,39
+Experimental Infections,Polymerase Chain Reaction,uses,39
+Experimental Infections,Agglutination Reactions,uses,39
+House Finch,Mycoplasma gallisepticum,hosts,40
+Stress Hormones,Immune Functions,impair,40
+Corticosterone,Susceptibility to Disease,increases,40
+Corticosterone,Body Condition,is associated with,40
+Corticosterone,Fat Load,is associated with,40
+Corticosterone,Mycoplasma gallisepticum infection,is associated with,40
+Mycoplasma gallisepticum,House Finch,infects,40
+Corticosterone,Latitude,is influenced by,40
+Corticosterone,Winter Temperatures,is influenced by,40
+Mycoplasma gallisepticum,House Finches,infects,41
+Mycoplasma gallisepticum,Seasonal Breeding,affects,41
+Mycoplasma gallisepticum,Seasonal Social Aggregation,affects,41
+Mycoplasma gallisepticum,Immunity,interacts with,41
+Seasonal Breeding,Transmission Dynamics,influences,41
+Seasonal Social Aggregation,Transmission Dynamics,influences,41
+Mycoplasma gallisepticum,Latitudinal Variation,exhibits,41
+House Finches,Latitudinal Variation,exhibit,41
+Seasonal Breeding,Eastern North America,occurs,41
+Seasonal Social Aggregation,Eastern North America,occurs,41
+Mycoplasma gallicepticum,Upper Respiratory Tissue,targets,42
+Mycoplasma gallicepticum,Ocular Tissue,targets,42
+Mycoplasma gallicepticum,Male House Finches,infects,42
+Mycoplasma gallicepticum,Carotenoid Utilization,affects,42
+Mycoplasma gallisepticum,House Finches,infects,43
+Mycoplasma gallisepticum,Eastern House Finch,infects,43
+Mycoplasma gallisepticum,Conjunctival sac,uses,43
+Mycoplasma gallisepticum,Investigators,is studied by,43
+House Finches,Environment,are housed in,43
+House Finches,Mycoplasma gallisepticum,are inoculated with,43
+House Finches,Clinical signs of conjunctivitis,develop,43
+House Finches,Mycoplasma gallisepticum,recover from,43
+House Finches,Mycoplasma gallisepticum,die from,43
+Investigators,Mycoplasma gallisepticum,study,43
+Mycoplasma gallisepticum,Cayuga Basin,is found in,43
+House Finches,Mycoplasma gallisepticum,infected by,44
+House Finches,Proctophyllodes spp.,infested by,44
+House Finches,Avian Pox,infected by,44
+House Finches,Blood and Gastrointestinal Parasite,infected by,44
+House Finches,Gastrointestinal Flora,hosts,44
+House Finches,Wisconsin,found in,44
+House Finches,Seasonal changes,experienced,44
+House Finches,Greater fat scores,had,44
+House Finches,Greater tarsal length,had,44
+House Finches,Being male,had,44
+Mycoplasma gallisepticum,House Finches,infects,44
+Proctophyllodes spp.,House Finches,infests,44
+Avian Pox,House Finches,infects,44
+Blood and Gastrointestinal Parasite,House Finches,infects,44
+Mycoplasma gallisepticum,House Finches,infects,45
+Mycoplasma gallisepticum,Eastern House Finch,infects,45
+Mycoplasma gallisepticum,House Finches from Montana,infects,45
+Mycoplasma gallisepticum,House Finches from Alabama,infects,45
+House Finches from Montana,Mycoplasma gallisepticum,exposed to,45
+House Finches from Alabama,Mycoplasma gallisepticum,exposed to,45
+House Finches from Montana,Infected House Finch from Alabama,co-housed with,45
+House Finches,after exposure to Mycoplasma gallisepticum,developed conjunctivitis,45
+House Finches,after exposure to Mycoplasma gallisepticum,seroconverted,45
+Mycoplasma gallisepticum,House Finches,infects,47
+Mycoplasma gallisepticum,Conjunctivitis,causes,47
+House Finches,Conjunctivitis,presented with,47
+Wildlife Rehabilitation Center of Minnesota,House Finches,treated,47
+Enrofloxacin,House Finches,treated,47
+Gentamicin,House Finches,treated,47
+Nested PCR,Mycoplasma gallisepticum,detected,47
+Culture,Mycoplasma gallisepticum,detected,47
+House Finches,Wildlife Rehabilitation Center of Minnesota,held,47
+Mycoplasma gallisepticum,House Finches,infects,48
+Mycoplasma gallisepticum,Nestlings,transmits,48
+House Finches,Nestlings,transmit,48
+Breeding adults,Nestlings,transmit,48
+Mycoplasma gallisepticum,Pooled choanal and conjunctival swab samples,isolated from,48
+Mycoplasma gallisepticum,Pooled choanal and conjunctival swab samples,tested positive for,48
+Mycoplasma gallisepticum,House Finches,infects,49
+Mycoplasma gallisepticum,Chickens,infects,49
+House Finches,Mycoplasma gallisepticum,was contacted by,49
+Chickens,House Finches,was contacted by,49
+Chickens,Biosecurity Measures,maintained,49
+Mycoplasma gallisepticum,House Finches,isolated from,50
+Mycoplasma gallisepticum,Conjunctivitis,causes,50
+Mycoplasma gallisepticum,Conjunctival and/or infraorbital sinus swabs,isolated from,50
+Mycoplasma gallisepticum,Mycoplasma gallisepticum (MG),identified as,50
+Mycoplasma gallisepticum,House Finches,infects,51
+House Finches,Researchers,were examined by,51
+Samples were obtained,House Finches,from,51
+Mycoplasma gallisepticum,House Finches,was isolated from,51
+Mycoplasma gallisepticum,SPA,was detected by,51
+Mycoplasma gallisepticum,HI,was detected by,51
+Mycoplasma gallisepticum,PCR,was detected by,51
+Researchers,Study,conducted,51
+West Nile Virus,Culex Mosquitoes,transmission,52
+St. Louis Encephalitis Virus,Culex Mosquitoes,transmission,52
+NY99 strain of West Nile Virus,Avian,infects,52
+West Nile Virus,Western Scrub Jays,infects,52
+West Nile Virus,House Finches,infects,52
+West Nile Virus,Mourning Doves,infects,52
+West Nile Virus,California Quail,infects,52
+West Nile Virus,Chickens,infects,52
+Culex stigmatosoma Dyar,West Nile Virus,is susceptible to,52
+Culex tarsalis Coquillett,West Nile Virus,is susceptible to,52
+Culex p. quinquefasciatus Say,West Nile Virus,is susceptible to,52
+Transmitting female Cx. tarsalis,West Nile Virus,transmits,52
+House Finches,West Nile Virus,became infected,52
+Mourning Doves,West Nile Virus,became infected,52
+West Nile Virus,Blood-Fed Culex Mosquitoes,necessary to infect,52
+Culex quinquefasciatus,Dogs,feeds on,53
+Culex quinquefasciatus,Mourning dove,feeds on,53
+Culex quinquefasciatus,Domestic cat,feeds on,53
+Culex quinquefasciatus,White-winged dove,feeds on,53
+Culex quinquefasciatus,House sparrow,feeds on,53
+Culex quinquefasciatus,House finch,feeds on,53
+Culex quinquefasciatus,Gray catbird,feeds on,53
+Culex quinquefasciatus,American robin,feeds on,53
+Culex quinquefasciatus,West Nile virus,transmits,53
+West Nile virus,Blue jays,infects,53
+West Nile virus,American crows,infects,53
+Trichostrongylus tenuis,Red Grouse,infects,60
+Trichostrongylus tenuis,Cecal Faeces,develops in,60
+Trichostrongylus tenuis,Laboratory,survives in,60
+Trichostrongylus tenuis,Moors,survives in,60
+Temperature,Development of Infective Larvae,affects,60
+Rainfall,Development of Infective Larvae,does not affect,60
+Desiccation,Development of Infective Larvae,does not affect,60
+Summer,Development of Infective Larvae,allows,60
+Winter,Development of Infective Larvae,prevents,60
+Summer,Mean Monthly Mortality of Infective Larvae,has,60
+Winter,Negligible Survival of Infective Larvae,has,60
+Trichostrongylus tenuis,Red Grouse,infects,61
+Trichostrongylus tenuis,Dramatic Decreases in Red Grouse Density,associated with,61
+Trichostrongylus tenuis,Population Crashes,causes,61
+Peter Hudson,Dynamics of the Grouse-T. tenuis System,describes,61
+Andrew Dobson,Preliminary Findings from the Development of New Control Methods,presents,61
+Trichostrongylus tenuis,Sporting Income,affects,61
+Trichostrongylus tenuis,Upland Estates,affects,61
+Testosterone,Aggressive Behaviour,influences,62
+Testosterone,Recruitment,affects,62
+Trichostrongylus Tenuis,Red Grouse,infects,62
+Testosterone,Parasite Intensities,increases,62
+Parasites,Red Grouse,re-infect,62
+Anthelmintic,Parasites,removes,62
+Testosterone,Trichostrongylus Tenuis,interacts with,62
+Fenbendazole,Trichostrongylus tenuis,used to control,63
+Fenbendazole,Grit,applied to,63
+Fenbendazole,Red Grouse,taken up by,63
+Red Grouse,Trichostrongylus tenuis,infected by,63
+Researchers,HPLC-MS-MS method,developed,63
+HPLC-MS-MS method,Fenbendazole and its metabolites,used to detect and quantify,63
+Fenbendazole and its metabolites,Red Grouse liver,found in,63
+Trichostrongylus tenuis,Red Grouse,infects,64
+Male Aggressiveness,Territoriality,affects,64
+Male Aggressiveness,Red Grouse,effect,64
+Territoriality,Red Grouse,effect,64
+Trichostrongylus tenuis,Red Grouse Cycling,involved in,64
+Male Aggressiveness,Red Grouse Cycling,involved in,64
+Territoriality,Red Grouse Cycling,involved in,64
+Bayesian State-Space Modeling,Population Data,fits,64
+Usutu Virus,Domestic Chicken,infects,65
+Usutu Virus,Gallus Domesticus,infects,65
+Usutu Virus,Eurasian Blackbirds,infects,65
+Usutu Virus,Austria,isolated from,65
+Usutu Virus,Europe,isolated from,65
+Mosquito,Usutu Virus,transmits,65
+Domestic Chicken,Sentinel Animals,used as,65
+Pathogen Free Chickens,USUV surveillance,used for,65
+Usutu Virus,Splenomegaly,causes,65
+Usutu Virus,Follicular Infiltrates,causes,65
+Usutu Virus,Non-Suppurative Encephalitis,causes,65
+Reverse-Transcriptase Polymerase Chain Reaction,USUV RNA,detects,65
+Immunohistochemistry,Flavivirus Antigen,detects,65
+USUV,Peripheral Blood Mononuclear Cells,detected in,65
+USUV,Cloacal Swabs,detected in,65
+USUV,Pharyngeal Swabs,detected in,65
+USUV,Peripheral Blood,detected in,65
+USUV,Viraemia,causes,65
+USUV,Antibody Response,causes,65
+USUV,In-Contact Birds,transmitted to,65
+USUV,Control Animals,not transmitted to,65
+Usutu Virus,Hungary,emerged,66
+Usutu Virus,Blackbird (Turdus Merula),was detected,66
+Usutu Virus,Organ Samples,was isolated,66
+Blackbird (Turdus Merula),USUV Infection,tested positive,66
+Blackbird (Turdus Merula),Urban Areas of Budapest,found in,66
+Usutu Virus,Austria,spread from,66
+USUV Strain,Austria to Hungary,spread from,66
+USUV Strain,Austria,circulating,66
+Usutu Virus,Arthropod Vectors,circulates between,67
+Usutu Virus,Avian Amplification Hosts,infects,67
+Usutu Virus,Mammalian Hosts,infects,67
+Usutu Virus,Humans,infects,67
+Usutu Virus,West Nile Virus,has similar dynamics with,67
+Usutu Virus,Blackbirds,causes mortality in,67
+Usutu Virus,American Robins,causes mortality in,67
+Usutu Virus,interaction of developing proportion of the avian hosts immune and climatic factors affecting the mosquito population,transmits through,67
+Usutu Virus,Austrian USUV monitoring program,is detected by,67
+Usutu Virus,West Nile Virus,closely related to,68
+Usutu Virus,Austria,outbreaks in,68
+Usutu Virus,Blackbirds,infects,68
+Bird Immunity,Usutu Virus dynamics,affects,68
+Environmental Temperature,Usutu Virus dynamics,affects,68
+Usutu Virus,Host Population,persists in,68
+Usutu Virus,increases,outbreak frequency,68
+Usutu Virus,Mass Mortalities,leads to,68
+IPCC,Climate-warming scenarios,defined,68
+Climate Change,Usutu Virus dynamics,affects,68
+Climate Models,Temperature,predict,68
+Host Population,Usutu Virus after EP,will persist,68
+Blackbird Population,Simulations of worst-case scenarios,declines,68
+Usutu Virus,after 2040,becomes endemic,68
+Usutu Virus,Dead Birds,infects,69
+Usutu Virus,Birds,causes mortality,69
+Usutu Virus,Birds,is found in,69
+Usutu Virus,Austria,spreads to,69
+Usutu Virus,Reverse-Transcriptase Polymerase Chain Reaction,is examined by,69
+Usutu Virus,Immunohistochemistry,is examined by,69
+Birds,Usutu Virus,are tested for,69
+Blackbirds,Usutu Virus,are positive for,69
+Turdus Merula,Birds,is a species of,69
+Vienna,Austria,is located in,69
+Lower Austria,Austria,is adjacent to,69
+Burgenland,Austria,is adjacent to,69
+Styria,Austria,is adjacent to,69
+Usutu Virus,Domestic Goose,infects,70
+Usutu Virus,Domestic Goose,replicates in,70
+Usutu Virus,Domestic Goose,does not induce clinical disease in,70
+Usutu Virus,Domestic Goose,does not induce mortality in,70
+Usutu Virus,Domestic Goose,infrequently leads to viraemia or virus shedding in,70
+Usutu Virus,Mosquito,is transmitted by,70
+Usutu Virus,Japanese Encephalitis Virus,is associated with,70
+Usutu Virus,Avian Mortality,has been associated with,70
+Usutu Virus,Domestic Goose,was detected in,70
+Bacterial Septicaemia,Domestic Goose,causes death in,70
+Strangulation,Domestic Goose,causes death in,70
+Reverse Transcriptase-Polymerase Chain Reaction,Usutu Virus,detects,70
+Immunohistochemistry,Usutu Virus,detects,70
+Plasma Viraemia,Domestic Goose,is a condition of,70
+Viral Excretion,Domestic Goose,is a condition of,70
+Seroconversion,Domestic Goose,is a condition of,70
+Geese,Usutu Virus,are hosts of,70
+Control Animals,Usutu Virus,are hosts of,70
+Usutu Virus,Eurasian Blackbirds,isolated from,71
+Usutu Virus,Birds,infects,71
+Usutu Virus,Brain Neurons,detected in,71
+Usutu Virus,Myocardial Fibres,detected in,71
+Usutu Virus,Splenic Capsule,detected in,71
+Usutu Virus,Renal Glomeruli,detected in,71
+Usutu Virus,Tunica Muscularis of Intestines,detected in,71
+Usutu Virus,Proventricular Glands,detected in,71
+Usutu Virus,Lungs,detected in,71
+Usutu Virus,Hepatic Kupffer Cells,detected in,71
+West Nile Virus,Polyclonal Antibodies,detected by,71
+Usutu Virus,USUV-specific Oligonucleotide Probe,detected by,71
+Usutu Virus,USUV-specific RT-PCR,detected by,71
+Birds,Histopathology,examined by,71
+Birds,Immunohistochemistry,examined by,71
+Birds,In-situ Hybridization,examined by,71
+Birds,Reverse-Transcriptase Polymerase Chain Reaction,examined by,71
+Culex pipiens,Avian species,hosts,72
+Culex pipiens,Mammal species,hosts,72
+Culex pipiens,Americans robin,hosts,72
+Culex pipiens,House sparrow,hosts,72
+Culex pipiens,Mourning dove,hosts,72
+Culex pipiens,Raccoons,hosts,72
+Culex pipiens,Humans,hosts,72
+Culex pipiens,West Nile virus,harbors,72
+West Nile virus,Culex pipiens,infects,72
+West Nile virus,Humans,infects,72
+Culex pipiens,West Nile virus,transmits,72
+Culex tarsalis,Birds,feeds on,73
+Culex tarsalis,Mammals,feeds on,73
+Culex tarsalis,American robins,feeds on,73
+Culex tarsalis,Doves,feeds on,73
+Culex tarsalis,West Nile virus,hosts,73
+West Nile virus,Culex tarsalis,transmitted by,73
+American robins,West Nile virus transmission,contributors to,73
+Doves,West Nile virus transmission,contributors to,73
+House sparrows,West Nile virus amplification,focus for,73
+Culex pipiens,American robins,feeds preferentially on,74
+Culex pipiens,European starling,feeds preferentially on,74
+Culex pipiens,House sparrow,feeds preferentially on,74
+West Nile virus,Culex pipiens,transmitted by,74
+Culex pipiens,West Nile virus,interacts with,74
+Host seeking C. pipiens,robin-baited traps,likely to enter,74
+Culex pipiens,probability of trap entry (with two robins),has no effect on,74
+Passerine Filariasis,Vertebrate Reservoirs,infects,75
+Arboviruses,Microfilariae,infects,75
+Microfilariae,Mosquitoes,penetrates,75
+Microfilariae,West Nile Virus,introduces,75
+West Nile Virus,Mosquitoes,transmits,75
+Passerine Filariasis,Arboviral Transmission,enhances,75
+Mosquitoes,Quiscalus quiscula L.,feed,75
+Mosquitoes,Turdus migratorius L.,feed,75
+Mosquitoes,Tyrannus tyrannus L.,feed,75
+Mosquitoes,Chandlerella quiscali,ingest,75
+Mosquitoes,Eufilaria spp.,ingest,75
+Culex pipiens,West Nile Virus,transmits,75
+Culex tarsalis,West Nile Virus,transmits,75
+American Robins,West Nile Virus,hosts,76
+Culex Mosquitoes,American Robins,feeds on,76
+American Robins,West Nile Virus,amplifies,76
+DNA Plasmid Vaccine,viremia,reduces,76
+DNA Plasmid Vaccine,infectiousness,reduces,76
+West Nile Virus,Encephalitis,causes,76
+West Nile Virus,Death,causes,76
+West Nile Virus,Illness,causes,76
+West Nile virus,Host populations,transmits,77
+Host heterogeneity,West Nile virus transmission,dominates,77
+American robin,Super spreader,acts as,77
+American robin,Mosquitoes,infects,77
+Crows,Mosquitoes,are preferred by,77
+House sparrows,Mosquitoes,are avoided by,77
+Corvids,WNV amplification,are relatively unimportant in,77
+Bornavirus,Canada Geese,infects,78
+Bornavirus,Parrots,infects,78
+Bornavirus,Macaws,infects,78
+Bornavirus,Oropharyngeal/Cloacal Swab,found in,78
+Bornavirus,Brain Samples,found in,78
+Bornavirus,Duck Embryo Fibroblasts,cultured in,78
+Goose Isolates,Borna Disease Virus,related to,78
+Goose Isolates,Psittacine ABVs,different from,78
+Goose Isolates,Urban Flocks,found in,78
+Brachyspira spp.,Vertebrates,colonize,79
+Brachyspira spp.,Pigs,infect,79
+Brachyspira spp.,Chickens,infect,79
+Brachyspira spp.,Humans,infect,79
+Brachyspira spp.,Hosts,have a commensual relationship with,79
+Brachyspira spp.,Mallards,are present in,79
+Brachyspira spp.,Pigs,are present in,79
+Brachyspira spp.,Chickens,are present in,79
+Brachyspira spp.,Humans,are present in,79
+Mallards,Brachyspira spp.,support,79
+Brachyspira hyodysenteriae,Mallards,infects,80
+Brachyspira suanatina,Mallards,infects,80
+Brachyspira hyodysenteriae,Pigs,infects,80
+Brachyspira suanatina,Pigs,infects,80
+Brachyspira hyodysenteriae,Ducklings,infects,80
+Brachyspira suanatina,Ducklings,infects,80
+Brachyspira hyodysenteriae,Swine dysentery,causes,80
+Brachyspira suanatina,Enteropathogenic spirochaete,causes,80
+Brachyspira hyodysenteriae,Pigs,isolated from,80
+Brachyspira suanatina,Mallards,isolated from,80
+Brachyspira hyodysenteriae,Week-old mallard ducklings,used to inoculate,80
+Brachyspira suanatina,Week-old mallard ducklings,used to inoculate,80
+Brachyspira hyodysenteriae,Ducklings,colonized,80
+Brachyspira suanatina,Ducklings,colonized,80
+Unchallenged contact birds,Brachyspira suanatina,infected by,80
+B. suanatina,Inoculum,had an identical biochemical profile and banding pattern with,80
+B. hyodysenteriae,Inoculum,had an identical biochemical profile and banding pattern with,80
+Brachyspira culture-positive birds,Epithelial cell changes,had,80
+Brachyspira culture-positive birds,Spirochaetal infiltration,had,80
+Brachyspira culture-positive birds,Crypts,had,80
+Brachyspira culture-negative birds,Crypts,had,80
+Brachyspira spp.,Pigs and birds,may cross the species barrier between,80
+Enteropathogenic spirochaete,Pig,infects,81
+Brachyspira suanatina,Mallard,infects,81
+Brachyspira suanatina,Pig,infects,81
+Brachyspira hyodysenteriae,Pig,infects,81
+Polymerase chain reaction,Brachyspira suanatina,analyzes,81
+Brachyspira suanatina,Pig,colonizes,81
+Brachyspira suanatina,Diarrhea,causes,81
+Brachyspira hyodysenteriae,Swine dysentery,causes,81
+Brachyspira pilosicoli,Farm A,infects,82
+Brachyspira pilosicoli,Sows,infects,82
+Brachyspira pilosicoli,Grower/Finisher Pigs,infects,82
+Brachyspira pilosicoli,Weaners,infects,82
+Brachyspira pilosicoli,Chickens,infects,82
+Brachyspira pilosicoli,Wild Ducks,infects,82
+Brachyspira pilosicoli,Environment,infects,82
+Brachyspira pilosicoli,Stock from Piggery A,transmitted through,82
+Phage,Chlamydia psittaci,infects,84
+Phage,Ducks,infects,84
+Antiserum,Phage,detects,84
+Antiserum,Chlamydia psittaci,detects,84
+Chlamydia psittaci,Ducks,is recovered from,84
+Ducks,Chlamydia psittaci,is infected by,84
+Phage-containing strain,McCoy cell monolayers,infects,84
+Chlamydophila psittaci,BGM cell cultures,infects,85
+Chlamydophila psittaci,Psittacine birds,infects,85
+Chlamydophila psittaci,Pekin duck,infects,85
+Chlamydophila psittaci,Domestic pigeon,infects,85
+Chlortetracycline,Chlamydophila psittaci,inhibits,85
+Doxycycline,Chlamydophila psittaci,inhibits,85
+Enrofloxacin,Chlamydophila psittaci,inhibits,85
+Difloxacin,Chlamydophila psittaci,inhibits,85
+Giménez staining,Intracytoplasmic inclusions,visualizes,85
+Logistic regression model,IC50,calculates,85
+IC50,Inhibitory concentration,measures,85
+MIC,Minimal inhibitory concentration,measures,85
+Chlamydophila psittaci,Workers,infects,86
+Chlamydophila psittaci,Poultry Abattoir,exposes,86
+Chlamydophila psittaci,Farm,exposes,86
+Workers,Chlamydophila psittaci,exposed to,86
+Workers,Blood,exposed to,86
+Workers,Feathers,exposed to,86
+Workers,Birds,exposed to,86
+Slaughtering Area,Pneumonia,associated with,86
+Slaughtering Area,Ornithosis,associated with,86
+Respiratory Protection,Infection,prevents,86
+Airflow,Environmental Contamination,reduces,86
+Environmental Contamination,Risk of Infection,increases,86
+Chlamydophila psittaci,Avian,derived from,87
+Chlamydophila psittaci,Mammalian,derived from,87
+Chlamydophila psittaci,Dairy Cows,derived from,87
+Chlamydophila psittaci,Duck,derived from,87
+Chlamydophila psittaci,Sheep,derived from,87
+Chlamydophila psittaci,Wild Birds,derived from,87
+Chlamydophila psittaci,Pigs,derived from,87
+Chlamydophila psittaci,Waterfowl,associated with,87
+Chlamydophila psittaci,Humans,infects,87
+Genotype C,Outer Membrane Protein A gene sequencing,identified by,87
+Clostridium botulinum,Aquatic birds,infected,88
+Clostridium botulinum,C. Botulinum toxin,produced toxin,88
+C. Botulinum toxin,Mice,intoxicated,88
+Botulism,Aquatic birds,affected,88
+Rabies Virus,Central Nervous System,infects,89
+Rabies Virus,Mammals,infects,89
+Rabies Virus,Humans,infects,89
+Type C Botulism,Ducks,affects,89
+Type C Botulism,Ranch Mink,affects,89
+Botulinum Toxin,Ducks,exposes,89
+Botulinum Toxin,Ranch Mink,exposes,89
+Type C Botulinum Antitoxin,Ducks,treats,89
+Immunization,Ducks,protects,89
+Immunization,Ranch Mink,protects,89
+Immunization,recovery from intoxication,has no effect on,89
+Immunization,clinical signs and mortality,reduces,89
+Immunization,treatment regimen,might be useful as part of,89
+Enterococcus hirae DCH5,Hiracin JM79,produces,90
+Enterococcus hirae DCH5,Mallard ducks,isolated from,90
+Hiracin JM79,orf,encoded by,90
+orf,HirJM79,encodes,90
+orf,HiriJM79,encodes,90
+orfC,Protein,encodes,90
+orfD,Protein,encodes,90
+orfE,Protein,encodes,90
+HirJM79,Enterococcus hirae DCH5,produced by,90
+HirJM79,Heterologous hosts,expressed in,90
+HiriJM79,HirJM79,immunity protein for,90
+HirJM79,General secretory pathway,externalized by,90
+HirJM79,Sec-dependent pathway,externalized by,90
+Clostridium botulinum,Mallards,infects,91
+Clostridium botulinum,Toxin-laden maggots,produces,91
+Bird carcasses,Clostridium botulinum,is associated with,91
+Freshly dead Mallards,Bird carcasses,is associated with,91
+Live radio-marked Mallards,Cararcass-free areas,is related to,91
+Carcass density,Predicted risk of mortality,increases,91
+Carcass density,Mortality risk,is related to,91
+Mortalities,Clostridium botulinum,are caused by,91
+Incomplete carcass removal,Low survival rates,may lead to,91
+Clostridium botulinum type C,Nerve Toxin,produces,92
+Clostridium botulinum type D,Nerve Toxin,produces,92
+Clostridium botulinum type C,Bovine,infects,92
+Clostridium botulinum type D,Bovine,infects,92
+Clostridium botulinum type C,Polymerase Chain Reaction,is detected by,92
+Clostridium botulinum type D,Polymerase Chain Reaction,is detected by,92
+Polymerase Chain Reaction,Primers,uses,92
+Polymerase Chain Reaction,PCR amplification conditions,uses,92
+TYG broth,Enrichment,used for,92
+CMM broth,Enrichment,used for,92
+DNA,Crude Samples,extracted from,92
+DNA,Enrichment Broths,tested in,92
+Clostridium Botulinum Type C,Toxin,produces,93
+Toxin,Avian Botulism,causes,93
+Botulinum C/D Mosaic Toxoid,Avian Botulism,protects against,93
+Botulinum C/D Mosaic Toxoid,Vaccine,is used with,93
+Duck,Botulinum C/D Mosaic Toxoid,is immunized with,93
+Duck,Antibody,develops,93
+Antibody,Toxin,neutralizes,93
+ELISA,Antibody,detects,93
+ELISA,Occurrence of Botulism,detects,93
+Clostridium botulinum type C,Avian samples,infects,94
+Clostridium botulinum type C,Environmental samples,infects,94
+Clostridium botulinum type C,Mallards,infects,94
+Clostridium botulinum type C,Grey herons,infects,94
+PCR,Clostridium botulinum type C,detects,94
+Mouse bioassay,Clostridium botulinum type C,detects,94
+PCR,Mouse bioassay,compared with,94
+Clostridium botulinum,Clostridium botulinum C2 toxin,produces,95
+Clostridium botulinum,Mallard Duck,infects,95
+Clostridium botulinum C2 toxin,Mouse,is toxic to,95
+Clostridium botulinum C2 toxin,Pulmonary Edema,causes,95
+Clostridium botulinum C2 toxin,Hemorrhage,causes,95
+C1 toxin,Mouse,is toxic to,95
+C1 toxin,Respiratory Paralysis,causes,95
+Castor Bean,Ducks,poisons,96
+Castor Bean,Mallards,poisons,96
+Castor Bean,Stomach,found in,96
+Castor Bean,Stomach contents,found in,96
+Clostridium botulinum,Blood serum,detected in,96
+Castor Bean,Clinical signs,induces,96
+Castor Bean,Postmortem lesions,induces,96
+Castor Bean,Excreta,found in,96
+Castor Bean,Intestinal contents,found in,96
+Clostridium botulinum type C toxin,Fecal extracts,present in,97
+Clostridium botulinum type C toxin,Blood sera,present in,97
+Clostridium botulinum type C toxin,Ducks,infects,97
+Clostridium botulinum type C toxin,Mallards,infects,97
+Mouse toxicity test,Clostridium botulinum type C toxin,used to detect,97
+Coproexamination,Clostridium botulinum type C toxin,used to detect,97
+Ducks,Clostridium botulinum type C toxin,infected by,97
+Mallards,Clostridium botulinum type C toxin,infected by,97
+Avian botulism,Clostridium botulinum type C toxin,caused by,97
+Clostridium botulinum,Toxin type C,produces,98
+Toxin type C,Waterfowl,intoxicates,98
+Toxin type C,Fly Larvae,intoxicates,98
+Botulism,Waterfowl,affects,98
+Botulism,Fly Larvae,affects,98
+Clostridium botulinum,Duck Serum,found in,98
+Clostridium botulinum,Fly Larvae,found in,98
+Waterfowl,Oak Orchard Wildlife Management Area,resided in,98
+Fly Larvae,Oak Orchard Wildlife Management Area,resided in,98
+Clostridium botulinum type C toxin,Mallard,infects,99
+Clostridium botulinum type C toxin,Ducklings,infects,99
+Saline water,Mallard,exposes,99
+Saline water,Ducklings,exposes,99
+Fresh water,Mallard,exposes,99
+Fresh water,Ducklings,exposes,99
+Botulism,Mallard,affects,99
+Botulism,Ducklings,affects,99
+Clinical signs,Botulism,results from,99
+Mortality,Botulism,results from,99
+Cryptosporidium baileyi,Chickens,infects,100
+Cryptosporidium baileyi,Mallards,infects,100
+Cryptosporidium baileyi,Oocysts,produces,100
+Chickens,Cryptosporidium baileyi,were-inoculated-with,100
+Mallards,Cryptosporidium baileyi,were-inoculated-with,100
+Carrageenan,Phagocytic Activity,blocks,100
+Carrageenan,Number of Peripheral Macrophages,reduces,100
+Challenge Infection,Immunogenicity,stimulates,100
