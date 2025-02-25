@@ -1,0 +1,1345 @@
+source,target,relation_type,doc_id
+Perch rhabdovirus,Thymallus thymallus,infects,1
+Perch rhabdovirus,Finnish grayling isolates,hosts,1
+Perch rhabdovirus,Perca fluviatilis,infects,1
+Perch rhabdovirus,Salmo trutta trutta,infects,1
+Perch rhabdovirus,Baltic Sea,found in,1
+Perch rhabdovirus,France,found in,1
+Perch rhabdovirus,Danish isolate DK5533,found in,1
+Perch rhabdovirus,Pike,found in,1
+Finnish grayling isolates,Perch rhabdovirus,hosts,1
+Finnish brown trout isolate ka907_87,Perch rhabdovirus,hosts,1
+Avian Myeloblastosis Virus,Reverse Transcriptase,produces,2
+Avian Myeloblastosis Virus,Envelope,produces,2
+Myeloblastosis Associated Virus,Avian Myeloblastosis Virus,is helper for,2
+Avian Myeloblastosis Virus,Myeloblastosis Associated Virus,is dependent on,2
+Reverse Transcriptase,Avian Myeloblastosis Virus,is produced by,2
+Envelope,Avian Myeloblastosis Virus,is produced by,2
+Avian Myeloblastosis Virus,Avian,infects,2
+Myeloblastosis Associated Virus,Avian Myeloblastosis Virus,hosts,2
+Vaccinia virus,Human,infects,3
+Pseudocowpox virus,Human,infects,3
+Vaccinia virus,Bovine,infects,3
+Pseudocowpox virus,Bovine,infects,3
+Human,Vaccinia virus,hosts,3
+Human,Pseudocowpox virus,hosts,3
+Bovine,Vaccinia virus,hosts,3
+Bovine,Pseudocowpox virus,hosts,3
+Farmers,Vaccinia virus,hosts,3
+Farmers,Pseudocowpox virus,hosts,3
+Milkers,Vaccinia virus,hosts,3
+Milkers,Pseudocowpox virus,hosts,3
+Close contacts,Vaccinia virus,hosts,3
+Close contacts,Pseudocowpox virus,hosts,3
+Vaccinia virus,Cattle,found in,3
+Pseudocowpox virus,Cattle,found in,3
+Vaccinia virus,PCR,detected by,3
+Pseudocowpox virus,PCR,detected by,3
+Vaccinia virus,Phylogenetic analysis,detected by,3
+Pseudocowpox virus,Phylogenetic analysis,detected by,3
+Vaccinia virus,Serological tests,detected by,3
+Pseudocowpox virus,Serological tests,detected by,3
+Vaccinia virus,Molecular assays,detected by,3
+Pseudocowpox virus,Molecular assays,detected by,3
+Vaccinia virus,Lesions,causes,3
+Pseudocowpox virus,Lesions,causes,3
+Vaccinia virus,Fever,causes,3
+Pseudocowpox virus,Fever,causes,3
+Vaccinia virus,Headache,causes,3
+Pseudocowpox virus,Headache,causes,3
+Vaccinia virus,Malaise,causes,3
+Pseudocowpox virus,Malaise,causes,3
+Vaccinia virus,Myalgia,causes,3
+Pseudocowpox virus,Myalgia,causes,3
+Vaccinia virus,Lymphadenopathy,causes,3
+Pseudocowpox virus,Lymphadenopathy,causes,3
+Vaccinia virus,Epidemiological surveillance,is controlled by,3
+Pseudocowpox virus,Epidemiological surveillance,is controlled by,3
+Vaccinia virus,Medical treatment,is treated by,3
+Pseudocowpox virus,Medical treatment,is treated by,3
+SIV,Sooty Mangabey,infects,4
+SIVsm,Sooty Mangabey,infects,4
+Sooty Mangabey,SIV,hosts,4
+Sooty Mangabey,SIVsm,hosts,4
+SIV,Sooty Mangabey,found in,4
+SIVsm,Sooty Mangabey,found in,4
+SIV,Virus Load,detected by,4
+SIVsm,Virus Load,detected by,4
+SIV,AIDS,causes,4
+SIVsm,AIDS,causes,4
+B-cell Lymphoma,SIV,affected by,4
+AIDS,SIV,affected by,4
+AIDS,SIVsm,affected by,4
+bats,adeno-associated viruses,hosts,5
+China,bats,found in,5
+faecal swab samples,bats,collected from,5
+adeno-associated viruses,bats,infects,5
+BtAAV-YNM,faecal swab samples,detected in,5
+BtAAV-YNM,primate AAVs,relatively distant to,5
+BtAAV-YNM,porcine AAV strain Po3,phylogenetically closer to,5
+bat AAV samples,remarkably large genetic diversity,showed,5
+bat AAV samples,co-presence of multiple distinctive genotypes,had,5
+bat AAV samples,average pairwise nucleotide identity of only 84.3%,had,5
+Avian myelocytomatosis virus,Chicken,infects,6
+MC29,Chicken,infects,6
+HBI,Chicken,infects,6
+HBI,Lymphoid tumors,hosts,6
+Lymphoid leukosis virus,Chicken,infects,6
+Myc gene,Lymphoid tumors,causes,6
+c-myc gene,Lymphoid tumors,causes,6
+v-myc gene,Lymphoid tumors,causes,6
+HBI,Myc gene,has property,6
+HBI,c-myc sequences,has property,6
+HBI,v-myc sequences,has property,6
+HBI,Proviral DNA,detects,6
+HBI,Gag-myc fusion protein,detects,6
+HBI,p 108,detects,6
+Type D retrovirus,Macaque,infects,7
+Type D retrovirus,Macaca cyclopis,hosts,7
+Mason-Pfizer monkey virus,Macaca mulatta,infects,7
+Bovine foamy virus,Cattle,infects,8
+Bovine foamy virus,Bovine,hosts,8
+Bovine foamy virus,Cells,hosts,8
+Bovine foamy virus,Introns,lacks,8
+Bovine foamy virus,Env protein,expresses,8
+Bovine foamy virus,Novel mode,develops,8
+Germany,Bovine foamy virus,found in,8
+Poland,Bovine foamy virus,found in,8
+East Germany,Bovine foamy virus,found in,8
+China,Bovine foamy virus,found in,8
+United States,Bovine foamy virus,found in,8
+Simian foamy virus,Apes,infects,9
+Simian foamy virus,Humans,infects,9
+Apes,Simian foamy virus,hosts,9
+Humans,Simian foamy virus,hosts,9
+Nonhuman primates,Simian foamy virus,hosts,9
+Gorillas,Simian foamy virus,hosts,9
+Chimpanzees,Simian foamy virus,hosts,9
+Monkeys,Simian foamy virus,hosts,9
+Rural Cameroon,Simian foamy virus,found in,9
+Southern Cameroon,Simian foamy virus,found in,9
+Central Africa,Simian foamy virus,found in,9
+HPIV3,Baboons,infects,10
+HPIV3,Vervet monkeys,infects,10
+Baboons,HPIV3,hosts,10
+Vervet monkeys,HPIV3,hosts,10
+Zambia,Wild nonhuman primates,found in,10
+Simian immunodeficiency virus,African green monkeys,infects,11
+Simian immunodeficiency virus,Sooty mangabey monkeys,infects,11
+Simian immunodeficiency virus,Asian macaques,infects,11
+African green monkeys,Simian immunodeficiency virus,hosts,11
+Sooty mangabey monkeys,Simian immunodeficiency virus,hosts,11
+Asian macaques,Simian immunodeficiency virus,hosts,11
+Simian immunodeficiency virus,AIDS,causes,11
+Avian Sarcoma Virus Y73,Cells,infects,12
+Avian Leukemia Viruses,Avian,hosts,12
+Avian Leukemia Viruses,Mammalian,hosts,12
+Avian Sarcoma Virus Y73,Transforming Gene (yas),contains,12
+Transforming Gene (yas),Polyprotein p90,codes for,12
+Polyprotein p90,p19,contains,12
+Avian Sarcoma Virus Y73,Y73-associated Virus,is associated with,12
+T-lymphotropic viruses,human,infects,13
+HTLV-1,human,infects,13
+HTLV-2,human,infects,13
+STLV-1,nonhuman primates,infects,13
+STLV-2,nonhuman primates,infects,13
+HTLV-4,human,infects,13
+HTLV-3,human,infects,13
+STLV-3,nonhuman primates,infects,13
+nonhuman primates,T-lymphotropic viruses,hosts,13
+central Africans,HTLV-1,hosts,13
+central Africans,HTLV-2,hosts,13
+central Africans,HTLV-4,hosts,13
+central Africans,HTLV-3,hosts,13
+bushmeat hunters,NHP blood,exposed to,13
+bushmeat hunters,NHP body fluids,exposed to,13
+primate pets,NHP blood,exposed to,13
+primate pets,NHP body fluids,exposed to,13
+HTLV,disease development,causes,13
+STLV,disease development,causes,13
+pandemic retrovirus emergence,HTLV,affected by,13
+HTLV diagnosis,HTLV-1,affected by,13
+blood screening,HTLV-1,affected by,13
+disease development,HTLV-1,affected by,13
+surveillance,HTLV-1,affected by,13
+interventions,primate hunting,affected by,13
+Flavobacterium columnare,Fish,infects,14
+Flavobacterium columnare,Genomovar I,hosts,14
+Flavobacterium columnare,Genomovar II,hosts,14
+Flavobacterium columnare,Channel catfish,lives in,14
+Flavobacterium columnare,Tilapia,lives in,14
+Flavobacterium columnare,Brazil,found in,14
+Flavobacterium columnare,US,found in,14
+Genomovar I,Flavobacterium columnare,hosts,14
+Genomovar II,Flavobacterium columnare,hosts,14
+16S rDNA gene,Genetic fingerprinting,detected by,14
+Intergenic spacer region,Genetic fingerprinting,detected by,14
+Amplified fragment length polymorphism,Genetic fingerprinting,detected by,14
+Genomovar I,Genetic differences,causes,14
+Genomovar II,Genetic differences,causes,14
+Jaagsiekte sheep retrovirus,Sheep,infects,15
+Jaagsiekte sheep retrovirus,Goats,infects,15
+Jaagsiekte sheep retrovirus,Ovine pulmonary adenocarcinoma,hosts,15
+Envelope protein,Oncogene,functions as,15
+Envelope protein,Transformation,induces,15
+Trans-acting factor,Synthesis of Gag protein,necessary for,15
+Jaagsiekte sheep retrovirus,Trans-acting factor,encodes,15
+Jaagsiekte sheep retrovirus,Ovine pulmonary adenocarcinoma,causes,15
+Bovine group C rotavirus,Adult cows,infects,16
+Bovine group C rotavirus,Cattle,hosts,16
+Yamagata,Adult cows,infects,16
+Shintoku,Adult cows,infects,16
+Porcine-like WD534tc,Adult cows,infects,16
+Yamagata,Cattle,hosts,16
+Shintoku,Cattle,hosts,16
+Porcine-like WD534tc,Cattle,hosts,16
+Bovine group C rotavirus,Diarrhea,causes,16
+Bovine group C rotavirus,Milk production,affects,16
+Francisella tularensis,Sanguinus oedipus,infects,17
+Sanguinus oedipus,Francisella tularensis,hosts,17
+Escherichia coli,Sanguinus oedipus,infects,17
+Salmonella,Sanguinus oedipus,infects,17
+Yersinia,Sanguinus oedipus,infects,17
+Toxoplasma gondii,Sanguinus oedipus,infects,17
+Lymphocytic choriomeningitis,Sanguinus oedipus,infects,17
+Francisella tularensis,Tularemia,causes,17
+Francisella tularensis,F. tularensis-specific PCR,detected by,17
+Sanguinus oedipus,Malaise,experienced,17
+Sanguinus oedipus,Anorexia,experienced,17
+Sanguinus oedipus,Mucoid nasal discharge,experienced,17
+STLV,Cercocebus agilis,infects,18
+STLV,Cercocebus torquatus,infects,18
+STLV,Gorilla gorilla,infects,18
+STLV,Cercopithecus cephus,infects,18
+STLV,Miopithecus ogouensis,infects,18
+STLV,Talapoins,infects,18
+STLV,Mustached monkeys,infects,18
+STLV,Primates,hosts,18
+HTLV,Humans,infects,18
+HTLV,Primates,infects,18
+STLV-1,Mandrills,infects,18
+STLV-1,African green monkeys,infects,18
+STLV-1,Crested mona monkeys,infects,18
+STLV-1,Greater spot-nosed monkeys,infects,18
+STLV-3,Agile mangabeys,infects,18
+STLV-1 and STLV-3,Agile mangabeys,coinfects,18
+Cruoricaptor ignavus,Human,infects,19
+Cruoricaptor ignavus,Blood culture,hosts,19
+Cruoricaptor ignavus,Flavobacteriaceae,lives in,19
+IMMIB L-12475(T),Cruoricaptor ignavus,is a strain of,19
+IMMIB L-12475(T),Cruoricaptor ignavus,is a type strain of,19
+IMMIB L-12475(T),DSM 25479(T),is equal to,19
+IMMIB L-12475(T),CCUG 62025(T),is equal to,19
+Brevundimonas vancanneytii,Patient,infects,20
+Brevundimonas vancanneytii,Blood,hosts,20
+Brevundimonas vancanneytii,Patient,lives in,20
+Brevundimonas diminuta,Blood,hosts,20
+Brevundimonas terrae,Blood,hosts,20
+Brevundimonas vancanneytii,Brevundimonas diminuta,has relationship with,20
+Brevundimonas vancanneytii,Brevundimonas terrae,has relationship with,20
+Brevundimonas vancanneytii,Gram-negative,has property,20
+Brevundimonas vancanneytii,Rod-shaped,has property,20
+Brevundimonas vancanneytii,Non-spore-forming,has property,20
+Brevundimonas vancanneytii,Alphaproteobacterial,has property,20
+Brevundimonas vancanneytii,16S rRNA gene sequence,has measurement,20
+Brevundimonas vancanneytii,G+C content,has measurement,20
+Brevundimonas vancanneytii,Polar lipids,has property,20
+Brevundimonas vancanneytii,Fatty acids,has property,20
+Brevundimonas vancanneytii,DNA-DNA hybridization,undergoes,20
+Brevundimonas vancanneytii,Physiological and biochemical tests,undergoes,20
+Wohlfahrtiimonas chitiniclastica,cow,infects,21
+cow,Wohlfahrtiimonas chitiniclastica,hosts,21
+Wohlfahrtiimonas chitiniclastica,China,found in,21
+Wohlfahrtiimonas chitiniclastica,Shandong,found in,21
+Wohlfahrtiimonas chitiniclastica,16S rRNA gene sequencing,detected by,21
+Wohlfahrtiimonas chitiniclastica,matrix-assisted laser desorption/ionization time-of-flight mass spectrometry,detected by,21
+Wohlfahrtiimonas chitiniclastica,antimicrobial susceptibility testing,affected by,21
+Wohlfahrtiimonas chitiniclastica,hoof fetlow,causes,21
+cow,China,lives in,21
+cow,Shandong,lives in,21
+STLV,Nonhuman primates,infects,22
+STLV,Cercopithecus mona,infects,22
+STLV,C. nictitans,infects,22
+Nonhuman primates,STLV,hosts,22
+Cercopithecus mona,STLV,hosts,22
+C. nictitans,STLV,hosts,22
+Hunters,HTLV,hosts,22
+Cameroon,Retroviruses,found in,22
+Hunter-collected DBS,STLV,detects,22
+PCR,STLV,detects,22
+Phylogenetic analyses,STLV,analyzes,22
+Porcine retrovirus,Porcine cells,infects,23
+Porcine cells,Porcine retrovirus,hosts,23
+Porcine retrovirus,Template-primer poly(rA).oligo(dT),requires,23
+Porcine retrovirus,Mn++,requires,23
+K+,RT assay,enhances,23
+Na+,RT assay,enhances,23
+Non-ionic detergents,RT assay,enhances,23
+pH,RT assay,influences,23
+Porcine retrovirus,Porcine cell lines,can be reactivated,23
+Porcine cell lines,Pigs,transmits,23
+Francisella noatunensis,French grunt,infects,24
+Francisella noatunensis,Caesar grunt,infects,24
+French grunt,Francisella noatunensis,hosts,24
+Caesar grunt,Francisella noatunensis,hosts,24
+Francisella noatunensis,Recirculating system,lives in,24
+French grunt,Recirculating system,lives in,24
+Caesar grunt,Recirculating system,lives in,24
+Francisella noatunensis,Spleen,found in,24
+Francisella noatunensis,Kidney,found in,24
+Francisella noatunensis,Real-time PCR amplification,detected by,24
+Francisella noatunensis,Modified Thayer Martin agar media,affected by,24
+p47gag-crk,avian sarcoma virus CT10,infects,25
+p47gag-crk,tyrosine kinases,hosts,25
+p47gag-crk,phospholipase C,similar to,25
+p47gag-crk,tyrosine kinases,activates,25
+Human T-cell leukemia virus,African primates,infects,26
+African primates,Human T-cell leukemia virus,hosts,26
+Grivet monkeys,Human T-cell leukemia virus,hosts,26
+Anubis baboons,Human T-cell leukemia virus,hosts,26
+Hybrid offspring,Human T-cell leukemia virus,hosts,26
+Ethiopia,African primates,found in,26
+HTLV-I specific antigens,Indirect immunofluorescence test,detected by,26
+Eulemur fulvus rufus,Lemuricola vauceli,hosts,27
+Eulemur fulvus rufus,Trichuris sp.,hosts,27
+Eulemur fulvus rufus,Callistoura,hosts,27
+Eulemur fulvus rufus,Trichostrongylid,hosts,27
+Eulemur fulvus rufus,Strongyloid,hosts,27
+Eulemur fulvus rufus,Anoplocephalid cestode,hosts,27
+Eulemur fulvus rufus,Dicrocoeliid trematode,hosts,27
+Eulemur fulvus rufus,Entamoeba sp.,hosts,27
+Eulemur fulvus rufus,Balantidium coli,hosts,27
+Kirindy Forest,Madagascar,found in,27
+Red-fronted lemurs,Kirindy Forest,lives in,27
+Parasites,Eulemur fulvus rufus,infects,27
+Fecal samples,Parasites,detected by,27
+Field seasons,2006,occurred in,27
+Field seasons,2007,occurred in,27
+Months,Field seasons,measured in,27
+Social groups,Host population,part of,27
+Parasitological study,Eulemur fulvus rufus,conducted on,27
+Lemur health,Parasites,affected by,27
+Parasite burden,Fecal samples,measured in,27
+Parapoxvirus,Japanese serows,infects,28
+Japanese serows,Parapoxvirus,hosts,28
+Parapoxvirus,Gifu Prefecture,lives in,28
+Parapoxvirus,Japan,found in,28
+Parapoxvirus,Electron microscope,detected by,28
+Parapoxvirus,Enzyme-linked immunosorbent assay,detected by,28
+S-1,Parapoxvirus,is a type of,28
+Japanese serows,nodular or papular lesions,had,28
+Virus isolations,30 animals,were attempted on,28
+Viral agents,Bovine fetal testicle cell cultures,grew in,28
+Antibody prevalence,Enzyme-linked immunosorbent assay,was examined by,28
+Antibodies,one of 189 sera,were detected in,28
+Antibody prevalence,Dec-84,was highest in,28
+Antibody prevalence,20% in March 1985,declined gradually to,28
+Parapoxviruses,Japanese serows,infects,29
+Orf virus,Japanese serows,infects,29
+Bovine papular stomatitis virus,Japanese serows,infects,29
+Japanese serows,Parapoxviruses,hosts,29
+Japanese serows,Orf virus,hosts,29
+Japanese serows,Bovine papular stomatitis virus,hosts,29
+Ishikawa-S,Bovine papular stomatitis virus,hosts,29
+ORFV,Monoclonal antibodies,reacts with,29
+Viral DNA,Restriction endonuclease,detected by,29
+Viral DNA samples,Clinical lesions,found in,29
+Envelope genes,Parapoxviruses,part of,29
+Nucleotide sequences,Envelope genes,part of,29
+Lutra lutra,Helminth,hosts,30
+Helminth,Lutra lutra,infects,30
+Phagicola sp.,Lutra lutra,found in,30
+Aonchotheca putorii,Lutra lutra,found in,30
+Eucoleus schvalovoj,Lutra lutra,found in,30
+Strongyloides lutrae,Lutra lutra,found in,30
+Anisakis,Lutra lutra,found in,30
+Dirofilaria immitis,Lutra lutra,found in,30
+Gigantorhynchus sp.,Lutra lutra,found in,30
+Lutra lutra,France,lives in,30
+Lutra lutra,Portugal,lives in,30
+Lutra lutra,Spain,lives in,30
+Lutra lutra,Iberian Peninsula,lives in,30
+Lutra lutra,Europe,lives in,30
+Eucoleus schvalovoj,Helminth fauna,dominates,30
+Strongyloides lutrae,Iberian Peninsula,is more prevalent in,30
+Ritchie,Formalin-ether concentration method,developed,30
+Pathogenic agents,Wild species,infects,31
+Wild species,Antibodies,hosts,31
+Syncerus caffer,Bovine herpes virus,hosts,31
+Connochaetes taurinus,Bovine herpes virus,hosts,31
+Damaliscus korrigum,Bovine herpes virus,hosts,31
+Zebra,African horse sickness,hosts,31
+Wart hog,African swine fever,hosts,31
+Wild species,Tanzania,found in,31
+Game areas,Tanzania,found in,31
+Cryptosporidium,Wild non-human primates,infects,32
+Cryptosporidium,Toque macaques,infects,32
+Cryptosporidium,Gray langurs,infects,32
+Cryptosporidium,Purple-faced langurs,infects,32
+Entamoeba spp.,Wild non-human primates,hosts,32
+Iodamoeba,Wild non-human primates,hosts,32
+Chilomastix,Wild non-human primates,hosts,32
+Balantidium spp.,Wild non-human primates,hosts,32
+Enterobius,Wild non-human primates,hosts,32
+Strongyloides,Wild non-human primates,hosts,32
+Cryptosporidium,Water,found in,32
+Cryptosporidium,Human feces,found in,32
+Cryptosporidium,Livestock,found in,32
+Cryptosporidium,Coprologic survey,detected by,32
+Cryptosporidiosis,Disease,causes,32
+Public health,Cryptosporidiosis,affected by,32
+Wildlife conservation management,Cryptosporidiosis,affected by,32
+Cyclospora cayetanensis,Humans,infects,33
+Cyclospora cayetanensis,Dogs,infects,33
+Cyclospora cayetanensis,Chickens,infects,33
+Cyclospora cayetanensis,Monkeys,infects,33
+Cyclospora cayetanensis,Feces,hosts,33
+Dogs,Cyclospora cayetanensis,hosts,33
+Chickens,Cyclospora cayetanensis,hosts,33
+Monkeys,Cyclospora cayetanensis,hosts,33
+FTA filter-base polymerase chain reaction,Cyclospora cayetanensis,detects,33
+Microscopy,Cyclospora cayetanensis,detects,33
+Polymerase chain reaction,Cyclospora cayetanensis,detects,33
+Restriction fragment length polymorphism,Cyclospora cayetanensis,detects,33
+Multiplex PCR assay,Cyclospora cayetanensis,detects,33
+Cyclospora cayetanensis,Cyclosporiasis,causes,33
+Ingestion,Acquisition of cyclosporiasis,causes,33
+Fresh produce,Mature sporulated oocysts,contaminated with,33
+Water sources,Mature sporulated oocysts,contaminated with,33
+Toxoplasma gondii,Felis rufus,infects,34
+Felis rufus,Toxoplasma gondii,hosts,34
+Toxoplasma gondii,Meningoencephalitis,causes,34
+Toxoplasma gondii,Head pressing,causes,34
+Toxoplasma gondii,Stupor,causes,34
+Toxoplasma gondii,Intermittent seizures,causes,34
+Toxoplasma gondii,Vocalization,causes,34
+Toxoplasma gondii,Immunohistochemical test,detected by,34
+Immunohistochemical test,Avidin-biotin,uses,34
+Felis rufus,Free-ranging,lives in,34
+Hepatocystis,Colobus guereza,infects,35
+Hepatocystis,Cercopithecus mitis,infects,35
+Hepatocystis,Lophocebus albigena,infects,35
+Hepatocystis,Papio anubis,infects,35
+Hepatocystis,Procolobus rufomitratus,infects,35
+Hepatocystis,Cercopithecus ascanius,infects,35
+Hepatocystis,Primates,hosts,35
+Plasmodiidae,Malaria,includes,35
+Hepatocystis,Papio anubis,co-infects,35
+Hepatocystis,Procolobus rufomitratus,co-infects,35
+Hepatocystis,Papio anubis,cross-species transmits,35
+Hepatocystis,Procolobus rufomitratus,cross-species transmits,35
+Equid herpesvirus 9,Thomson's gazelle,infects,36
+Equid herpesvirus 9,Burchell's zebra,infects,36
+Burchell's zebra,Equid herpesvirus 9,hosts,36
+Thomson's gazelle,Equid herpesvirus 9,hosts,36
+Burchell's zebra,Serengeti ecosystem,lives in,36
+Thomson's gazelle,Serengeti ecosystem,lives in,36
+Equid herpesvirus 9,Encephalitis,causes,36
+Burchell's zebra,Trigeminal ganglia,has,36
+Thomson's gazelle,Trigeminal ganglia,has,36
+bronchopulmonary nematode larvae,Spanish ibex,infects,37
+Spanish ibex,bronchopulmonary nematode larvae,hosts,37
+Protostrongylid,Spanish ibex,infects,37
+Dictyocaulus spp.,Spanish ibex,infects,37
+Spanish ibex,Castilla-La Mancha,lives in,37
+Spanish ibex,Spain,lives in,37
+bronchopulmonary nematode larvae,Faecal samples,found in,37
+Protostrongylid,Faecal samples,found in,37
+Dictyocaulus spp.,Faecal samples,found in,37
+Spanish ibex,Parasite spreading,affected by,37
+Spanish ibex,Host density-dependent processes,affected by,37
+Spanish ibex,Host-parasite patterns,affected by,37
+Spanish ibex,Health risk,causes,37
+Health surveillance scheme,bronchopulmonary outputs,uses,37
+parrot bornavirus 5,Palm cockatoo,infects,38
+Palm cockatoo,parrot bornavirus 5,hosts,38
+parrot bornavirus 5,Palm cockatoo,isolated from,38
+parrot bornavirus 5,aquatic bird bornaviruses,shares nucleotide sequence identities with,38
+parrot bornavirus 5,passerine bornaviruses,shares nucleotide sequence identities with,38
+parrot bornavirus 5,other bornavirus,has low nucleotide sequence identities with,38
+PaBV-5,parrot bornavirus 5,is,38
+proventricular dilatation disease,parrot bornavirus 5,caused by,38
+parrot bornavirus 5,8842 nucleotides,has complete genome sequence of,38
+parrot bornavirus 5,genomic regions,has distinct 5' and 3' end sequences,38
+parrot bornavirus 5,other bornavirus,has low nucleotide sequence identities with,38
+Phylogenetic analysis,genomic regions,based on,38
+parrot bornavirus 5,Psittaciform 2 bornavirus,is assigned to,38
+Humans,HTLV,infects,39
+Simian species,STLV,infects,39
+Deltaretroviruses,Humans,hosts,39
+Deltaretroviruses,Simian species,hosts,39
+HTLV,Humans,infects,39
+STLV,Simian species,infects,39
+Lophocebus albigena,STLV-1,hosts,39
+Lophocebus albigena,STLV-3,hosts,39
+Cercopithecus cephus,STLV-1,hosts,39
+Cercopithecus cephus,STLV-3,hosts,39
+Cameroon,Lophocebus albigena,found in,39
+Cameroon,Cercopithecus cephus,found in,39
+Whole blood,HTLV,contains,39
+Whole blood,STLV,contains,39
+PCR,HTLV,detects,39
+PCR,STLV,detects,39
+Phylogenetic analysis,LTR sequences,analyzes,39
+Phylogenetic analysis,pX-LTR sequences,analyzes,39
+Lynx pardinus,Brachylaima sp.,hosts,40
+Lynx pardinus,Taenia pisiformis,hosts,40
+Lynx pardinus,T. polyacantha,hosts,40
+Lynx pardinus,T. taeniaeformis,hosts,40
+Lynx pardinus,Mesocestoides litteratus,hosts,40
+Lynx pardinus,Eucoleus aerophilus,hosts,40
+Lynx pardinus,Ancylostoma tubaeforme,hosts,40
+Lynx pardinus,Toxocara cati,hosts,40
+Lynx pardinus,Toxascaris leonina,hosts,40
+Lynx pardinus,Vegisospirura potekhina potekhina,hosts,40
+Lynx pardinus,Mastophorus muris,hosts,40
+Lynx pardinus,Physaloptera praeputialis,hosts,40
+Brucella spp.,blue wildebeest,infects,41
+Brucella spp.,African buffalo,infects,41
+blue wildebeest,Brucella spp.,hosts,41
+African buffalo,Brucella spp.,hosts,41
+blue wildebeest,Masai Mara,lives in,41
+African buffalo,Masai Mara,lives in,41
+Masai people,blue wildebeest,grazes with,41
+Masai people,African buffalo,grazes with,41
+blue wildebeest,cattle,shares grazing and watering areas with,41
+African buffalo,cattle,shares grazing and watering areas with,41
+Brucella spp.,brucellosis,causes,41
+Isospora lutrae,Lutra lutra,infects,42
+Lutra lutra,Isospora lutrae,hosts,42
+Isospora lutrae,Extremadura,lives in,42
+Isospora lutrae,Spain,lives in,42
+Isospora lutrae,Oöcysts,has morphology,42
+Isospora lutrae,Sporocysts,has morphology,42
+Isospora lutrae,Sporozoites,has morphology,42
+Isospora lutrae,Stieda bodies,has morphology,42
+Isospora lutrae,Substieda bodies,has morphology,42
+Isospora lutrae,Residuum,has morphology,42
+Isospora lutrae,Granules,has morphology,42
+Parapoxviruses,Seals,infects,43
+Parapoxviruses,Sea lions,infects,43
+Parapoxviruses,Pinnipeds,hosts,43
+Parapoxviruses,Phocidae,hosts,43
+Parapoxviruses,Otariidae,hosts,43
+Parapoxviruses,Atlantic pinnipeds,are found in,43
+Parapoxviruses,Pacific pinnipeds,are found in,43
+Parapoxviruses,Phocidae,are found in,43
+Parapoxviruses,Otariidae,are found in,43
+Parapoxviruses,Multiple species within a phylogenetic family,are capable of infecting,43
+Parapoxviruses,Free-ranging phocids and otariids,are not commonly transmitted between,43
+Phylogenetic analysis,Poxviral DNA sequences,detects,43
+Phylogenetic analysis,Relationship between Parapoxviruses and Pinnipeds,shows,43
+Phylogenetic family,Pinnipeds,includes,43
+Genus Parapoxvirus,Parapoxviruses,includes,43
+Poxvirus,Pathogen,is a type of,43
+Poxviral DNA sequences,Clinical cases,are generated from,43
+Earlier poxvirus isolates,Poxviral DNA sequences,are compared to,43
+Phylogenetic group,Pinnipeds,is formed by,43
+Pestivirus,Free-ranging deer,infects,44
+Pestivirus,Captive deer,infects,44
+Pestivirus,Cervidae,infects,44
+Bovine viral diarrhea virus,Roe deer,infects,44
+Bovine viral diarrhea virus,Red deer,infects,44
+Bovine viral diarrhea virus,Fallow deer,infects,44
+Bovine viral diarrhea virus,Other cervid species,infects,44
+Border disease virus,Roe deer,infects,44
+Free-ranging deer,Pestivirus,hosts,44
+Captive deer,Pestivirus,hosts,44
+Cervidae,Pestivirus,hosts,44
+Roe deer,Bovine viral diarrhea virus,hosts,44
+Red deer,Bovine viral diarrhea virus,hosts,44
+Fallow deer,Bovine viral diarrhea virus,hosts,44
+Other cervid species,Bovine viral diarrhea virus,hosts,44
+Germany,Cervidae,found in,44
+Roe deer,Germany,found in,44
+Red deer,Germany,found in,44
+Fallow deer,Germany,found in,44
+Other cervid species,Germany,found in,44
+Cattle,Germany,found in,44
+Juvenile animals,Germany,found in,44
+Adults,Germany,found in,44
+Summer,Germany,found in,44
+Winter,Germany,found in,44
+T-cell leukemia/lymphotropic virus type I,Human,infects,45
+T-cell leukemia/lymphotropic virus type I,Simian,infects,45
+STLV-I,Simian,hosts,45
+HTLV-I,Human,hosts,45
+STLV-I,Primate species,lives in,45
+HTLV-I,Human,lives in,45
+STLV-I,Asia,found in,45
+STLV-I,Africa,found in,45
+HTLV-I,World,found in,45
+T-cell leukemia/lymphotropic virus type I,Phylogenetic context,detected by,45
+STLV-I,Phylogenetic context,detected by,45
+HTLV-I,Phylogenetic context,detected by,45
+STLV-I,T-leukemia/lymphotropic virus type I,causes,45
+HTLV-I,T-leukemia/lymphotropic virus type I,causes,45
+Simian T-lymphotropic virus type L,Ethiopian baboons,infects,46
+Simian T-cell leukemia viruses,Ethiopian baboons,hosts,46
+Human T-cell leukemia viruses,Humans,hosts,46
+Simian T-lymphotropic virus type L,Hamadryas baboons,infects,46
+Simian T-lymphotropic virus type L,Hybrid baboons,infects,46
+Simian T-lymphotropic virus type L,Grivet monkeys,infects,46
+STLV-1,Anubis baboons,infects,46
+STLV-2,Grivet monkeys,infects,46
+HTLV-1,Humans,infects,46
+HTLV-2,Humans,infects,46
+Simian T-lymphotropic virus type L,Hamadryas baboons,hosts,46
+Simian T-lymphotropic virus type L,Hybrid baboons,hosts,46
+STLV-1,Anubis baboons,hosts,46
+STLV-2,Grivet monkeys,hosts,46
+parapoxvirus,Japanese serow,infects,47
+Japanese serow,parapoxvirus,hosts,47
+protein AG,antibodies,detects,47
+protein AG-ELISA,antibodies,detects,47
+protein AG-ELISA,protein AG,uses,47
+protein AG-ELISA,ELISA,uses,47
+protein AG-ELISA,serum samples,tests,47
+serum samples,antibodies,contains,47
+Japanese badger,Japan,found in,47
+Japanese black bear,Japan,found in,47
+Japanese deer,Japan,found in,47
+Japanese monkey,Japan,found in,47
+Japanese raccoon dog,Japan,found in,47
+Japanese serow,Japan,found in,47
+Japanese wild boar,Japan,found in,47
+masked palm civet,Japan,found in,47
+nutria,Japan,found in,47
+cattle,parapoxvirus,affected by,47
+sheep,parapoxvirus,affected by,47
+goats,parapoxvirus,affected by,47
+Parapox,Grey seals,infects,48
+Grey seals,Parapox virus,hosts,48
+Parapox virus,Electron microscopy,detected by,48
+Toxoplasma gondii,Sea otters,infects,49
+Acanthocephalan parasites,Sea otters,infects,49
+Bacteria,Sea otters,infects,49
+Fungi,Sea otters,infects,49
+Toxoplasma gondii,Sea otters,hosts,49
+Acanthocephalan parasites,Sea otters,hosts,49
+Shark attack,Sea otters,affects,49
+Cardiac disease,Sea otters,affects,49
+Protozoal encephalitis,Sea otters,affects,49
+Acanthocephalan-related disease,Sea otters,affects,49
+Estero Bay,T. gondii encephalitis,found in,49
+Southern Monterey Bay,Acanthocephalan peritonitis,found in,49
+Santa Cruz to Point Año Nuevo,Shark attack,found in,49
+Simian immunodeficiency virus,Patas monkey,infects,50
+Simian immunodeficiency virus,African green monkeys,infects,50
+Patas monkey,Simian immunodeficiency virus,hosts,50
+African green monkeys,Simian immunodeficiency virus,hosts,50
+HIV-2,Host,infects,50
+Simian immunodeficiency virus,Patas monkey,found in,50
+Simian immunodeficiency virus,African green monkeys,found in,50
+pamG31,Patas monkey,infects,50
+SIVagm,African green monkeys,infects,50
+SIVagm sabaeus,African green monkeys,infects,50
+env/nef region,Phylogenetic analysis,detected by,50
+pamG31,Lentiviral infection,causes,50
+SIVagm,Lentiviral infection,causes,50
+Hawaiian monk seal,Phocine herpesvirus-1,hosts,51
+Hawaiian monk seal,Leptospira bratislava,hosts,51
+Hawaiian monk seal,L. hardjo,hosts,51
+Hawaiian monk seal,L. icterohaemorrhagiae,hosts,51
+Hawaiian monk seal,L. pomona,hosts,51
+Hawaiian monk seal,Brucella spp.,hosts,51
+Hawaiian monk seal,B. canis,hosts,51
+Hawaiian monk seal,Chlamydophila abortus,hosts,51
+Hawaiian monk seal,Toxoplasma gondii,hosts,51
+Hawaiian monk seal,Dirofilaria immitis,hosts,51
+Phocine herpesvirus-1,Hawaiian monk seal,infects,51
+Leptospira bratislava,Hawaiian monk seal,infects,51
+L. hardjo,Hawaiian monk seal,infects,51
+L. icterohaemorrhagiae,Hawaiian monk seal,infects,51
+L. pomona,Hawaiian monk seal,infects,51
+Brucella spp.,Hawaiian monk seal,infects,51
+B. canis,Hawaiian monk seal,infects,51
+Chlamydophila abortus,Hawaiian monk seal,infects,51
+Toxoplasma gondii,Hawaiian monk seal,infects,51
+Dirofilaria immitis,Hawaiian monk seal,infects,51
+Northwestern Hawaiian Islands,Hawaiian monk seal,found in,51
+Serum,Hawaiian monk seal,detected in,51
+Antibodies,Hawaiian monk seal,detected in,51
+Enzyme-linked immunosorbent assay,Antibodies,used to detect,51
+Virus neutralization test,Antibodies,used to detect,51
+Microagglutination test,Antibodies,used to detect,51
+Complement fixation test,Antibodies,used to detect,51
+Card test,Antibodies,used to detect,51
+Conservation efforts,Diagnostic tools,dependent on,51
+Infectious disease monitoring,Surveillance,provides,51
+Mycobacterium bovis,white-tailed deer,infects,52
+white-tailed deer,Mycobacterium bovis,hosts,52
+Mycobacterium bovis,white-tailed deer,found in,52
+white-tailed deer,Michigan,lives in,52
+white-tailed deer,USA,lives in,52
+Mycobacterium bovis,tuberculosis,causes,52
+Mycobacterium bovis,tuberculous lesions,causes,52
+tuberculosis,white-tailed deer,affects,52
+tuberculous lesions,white-tailed deer,affects,52
+head,extracranial tissues,has relationship with,52
+thorax,extracranial tissues,has relationship with,52
+liver,extracranial tissues,has relationship with,52
+spleen,extracranial tissues,has relationship with,52
+rumen,extracranial tissues,has relationship with,52
+mammary gland,extracranial tissues,has relationship with,52
+medial retropharyngeal lymph nodes,extracranial tissues,has relationship with,52
+parotid lymph node,extracranial tissues,has relationship with,52
+red deer,abomasal helminths,hosts,53
+abomasal helminths,red deer,infects,53
+Spiculopteragia asymmetrica,red deer,infects,53
+Spiculopteragia quadrispiculata,red deer,infects,53
+Ostertagia leptospicularis,red deer,infects,53
+Ostertagia kolchida,red deer,infects,53
+Ostertagia drozdzi,red deer,infects,53
+Ostertagia ryjikovi,red deer,infects,53
+red deer,central Spain,found in,53
+abomasal helminths,red deer,found in,53
+Spiculopteragia asymmetrica,red deer,found in,53
+Spiculopteragia quadrispiculata,red deer,found in,53
+Ostertagia leptospicularis,red deer,found in,53
+Ostertagia kolchida,red deer,found in,53
+Ostertagia drozdzi,red deer,found in,53
+Ostertagia ryjikovi,red deer,found in,53
+males,Spiculopteragia asymmetrica,hosts,53
+males,Spiculopteragia quadrispiculata,hosts,53
+males,Ostertagia leptospicularis,hosts,53
+males,Ostertagia kolchida,hosts,53
+males,Ostertagia drozdzi,hosts,53
+males,Ostertagia ryjikovi,hosts,53
+females,Spiculopteragia asymmetrica,hosts,53
+females,Spiculopteragia quadrispiculata,hosts,53
+females,Ostertagia leptospicularis,hosts,53
+females,Ostertagia kolchida,hosts,53
+females,Ostertagia drozdzi,hosts,53
+females,Ostertagia ryjikovi,hosts,53
+winter,maximum values,causes,53
+summer,maximum values,causes,53
+climate,abomasal helminths,affects,53
+forage resources,abomasal helminths,affects,53
+Protostrongylid parasites,Ovis dalli,infects,54
+Parelaphostrongylus odocoilei,Ovis dalli,infects,54
+Protostrongylus stilesi,Ovis dalli,infects,54
+Ovis dalli,Parelaphostrongylus odocoilei,hosts,54
+Ovis dalli,Protostrongylus stilesi,hosts,54
+Ovis d. stonei,Parelaphostrongylus odocoilei,hosts,54
+Mackenzie Mountains,Ovis dalli,found in,54
+Northwest Territories,Ovis dalli,found in,54
+Brain,Protostrongylid parasites,affected by,54
+Muscles,Protostrongylid parasites,affected by,54
+Cranial lung,Protostrongylid parasites,affected by,54
+Feces,Protostrongylid parasites,affected by,54
+Lungs,Protostrongylid parasites,affected by,54
+Arcanobacterium pyogenes,Pneumonia,causes,54
+Pasteurella sp.,Pneumonia,causes,54
+Mannheimia sp.,Pneumonia,causes,54
+Respiratory viruses,Ovis dalli,not found in,54
+Bacterial strains,Ovis dalli,not found in,54
+Domestic ruminants,Ovis dalli,not associated with,54
+Trypanosoma cruzi,Leontopithecus rosalia,infects,55
+Leontopithecus rosalia,Trypanosoma cruzi,hosts,55
+Trypanosoma cruzi,Biological Reserve of Poço das Antas,found in,55
+Trypanosoma cruzi,Rio de Janeiro,found in,55
+Trypanosoma cruzi,Brazil,found in,55
+Leontopithecus rosalia,T wave low voltage,displayed,55
+Leontopithecus rosalia,R wave low voltage,displayed,55
+Leontopithecus rosalia,V3S wave high voltage,displayed,55
+Leontopithecus rosalia,Cardiac abnormalities,displayed,55
+Leontopithecus rosalia,Seric cardiac creatine kinase,had,55
+Leontopithecus rosalia,Seric mean total protein,had,55
+Brucella,marine mammals,infects,56
+marine mammals,Brucella,hosts,56
+Brucella,liver,found in,56
+Brucella,spleen,found in,56
+Brucella,lipopolysaccharide,has property,56
+Brucella,surface,has property,56
+Brucella,antibodies,has property,56
+marine mammals,ELISA,tested with,56
+marine mammals,serum agglutination test,tested with,56
+marine mammals,EDTA-modified serum agglutination test,tested with,56
+marine mammals,Rose Bengal test,tested with,56
+marine mammals,complement fixation test,tested with,56
+marine mammals,anti-complement ELISA,tested with,56
+SA12,Chacma baboons,infects,57
+SA12,Rhesus kidney cells,hosts,57
+SA12,Hamsters,infects,57
+SA12,South African vervet monkey,found in,57
+SA12,Papio ursinus,found in,57
+SA12,Cercopithecus pygerythrus,found in,57
+SA12,Simian virus 40,has relationship with,57
+SA12,SV40-polyoma subgroup,has relationship with,57
+SA12,Papovaviruses,has relationship with,57
+SA12,DNA,has relationship with,57
+SA12,Virus,has relationship with,57
+SA12,Virion,has relationship with,57
+SA12,Cells,has relationship with,57
+SA12,Antiviral sera,has relationship with,57
+SA12,T antigens,has relationship with,57
+SA12,Sera,has relationship with,57
+Trypanosoma cruzi,Leontopithecus rosalia,infects,58
+Trypanosoma cruzi,L. chrysomelas,infects,58
+Prosthenorchis sp.,Leontopithecus rosalia,infects,58
+Prosthenorchis sp.,L. chrysomelas,infects,58
+Spiruridae,Leontopithecus rosalia,infects,58
+Spiruridae,L. chrysomelas,infects,58
+Trichostrongylidae,Leontopithecus rosalia,infects,58
+Trichostrongylidae,L. chrysomelas,infects,58
+Leontopithecus rosalia,Trypanosoma cruzi,hosts,58
+L. chrysomelas,Trypanosoma cruzi,hosts,58
+Leontopithecus rosalia,Prosthenorchis sp.,hosts,58
+L. chrysomelas,Prosthenorchis sp.,hosts,58
+Leontopithecus rosalia,Spiruridae,hosts,58
+L. chrysomelas,Spiruridae,hosts,58
+Leontopithecus rosalia,Trichostrongylidae,hosts,58
+L. chrysomelas,Trichostrongylidae,hosts,58
+Female tamarins,Trichostrongylidae infection,has relationship with,58
+T. cruzi infection,Parasite community,affects,58
+Helminth prevalence,Parasite community,affects,58
+Parasitic concomitant infections,Parasite community,affects,58
+Bovine virus diarrhea virus,Free-living deer,infects,59
+Free-living deer,Bovine virus diarrhea virus,hosts,59
+Cattle,Bovine virus diarrhea virus,hosts,59
+Roe deer,Bovine virus diarrhea virus,hosts,59
+Fallow deer,Bovine virus diarrhea virus,hosts,59
+Red deer,Bovine virus diarrhea virus,hosts,59
+Sika deer,Bovine virus diarrhea virus,hosts,59
+Denmark,Bovine virus diarrhea virus,found in,59
+Denmark,Free-living deer,found in,59
+Denmark,Cattle,found in,59
+Denmark,Roe deer,found in,59
+Denmark,Fallow deer,found in,59
+Denmark,Red deer,found in,59
+Denmark,Sika deer,found in,59
+Jutland,Red deer,found in,59
+human immunodeficiency virus (HIV),humans,infects,60
+simian immunodeficiency viruses,nonhuman primates,infects,60
+Lentiviridae,Felidae,hosts,60
+Lentiviridae,bobcats,hosts,60
+Lentiviridae,pumas,hosts,60
+Feline lentivirus,bobcats,infects,60
+Feline lentivirus,pumas,infects,60
+bobcats,Feline lentivirus,hosts,60
+pumas,Feline lentivirus,hosts,60
+pumas,bobcats,preys on,60
+Mephitis mephitis,Sarcocystis neurona,hosts,61
+Sarcocystis neurona,Mephitis mephitis,infects,61
+Protozoa,Mephitis mephitis,infects,61
+Mephitis mephitis,Lung,lives in,61
+Mephitis mephitis,Brain,lives in,61
+Mephitis mephitis,Liver,lives in,61
+Mephitis mephitis,Nasal epithelium,lives in,61
+Mephitis mephitis,Necropsy,undergoes,61
+Mephitis mephitis,Histology,undergoes,61
+Mephitis mephitis,Immunohistochemistry,undergoes,61
+Mephitis mephitis,Polymerase chain reaction,undergoes,61
+Sarcocystis neurona,Ribosomal RNA gene,has property,61
+Sarcocystis neurona,DNA,has property,61
+Sarcocystis neurona,Base pair,has property,61
+Mephitis mephitis,Canine distemper virus,is affected by,61
+Mephitis mephitis,Immunosuppression,is affected by,61
+Leptospira,Raccoons,infects,62
+Leptospira,Skunks,infects,62
+Leptospira,Opossums,infects,62
+Leptospira,Gray squirrels,infects,62
+Leptospira,Peridomestic wildlife,hosts,62
+Raccoons,Leptospira,hosts,62
+Skunks,Leptospira,hosts,62
+Opossums,Leptospira,hosts,62
+Gray squirrels,Leptospira,hosts,62
+Dogs,Leptospira,hosts,62
+Humans,Leptospira,hosts,62
+northern elephant seal,uric acid,hosts,63
+northern elephant seal,ammonium urate,hosts,63
+California sea lion,ammonium urate,hosts,63
+uric acid,kidneys,infects,63
+ammonium urate,kidneys,infects,63
+nephrolithiasis,renal pelvic dilation,causes,63
+nephrolithiasis,pyelonephritis,causes,63
+nephrolithiasis,hydronephrosis,causes,63
+northern elephant seal,Marine Environment,lives in,63
+California sea lion,Marine Environment,lives in,63
+Canine distemper virus,Neovison vison,infects,64
+Neovison vison,Canine distemper virus,hosts,64
+Fakahatchee Strand Preserve State Park,Florida,found in,64
+Florida,USA,found in,64
+Mycobacterium bovis,white-tailed deer,infects,65
+white-tailed deer,Mycobacterium bovis,hosts,65
+hunter-harvested white-tailed deer,Michigan,found in,65
+hunter-harvested white-tailed deer,USA,found in,65
+heads,hunter-harvested white-tailed deer,lives in,65
+lungs,hunter-harvested white-tailed deer,lives in,65
+lymph nodes,hunter-harvested white-tailed deer,lives in,65
+Mycobacterium bovis,culture,detected by,65
+tuberculosis,bovine tuberculosis,causes,65
+environmental factors,deer density,affected by,65
+environmental factors,poor quality habitat,affected by,65
+management-related factors,supplemental feeding,affected by,65
+Olive baboons,Helminths,hosts,66
+Olive baboons,Protozoa,hosts,66
+Olive baboons,Strongyloides sp.,infects,66
+Olive baboons,Trichuris,infects,66
+Gombe Stream National Park,Olive baboons,found in,66
+Tanzania,Gombe Stream National Park,found in,66
+Troops,Olive baboons,hosts,66
+Age,Strongyloides sp.,affects,66
+Sex,Parasite infection,does not affect,66
+Reproductive status,Trichuris egg output,related to,66
+Social rank,Parasite infection,not correlated with,66
+Troop membership,Heterogeneity of prevalence of infection,contributes to,66
+Panthera leo,Feline immunodeficiency virus,hosts,67
+Panthera leo,Feline calicivirus,hosts,67
+Panthera leo,Feline herpesvirus 1,hosts,67
+Panthera leo,Feline/canine parvovirus,hosts,67
+Panthera leo,Feline infectious peritonitis virus,hosts,67
+Panthera leo,Canine distemper virus,hosts,67
+Panthera leo,Feline leukemia virus,hosts,67
+Feline immunodeficiency virus,Panthera leo,infects,67
+Feline calicivirus,Panthera leo,infects,67
+Feline herpesvirus 1,Panthera leo,infects,67
+Feline/canine parvovirus,Panthera leo,infects,67
+Feline infectious peritonitis virus,Panthera leo,infects,67
+Canine distemper virus,Panthera leo,infects,67
+Feline leukemia virus,Panthera leo,infects,67
+Queen Elizabeth National Park,Panthera leo,found in,67
+Uganda,Queen Elizabeth National Park,found in,67
+1998,Feline immunodeficiency virus,detected by,67
+1999,Feline calicivirus,detected by,67
+Elaeophora schneideri,Ovis canadensis,infects,68
+Ovis canadensis,Elaeophora schneideri,hosts,68
+Elaeophora schneideri,Mule deer,infects,68
+Mule deer,Elaeophora schneideri,hosts,68
+Elaeophora schneideri,Tabanid,lives in,68
+Tabanid,New Mexico,found in,68
+Ovis canadensis,New Mexico,found in,68
+Mule deer,New Mexico,found in,68
+Elaeophora schneideri,Fra Cristobal Mountains,detected in,68
+Elaeophora schneideri,Gila Wilderness area,detected in,68
+Elaeophora schneideri,Watson Mountain,detected in,68
+Ovis canadensis,Fra Cristobal Mountains,lives in,68
+Ovis canadensis,Gila Wilderness area,lives in,68
+Ovis canadensis,Watson Mountain,lives in,68
+Mule deer,Fra Cristobal Mountains,lives in,68
+Mule deer,Gila Wilderness area,lives in,68
+Mule deer,Watson Mountain,lives in,68
+Neospora caninum,Midwestern white-tailed deer,infects,69
+Midwestern white-tailed deer,Neospora caninum,hosts,69
+Neospora caninum,Western blot,detected by,69
+Neospora caninum,ELISA,detected by,69
+Midwestern white-tailed deer,Neospora caninum life cycle,serves to maintain,69
+Sera from white-tailed deer,antibodies to N. caninum,tested for,69
+N. caninum surface antigens,antibodies,reacts with,69
+Western blot,ELISA,is superior to,69
+Field-collected samples,antibodies,degrade,69
+Olive baboons,Cryptosporidium,hosts,70
+Olive baboons,Giardia,hosts,70
+Olive baboons,Eimeria,hosts,70
+Olive baboons,Ascaris spp.,hosts,70
+Olive baboons,Strongyloides spp.,hosts,70
+Olive baboons,Trichuris spp.,hosts,70
+Olive baboons,Hymenolepis spp.,hosts,70
+Olive baboons,Ternidens diminuta,hosts,70
+Mountain gorillas,Cryptosporidium,hosts,70
+Mountain gorillas,Giardia,hosts,70
+Mountain gorillas,Strongyloides spp.,hosts,70
+Mountain gorillas,Trichuris spp.,hosts,70
+Bwindi Impenetrable National Park,Olive baboons,lives in,70
+Bwindi Impenetrable National Park,Mountain gorillas,lives in,70
+Uganda,Bwindi Impenetrable National Park,found in,70
+Olive baboons,Mountain gorillas,interacts with,70
+Cryptosporidium,Olive baboons,infects,70
+Giardia,Olive baboons,infects,70
+Eimeria,Olive baboons,infects,70
+Ascaris spp.,Olive baboons,infects,70
+Strongyloides spp.,Olive baboons,infects,70
+Trichuris spp.,Olive baboons,infects,70
+Hymenolepis spp.,Olive baboons,infects,70
+Ternidens diminuta,Olive baboons,infects,70
+Protostrongylus,Ovis canadensis canadensis,infects,71
+Ovis canadensis canadensis,Protostrongylus,hosts,71
+Fenbendazole,Protostrongylid lungworms,infects,71
+Protostrongylid lungworms,Ovis canadensis canadensis,infects,71
+Southcentral Montana,USA,found in,71
+Stillwater bighorn winter range,Southcentral Montana,found in,71
+Bighorn feces,Lungworm larvae,contains,71
+Sheep,Fenbendazole-medicated salt,uses,71
+Fenbendazole-medicated salt,Sheep,used by,71
+Study period,Fenbendazole-medicated salt,affected by,71
+Pretreatment levels,Post-treatment levels,compared to,71
+Prevalence,Post-treatment levels,compared to,71
+Average number of lungworm larvae per gram,Post-treatment levels,compared to,71
+Neospora caninum,Odocoileus hemionus columbianus,infects,72
+Neospora caninum,Odocoileus hemionus hemionus,infects,72
+Toxoplasma gondii,Odocoileus hemionus columbianus,infects,72
+Toxoplasma gondii,Odocoileus hemionus hemionus,infects,72
+Odocoileus hemionus columbianus,Neospora caninum,hosts,72
+Odocoileus hemionus hemionus,Neospora caninum,hosts,72
+Odocoileus hemionus columbianus,Toxoplasma gondii,hosts,72
+Odocoileus hemionus hemionus,Toxoplasma gondii,hosts,72
+Washington state,Odocoileus hemionus columbianus,found in,72
+Washington state,Odocoileus hemionus hemionus,found in,72
+USA,Odocoileus hemionus columbianus,found in,72
+USA,Odocoileus hemionus hemionus,found in,72
+Antibodies,Direct agglutination test,detected by,72
+Sera,Antibodies,contains,72
+Specific antigens,Direct agglutination test,used in,72
+Titer,Antibodies,measured in,72
+01:25,Diagnostic,indicates,72
+Brucella,Hawaiian monk seals,infects,73
+Hawaiian monk seals,Brucella,hosts,73
+Brucella,Buffered antigen plate agglutination test,detected by,73
+Brucella,Indirect enzyme immunoassay,detected by,73
+Brucella,Competitive enzyme immunoassay,detected by,73
+Brucella,Fluorescence polarization assay,detected by,73
+Hawaiian monk seals,Antibodies,has property,73
+Antibodies,Brucella,caused by,73
+Cattle,Brucella,hosts,73
+Northwestern Hawaiian Islands,Hawaiian monk seals,found in,73
+1995,Collection,date of,73
+2002,Collection,date of,73
+Parelaphostrongylus odocoilei,Dall's sheep,infects,74
+Parelaphostrongylus odocoilei,Deroceras laeve,hosts,74
+Parelaphostrongylus odocoilei,Deroceras reticulatum,hosts,74
+Protostrongylus stilesi,Dall's sheep,infects,74
+Protostrongylus stilesi,Dall's sheep,hosts,74
+Dall's sheep,Parelaphostrongylus odocoilei,hosts,74
+Dall's sheep,Protostrongylus stilesi,hosts,74
+Deroceras laeve,Parelaphostrongylus odocoilei,hosts,74
+Deroceras reticulatum,Parelaphostrongylus odocoilei,hosts,74
+Mackenzie Mountains,Parelaphostrongylus odocoilei,found in,74
+Mackenzie Mountains,Protostrongylus stilesi,found in,74
+Alaska Range,Protostrongylus stilesi,found in,74
+Lungs,Protostrongylus stilesi,affected by,74
+Lungs,Parelaphostrongylus odocoilei,affected by,74
+Rio Negro virus,Humans,infects,75
+Rio Negro virus,Mosquitoes,infects,75
+Rio Negro virus,Rodents,infects,75
+Mosquitoes,Rio Negro virus,hosts,75
+Rodents,Rio Negro virus,hosts,75
+Humans,Rio Negro virus,hosts,75
+Córdoba,Argentina,found in,75
+Rio Negro virus,Reverse transcriptase-nested polymerase chain reaction (RT-nested PCR),detected by,75
+Serum sample,Antibodies,has,75
+Rio Negro virus,Acute febrile illness,causes,75
+Hantavirus,Myodes,infects,76
+Hantavirus,Microtus,infects,76
+Myodes,Hantavirus,hosts,76
+Microtus,Hantavirus,hosts,76
+Buryatia,Russian Federation,found in,76
+Baikal,Buryatia,found in,76
+Hokkaido virus,Myodes,found in,76
+Vladivostok virus,Microtus,found in,76
+Puumala virus,M. glareolus,found in,76
+Muju virus,M. regulus,found in,76
+M. rufocanus,Hantavirus,carries,76
+M. fortis,Vladivostok virus,carries,76
+M. oeconomus,Vladivostok virus,hosts,76
+M. oeconomus,Hantavirus,hosts,76
+Leptospira fainei serovar Hurstbridge,Human patients,infects,77
+Leptospira fainei serovar Hurstbridge,Animal sources,hosts,77
+Leptospira fainei serovar Hurstbridge,Denmark,found in,77
+L. fainei,Human patients,infects,77
+L. fainei,Human patients,hosts,77
+Leptospira fainei serovar Hurstbridge,Weil's syndrome,causes,77
+Leptospira fainei serovar Hurstbridge,Autoimmune hepatitis,causes,77
+Beak and Feather Disease Virus,Psittacine Birds,infects,78
+Circovirus,Beak and Feather Disease,causes,78
+Psittacine Birds,Beak and Feather Disease Virus,hosts,78
+African Grey Parrots,Beak and Feather Disease Virus,hosts,78
+Cockatoos,Beak and Feather Disease Virus,hosts,78
+Amazon Parrots,Beak and Feather Disease Virus,hosts,78
+Macaws,Beak and Feather Disease Virus,hosts,78
+UAE,Psittacine Birds,found in,78
+Taqman Probe,Beak and Feather Disease Virus,detects,78
+Real-time PCR Assay,Beak and Feather Disease Virus,detects,78
+Beak and Feather Disease Virus,Taqman Probe,detected by,78
+Beak and Feather Disease Virus,Real-time PCR Assay,detected by,78
+Pigeon paramyxovirus serotype 1,North American pigeons,infects,79
+Pigeon paramyxovirus serotype 1,Brain tissue,hosts,79
+Pigeon paramyxovirus serotype 1,Wild,lives in,79
+Pigeon paramyxovirus serotype 1,Rhode Island,found in,79
+Pigeon paramyxovirus serotype 1,Eastern Texas,found in,79
+West Nile virus,Host,infects,79
+USDA-validated real-time reverse transcription-PCR assay,Pigeon paramyxovirus serotype 1,detects,79
+Hemagglutinin inhibition,Pigeon paramyxovirus serotype 1,detects,79
+Monoclonal antibodies,Pigeon paramyxovirus serotype 1,detects,79
+Newcastle disease virus,Columbiformes,infects,79
+Pigeon paramyxovirus serotype 1,Virulence,causes,79
+Fusion cleavage site motif,Virulence,indicates,79
+Intracerebral pathogenicity indices,Virulence,measures,79
+Fusion gene-based real-time PCR test,Virulence,detects,79
+Probe site,Fusion gene-based real-time PCR test,is modified,79
+Toxoplasma gondii,Deer,infects,80
+Deer,Toxoplasma gondii,hosts,80
+Blastocerus dichotomus,Toxoplasma gondii,hosts,80
+Ozotocerus bezoarticus,Toxoplasma gondii,hosts,80
+Brazil,Toxoplasma gondii,found in,80
+State of São Paulo,Toxoplasma gondii,found in,80
+State of Goiás,Toxoplasma gondii,found in,80
+Deer,Antibodies,has property,80
+Antibodies,Indirect hemagglutination (IHA),detected by,80
+Antibodies,Indirect immunofluorescence (IFA),detected by,80
+Antibodies,Enzyme linked immunosorbent assay (ELISA),detected by,80
+Antibodies,Dot-ELISA,detected by,80
+Newborn fawn,Antibodies,has property,80
+Young adults,Deer,has age group,80
+Adults,Deer,has age group,80
+Fawns,Deer,has age group,80
+Contracaecum ogmorhini,Mirounga leonina,hosts,81
+Contracaecum ogmorhini,Otariid seals,infects,81
+C. margolisi n. sp.,Arctocephalus pusillus pusillus,hosts,81
+C. margolisi n. sp.,Arctocephalus pusillus doriferus,hosts,81
+C. margolisi n. sp.,Arctocephalus australis,hosts,81
+C. ogmorhini (s.s.),Mirounga leonina,hosts,81
+C. osculatum (s.l.),Mirounga leonina,hosts,81
+C. miroungae,Mirounga leonina,hosts,81
+Contracaecum ogmorhini (sensu lato),Zalophus californianus,hosts,81
+Contracaecum ogmorhini (sensu lato),Arctocephalus pusillus pusillus,hosts,81
+Contracaecum ogmorhini (sensu lato),Arctocephalus pusillus doriferus,hosts,81
+Contracaecum ogmorhini (sensu lato),Arctocephalus australis,hosts,81
+canine distemper virus,wild carnivores,infects,82
+canine distemper virus,red foxes,hosts,82
+canine distemper virus,Eurasian badgers,hosts,82
+canine distemper virus,stone martens,hosts,82
+canine distemper virus,pine martens,hosts,82
+canine distemper virus,Eurasian lynx,hosts,82
+canine distemper virus,domestic dog,hosts,82
+canine distemper virus,Switzerland,infects,82
+canine distemper virus,Hungarian CDV strain,shares,82
+canine distemper virus,hemagglutinin protein,has property,82
+canine distemper virus,signaling lymphocyte activation molecule,has property,82
+canine distemper virus,SLAM,has property,82
+A75/17,canine distemper virus,is reference strain of,82
+Hepatitis B virus,Human immunodeficiency virus,infects,83
+Hepatitis B virus,HIV-infected patients,infects,83
+Human immunodeficiency virus,HIV-infected patients,infects,83
+Hepatitis B virus,HBV-coinfected patients,hosts,83
+Human immunodeficiency virus,HIV-coinfected patients,hosts,83
+HBV vaccination program,Areas,found in,83
+HBV seroprevalence,Measurement,detected by,83
+Combination antiretroviral therapy,successful long-term suppression of HIV and HBV replication,causes,83
+HIV infection,accelerates immunologic and clinical progression of HIV infection,causes,83
+HBV coinfection,increases the risk of hepatotoxicity when combination antiretroviral therapy is initiated,causes,83
+HIV infection,"increases the risk of hepatitis events, cirrhosis, and end-stage liver disease related to chronic HBV infection",causes,83
+HBV vaccine,HBV vaccination program,used by,83
+Tenofovir disoproxil fumarate,Combination antiretroviral therapy,used in,83
+Emtricitabine,Combination antiretroviral therapy,used in,83
+Lamivudine,Combination antiretroviral therapy,used in,83
+Rhodococcus equi,indigenous animals,infects,84
+Rhodococcus equi,foals,hosts,84
+Rhodococcus equi,Lower Zambezi National Park,found in,84
+Rhodococcus equi,Lochinvar National Park,found in,84
+Rhodococcus equi,Zambia,found in,84
+Rhodococcus equi,immunoblotting,detected by,84
+Rhodococcus equi,PCR,detected by,84
+Rhodococcus equi,soil,lives in,84
+Rhodococcus equi,fetal samples,lives in,84
+VapA,Rhodococcus equi,found in,84
+VapB,Rhodococcus equi,found in,84
+cryptic plasmids,Rhodococcus equi,found in,84
+virulent R. equi,disease,causes,84
+avirulent R. equi,disease,does not cause,84
+Japanese encephalitis virus,Host,infects,85
+Japanese encephalitis virus,Southeast Asia,hosts,85
+Japanese encephalitis virus,Asia,hosts,85
+Japanese encephalitis virus,Indonesia,hosts,85
+Japanese encephalitis virus,Malaysia,hosts,85
+Japanese encephalitis virus,Japan,hosts,85
+Genotype IV,Indonesia,hosts,85
+Genotype IV,Malaysia,hosts,85
+Genotype IV,Host,infects,85
+JKT6468,Indonesia,hosts,85
+JKT6468,Host,infects,85
+Dengue virus,Host,infects,85
+Nipah virus,Host,infects,85
+Japanese encephalitis virus,Southeast Asia,lives in,85
+Japanese encephalitis virus,Asia,lives in,85
+Japanese encephalitis virus,Indonesia,lives in,85
+Japanese encephalitis virus,Malaysia,lives in,85
+Japanese encephalitis virus,Japan,lives in,85
+Tropical southeast Asia,Emerging viruses,hosts,85
+W1,Australian brushtail possums,infects,86
+W6,Australian brushtail possums,infects,86
+Australian brushtail possums,W1,hosts,86
+Australian brushtail possums,W6,hosts,86
+W1,Bovine enterovirus serotype 2,related to,86
+W6,Bovine enterovirus serotype 2,related to,86
+W1,PS87/Belfast,distinct from,86
+W6,PS87/Belfast,distinct from,86
+W1,Possum kidney cells,grows in,86
+W6,Possum kidney cells,grows in,86
+W1,Madin-Darby bovine kidney cells,does not grow in,86
+W6,Madin-Darby bovine kidney cells,does not grow in,86
+Leptospira interrogans,Canis lupus,infects,87
+Canis lupus,Leptospira interrogans,hosts,87
+Leptospira interrogans,Australis,has serovars,87
+Leptospira interrogans,Autumnalis,has serovars,87
+Leptospira interrogans,Ballum,has serovars,87
+Leptospira interrogans,Bataviae,has serovars,87
+Leptospira interrogans,Bratislava,has serovars,87
+Leptospira interrogans,Canicola,has serovars,87
+Leptospira interrogans,Copenhageni,has serovars,87
+Leptospira interrogans,Grippotyphosa,has serovars,87
+Leptospira interrogans,Hardjo,has serovars,87
+Leptospira interrogans,Pomona,has serovars,87
+Leptospira interrogans,Pyrogenes,has serovars,87
+Leptospira interrogans,Tarassovi,has serovars,87
+Canis lupus,Leptospira interrogans,has serum,87
+Leptospira interrogans,Microtiter agglutination test,detected by,87
+Leptospira interrogans,Antibodies,has antibodies,87
+Leishmania infantum,gray wolf,infects,88
+gray wolf,Leishmania infantum,hosts,88
+Croatia,Dalmatia,found in,88
+Dalmatia,Croatia,found in,88
+Leishmania infantum,visceral leishmaniosis,causes,88
+gray wolf,Leishmania infantum,dies from,88
+Nov-03,gray wolf death,occurs during,88
+polymerase chain reaction,Leishmania infantum,detects,88
+Brevinema andersonii,Blarina brevicauda,infects,89
+Brevinema andersonii,Peromyscus leucopus,infects,89
+Blarina brevicauda,Brevinema andersonii,hosts,89
+Peromyscus leucopus,Brevinema andersonii,hosts,89
+Brevinema andersonii,Connecticut,lives in,89
+Brevinema andersonii,Minnesota,lives in,89
+Brevinema andersonii,16S rRNA,has 16s rrna sequence,89
+Brevinema andersonii,Sodium dodecyl sulfate-polyacrylamide gel electrophoresis,has sodium dodecyl sulfate-polyacrylamide gel electrophoresis profile,89
+Brevinema andersonii,Fatty acid analysis,has fatty acid profile,89
+Brevinema andersonii,Enzyme analysis,has enzyme profile,89
+Brevinema andersonii,Restriction endonuclease analysis,has restriction endonuclease profile,89
+Brevinema andersonii,Southern hybridization,has southern hybridization profile,89
+Brevinema andersonii,Brevinema,is classified as,89
+Brevinema andersonii,Spirochaetales,is a member of,89
+Brevinema andersonii,ATCC 43811,is a type strain of,89
+Borrelia burgdorferi,Peromyscus leucopus,infects,90
+Borrelia burgdorferi,Tamias striatus,infects,90
+Borrelia burgdorferi,Dermacentor variabilis,hosts,90
+Borrelia burgdorferi,Ixodes dammini,hosts,90
+Peromyscus leucopus,Borrelia burgdorferi,hosts,90
+Tamias striatus,Borrelia burgdorferi,hosts,90
+Dermacentor variabilis,Eastern Connecticut,found in,90
+Ixodes dammini,Eastern Connecticut,found in,90
+Borrelia burgdorferi,Peromyscus leucopus,persisted in,90
+Borrelia burgdorferi,Peromyscus leucopus,isolated from,90
+Borrelia burgdorferi,Tamias striatus,isolated from,90
+Borrelia burgdorferi,Dermacentor variabilis,isolated from,90
+Spirochetes,Peromyscus leucopus,isolated from,90
+Spirochetes,Tamias striatus,isolated from,90
+Spirochetes,Dermacentor variabilis,isolated from,90
+Spirochetes,Reference B. burgdorferi isolates,indistinguishable from,90
+Arvicola scherman,Puumala virus,hosts,91
+Arvicola scherman,Lymphocytic choriomeningitis virus,hosts,91
+Arvicola scherman,Cowpox virus,hosts,91
+Puumala virus,Arvicola scherman,infects,91
+Lymphocytic choriomeningitis virus,Arvicola scherman,infects,91
+Cowpox virus,Arvicola scherman,infects,91
+Arvicola scherman,France,found in,91
+Antibodies,Immunoglobulin G,detected by,91
+Arvicola scherman,Population density cycle,affected by,91
+Arvicola scherman,Grassland areas,affected by,91
+Canine coronaviruses,Dogs,infects,92
+Canine coronaviruses,Foxes,infects,92
+Canine coronaviruses,Raccoon dogs,infects,92
+Dogs,Canine coronaviruses,hosts,92
+Foxes,Canine coronaviruses,hosts,92
+Raccoon dogs,Canine coronaviruses,hosts,92
+Canine coronaviruses,Fecal samples,found in,92
+RT-nPCR assay,Canine coronaviruses,detects,92
+Sequence analysis,Canine coronaviruses,detects,92
+Phylogenetic analysis,Canine coronaviruses,analyzes,92
+Type I CCV,Foxes,infects,92
+Type II CCV,Foxes,infects,92
+Type II CCV,Raccoon dogs,infects,92
+Type I CCV,Raccoon dogs,infects,92
+Type II CCV,Dogs,infects,92
+Novel strain,Foxes,infects,92
+Novel strain,Raccoon dogs,infects,92
+EDS '76,Poultry,infects,93
+EDS '76,Avian species,infects,93
+Poultry,EDS '76,hosts,93
+Avian species,EDS '76,hosts,93
+Chickens,EDS '76,hosts,93
+Guinea fowls,EDS '76,hosts,93
+Ducks,EDS '76,hosts,93
+Pigeons,EDS '76,hosts,93
+Nigeria,Poultry,found in,93
+Nigeria,Avian species,found in,93
+Chickens,Nigeria,found in,93
+Guinea fowls,Nigeria,found in,93
+Ducks,Nigeria,found in,93
+Pigeons,Nigeria,found in,93
+Haemagglutination-inhibition test,EDS '76 antibodies,detects,93
+Bovine viral diarrhea virus,Mule deer,infects,94
+Mule deer,Bovine viral diarrhea virus,hosts,94
+Arcanobacterium pyogenes,Lung,infects,94
+Bovine viral diarrhea virus,Mule deer,isolated from,94
+Bovine viral diarrhea virus,Reverse transcriptase polymerase chain reaction,detected by,94
+Bovine viral diarrhea virus,Immunohistochemistry,detected by,94
+Bovine viral diarrhea virus,Type 1a,has genotype,94
+Bovine viral diarrhea virus,5'UTR and E2 genes,has rna sequences,94
+Bovine viral diarrhea virus,other bovine type 1a BVDVs,similar to,94
+Mule deer,Serum neutralizing antibody titers,has serum neutralizing antibody titers,94
+Mule deer,Wyoming,found in,94
+Mule deer,USA,found in,94
+Bovine viral diarrhea virus,Mule deer population,circulates in,94
+PaBV-5,Palm cockatoo,infects,95
+PaBV-5,Proventricular dilatation disease,hosts,95
+PaBV-5,Avian bornaviruses,shares,95
+PaBV-5,Aquatic bird bornaviruses,shares,95
+PaBV-5,Passerine bornaviruses,shares,95
+PaBV-5,Psittaciform 2 bornavirus,is assigned to,95
+PaBV-5,Genome,has,95
+PaBV-5,Nucleotides,has,95
+PaBV-5,5' and 3' end sequences,has,95
+PaBV-5,Genomic regions,has,95
+PaBV-5,Phylogenetic analysis,undergoes,95
+PaBV-5,Phylogenetic clade,is part of,95
+Bos grunniens,Bovine herpesvirus 1,hosts,96
+Bos grunniens,Moraxella bovis,hosts,96
+Bos grunniens,Neisseria spp.,hosts,96
+Bovine herpesvirus 1,Bos grunniens,infects,96
+Moraxella bovis,Bos grunniens,infects,96
+Neisseria spp.,Bos grunniens,infects,96
+Bovine herpesvirus 1,Nested polymerase chain reaction,detected by,96
+Bovine herpesvirus 1,Single-strand conformation polymorphism analysis,detected by,96
+Bos grunniens,Glycoproteins B and E,has property,96
+Bovine herpesvirus 1,Glycoproteins B and E,has property,96
+Beak and feather disease viruses,Cape parrots,infects,97
+Cape parrots,Beak and feather disease viruses,hosts,97
+Captive-bred Cape parrots,Beak and feather disease viruses,hosts,97
+Captive-bred budgerigars,Beak and feather disease viruses,hosts,97
+Wild Cape parrots,Beak and feather disease viruses,hosts,97
+Wild budgerigars,Beak and feather disease viruses,hosts,97
+Beak and feather disease viruses,Blood samples,found in,97
+Blood samples,Sequences,contains,97
+Sequences,Full-length genomes,similar to,97
+Full-length genomes,Cape parrots,isolated from,97
+Cape parrots,South Africa,located in,97
+KwaZulu-Natal Province,South Africa,located in,97
+Budgerigars,KwaZulu-Natal Province,located in,97
+Beak and feather disease viruses,Cape parrots,detected in,97
+Captive-bred Cape parrots,Breeding facility,exposed to,97
+Breeding facility,Captive-bred Cape parrots,houses,97
+Breeding facility,Captive-bred budgerigars,houses,97
+Phylogenetic analysis,Full-length genomes,performed on,97
+Phylogenetic analysis,Two separate infection events,indicates,97
+Turkey meningoencephalitis virus,Turkey,infects,98
+Turkey,Turkey meningoencephalitis virus,hosts,98
+RT-PCR,Turkey meningoencephalitis virus,detects,98
+Virus isolation,Turkey meningoencephalitis virus,detects,98
+Turkey meningoencephalitis virus,TME,causes,98
+Turkey meningoencephalitis virus,Embryonated eggs,is isolated in,98
+Turkey meningoencephalitis virus,Suckling mice,is isolated in,98
+Turkey meningoencephalitis virus,RT-PCR,is amplified in,98
+RT-PCR,Turkey meningoencephalitis virus RNA,uses,98
+Virus isolation,Turkey meningoencephalitis virus,uses,98
+Turkey meningoencephalitis virus,Ntaya serogroup VI,is found in,98
+Turkey meningoencephalitis virus,Flavivirus,is a type of,98
+Arthopod,Turkey meningoencephalitis virus,transmits,98
+Fall of 1997,TME outbreak,occurred during,98
+TMEV,Pathogen,is a type of,98
+TME,Disease,is a type of,98
+Neurological signs,TME,are associated with,98
+Brain,Turkey meningoencephalitis virus RNA,contains,98
+Human cytomegalovirus,Tumor cells,infects,99
+Human cytomegalovirus,Glioblastoma cells,hosts,99
+Human cytomegalovirus,oncomodulatory effects,exerts,99
+Human cytomegalovirus,malignancy,increases,99
+Glioblastoma cells,Human cytomegalovirus,hosts,99
