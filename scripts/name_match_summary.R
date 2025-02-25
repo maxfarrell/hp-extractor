@@ -2,11 +2,31 @@
 
 require(dplyr)
 
-dat <- read.delim("../raw_data/hp_metadata.tsv", sep="\t")
-abst <- read.delim("../raw_data/hp_abstracts.tsv", sep="\t", quote = "")
+dat <- read.delim("../raw_data/hp_metadata.tsv", sep="\t", fileEncoding="UTF-8")
+abst <- read.delim("../raw_data/hp_abstracts.tsv", sep="\t", quote = "", fileEncoding="UTF-8")
 
-names(dat)
 names(abst) <- c("abs","absID")
+
+# remove start and end quotes for abstracts
+abst$abs <- gsub("^[\"]","",abst$abs)
+abst$abs <- gsub("[\"]$","",abst$abs)
+
+# some titles are non-unique across unique abstracts
+titles <- dat %>% select(absID, title) %>% unique()
+titles <- titles[!is.na(titles$title),]
+titles <- unique(titles)
+
+sum(duplicated(titles$absID))
+#2 titles duplicated
+
+dup_titles <- titles$absID[duplicated(titles$absID)]
+dat[dat$absID%in%dup_titles,] %>% unique()
+# one is issue with capitalization in EID titles (same abstract, but titles from different PMIDs)
+# other is issue with hp3 title as reference, but the true title exists in other databases
+
+# going to leave these for now, but must return to fix this issue when expanding to run
+# extraction over the entire database. 
+
 
 # parasites
 paras <- left_join(select(dat, PathogenOriginal, absID), abst) %>% unique()
@@ -52,9 +72,9 @@ length(unique(hosts$absID[hosts$verbatim=="Yes"]))# 5,051
 # View(hosts[hosts$verbatim=="Yes",])
 
 # View(hosts[hosts$verbatim=="No",])
-hosts$HostName[hosts$verbatim=="No"] %>% tolower() %>% sort() %>% unique() %>% View()
+# hosts$HostName[hosts$verbatim=="No"] %>% tolower() %>% sort() %>% unique() %>% View()
 
-hosts$HostName[hosts$verbatim=="No"] %>% tolower() %>% table() %>% sort() %>% rev() %>% View()
+# hosts$HostName[hosts$verbatim=="No"] %>% tolower() %>% table() %>% sort() %>% rev() %>% View()
 
 verb_host_absIDs <- hosts$absID[hosts$verbatim=="Yes"]
 verb_para_absIDs <- paras$absID[hosts$verbatim=="Yes"]
@@ -107,6 +127,34 @@ validation_set_absID <- select(validation_set, c(single_multi, absID)) %>% uniqu
 n_distinct(validation_set_absID$absID)
 
 write.csv(validation_set_absID, "../raw_data/validation_set_absIDs.csv", row.names=F)
+
+
+# writing title + abstracts for validation set to file
+validation_100_title_abs <- left_join(validation_set_absID, abst)
+validation_100_title_abs <- left_join(validation_100_title_abs, dat %>% select(absID, title))
+
+# removing absID titles which are NA if there is an existing title available
+validation_100_title_abs <- validation_100_title_abs %>% group_by(absID) %>% 
+								mutate(n_titles=n_distinct(title)) 
+
+validation_100_title_abs <- validation_100_title_abs %>% filter(!(n_titles>1 & is.na(title))) %>% select(-n_titles)
+
+# merging titles and abstracts
+validation_100_title_abs <- validation_100_title_abs %>% 
+								tidyr::unite(., col = "title_abs",  title, abs, na.rm=TRUE, sep = " ") %>%
+								unique()
+
+
+
+
+
+
+require(stringi)
+validation_100_title_abs$title_abs <- stri_unescape_unicode(validation_100_title_abs$title_abs)
+
+validation_100_title_abs
+
+write.csv(validation_100_title_abs, "../raw_data/validation_100.csv", row.names=F)
 
 
 # validation_set$PathogenType %>% table()
