@@ -1,0 +1,451 @@
+source_id,source_text,target_id,target_text,relation_type,doc_id
+1,Perch rhabdovirus,1,Perch rhabdovirus,is classified as,1
+1,Perch rhabdovirus,4,Perca fluviatilis,is isolated from,1
+1,Perch rhabdovirus,5,Salmo trutta trutta,is isolated from,1
+1,Perch rhabdovirus,8,Baltic Sea,is isolated from,1
+1,Perch rhabdovirus,,PRV isolated in France in 2004,is similar to,1
+1,Perch rhabdovirus,,Danish isolate DK5533 from pike,is similar to,1
+2,Grayling,1,Perch rhabdovirus,is infected with,1
+7,Finnish fish farms,2,Grayling,experience elevated mortality rates in,1
+7,Finnish fish farms,,Thymallus thymallus fry,experience elevated mortality rates in,1
+,Finnish grayling isolates,,PRV isolated in France in 2004,are most closely related to,1
+,Finnish grayling isolates,,Danish isolate DK5533 from pike,are most closely related to,1
+3,Thymallus thymallus,2,Grayling,is a species of,1
+4,Perca fluviatilis,,Perch,is a species of,1
+5,Salmo trutta trutta,,Sea trout,is a species of,1
+8,Baltic Sea,,Perch rhabdovirus is isolated from,is a location where,1
+9,France,,PRV is isolated,is a location where,1
+10,Denmark,,Danish isolate DK5533 from pike is isolated,is a location where,1
+11,Avian Myeloblastosis Virus,,Avian Myeloblastosis Virus RT,produces,2
+11,Avian Myeloblastosis Virus,12,Myeloblastosis Associated Virus,requires,2
+12,Myeloblastosis Associated Virus,138,Envelope protein,produces,2
+12,Myeloblastosis Associated Virus,,RT protein,produces,2
+13,Pseudocowpox virus,,Vaccinia virus,co-infection,3
+13,Pseudocowpox virus,,Milker's nodule,agent,3
+,Vaccinia virus,,Bovine vaccinia,agent,3
+13,Pseudocowpox virus,,Milker's nodule,agent,3
+13,Pseudocowpox virus,,Bovine infection,associated with,3
+,Vaccinia virus,,Bovine infection,associated with,3
+13,Pseudocowpox virus,,Brazilian rural areas,found in,3
+13,Pseudocowpox virus,18,Milk herds,found in,3
+19,Farmers,,"Hands, forearms, legs and face",developed lesions,3
+19,Farmers,,"Fever, headache, malaise, myalgia",developed systemic symptoms,3
+19,Farmers,,"Axillary, inguinal and cervical",developed lymphadenopathy,3
+19,Farmers,147,Cattle,had close contact with,3
+147,Cattle,,Teats,had notable injuries,3
+14,Human,,Skin lesion,developed lesions,3
+14,Human,,"Fever, headache, malaise, myalgia",developed systemic symptoms,3
+14,Human,,"Axillary, inguinal and cervical",developed lymphadenopathy,3
+14,Human,147,Cattle,had occupational contact with,3
+14,Human,,Anti-VACV neutralizing antibodies,had serological tests,3
+14,Human,,VACV and PCPV DNA in the patient sera,had molecular tests,3
+33,Dairy cattle,,Present study,had vacv and pcpv,3
+37,SIV,39,Sooty mangabey,infects,4
+38,SIVsm,39,Sooty mangabey,infects,4
+38,SIVsm,,SM E041,infects,4
+43,Simian T-cell leukemia virus,,SM E041,antibody negative,4
+44,B-cell lymphoma,,SM E041,develops,4
+45,CD4(+)-cell,,SM E041,decline,4
+46,p27 core antibody,,SM E041,loss,4
+41,AIDS,,SM E041,develops,4
+41,AIDS,51,Humans,develops,4
+41,AIDS,49,Macaca,develops,4
+37,SIV,50,African hosts,infects,4
+52,bats,,natural reservoirs of,are recognized as,5
+60,bat AAV samples,,partial cap ORF sequences,have,5
+61,individual sample,,multiple distinctive genotypes of bat AAV,can have,5
+62,avian myelocytomatosis virus,66,lymphomas,induces,6
+62,avian myelocytomatosis virus,67,myelocytomas,induces,6
+62,avian myelocytomatosis virus,68,tumors of kidney and liver,induces,6
+63,MC29,,neoplastic diseases,induces,6
+63,MC29,69,v-myc gene,has,6
+64,HBI,,myc gene containing c-myc sequences,has,6
+64,HBI,,some v-myc sequences,has,6
+64,HBI,,into chickens,inoculation,6
+64,HBI,,lymphoid tumors,results in,6
+64,HBI,,bursa,independent of,6
+,lymphoid tumors,,T and B cells,made up of,6
+64,HBI,,in 36 of 39 tumors analyzed,proviral dna,6
+64,HBI,,p 108,gag-myc fusion protein,6
+64,HBI,,detected in tumor cells,gag-myc fusion protein,6
+74,Macaque,78,Type D retrovirus,hosts,7
+75,Macaca cyclopis,78,Type D retrovirus,hosts,7
+78,Type D retrovirus,76,Mason-Pfizer monkey virus,related to,7
+78,Type D retrovirus,76,Mason-Pfizer monkey virus,distinct from,7
+77,Macaca mulatta,76,Mason-Pfizer monkey virus,related to,7
+79,Bovine foamy virus,80,Germany,isolated in,8
+79,Bovine foamy virus,81,Poland,isolated in,8
+79,Bovine foamy virus,82,East Germany,isolated in,8
+79,Bovine foamy virus,53,China,isolated in,8
+79,Bovine foamy virus,83,United States,isolated in,8
+84,BFV-Riems,82,East Germany,isolated in,8
+85,BFV100,81,Poland,isolated in,8
+84,BFV-Riems,86,Foamy viruses,shares genetic makeup with,8
+85,BFV100,86,Foamy viruses,shares genetic makeup with,8
+84,BFV-Riems,85,BFV100,is highly related to,8
+84,BFV-Riems,,BFV isolates from China and the United States,is similar to,8
+85,BFV100,,BFV isolates from China and the United States,is similar to,8
+89,Apes,88,Simian foamy virus,transmission,9
+89,Apes,51,Humans,transmission,9
+91,Nonhuman primates,51,Humans,contact,9
+92,Gorillas,51,Humans,contact,9
+93,Chimpanzees,51,Humans,contact,9
+94,Monkeys,51,Humans,contact,9
+90,Rural Cameroon,,Simian foamy virus transmission,location,9
+95,Southern Cameroon,51,Humans,location,9
+95,Southern Cameroon,91,Nonhuman primates,location,9
+96,Human parainfluenza virus type 3,,wild nonhuman primates,detected in,10
+96,Human parainfluenza virus type 3,98,baboons,detected in,10
+97,HPIV3,98,baboons,detected in,10
+97,HPIV3,98,baboons,antibody detected in,10
+97,HPIV3,99,vervet monkeys,antibody detected in,10
+98,baboons,100,Zambia,located in,10
+99,vervet monkeys,100,Zambia,located in,10
+,SIVs,101,African green monkeys,naturally infect,11
+,SIVs,102,Sooty mangabey monkeys,naturally infect,11
+,SIVs,103,Asian macaques,infect,11
+,SIVs,104,Primate lentiviruses,replicate,11
+105,CD4(+) T cells,,SIVs,undergo phenotypic changes,11
+72,T cells,,SIVs,undergo activation-induced apoptosis,11
+106,Virus,104,Primate lentiviruses,replicate,11
+107,avian sarcoma virus Y73,109,transforming gene (yas),contains,12
+107,avian sarcoma virus Y73,108,polyprotein p90,contains,12
+107,avian sarcoma virus Y73,110,helper virus,associated with,12
+110,helper virus,111,avian leukemia viruses,similar to,12
+107,avian sarcoma virus Y73,111,avian leukemia viruses,similar to,12
+107,avian sarcoma virus Y73,112,mammalian leukemia viruses,similar to,12
+14,human,114,HTLV-1,infected by,13
+14,human,,HTLV-2,infected by,13
+14,human,,HTLV-3,infected by,13
+14,human,,HTLV-4,infected by,13
+14,human,91,nonhuman primates,exposed to,13
+14,human,118,NHP blood and body fluids,exposed to,13
+91,nonhuman primates,115,STLV-1,infected by,13
+91,nonhuman primates,,STLV-2,infected by,13
+91,nonhuman primates,,STLV-3,infected by,13
+116,central African bushmeat hunters,118,NHP blood and body fluids,exposed to,13
+116,central African bushmeat hunters,91,nonhuman primates,exposed to,13
+117,primate pets,91,nonhuman primates,exposed to,13
+115,STLV-1,14,human,transmitted to,13
+,STLV-2,14,human,transmitted to,13
+,STLV-3,14,human,transmitted to,13
+119,Flavobacterium columnare,120,Fish,isolates from,14
+119,Flavobacterium columnare,123,Channel catfish,isolates from,14
+119,Flavobacterium columnare,124,Tilapia,isolates from,14
+119,Flavobacterium columnare,16,Brazil,isolates from,14
+119,Flavobacterium columnare,125,US,isolates from,14
+121,Genomovar I,,Flavobacterium columnare isolates,includes,14
+122,Genomovar II,,Flavobacterium columnare isolates,includes,14
+121,Genomovar I,,Flavobacterium columnare isolates,has higher diversity,14
+122,Genomovar II,121,Genomovar I,has genetic differences,14
+123,Channel catfish,119,Flavobacterium columnare,hosts,14
+125,US,123,Channel catfish,hosts,14
+124,Tilapia,119,Flavobacterium columnare,hosts,14
+16,Brazil,124,Tilapia,hosts,14
+126,16S rDNA gene,129,Restriction fragment length polymorphism analysis,used for,14
+127,Intergenic spacer region (ISR),,Sequencing,used for,14
+128,Amplified fragment length polymorphism (AFLP),,Fingerprinting,used for,14
+130,Jaagsiekte sheep retrovirus,131,ovine pulmonary adenocarcinoma,causative agent,15
+130,Jaagsiekte sheep retrovirus,132,sheep,infects,15
+130,Jaagsiekte sheep retrovirus,133,goats,infects,15
+130,Jaagsiekte sheep retrovirus,137,Rej,encodes,15
+130,Jaagsiekte sheep retrovirus,136,Gag protein,encodes,15
+130,Jaagsiekte sheep retrovirus,138,Envelope protein,encodes,15
+138,Envelope protein,139,oncogene,functions as,15
+138,Envelope protein,,oncogenesis,induces,15
+15,bovine,140,group C rotavirus,hosts,16
+141,adult cows,140,group C rotavirus,infected by,16
+142,Shintoku,140,group C rotavirus,is a strain of,16
+143,WD534tc,140,group C rotavirus,is a strain of,16
+144,Yamagata,140,group C rotavirus,is a strain of,16
+145,VP6,144,Yamagata,is a gene of,16
+146,VP7,144,Yamagata,is a gene of,16
+142,Shintoku,144,Yamagata,is similar to,16
+147,cattle,140,group C rotavirus,is a host of,16
+149,Sanguinus oedipus,150,Francisella tularensis,infected by,17
+150,Francisella tularensis,156,tularemia,causes,17
+150,Francisella tularensis,157,septic tularemia,causes,17
+149,Sanguinus oedipus,150,Francisella tularensis,infected with,17
+150,Francisella tularensis,161,aerosol,transmitted by,17
+150,Francisella tularensis,,biting arthropod vectors,transmitted by,17
+150,Francisella tularensis,,rodent reservoir,transmitted by,17
+43,Simian T-cell leukemia virus,,wild primate populations,infection,18
+43,Simian T-cell leukemia virus,165,agile mangabeys,infection,18
+43,Simian T-cell leukemia virus,166,Cercocebus agilis,infection,18
+163,HTLV,164,primate T-cell leukemia viruses,simian t-cell leukemia virus,18
+114,HTLV-1,55,primates,origin,18
+114,HTLV-1,101,African green monkeys,infection,18
+114,HTLV-1,167,Mandrills,infection,18
+114,HTLV-1,165,Agile mangabeys,infection,18
+114,HTLV-1,168,Crested mona and greater spot-nosed monkeys,infection,18
+114,HTLV-1,92,Gorillas,infection,18
+114,HTLV-1,169,Mustached monkeys,infection,18
+114,HTLV-1,170,Talapoins,infection,18
+,HTLV-2,101,African green monkeys,infection,18
+,HTLV-2,167,Mandrills,infection,18
+,HTLV-2,165,Agile mangabeys,infection,18
+,HTLV-2,168,Crested mona and greater spot-nosed monkeys,infection,18
+,HTLV-2,92,Gorillas,infection,18
+,HTLV-2,169,Mustached monkeys,infection,18
+,HTLV-2,170,Talapoins,infection,18
+115,STLV-1,169,Mustached monkeys,infection,18
+115,STLV-1,170,Talapoins,infection,18
+115,STLV-1,92,Gorillas,infection,18
+115,STLV-1,167,Mandrills,infection,18
+115,STLV-1,101,African green monkeys,infection,18
+115,STLV-1,165,Agile mangabeys,infection,18
+115,STLV-1,168,Crested mona and greater spot-nosed monkeys,infection,18
+,STLV-3,165,Agile mangabeys,infection,18
+,STLV-1 and STLV-3,165,Agile mangabeys,coinfection,18
+43,Simian T-cell leukemia virus,51,humans,exposure,18
+43,Simian T-cell leukemia virus,,western Central Africa,exposure,18
+43,Simian T-cell leukemia virus,171,Cameroon,exposure,18
+164,Primate T-cell leukemia viruses,172,Africa,origin,18
+174,Cruoricaptor ignavus,177,bacterium,is a,19
+174,Cruoricaptor ignavus,175,Flavobacteriaceae,is a member of,19
+176,IMMIB L-12475(T),174,Cruoricaptor ignavus,is a strain of,19
+176,IMMIB L-12475(T),178,blood culture,was isolated from,19
+176,IMMIB L-12475(T),14,human,was isolated from,19
+176,IMMIB L-12475(T),,used for phylogenetic analysis,has a 16s rrna gene sequence,19
+176,IMMIB L-12475(T),,consisting of branched-chain and 3-hydroxy fatty acids,has a fatty acid profile,19
+176,IMMIB L-12475(T),,containing sym-homospermidine as major component,has a polyamine pattern,19
+176,IMMIB L-12475(T),,consisting of phosphatidylethanolamine and an unknown phospholipid,has phospholipids,19
+176,IMMIB L-12475(T),,of 45.6%,has a genomic dna mol% g+c content,19
+176,IMMIB L-12475(T),,of Cruoricaptor ignavus,is the type strain,19
+176,IMMIB L-12475(T),188,DSM 25479(T),is equal to,19
+176,IMMIB L-12475(T),189,CCUG 62025(T),is equal to,19
+190,Brevundimonas vancanneytii,,blood of a patient,is isolated from,20
+190,Brevundimonas vancanneytii,,Brevundimonas,is affiliated with,20
+190,Brevundimonas vancanneytii,191,Brevundimonas diminuta,is similar to,20
+190,Brevundimonas vancanneytii,192,Brevundimonas terrae,is similar to,20
+190,Brevundimonas vancanneytii,193,LMG 2337(T),has type strain,20
+193,LMG 2337(T),196,CCUG 1797(T),is equal to,20
+193,LMG 2337(T),197,ATCC 14736(T),is equal to,20
+200,Wohlfahrtiimonas chitiniclastica,202,cow,isolated from,21
+200,Wohlfahrtiimonas chitiniclastica,208,hoof pus,isolated from,21
+200,Wohlfahrtiimonas chitiniclastica,53,China,isolated in,21
+200,Wohlfahrtiimonas chitiniclastica,203,Shandong,isolated in,21
+200,Wohlfahrtiimonas chitiniclastica,,16S rRNA gene sequencing,identified by,21
+200,Wohlfahrtiimonas chitiniclastica,204,matrix-assisted laser desorption/ionization time-of-flight mass spectrometry,identified by,21
+200,Wohlfahrtiimonas chitiniclastica,206,mouse,tested for pathogenicity in,21
+,Simian T-lymphotropic virus,91,nonhuman primates,is among,22
+,Simian T-lymphotropic virus,210,hunters,is transmitted,22
+162,STLV,91,nonhuman primates,is transmitted,22
+162,STLV,210,hunters,is transmitted,22
+162,STLV,,dried blood spots,is found,22
+162,STLV,29,PCR,is detected,22
+162,STLV,215,long terminal repeat primers,has,22
+162,STLV,217,group-specific primers,has,22
+162,STLV,216,tax primers,has,22
+162,STLV,,phylogenetic analyses,has,22
+211,Cercopithecus mona,162,STLV,is infected with,22
+212,C. nictitans,162,STLV,is infected with,22
+163,HTLV,210,hunters,is seroreactive,22
+163,HTLV,29,PCR,is detected,22
+213,Peripheral blood mononuclear cell DNA,210,hunters,is screened,22
+214,DBS,210,hunters,is collected,22
+214,DBS,,STLV diversity,can capture,22
+209,Retroviruses,91,nonhuman primates,are transmitted,22
+209,Retroviruses,210,hunters,are transmitted,22
+218,porcine retrovirus,220,reverse transcriptase,detected by,23
+218,porcine retrovirus,221,template-primer poly(rA).oligo(dT),requires,23
+218,porcine retrovirus,222,Mn++,requires,23
+218,porcine retrovirus,,high doses of K+,inhibited by,23
+218,porcine retrovirus,,high doses of Na+,inhibited by,23
+218,porcine retrovirus,,pHs above 8.2,inhibited by,23
+218,porcine retrovirus,225,non-ionic detergents,enhanced by,23
+218,porcine retrovirus,226,porcine cell lines,transmitted by,23
+218,porcine retrovirus,227,pigs,transmitted by,23
+228,Francisella noatunensis,120,Fish,is isolated from,24
+228,Francisella noatunensis,120,Fish,is a pathogen of,24
+228,Francisella noatunensis,229,French grunt,is identified in,24
+228,Francisella noatunensis,231,Caesar grunt,is identified in,24
+229,French grunt,228,Francisella noatunensis,is a host species of,24
+231,Caesar grunt,228,Francisella noatunensis,is a host species of,24
+233,Florida Keys,,Fish were caught,is a location where,24
+234,Public aquaria,,Fish were displayed,is a location where,24
+235,Recirculating system,,Fish were maintained,is a system where,24
+236,Modified Thayer Martin agar media,228,Francisella noatunensis,is a medium used for,24
+237,iglC,238,F. noatunensis subspecies orientalis,is a gene specific for,24
+238,F. noatunensis subspecies orientalis,228,Francisella noatunensis,is a subspecies of,24
+239,viral oncogene,240,phospholipase C,has structural similarity to,25
+247,p47gag-crk,,non-receptor class of tyrosine kinases,has blocks of sequence similarity to,25
+247,p47gag-crk,,bovine brain phospholipase C,has striking similarity to,25
+247,p47gag-crk,248,tyrosine kinases,activates,25
+250,African primates,251,human T-cell leukemia virus,infection,26
+,African non-human primates,,human T-cell leukemia virus type I,natural infection,26
+253,Cercopithecus,,field study,materials,26
+254,Papio,,field study,materials,26
+255,Theropithecus,,field study,materials,26
+256,grivet monkey,,field study,materials,26
+257,Anubis baboon,,field study,materials,26
+258,Hamadryas baboon,,field study,materials,26
+259,gelada,,field study,materials,26
+260,Ethiopia,,field study,location,26
+261,HTLV-I specific antigens,,virus infection,test,26
+,grivet monkeys,,HTLV-I,seropositive,26
+,Anubis baboons,,HTLV-I,seropositive,26
+,Anubis and Hamadryas baboons,,HTLV-I,hybrid offspring,26
+,Hamadryas baboons,,HTLV-I,pure,26
+,geladas,,HTLV-I,pure,26
+,HTLV-I,,widespread on the African continent,family,26
+,HTLV-I,,catarrhines,common retrovirus,26
+262,red-fronted lemurs,267,Gastro-intestinal parasites,infected by,27
+262,red-fronted lemurs,268,Lemuricola vauceli,infected by,27
+262,red-fronted lemurs,269,Trichuris sp.,infected by,27
+262,red-fronted lemurs,270,Callistoura,infected by,27
+262,red-fronted lemurs,271,Trichostrongylid,infected by,27
+262,red-fronted lemurs,272,Strongyloid,infected by,27
+262,red-fronted lemurs,273,Anoplocephalid cestode,infected by,27
+262,red-fronted lemurs,274,Dicrocoeliid trematode,infected by,27
+262,red-fronted lemurs,275,Entamoeba sp.,infected by,27
+262,red-fronted lemurs,276,Balantidium coli,infected by,27
+265,Kirindy Forest,266,western Madagascar,located in,27
+263,Eulemur fulvus rufus,264,Lemuriformes,is a species of,27
+264,Lemuriformes,263,Eulemur fulvus rufus,includes,27
+277,Japanese serows,278,Parapoxvirus,infected by,28
+278,Parapoxvirus,282,Bovine fetal testicle cell cultures,isolated from,28
+278,Parapoxvirus,283,Electron microscope,identified by,28
+278,Parapoxvirus,,Physico-chemical characteristics,identified by,28
+277,Japanese serows,285,S-1,had antibodies to,28
+285,S-1,284,Enzyme-linked immunosorbent assay,detected by,28
+277,Japanese serows,,"Gifu Prefecture, Japan",found in,28
+277,Japanese serows,281,Japan,found in,28
+277,Japanese serows,,parapoxviruses,infected by,29
+277,Japanese serows,286,orf virus,infected by,29
+277,Japanese serows,288,bovine papular stomatitis virus,infected by,29
+,parapoxviruses,277,Japanese serows,circulate among,29
+286,orf virus,,monoclonal antibodies,reacted with,29
+277,Japanese serows,,goat virus,had high identities with,29
+277,Japanese serows,,sheep virus,had high identities with,29
+290,Eurasian otter,292,Helminth,hosts,30
+290,Eurasian otter,293,Phagicola sp.,hosts,30
+290,Eurasian otter,294,Aonchotheca putorii,hosts,30
+290,Eurasian otter,295,Eucoleus schvalovoj,hosts,30
+290,Eurasian otter,296,Strongyloides lutrae,hosts,30
+290,Eurasian otter,297,Anisakis,hosts,30
+290,Eurasian otter,298,Dirofilaria immitis,hosts,30
+290,Eurasian otter,299,Gigantorhynchus sp.,hosts,30
+9,France,290,Eurasian otter,location,30
+300,Portugal,290,Eurasian otter,location,30
+301,Spain,290,Eurasian otter,location,30
+302,Iberian Peninsula,290,Eurasian otter,location,30
+303,Europe,290,Eurasian otter,location,30
+304,Eastern Europe,290,Eurasian otter,location,30
+296,Strongyloides lutrae,302,Iberian Peninsula,more prevalent in,30
+295,Eucoleus schvalovoj,,southwest Europe,dominant species,30
+296,Strongyloides lutrae,,culture of fresh faeces,best studied by,30
+295,Eucoleus schvalovoj,,necropsy,best studied by,30
+306,Antibodies,308,free-living wild species,found in,31
+306,Antibodies,309,Tanzania,found in,31
+307,Pathogenic agents,306,Antibodies,tested against,31
+312,Foot-and-mouth disease,306,Antibodies,tested against,31
+313,Bovine herpes virus types 1 and 2,306,Antibodies,tested against,31
+314,Lumpy skin disease,306,Antibodies,tested against,31
+315,Bovine viral diarrhoea,306,Antibodies,tested against,31
+316,Akabane,306,Antibodies,tested against,31
+317,Bovine ephemeral fever,306,Antibodies,tested against,31
+318,Bluetongue,306,Antibodies,tested against,31
+319,Enzootic bovine leucosis,306,Antibodies,tested against,31
+320,African horse sickness,306,Antibodies,tested against,31
+321,African swine fever,306,Antibodies,tested against,31
+322,Brucella abortus,306,Antibodies,tested against,31
+310,Zebra,320,African horse sickness,had antibodies to,31
+311,Wart hog,321,African swine fever,had antibodies to,31
+,Syncerus caffer,,multiple pathogens,had antibodies to,31
+,Connochaetes taurinus,,multiple pathogens,had antibodies to,31
+,Damaliscus korrigum,,multiple pathogens,had antibodies to,31
+323,Cryptosporidium,,wild non-human primates,detected in,32
+323,Cryptosporidium,325,toque macaques,detected in,32
+323,Cryptosporidium,326,gray langurs,detected in,32
+323,Cryptosporidium,327,purple-faced langurs,detected in,32
+323,Cryptosporidium,,primates in the wild,transmitted among,32
+323,Cryptosporidium,,other protozoans,co-infected with,32
+323,Cryptosporidium,331,Enterobius,co-infected with,32
+323,Cryptosporidium,332,Strongyloides,co-infected with,32
+324,Cryptosporidiosis,,tropics,emerging disease in,32
+324,Cryptosporidiosis,339,public health,important implication for,32
+324,Cryptosporidiosis,340,wildlife conservation management,important implication for,32
+341,Cyclospora cayetanensis,343,FTA filter-base polymerase chain reaction,is detected by,33
+341,Cyclospora cayetanensis,344,Protozoan parasite,is a,33
+341,Cyclospora cayetanensis,350,Cyclosporiasis,causes,33
+341,Cyclospora cayetanensis,,ingestion of fresh produce and water sources contaminated with mature sporulated oocysts,is acquired by,33
+341,Cyclospora cayetanensis,51,Humans,is found in,33
+341,Cyclospora cayetanensis,,Fecal isolates from Nepal,is found in,33
+341,Cyclospora cayetanensis,351,Dogs,is found in,33
+341,Cyclospora cayetanensis,352,Chickens,is found in,33
+341,Cyclospora cayetanensis,94,Monkeys,is found in,33
+341,Cyclospora cayetanensis,353,Eimeria sp.,is differentiated from,33
+343,FTA filter-base polymerase chain reaction,341,Cyclospora cayetanensis,is used to detect,33
+354,Polymerase chain reaction,341,Cyclospora cayetanensis,is used to detect,33
+,Restriction fragment length polymorphism,341,Cyclospora cayetanensis,is used to analyze,33
+355,Multiplex PCR assay,341,Cyclospora cayetanensis,is used to confirm,33
+356,Tissue analysis,,assignment of animals as a natural reservoir host for C. cayetanensis,is necessary to determine,33
+154,Toxoplasma gondii,357,Toxoplasmosis,etiologic agent,34
+154,Toxoplasma gondii,358,bobcat,causes,34
+359,Felis rufus,358,bobcat,is a type of,34
+357,Toxoplasmosis,358,bobcat,affects,34
+360,Hepatocystis,364,Colobus guereza,infects,35
+360,Hepatocystis,365,Cercopithecus mitis,infects,35
+360,Hepatocystis,366,Lophocebus albigena,infects,35
+360,Hepatocystis,367,Papio anubis,infects,35
+360,Hepatocystis,368,Procolobus rufomitratus,infects,35
+360,Hepatocystis,369,Cercopithecus ascanius,infects,35
+360,Hepatocystis,367,Papio anubis,co-infects,35
+360,Hepatocystis,368,Procolobus rufomitratus,co-infects,35
+360,Hepatocystis,367,Papio anubis,cross-species transmits,35
+361,Plasmodiidae,363,Malaria,includes,35
+362,Apicomplexan,361,Plasmodiidae,family,35
+370,Kibale National Park,371,Uganda,located in,35
+,Mirounga angustirostris,,northern elephant seal,has nephrolithiasis,63
+,Zalophus californianus,,California sea lion,has nephrolithiasis,63
+,Mirounga angustirostris,,kidneys,has nephroliths,63
+,Zalophus californianus,,kidneys,has nephroliths,63
+,Mirounga angustirostris,,renal pelvic dilation,has nephroliths,63
+,Zalophus californianus,,renal pelvic dilation,has nephroliths,63
+,Mirounga angustirostris,,pyelonephritis,has nephroliths,63
+,Zalophus californianus,,pyelonephritis,has nephroliths,63
+,Zalophus californianus,,kidneys,has hydronephrosis,63
+,Mirounga angustirostris,,nephroliths,has uric acid and ammonium urate,63
+,Zalophus californianus,,nephroliths,has ammonium urate,63
+154,Toxoplasma gondii,,deer,found in,80
+154,Toxoplasma gondii,,deer,antibodies found in,80
+,deer,154,Toxoplasma gondii,infected with,80
+16,Brazil,,deer,location of,80
+,State of São Paulo,,marsh deer,location of,80
+,State of Goiás,,pampas deer,location of,80
+,marsh deer,,State of São Paulo,found in,80
+,pampas deer,,State of Goiás,found in,80
+,Canis lupus,,Dalmatia,habitat,88
+,Canis lupus,,Croatia,population,88
+,Leishmania infantum,,canine visceral leishmaniosis,cause,88
+,Leishmania infantum,,visceral leishmaniosis,cause,88
+,Leishmania infantum,,gray wolf,infect,88
+,gray wolf,,L. infantum,die from,88
+,L. infantum,351,dogs,infect,88
+,Nigeria,,guinea fowls,location,93
+,Nigeria,,ducks,location,93
+,Nigeria,,pigeons,location,93
+385,Bos grunniens,390,keratoconjunctivitis,has,96
+385,Bos grunniens,386,Bovine herpesvirus 1,has,96
+386,Bovine herpesvirus 1,,nested polymerase chain reaction,detected by,96
+386,Bovine herpesvirus 1,391,single-strand conformation polymorphism analysis,detected by,96
+385,Bos grunniens,,nested polymerase chain reaction,tested with,96
+385,Bos grunniens,392,avidin biotin enzyme-linked immunosorbent assay,tested with,96
+387,Moraxella bovis,,conjunctival swabs,detected in,96
+388,Neisseria spp.,,conjunctival swabs,detected in,96
+386,Bovine herpesvirus 1,,conjunctival swabs,detected in,96
+385,Bos grunniens,386,Bovine herpesvirus 1,tested for,96
+393,Cape parrots,395,Beak and feather disease viruses,are infected by,97
+393,Cape parrots,409,South Africa,are endemic to,97
+393,Cape parrots,,Beak and feather disease,are vulnerable to,97
+395,Beak and feather disease viruses,,Beak and feather disease,cause,97
+,Beak and feather disease virus,,Beak and feather disease,is the causative agent of,97
+397,Blood samples,393,Cape parrots,were collected from,97
+398,Full-length genomes,397,Blood samples,were isolated and sequenced from,97
+,BFDV coat protein,399,Bipartite nuclear localisation signal,sequences did not contain,97
+399,Bipartite nuclear localisation signal,,BFDV coat protein,is involved in shuttling,97
+,Captive Cape parrot sequences,405,Budgerigars,cluster with,97
+,Captive Cape parrots,406,Breeding facility,are from,97
+,Wild Cape parrot sequences,407,Wild population,share a high degree of similarity,97
+,BFDV isolates from wild and captive Cape parrots,407,Wild population,indicate two separate infection events,97

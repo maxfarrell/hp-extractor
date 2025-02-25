@@ -1,0 +1,1295 @@
+entity_id,entity,type,latin_name,doc_ids
+1,Perch rhabdovirus,Pathogen,,1
+2,Grayling,Host,Grayling,1
+3,Thymallus thymallus,Host,Thymallus thymallus,1
+4,Finnish fish farms,Location,,1
+5,Finnish grayling isolates,Host,Finnish grayling isolates,1
+6,Perca fluviatilis,Host,Perca fluviatilis,1
+7,Salmo trutta trutta,Host,Salmo trutta trutta,1
+8,Baltic Sea,Location,,1
+9,France,Location,,1;30;91
+10,Danish isolate DK5533,Pathogen,,1
+11,Pike,Host,Pike,1
+12,Finnish brown trout isolate ka907_87,Pathogen,,1
+13,Brown trout,Host,Brown trout,1
+14,RNA polymerase,Gene,,1
+15,G gene,Gene,,1
+16,L gene,Gene,,1
+17,Neurological disorders,Disease,,1
+18,Peritonitis,Disease,,1
+19,Summer months,Time,,1
+20,July,Time,,1
+21,Years,Time,,1
+22,Avian Myeloblastosis Virus,Pathogen,,2
+23,Myeloblastosis Associated Virus,Pathogen,,2
+24,Reverse Transcriptase,Protein,,2;23
+25,Envelope,Protein,,2
+26,Avian,Host,Avian,2;12
+27,Scientific Community,Group,,2
+28,Younger Scientists,Group,,2
+29,Vaccinia virus,Pathogen,,3
+30,Pseudocowpox virus,Pathogen,,3
+31,Human,Host,Human,3;4;13;15;19;22;45
+32,Bovine,Host,Bovine,3;8
+33,Brazil,Location,,3;14;55;58;80
+34,Rural areas,Location,,3
+35,Milk herds,Location,,3
+36,Farmers,Host,Farmers,3
+37,Milkers,Host,Milkers,3
+38,Close contacts,Host,Close contacts,3
+39,Hands,Tissue,,3
+40,Forearms,Tissue,,3
+41,Legs,Tissue,,3
+42,Face,Tissue,,3
+43,Lesions,Disease,,3;29
+44,Fever,Symptom,,3
+45,Headache,Symptom,,3
+46,Malaise,Symptom,,3;17
+47,Myalgia,Symptom,,3
+48,Lymphadenopathy,Symptom,,3
+49,Cattle,Host,Cattle,3;8;16;41;44;47;59;73
+50,Teats,Tissue,,3
+51,PCR,Method,,3;17;35;39
+52,Phylogenetic analysis,Method,,3;5;39;43;50;79;92;95;97
+53,Serological tests,Method,,3
+54,Molecular assays,Method,,3
+55,DNA,Property,,3;57;61;78
+56,Antibodies,Property,,3;31;51;56;69;72;73;75;80;87;91
+57,Epidemiological surveillance,Process,,3
+58,Medical treatment,Process,,3
+59,Control,Process,,3
+60,SIV,Pathogen,,4
+61,SIVsm,Pathogen,,4
+62,Sooty Mangabey,Host,Sooty Mangabey,4
+63,Cercocebus atys,Host,Cercocebus atys,4
+64,Simian Immunodeficiency Virus,Pathogen,,4;11;50;60
+65,Simian T-cell Leukemia Virus,Pathogen,,4;18;46
+66,B-cell Lymphoma,Disease,,4
+67,AIDS,Disease,,4;11
+68,CD4(+)-cell,Tissue,,4
+69,p27 core antibody,Property,,4
+70,Virus Load,Measurement,,4
+71,Macaca,Host,Macaca,4
+72,Africa,Location,,4;18;45
+73,Wild,Environment,,4;79
+74,bats,species,,5
+75,China,location,,5;8;21;92
+76,adeno-associated viruses,pathogen,,5
+77,primates,host,primates,5;18;27;35;45
+78,faecal swab samples,tissue,,5
+79,provinces,location,,5
+80,bat species,species,,5
+81,rep-cap ORFs,region,,5
+82,genome sequence,measurement,,5
+83,ORF coding sequences,region,,5
+84,BtAAV-YNM,pathogen,,5
+85,primate AAVs,pathogen,,5
+86,porcine AAV strain Po3,pathogen,,5
+87,partial cap ORF sequences,region,,5
+88,bat AAV samples,tissue,,5
+89,genetic diversity,property,,5
+90,nucleotide identity,measurement,,5
+91,individual sample,sample,,5
+92,distinctive genotypes,property,,5
+93,Avian myelocytomatosis virus,Pathogen,,6
+94,MC29,Pathogen,,6
+95,HBI,Pathogen,,6
+96,Chicken,Host,Chicken,6
+97,Lymphoid tumors,Disease,,6
+98,Myc gene,Gene,,6
+99,v-myc gene,Gene,,6
+100,Lymphoid leukosis virus,Pathogen,,6
+101,Bursa,Location,,6
+102,T cells,Cell type,,6
+103,B cells,Cell type,,6
+104,Tumor cells,Cell type,,6;99
+105,Proviral DNA,Molecule,,6
+106,Gag-myc fusion protein,Molecule,,6
+107,p 108,Molecule,,6
+108,Macaque,Host,Macaque,7
+109,Macaca cyclopis,Host,Macaca cyclopis,7
+110,Mason-Pfizer monkey virus,Pathogen,,7
+111,Macaca mulatta,Host,Macaca mulatta,7
+112,Type D retrovirus,Pathogen,,7
+113,T-lymphocyte,Host cell,,7
+114,Immunodeficiency syndrome,Disease,,7
+115,Opportunistic infections,Disease,,7
+116,Lymphoproliferative abnormalities,Disease,,7
+117,Bovine foamy virus,Pathogen,,8
+118,Bovine spumaretrovirus,Pathogen,,8
+119,Germany,Location,,8;44
+120,Poland,Location,,8
+121,East Germany,Location,,8
+122,United States,Location,,8
+123,Cells,Host,Cells,8;12
+124,Provirial DNA,Entity,,8
+125,env-bel coding region,Entity,,8
+126,Splice sites,Entity,,8
+127,Genome,Entity,,8;10;95
+128,Sequence,Entity,,8
+129,Simian foamy virus,Pathogen,,9
+130,Apes,Host,Apes,9
+131,Humans,Host,Humans,9;18;33;39;62;75
+132,Rural Cameroon,Location,,9
+133,Nonhuman primates,Host,Nonhuman primates,9;10;13;17;22
+134,Gorillas,Host,Gorillas,9
+135,Chimpanzees,Host,Chimpanzees,9
+136,Monkeys,Host,Monkeys,9;32;33
+137,Southern Cameroon,Location,,9
+138,Central Africa,Location,,9
+139,Human parainfluenza virus type 3,Pathogen,,10
+140,HPIV3,Pathogen,,10
+141,Baboons,Host,Baboons,10
+142,Vervet monkeys,Host,Vervet monkeys,10
+143,Zambia,Location,,10;84
+144,African green monkeys,Host,African green monkeys,11;18;50
+145,Sooty mangabey monkeys,Host,Sooty mangabey monkeys,11
+146,Asian macaques,Host,Asian macaques,11
+147,Primate lentiviruses,Pathogen,,11
+148,CD4(+) T cells,Tissue,,11
+149,T-cell renewal,Process,,11
+150,T-cell proliferation,Process,,11
+151,Activation-induced apoptosis,Process,,11
+152,Virus-induced cell death,Process,,11
+153,Vaccine design,Process,,11
+154,Avian Sarcoma Virus Y73,Pathogen,,12
+155,Avian Leukemia Viruses,Pathogen,,12
+156,RNA,Entity,,12;94
+157,Transforming Gene (yas),Entity,,12
+158,Polyprotein p90,Entity,,12
+159,p19,Entity,,12
+160,Mammalian Leukemia Viruses,Pathogen,,12
+161,Mammalian,Species,,12
+162,Leukemia,Disease,,12
+163,Sarcoma,Disease,,12
+164,Y73-associated Virus,Pathogen,,12
+165,T-lymphotropic viruses,Pathogen,,13;22;39
+166,HTLV-1,Pathogen,,13;39;46
+167,STLV-1,Pathogen,,13;39;46
+168,central African bushmeat hunters,Host,central African bushmeat hunters,13
+169,central Africans,Host,central Africans,13
+170,NHPs,Host,NHPs,13
+171,primate pets,Host,primate pets,13
+172,blood,Tissue,,13;20
+173,body fluids,Tissue,,13
+174,retroviruses,Pathogen,,13;15;22;45
+175,pandemic retrovirus,Pathogen,,13
+176,animal reservoirs,Environment,,13
+177,populations,Host,populations,13
+178,disease,Disease,,13
+179,HTLV,Pathogen,,13;18;22;39
+180,STLV,Pathogen,,13;18;22;39
+181,Flavobacterium columnare,Pathogen,,14
+182,Fish,Host,Fish,14
+183,16S rDNA gene,Gene,,14
+184,Intergenic spacer region,Region,,14
+185,Amplified fragment length polymorphism,Technique,,14
+186,Genomovar I,Genomovar,,14
+187,Genomovar II,Genomovar,,14
+188,Channel catfish,Host,Channel catfish,14
+189,Tilapia,Host,Tilapia,14
+190,US,Location,,14
+191,Clone,Entity,,14
+192,Jaagsiekte sheep retrovirus,Pathogen,,15
+193,Ovine pulmonary adenocarcinoma,Disease,,15
+194,Sheep,Host,Sheep,15;29;47;71
+195,Goats,Host,Goats,15;29;47
+196,Lung,Tissue,,15;54;61;65;68;74;94
+197,Envelope protein,Protein,,15;85
+198,Oncogene,Property,,15
+199,Trans-acting factor,Protein,,15
+200,Gag protein,Protein,,15
+201,Viral RNA,Molecule,,15
+202,Cell systems,Environment,,15
+203,Animal models,Environment,,15
+204,Bovine group C rotavirus,Pathogen,,16
+205,Adult cows,Host,Adult cows,16
+206,Shintoku,Pathogen,,16
+207,Porcine-like WD534tc,Pathogen,,16
+208,Yamagata,Pathogen,,16
+209,VP6 gene,Tissue,,16
+210,VP7 gene,Tissue,,16
+211,Milk production,Property,,16
+212,Diarrhea,Disease,,16
+213,Sanguinus oedipus,Species,,17
+214,Francisella tularensis,Pathogen,,17
+215,Escherichia coli,Pathogen,,17;89
+216,Salmonella,Pathogen,,17
+217,Yersinia,Pathogen,,17
+218,Toxoplasma gondii,Pathogen,,17;34;49;51;72;80
+219,Lymphocytic choriomeningitis,Pathogen,,17
+220,Tularemia,Disease,,17
+221,Cottontop tamarins,Host,Cottontop tamarins,17
+222,Septic tularemia,Disease,,17
+223,Anorexia,Symptom,,17
+224,Aerosol,Transmission method,,17
+225,Biting arthropod vectors,Transmission method,,17
+226,Rodent reservoir,Transmission method,,17
+227,Acute febrile illness,Disease,,17
+228,Primate T-cell leukemia viruses,Pathogen,,18
+229,Cercocebus agilis,Host,Cercocebus agilis,18
+230,Agile mangabeys,Host,Agile mangabeys,18
+231,Cercocebus torquatus,Host,Cercocebus torquatus,18
+232,Red-capped mangabey,Host,Red-capped mangabey,18
+233,Baboon,Host,Baboon,18
+234,Eritrean baboon,Host,Eritrean baboon,18
+235,Senegal baboon,Host,Senegal baboon,18
+236,Cameroon,Location,,18;22;39
+237,Rain forests,Location,,18
+238,Mandrills,Host,Mandrills,18
+239,Crested mona monkeys,Host,Crested mona monkeys,18
+240,Greater spot-nosed monkeys,Host,Greater spot-nosed monkeys,18
+241,Gorilla gorilla,Host,Gorilla gorilla,18
+242,Cercopithecus cephus,Host,Cercopithecus cephus,18;39
+243,Miopithecus ogouensis,Host,Miopithecus ogouensis,18
+244,Talapoins,Host,Talapoins,18
+245,Mustached monkeys,Host,Mustached monkeys,18
+246,Cruoricaptor ignavus,Species,,19
+247,Flavobacteriaceae,Family,,19
+248,IMMIB L-12475(T),Strain,,19
+249,Blood culture,Location,,19
+250,Bacteraemia,Disease,,19
+251,Septicaemia,Disease,,19
+252,Flexirubin pigment,Pigment,,19
+253,16S rRNA gene,Gene,,19;20;21
+254,Menaquinone MK-6,Respiratory quinone,,19
+255,Sym-homospermidine,Polyamine,,19
+256,Phosphatidylethanolamine,Phospholipid,,19
+257,Unknown phospholipid,Phospholipid,,19
+258,Genomic DNA,DNA,,19
+259,DSM 25479(T),Strain,,19
+260,CCUG 62025(T),Strain,,19
+261,Brevundimonas vancanneytii,Species,,20
+262,Brevundimonas diminuta,Species,,20
+263,Brevundimonas terrae,Species,,20
+264,LMG 2337(T),Strain,,20
+265,CCUG 1797(T),Strain,,20
+266,ATCC 14736(T),Strain,,20
+267,Patient,Host,Patient,20
+268,Endocarditis,Disease,,20
+269,Gram-negative,Property,,20
+270,Rod-shaped,Property,,20
+271,Non-spore-forming,Property,,20
+272,Alphaproteobacterial,Property,,20
+273,G+C content,Measurement,,20
+274,Polar lipids,Property,,20
+275,Fatty acids,Property,,20
+276,DNA-DNA hybridization,Process,,20
+277,Physiological and biochemical tests,Process,,20
+278,Wohlfahrtiimonas chitiniclastica,Pathogen,,21
+279,W. chitiniclastica,Pathogen,,21
+280,cow,Host,cow,21
+281,Shandong,Location,,21
+282,matrix-assisted laser desorption/ionization time-of-flight mass spectrometry,Measurement,,21
+283,antimicrobial susceptibility testing,Measurement,,21
+284,mouse,Host,mouse,21
+285,hoof pus,Tissue,,21
+286,hoof fetlow,Disease,,21
+287,Hunters,Host,Hunters,22
+288,Cercopithecus mona,Host,Cercopithecus mona,22
+289,C. nictitans,Host,C. nictitans,22
+290,Peripheral blood mononuclear cell DNA,Tissue,,22
+291,porcine retrovirus,Pathogen,,23
+292,porcine cells,Host,porcine cells,23
+293,RT assay,Process,,23
+294,template-primer poly(rA).oligo(dT),Entity,,23
+295,Mn++,Entity,,23
+296,K+,Entity,,23
+297,Na+,Entity,,23
+298,pH,Property,,23
+299,non-ionic detergents,Entity,,23
+300,porcine cell lines,Host,porcine cell lines,23
+301,pigs,Host,pigs,23
+302,Francisella noatunensis,Pathogen,,24
+303,French grunt,Host,French grunt,24
+304,Haemulon flavolineatum,Host,Haemulon flavolineatum,24
+305,Caesar grunt,Host,Caesar grunt,24
+306,Haemulon carbonarium,Host,Haemulon carbonarium,24
+307,Florida Keys,Location,,24
+308,Public aquaria,Location,,24
+309,Recirculating system,Environment,,24
+310,Spleen,Tissue,,24;52;56;90
+311,Kidney,Tissue,,24
+312,Modified Thayer Martin agar media,Environment,,24
+313,iglC,Gene,,24
+314,F. noatunensis subspecies orientalis,Pathogen,,24
+315,viral oncogene,Pathogen,,25
+316,phospholipase C,Pathogen,,25
+317,protein kinases,Pathogen,,25
+318,nuclear proteins,Pathogen,,25
+319,growth factors,Pathogen,,25
+320,GTP-binding proteins,Pathogen,,25
+321,p47gag-crk,Pathogen,,25
+322,avian sarcoma virus CT10,Pathogen,,25
+323,tyrosine kinases,Host,tyrosine kinases,25
+324,bovine brain,Host,bovine brain,25
+325,non-receptor class,Host,non-receptor class,25
+326,African primates,Species,,26
+327,Human T-cell leukemia virus,Pathogen,,26;46
+328,ATLV/HTLV-I,Pathogen,,26
+329,Cercopithecus,Genus,,26
+330,Papio,Genus,,26
+331,Theropithecus,Genus,,26
+332,Grivet monkey,Species,,26;46
+333,Anubis baboon,Species,,26;46
+334,Hamadryas baboon,Species,,26;46
+335,Gelada,Species,,26
+336,Ethiopia,Location,,26
+337,HTLV-I specific antigens,Tissue,,26
+338,Indirect immunofluorescence test,Process,,26
+339,HTLV-I,Pathogen,,26;45
+340,Catarrhines,Group,,26
+341,Eulemur fulvus rufus,Host,Eulemur fulvus rufus,27
+342,Lemuricola vauceli,Pathogen,,27
+343,Trichuris sp.,Pathogen,,27;66
+344,Callistoura,Pathogen,,27
+345,Trichostrongylid,Pathogen,,27
+346,Strongyloid,Pathogen,,27
+347,Anoplocephalid cestode,Pathogen,,27
+348,Dicrocoeliid trematode,Pathogen,,27
+349,Entamoeba sp.,Pathogen,,27;32
+350,Balantidium coli,Pathogen,,27
+351,Kirindy Forest,Location,,27
+352,Western Madagascar,Location,,27
+353,Lemuriformes,Taxon,,27
+354,Gastro-intestinal parasites,Disease,,27
+355,Red-fronted lemurs,Host,Red-fronted lemurs,27
+356,Fecal samples,Tissue,,27;70;92
+357,Parasite analyses,Process,,27
+358,Field seasons,Event,,27
+359,2006,Measurement,,27
+360,2007,Measurement,,27
+361,8 mo,Measurement,,27
+362,Social groups,Host,Social groups,27
+363,Parasitological study,Process,,27
+364,Japanese serows,Species,,28;29;47
+365,Capricornis crispus,Species,,28;29;47
+366,Parapoxvirus,Pathogen,,28;29;43;47;48
+367,Gifu Prefecture,Location,,28
+368,Japan,Location,,28;38;47
+369,Bovine fetal testicle cell cultures,Tissue,,28
+370,Electron microscope,Device,,28;48
+371,Enzyme-linked immunosorbent assay,Device,,28;47;51;80
+372,S-1,Pathogen,,28
+373,Winter,Event,,28;44;53;71
+374,1981-82,Event,,28
+375,1982-83,Event,,28
+376,1984-85,Event,,28
+377,December 1984,Event,,28
+378,March 1985,Event,,28
+379,Orf virus,Pathogen,,29
+380,Bovine papular stomatitis virus,Pathogen,,29
+381,Ishikawa-S,Pathogen,,29
+382,Monoclonal antibodies,Entity,,29;79
+383,Viral DNA,Entity,,29
+384,Envelope genes,Entity,,29
+385,Nucleotide sequences,Entity,,29
+386,Eurasian otter,Species,,30
+387,Lutra lutra,Species,,30;42
+388,Helminth,Pathogen,,30;66
+389,Phagicola sp.,Pathogen,,30
+390,Aonchotheca putorii,Pathogen,,30
+391,Eucoleus schvalovoj,Pathogen,,30
+392,Strongyloides lutrae,Pathogen,,30
+393,Anisakis,Pathogen,,30
+394,Dirofilaria immitis,Pathogen,,30;51
+395,Gigantorhynchus sp.,Pathogen,,30
+396,Portugal,Location,,30
+397,Spain,Location,,30;37;42
+398,Iberian Peninsula,Location,,30;40
+399,Europe,Location,,30
+400,Necropsy,Process,,30;61
+401,Coprological analysis,Process,,30
+402,Formalin-ether concentration method,Process,,30
+403,Culture of fresh faeces,Process,,30
+404,Ritchie,Author,,30
+405,Pathogenic agents,Concept,,31
+406,Wild species,Concept,,31
+407,Tanzania,Location,,31;66
+408,Game areas,Location,,31
+409,Foot-and-mouth disease,Disease,,31
+410,Lumpy skin disease,Disease,,31
+411,Bovine viral diarrhoea,Disease,,31;44;59;94
+412,Akabane,Disease,,31
+413,Bovine ephemeral fever,Disease,,31
+414,Bluetongue,Disease,,31
+415,Enzootic bovine leucosis,Disease,,31
+416,African horse sickness,Disease,,31
+417,African swine fever,Disease,,31
+418,Cryptosporidium,Pathogen,,32;70
+419,Cryptosporidiosis,Disease,,32
+420,Polonnaruwa,Location,,32
+421,Sri Lanka,Location,,32
+422,Wild non-human primates,Host,Wild non-human primates,32
+423,Toque macaques,Host,Toque macaques,32
+424,Gray langurs,Host,Gray langurs,32
+425,Purple-faced langurs,Host,Purple-faced langurs,32
+426,Iodamoeba,Pathogen,,32
+427,Chilomastix,Pathogen,,32
+428,Balantidium spp.,Pathogen,,32
+429,Enterobius,Pathogen,,32
+430,Strongyloides,Pathogen,,32;66;70
+431,Human feces,Environment,,32;33;54
+432,Livestock,Environment,,32
+433,Water,Environment,,32
+434,Forest,Environment,,32
+435,Public health,Concept,,32
+436,Wildlife conservation management,Concept,,32
+437,Cyclospora cayetanensis,Pathogen,,33
+438,Nepal,Location,,33
+439,FTA filter-base polymerase chain reaction,Method,,33
+440,Protozoan parasite,Type,,33
+441,Cyclosporiasis,Disease,,33
+442,Dogs,Host,Dogs,33;62
+443,Chickens,Host,Chickens,33;93
+444,Eimeria sp.,Pathogen,,33;70
+445,Fecal isolates,Sample,,33
+446,May,Time,,33
+447,September,Time,,33
+448,2002,Year,,33
+449,Geographic regions,Location,,33;43
+450,Microscopy,Method,,33;35
+451,Polymerase chain reaction,Method,,33;36;61;88;96
+452,Restriction fragment length polymorphism,Method,,33
+453,Multiplex PCR assay,Method,,33
+454,Species-specific,Property,,33
+455,Protracted diarrheal illness,Disease,,33
+456,Immunocompromised,Property,,33
+457,Immunocompetent,Property,,33
+458,Felis rufus,Host,Felis rufus,34
+459,Bobcat,Host,Bobcat,34
+460,Protozoa,Pathogen,,34;61;66
+461,Meningoencephalitis,Disease,,34
+462,Head pressing,Symptom,,34
+463,Stupor,Symptom,,34
+464,Intermittent seizures,Symptom,,34
+465,Vocalization,Symptom,,34
+466,Gross features,Property,,34
+467,Histopathologic features,Property,,34
+468,Immunohistochemical test,Test,,34
+469,Avidin-biotin,Method,,34
+470,Free-ranging,Environment,,34
+471,Hepatocystis,Pathogen,,35
+472,Plasmodiidae,Family,,35
+473,Apicomplexan,Group,,35;42
+474,Malaria,Disease,,35
+475,Kibale National Park,Location,,35
+476,Uganda,Location,,35;67;70
+477,Colobus guereza,Host,Colobus guereza,35
+478,Cercopithecus mitis,Host,Cercopithecus mitis,35
+479,Lophocebus albigena,Host,Lophocebus albigena,35;39
+480,Papio anubis,Host,Papio anubis,35
+481,Procolobus rufomitratus,Host,Procolobus rufomitratus,35
+482,Cercopithecus ascanius,Host,Cercopithecus ascanius,35
+483,Cytochrome b,Gene,,35
+484,Sanger sequencing,Technique,,35
+485,Deep sequencing,Technique,,35
+486,Equid herpesvirus 9,Pathogen,,36
+487,Burchell's zebra,Host,Burchell's zebra,36
+488,Thomson's gazelle,Host,Thomson's gazelle,36
+489,Equus burchelli,Host,Equus burchelli,36
+490,Gazella thomsoni,Host,Gazella thomsoni,36
+491,Grevy's zebra,Host,Grevy's zebra,36
+492,Trigeminal ganglia,Tissue,,36
+493,Serengeti ecosystem,Location,,36
+494,Encephalitis,Disease,,36
+495,Neutralizing antibodies,Measurement,,36;57
+496,PCR sequencing,Process,,36
+497,bronchopulmonary nematode larvae,Pathogen,,37
+498,Spanish ibex,Host,Spanish ibex,37
+499,Capra pyrenaica hispanica,Species,,37
+500,Castilla-La Mancha,Location,,37
+501,September 2003,Event,,37;88
+502,Protostrongylid,Pathogen,,37
+503,Dictyocaulus spp.,Pathogen,,37
+504,Faecal samples,Tissue,,37
+505,Pasture availability,Property,,37
+506,Wild and domestic ungulates,Host,Wild and domestic ungulates,37
+507,Parasite spreading,Process,,37
+508,Host density-dependent processes,Process,,37
+509,Host-parasite patterns,Property,,37
+510,Health risk,Property,,37
+511,Health surveillance scheme,Process,,37
+512,Cervus nippon centralis,Host,Cervus nippon centralis,38;47
+513,Lancet flukes,Pathogen,,38
+514,Dicrocoelium chinensis,Pathogen,,38
+515,Iwate Prefecture,Location,,38
+516,Liver,Tissue,,38;52;56;61
+517,Body,Tissue,,38
+518,Suckers,Tissue,,38
+519,Testes,Tissue,,38
+520,Ovary,Tissue,,38
+521,Cirrus pouch,Tissue,,38
+522,Eggs,Tissue,,38
+523,Uterus,Tissue,,38
+524,Anterior end,Location,,38
+525,Posterior part,Location,,38
+526,Maximal body-width,Property,,38
+527,Simian species,Species,,39
+528,Deltaretroviruses,Pathogen,,39
+529,STLV-5,Pathogen,,39
+530,Whole blood,Tissue,,39
+531,LTR sequences,Measurement,,39
+532,pX-LTR sequences,Measurement,,39
+533,450-bp,Measurement,,39
+534,900-bp,Measurement,,39
+535,Lynx pardinus,Species,,40
+536,Brachylaima sp.,Pathogen,,40
+537,Trematoda,Class,,40
+538,Taenia pisiformis,Pathogen,,40
+539,T. polyacantha,Pathogen,,40
+540,T. taeniaeformis,Pathogen,,40
+541,Mesocestoides litteratus,Pathogen,,40
+542,Cestoda,Class,,40
+543,Eucoleus aerophilus,Pathogen,,40
+544,Ancylostoma tubaeforme,Pathogen,,40
+545,Toxocara cati,Pathogen,,40
+546,Toxascaris leonina,Pathogen,,40
+547,Vegisospirura potekhina potekhina,Pathogen,,40
+548,Mastophorus muris,Pathogen,,40
+549,Physaloptera praeputialis,Pathogen,,40
+550,Nematoda,Class,,40;81
+551,Brucella spp.,Pathogen,,41;51
+552,blue wildebeest,Host,blue wildebeest,41
+553,African buffalo,Host,African buffalo,41
+554,Connochaetes taurinus Burchell,Scientific Latin binomial name,,41
+555,Syncerus caffer Sparrman,Scientific Latin binomial name,,41
+556,Masai Mara,Location,,41
+557,Kenya,Location,,41
+558,Masai people,Group,,41
+559,Hygromata,Tissue,,41
+560,brucellosis,Disease,,41
+561,Isospora lutrae,Pathogen,,42
+562,Eimeriidae,Taxon,,42
+563,Carnivora,Taxon,,42
+564,Mustelidae,Taxon,,42
+565,Extremadura,Location,,42
+566,Oöcysts,Tissue,,42
+567,Sporocysts,Tissue,,42
+568,Sporozoites,Tissue,,42
+569,Stieda bodies,Tissue,,42
+570,Substieda bodies,Tissue,,42
+571,Residuum,Tissue,,42
+572,Granules,Tissue,,42
+573,Microm,Unit,,42
+574,Micrometers,Unit,,42
+575,Seals,Host,Seals,43
+576,Sea lions,Host,Sea lions,43
+577,Phocidae,Host,Phocidae,43
+578,Otariidae,Host,Otariidae,43
+579,Pinnipeds,Host,Pinnipeds,43
+580,Atlantic pinnipeds,Host,Atlantic pinnipeds,43
+581,Pacific pinnipeds,Host,Pacific pinnipeds,43
+582,Orthopoxviruses,Pathogen,,43
+583,Poxvirus,Pathogen,,43
+584,Phylogenetic family,Concept,,43
+585,Genus,Concept,,43
+586,Species,Concept,,43
+587,Region,Location,,43
+588,Mucosal disease,Disease,,44
+589,Free-ranging deer,Host,Free-ranging deer,44
+590,Captive deer,Host,Captive deer,44
+591,Cervidae,Host,Cervidae,44
+592,Roe deer,Host,Roe deer,44;59
+593,Capreolus capreolus,Scientific name,,44;59
+594,Red deer,Host,Red deer,44;53;59
+595,Cervus elaphus,Scientific name,,44;59
+596,Fallow deer,Host,Fallow deer,44;59
+597,Dama dama,Scientific name,,44;59
+598,Other cervid species,Host,Other cervid species,44
+599,Pestivirus,Pathogen,,44
+600,Border disease virus,Pathogen,,44
+601,Microneutralization test,Process,,44
+602,Titers,Measurement,,44
+603,Juvenile animals,Host,Juvenile animals,44
+604,Adults,Host,Adults,44;80
+605,Summer,Time,,44;53
+606,Simian,Host,Simian,45
+607,T-cell leukemia/lymphotropic virus type I,Pathogen,,45
+608,STLV-I,Pathogen,,45
+609,Asia,Location,,45;85
+610,Phylogenetic associations,Concept,,45
+611,Phylogenetic context,Concept,,45
+612,Phenetic,Analytical procedure,,45
+613,Parsimony,Analytical procedure,,45
+614,Simian T-lymphotropic virus type L,Pathogen,,46
+615,Ethiopian baboons,Host,Ethiopian baboons,46
+616,Hybrid baboons,Host,Hybrid baboons,46
+617,Gelada baboons,Host,Gelada baboons,46
+618,STLV-L,Pathogen,,46
+619,Japanese badger,Host,Japanese badger,47
+620,Meles meles anakuma,Host,Meles meles anakuma,47
+621,Japanese black bear,Host,Japanese black bear,47
+622,Ursus thibetanus japonicus,Host,Ursus thibetanus japonicus,47
+623,Japanese deer,Host,Japanese deer,47
+624,Japanese monkey,Host,Japanese monkey,47
+625,Macaca fuscata,Host,Macaca fuscata,47
+626,Japanese raccoon dog,Host,Japanese raccoon dog,47
+627,Nyctereutes procyonoides viverrinus,Host,Nyctereutes procyonoides viverrinus,47
+628,Japanese wild boar,Host,Japanese wild boar,47
+629,Sus scrofa leucomystax,Host,Sus scrofa leucomystax,47
+630,masked palm civet,Host,masked palm civet,47
+631,Paguma larvata,Host,Paguma larvata,47
+632,nutria,Host,nutria,47
+633,Myocastor coypus,Host,Myocastor coypus,47
+634,protein AG,Pathogen,,47
+635,ELISA,Process,,47;56;69
+636,agar gel immunodiffusion test,Process,,47
+637,indirect immunofluorescence assay,Process,,47
+638,serum samples,Measurement,,47;73;75;80
+639,prefectures,Location,,47
+640,Parapox,Pathogen,,48
+641,Grey seals,Host,Grey seals,48
+642,Halichoerus grypus,Host,Halichoerus grypus,48
+643,Cornwall,Location,,48
+644,Winter of 1991/92,Event,,48
+645,North America,Location,,48;65;94
+646,Enhydra lutris nereis,Species,,49
+647,California,Location,,49
+648,USA,Location,,49;52;64;65;68;69;71;72;74;94
+649,Protozoal encephalitis,Disease,,49
+650,Acanthocephalan-related disease,Disease,,49
+651,Shark attack,Event,,49
+652,Cardiac disease,Disease,,49
+653,T. gondii encephalitis,Disease,,49
+654,Estero Bay,Location,,49
+655,Southern Monterey Bay,Location,,49
+656,Santa Cruz,Location,,49
+657,Point Año Nuevo,Location,,49
+658,Sea otters,Host,Sea otters,49
+659,Acanthocephalan parasites,Pathogen,,49
+660,Bacteria,Pathogen,,49
+661,Fungi,Pathogen,,49
+662,Parasitic disease,Disease,,49
+663,Southern sea otters,Host,Southern sea otters,49
+664,Patas monkey,Host,Patas monkey,50
+665,Erythrocebus patas,Host,Erythrocebus patas,50
+666,Cercopithecus aethiops sabaeus,Host,Cercopithecus aethiops sabaeus,50
+667,Senegal,Location,,50
+668,HIV-2,Pathogen,,50
+669,env,Tissue,,50
+670,nef,Tissue,,50
+671,pamG31,Pathogen,,50
+672,SIVagm,Pathogen,,50
+673,SIVagm sabaeus,Pathogen,,50
+674,env/nef region,Tissue,,50
+675,Lentiviral infection,Disease,,50
+676,Hawaiian monk seal,Species,,51;73
+677,Monachus schauinslandi,Scientific name,,51;73
+678,Phocine herpesvirus-1,Pathogen,,51
+679,Leptospira bratislava,Pathogen,,51
+680,L. hardjo,Pathogen,,51
+681,L. icterohaemorrhagiae,Pathogen,,51
+682,L. pomona,Pathogen,,51
+683,B. canis,Pathogen,,51
+684,Chlamydophila abortus,Pathogen,,51
+685,Morbilliviruses,Pathogen,,51
+686,Influenza A virus,Pathogen,,51
+687,Canine adenovirus,Pathogen,,51
+688,Caliciviruses,Pathogen,,51
+689,Northwestern Hawaiian Islands,Location,,51;73
+690,Serum,Tissue,,51;87
+691,Virus neutralization test,Test,,51
+692,Microagglutination test,Test,,51
+693,Complement fixation test,Test,,51;56
+694,Card test,Test,,51
+695,Conservation efforts,Event,,51
+696,Infectious disease monitoring,Process,,51
+697,Surveillance,Process,,51
+698,Mycobacterium bovis,Pathogen,,52;65
+699,white-tailed deer,Host,white-tailed deer,52;65
+700,Odocoileus virginianus,Host,Odocoileus virginianus,52;65;69
+701,Michigan,Location,,52;65
+702,tuberculosis,Disease,,52
+703,tuberculous lesions,Disease,,52
+704,head,Tissue,,52;68
+705,extracranial tissues,Tissue,,52
+706,thorax,Tissue,,52
+707,rumen,Tissue,,52
+708,mammary gland,Tissue,,52
+709,medial retropharyngeal lymph nodes,Tissue,,52
+710,parotid lymph node,Tissue,,52
+711,1999,Date,,52;67
+712,"19,500",Number,,52
+713,58,Number,,52
+714,"19,348",Number,,52
+715,33,Number,,52
+716,119,Number,,52
+717,central Spain,Location,,53
+718,abomasal helminths,Pathogen,,53
+719,Spiculopteragia asymmetrica,Pathogen,,53
+720,Spiculopteragia quadrispiculata,Pathogen,,53
+721,Ostertagia leptospicularis,Pathogen,,53
+722,Ostertagia kolchida,Pathogen,,53
+723,Ostertagia drozdzi,Pathogen,,53
+724,Ostertagia ryjikovi,Pathogen,,53
+725,fawns,Host,fawns,53;80
+726,subadult,Host,subadult,53
+727,adult,Host,adult,53
+728,males,Host,males,53
+729,females,Host,females,53
+730,climate,Environment,,53
+731,forage resources,Environment,,53
+732,Protostrongylid parasites,Pathogen,,54
+733,Parelaphostrongylus odocoilei,Pathogen,,54;74
+734,Protostrongylus stilesi,Pathogen,,54;74
+735,Ovis dalli,Host,Ovis dalli,54;74
+736,Ovis d. stonei,Host,Ovis d. stonei,54
+737,Mackenzie Mountains,Location,,54;74
+738,Northwest Territories,Location,,54;74
+739,Brain,Tissue,,54;61;68;98
+740,Muscles,Tissue,,54
+741,Cranial lung,Tissue,,54
+742,Arcanobacterium pyogenes,Pathogen,,54;94
+743,Pasteurella sp.,Pathogen,,54
+744,Mannheimia sp.,Pathogen,,54
+745,Respiratory viruses,Pathogen,,54
+746,Bacterial strains,Pathogen,,54
+747,Domestic ruminants,Host,Domestic ruminants,54
+748,Trypanosoma cruzi,Pathogen,,55;58
+749,Leontopithecus rosalia,Host,Leontopithecus rosalia,55;58
+750,Biological Reserve of Poço das Antas,Location,,55
+751,Rio de Janeiro,Location,,55
+752,Tamarins,Host,Tamarins,55;58
+753,Electrocardiography,Process,,55
+754,Blood counts,Process,,55
+755,Biochemical analysis,Process,,55
+756,Seric cardiac creatine kinase,Property,,55
+757,Seric mean total protein,Property,,55
+758,T wave low voltage,Property,,55
+759,R wave low voltage,Property,,55
+760,V3S wave high voltage,Property,,55
+761,Cardiac abnormalities,Property,,55
+762,Brucella,Pathogen,,56;73
+763,marine mammals,Host,marine mammals,56
+764,North Atlantic Ocean,Location,,56
+765,seal,Host,seal,56
+766,whale,Host,whale,56
+767,Iceland,Location,,56
+768,Jan Mayen,Location,,56
+769,Norway,Location,,56
+770,Kola Peninsula,Location,,56
+771,Svalbard,Location,,56
+772,Barents Sea,Location,,56
+773,Erignathus barbatus,Host,Erignathus barbatus,56
+774,Cystophora cristata,Host,Cystophora cristata,56
+775,Phoca groenlandica,Host,Phoca groenlandica,56
+776,Phoca hispida,Host,Phoca hispida,56
+777,Balaenoptera acutorostrata,Host,Balaenoptera acutorostrata,56
+778,Balaenoptera physalus,Host,Balaenoptera physalus,56
+779,Balaenoptera borealis,Host,Balaenoptera borealis,56
+780,lipopolysaccharide,Property,,56
+781,surface,Property,,56
+782,serum agglutination test,Process,,56
+783,EDTA-modified serum agglutination test,Process,,56
+784,Rose Bengal test,Process,,56
+785,anti-complement ELISA,Process,,56
+786,prevalence,Measurement,,56;71
+787,percentage,Unit,,56
+788,SA12,Pathogen,,57
+789,Simian virus 40,Pathogen,,57
+790,Papio ursinus,Host,Papio ursinus,57
+791,Cercopithecus pygerythrus,Host,Cercopithecus pygerythrus,57
+792,Rhesus kidney cells,Host,Rhesus kidney cells,57
+793,Hamsters,Host,Hamsters,57
+794,South African vervet monkey,Host,South African vervet monkey,57
+795,SV40-polyoma subgroup,Group,,57
+796,Papovaviruses,Group,,57
+797,Virion,Entity,,57
+798,Nuclear enlargement,Property,,57
+799,Cytopathic effect,Property,,57
+800,Antiviral sera,Entity,,57
+801,T antigens,Entity,,57
+802,Tumors,Entity,,57
+803,L. chrysomelas,Host,L. chrysomelas,58
+804,Callitrichidae,Family,,58
+805,Prosthenorchis sp.,Pathogen,,58
+806,Spiruridae,Pathogen,,58
+807,Trichostrongylidae,Pathogen,,58
+808,Atlantic Coastal rain forest,Location,,58
+809,Tamarin species,Host,Tamarin species,58
+810,T. cruzi infection,Disease,,58
+811,Helminth prevalence,Measurement,,58
+812,Tamarin sex,Property,,58
+813,Tamarin age,Property,,58
+814,Place of origin,Property,,58
+815,Parasitic concomitant infections,Property,,58
+816,Parasite community,Concept,,58
+817,Ecology,Concept,,58
+818,Interparasite competition/mutualism,Concept,,58
+819,Free-living deer,Host,Free-living deer,59
+820,Denmark,Location,,59;77
+821,Sika deer,Host,Sika deer,59
+822,Cervus sika,Species,,59
+823,BVD,Disease,,59
+824,1995-96,Time period,,59
+825,1998-99,Time period,,59
+826,1997,Time period,,59
+827,1998,Time period,,59;67
+828,Jutland,Location,,59
+829,bobcats,Host,bobcats,60
+830,pumas,Host,pumas,60
+831,human immunodeficiency virus (HIV),Pathogen,,60;83
+832,Lentiviridae,Family,,60
+833,Felidae,Family,,60
+834,Lynx rufus,Species,,60
+835,Puma concolor,Species,,60
+836,Southern California,Location,,60
+837,Feline lentivirus,Pathogen,,60
+838,Feline immunodeficiency virus,Pathogen,,60;67
+839,Mephitis mephitis,Species,,61
+840,Sarcocystis neurona,Pathogen,,61
+841,Striped skunk,Host,Striped skunk,61
+842,Nasal epithelium,Tissue,,61
+843,Histology,Process,,61
+844,Immunohistochemistry,Process,,61;94
+845,Base pair,Unit,,61
+846,Ribosomal RNA gene,Property,,61
+847,Canine distemper virus,Pathogen,,61;64;67;82
+848,Immunosuppression,Property,,61
+849,Leptospirosis,Disease,,62;87
+850,Connecticut,Location,,62;89
+851,Peridomestic wildlife,Host,Peridomestic wildlife,62
+852,Leptospira,Pathogen,,62;77;87
+853,Serovars pomona,Pathogen,,62
+854,Serovars icterohemorrhagiae,Pathogen,,62
+855,Serovars canicola,Pathogen,,62
+856,Serovars hardjo,Pathogen,,62
+857,Serovars grippotyphosa,Pathogen,,62
+858,February 27,Date,,62
+859,September 17,Date,,62
+860,2001,Year,,62
+861,Northeastern United States,Location,,62
+862,northern elephant seal,Species,,63
+863,Mirounga angustirostris,Scientific Latin Binomial Name,,63
+864,California sea lion,Species,,63
+865,Zalophus californianus,Scientific Latin Binomial Name,,63;81
+866,nephrolithiasis,Disease,,63
+867,uric acid,Pathogen,,63
+868,ammonium urate,Pathogen,,63
+869,kidneys,Tissue,,63;90
+870,renal pelvic dilation,Condition,,63
+871,pyelonephritis,Condition,,63
+872,hydronephrosis,Condition,,63
+873,urine,Fluid,,63
+874,2004,Year,,63;82
+875,CDV,Pathogen,,64;67
+876,Neovison vison,Host,Neovison vison,64
+877,Mink,Host,Mink,64
+878,Fakahatchee Strand Preserve State Park,Location,,64
+879,Florida,Location,,64
+880,Everglades,Location,,64
+881,Bovine tuberculosis,Disease,,65
+882,Hunter,Entity,,65
+883,Lymph nodes,Tissue,,65
+884,Histological examination,Process,,65
+885,Gross examination,Process,,65
+886,Microscopic examination,Process,,65
+887,Acid-fast bacilli,Property,,65
+888,Mycobacterial isolates,Property,,65
+889,Epidemic,Event,,65
+890,Cervids,Species,,65
+891,Olive baboons,Species,,66;70
+892,Papio cynocephalus anubis,Species,,66;70
+893,Gombe Stream National Park,Location,,66
+894,Troops,Group,,66
+895,Age,Property,,66;71
+896,Sex,Property,,66;71
+897,Reproductive status,Property,,66
+898,Social rank,Property,,66
+899,lions,Host,lions,67
+900,Panthera leo,Species,,67
+901,Queen Elizabeth National Park,Location,,67
+902,FIV,Pathogen,,67
+903,FCV,Pathogen,,67
+904,FHV1,Pathogen,,67
+905,FPV/CPV,Pathogen,,67
+906,FIPV,Pathogen,,67
+907,FeLV,Pathogen,,67
+908,Feline calicivirus,Pathogen,,67
+909,Feline herpesvirus 1,Pathogen,,67
+910,Feline/canine parvovirus,Pathogen,,67
+911,Feline infectious peritonitis virus,Pathogen,,67
+912,Feline leukemia virus,Pathogen,,67
+913,Elaeophora schneideri,Pathogen,,68
+914,Ovis canadensis,Host,Ovis canadensis,68;71;74
+915,New Mexico,Location,,68
+916,Fra Cristobal Mountains,Location,,68
+917,Gila Wilderness area,Location,,68
+918,Watson Mountain,Location,,68
+919,Mule deer,Host,Mule deer,68;94
+920,Odocoileus hemionus hemionus,Host,Odocoileus hemionus hemionus,68;72;94
+921,Tabanid,Vector,,68
+922,Nematodes,Pathogen,,68
+923,Microfilariae,Pathogen,,68
+924,Carotid arteries,Tissue,,68
+925,Iliac arteries,Tissue,,68
+926,Skin,Tissue,,68
+927,Nasal mucosa,Tissue,,68
+928,Heart,Tissue,,68
+929,Neospora caninum,Pathogen,,69;72
+930,Midwestern white-tailed deer,Host,Midwestern white-tailed deer,69
+931,Western blot,Process,,69
+932,South central Wisconsin,Location,,69
+933,Southeastern Missouri,Location,,69
+934,N. caninum surface antigens,Property,,69
+935,Blood samples,Property,,69;97
+936,Deer carcasses,Property,,69
+937,Mountain gorillas,Host,Mountain gorillas,70
+938,Gorilla gorilla berengei,Species,,70
+939,Bwindi Impenetrable National Park,Location,,70
+940,Giardia,Pathogen,,70
+941,Ascaris spp.,Pathogen,,70
+942,Trichuris spp.,Pathogen,,70
+943,Hymenolepis spp.,Pathogen,,70
+944,Ternidens diminuta,Pathogen,,70
+945,Global positioning system (GPS),Technology,,70
+946,Immunofluorescent antibodies (IFA),Technology,,70
+947,Sedimentation techniques,Technology,,70
+948,Parasite load,Measurement,,70
+949,June 2002,Event,,70
+950,2-week period,Time,,70
+951,Protostrongylus,Pathogen,,71
+952,Rocky Mountain bighorn sheep,Host,Rocky Mountain bighorn sheep,71
+953,Fenbendazole,Pathogen,,71
+954,Protostrongylid lungworms,Pathogen,,71
+955,Southcentral Montana,Location,,71
+956,Stillwater bighorn winter range,Location,,71
+957,Bighorn feces,Tissue,,71
+958,Lungworm larvae,Pathogen,,71
+959,Study period,Event,,71
+960,Pretreatment levels,Measurement,,71
+961,Average number of lungworm larvae per gram,Measurement,,71
+962,Gram,Unit,,71
+963,Four consecutive winters,Time,,71
+964,1990,Time,,71
+965,1993,Time,,71
+966,1987,Time,,71
+967,1989,Time,,71
+968,Odocoileus hemionus columbianus,Host,Odocoileus hemionus columbianus,72
+969,Washington state,Location,,72
+970,Sera,Tissue,,72
+971,Direct agglutination test,Process,,72
+972,Specific antigens,Property,,72
+973,Titer,Measurement,,72
+974,1:25,Measurement,,72
+975,Buffered antigen plate agglutination test,Assay,,73
+976,Indirect enzyme immunoassay,Assay,,73
+977,Competitive enzyme immunoassay,Assay,,73
+978,Fluorescence polarization assay,Assay,,73
+979,Dall's sheep,Host,Dall's sheep,74
+980,Canada,Location,,74
+981,Alaska,Location,,74
+982,Protostrongylidae,Family,,74
+983,Deroceras laeve,Host,Deroceras laeve,74
+984,Deroceras reticulatum,Host,Deroceras reticulatum,74
+985,Skeletal muscles,Tissue,,74
+986,Ground-collected feces,Sample,,74
+987,Room temperature,Measurement,,74
+988,10 to 12 C,Measurement,,74
+989,Bighorn sheep,Host,Bighorn sheep,74
+990,Rio Negro virus,Pathogen,,75
+991,Venezuelan equine encephalitis complex subtype VI,Pathogen,,75
+992,Córdoba,Location,,75
+993,Argentina,Location,,75
+994,Mosquitoes,Host,Mosquitoes,75
+995,Rodents,Host,Rodents,75
+996,Alphavirus RNA,Entity,,75
+997,Reverse transcriptase-nested polymerase chain reaction (RT-nested PCR),Process,,75
+998,Myodes,Species,,76
+999,Microtus,Species,,76
+1000,Hantavirus,Pathogen,,76
+1001,Buryatia,Location,,76
+1002,Russian Federation,Location,,76
+1003,Baikal,Location,,76
+1004,Hokkaido virus,Pathogen,,76
+1005,Vladivostok virus,Pathogen,,76
+1006,Puumala virus,Pathogen,,76;91
+1007,Muju virus,Pathogen,,76
+1008,M. rufocanus,Host,M. rufocanus,76
+1009,M. fortis,Host,M. fortis,76
+1010,M. oeconomus,Host,M. oeconomus,76
+1011,M. glareolus,Host,M. glareolus,76
+1012,M. regulus,Host,M. regulus,76
+1013,Leptospira fainei serovar Hurstbridge,Pathogen,,77
+1014,Human patients,Host,Human patients,77
+1015,Weil's syndrome,Disease,,77
+1016,Animal sources,Location,,77
+1017,L. fainei,Pathogen,,77
+1018,Bacterial DNA,Tissue,,77
+1019,Autoimmune hepatitis,Disease,,77
+1020,Beak and Feather Disease Virus,Pathogen,,78;97
+1021,Circovirus,Pathogen,,78
+1022,Psittacine Birds,Host,Psittacine Birds,78
+1023,African Grey Parrots,Host,African Grey Parrots,78
+1024,Cockatoos,Host,Cockatoos,78
+1025,Amazon Parrots,Host,Amazon Parrots,78
+1026,Macaws,Host,Macaws,78
+1027,UAE,Location,,78
+1028,Taqman Probe,Diagnostic Tool,,78
+1029,Real-time PCR Assay,Diagnostic Tool,,78
+1030,fg,Unit,,78
+1031,Beak and Feather Disease,Disease,,78
+1032,Pigeon paramyxovirus serotype 1,Pathogen,,79
+1033,North American pigeons,Host,North American pigeons,79
+1034,Rhode Island,Location,,79
+1035,Eastern Texas,Location,,79
+1036,Brain tissue,Tissue,,79
+1037,Birds,Host,Birds,79
+1038,Avian orders,Group,,79
+1039,Columbiformes,Order,,79
+1040,Newcastle disease virus,Pathogen,,79
+1041,USDA-validated real-time reverse transcription-PCR assay,Assay,,79
+1042,Matrix gene,Gene,,79
+1043,Hemagglutinin inhibition,Assay,,79
+1044,Partial genomic sequencing,Process,,79
+1045,Class II genotype VIb,Genotype,,79
+1046,Virulent,Property,,79
+1047,Fusion cleavage site motif,Motif,,79
+1048,Intracerebral pathogenicity indices,Measurement,,79
+1049,Fusion gene-based real-time PCR test,Assay,,79
+1050,Probe site,Location,,79
+1051,West Nile virus,Pathogen,,79
+1052,Surveillance programs,Event,,79
+1053,Public places,Location,,79
+1054,Homeowners,Group,,79
+1055,USDA,Organization,,79
+1056,Toxoplasmosis,Disease,,80
+1057,Deer,Host,Deer,80
+1058,Blastocerus dichotomus,Host,Blastocerus dichotomus,80
+1059,Ozotocerus bezoarticus,Host,Ozotocerus bezoarticus,80
+1060,State of São Paulo,Location,,80
+1061,State of Goiás,Location,,80
+1062,Indirect hemagglutination (IHA),Test,,80
+1063,Indirect immunofluorescence (IFA),Test,,80
+1064,Dot-ELISA,Test,,80
+1065,Newborn fawn,Host,Newborn fawn,80
+1066,Young adults,Age group,,80
+1067,Contracaecum ogmorhini,Species,,81
+1068,C. margolisi n. sp.,Species,,81
+1069,Arctocephalus pusillus pusillus,Species,,81
+1070,Arctocephalus pusillus doriferus,Species,,81
+1071,Arctocephalus australis,Species,,81
+1072,Mirounga leonina,Species,,81
+1073,C. osculatum (s.l.),Species,,81
+1074,C. miroungae,Species,,81
+1075,Anisakidae,Family,,81
+1076,Otariid seals,Group,,81
+1077,Boreal region,Region,,81
+1078,Austral region,Region,,81
+1079,Northern hemisphere,Region,,81
+1080,Mitochondrial cyt b gene,Gene,,81
+1081,18 enzyme loci,Measurement,,81
+1082,260 bp,Measurement,,81
+1083,D(Nei),Measurement,,81
+1084,6Pgdh,Locus,,81
+1085,Iddh,Locus,,81
+1086,Mdh-1,Locus,,81
+1087,NADHdh,Locus,,81
+1088,Morphological characters,Property,,81
+1089,Enzyme loci,Property,,81
+1090,wild carnivores,Host,wild carnivores,82
+1091,Switzerland,Location,,82
+1092,red foxes,Host,red foxes,82
+1093,Vulpes vulpes,Scientific Latin binomial name,,82
+1094,Eurasian badgers,Host,Eurasian badgers,82
+1095,Meles meles,Scientific Latin binomial name,,82
+1096,stone martens,Host,stone martens,82
+1097,Martes foina,Scientific Latin binomial name,,82
+1098,pine martens,Host,pine martens,82
+1099,Martes martes,Scientific Latin binomial name,,82
+1100,Eurasian lynx,Host,Eurasian lynx,82
+1101,Lynx lynx,Scientific Latin binomial name,,82
+1102,domestic dog,Host,domestic dog,82
+1103,interstitial to bronchointerstitial pneumonia,Disease,,82
+1104,meningopolioencephalitis,Disease,,82
+1105,demyelination,Disease,,82
+1106,hemagglutinin protein,Property,,82
+1107,signaling lymphocyte activation molecule,Property,,82
+1108,SLAM,Property,,82
+1109,A75/17,Pathogen,,82
+1110,2009,Date,,82
+1111,Hepatitis B virus,Pathogen,,83
+1112,HBV,Pathogen,,83
+1113,HIV,Pathogen,,83
+1114,Hepatitis,Disease,,83
+1115,Liver cirrhosis,Disease,,83
+1116,Hepatocellular carcinoma,Disease,,83
+1117,HBV vaccination program,Event,,83
+1118,HBV seroprevalence,Measurement,,83
+1119,Combination antiretroviral therapy,Treatment,,83
+1120,cART,Treatment,,83
+1121,Hepatitis events,Disease,,83
+1122,End-stage liver disease,Disease,,83
+1123,HBV infection,Disease,,83
+1124,Tenofovir disoproxil fumarate,Treatment,,83
+1125,Emtricitabine,Treatment,,83
+1126,Lamivudine,Treatment,,83
+1127,HBV vaccine,Vaccine,,83
+1128,HIV-infected patients,Host,HIV-infected patients,83
+1129,HIV-coinfected patients,Host,HIV-coinfected patients,83
+1130,HBV-coinfected patients,Host,HBV-coinfected patients,83
+1131,Worldwide,Location,,83
+1132,Areas,Location,,83
+1133,Rhodococcus equi,Pathogen,,84
+1134,indigenous animals,Host,indigenous animals,84
+1135,Lower Zambezi National Park,Location,,84
+1136,Lochinvar National Park,Location,,84
+1137,foals,Host,foals,84
+1138,fetal samples,Sample,,84
+1139,soil samples,Sample,,84
+1140,VapA,Antigen,,84
+1141,VapB,Antigen,,84
+1142,cryptic plasmids,Plasmid,,84
+1143,virulent R. equi,Pathogen,,84
+1144,avirulent R. equi,Pathogen,,84
+1145,Japanese encephalitis virus,Pathogen,,85
+1146,Japanese encephalitis,Disease,,85
+1147,Indonesia,Location,,85
+1148,Malaysia,Location,,85
+1149,JEV,Pathogen,,85
+1150,JKT6468,Pathogen,,85
+1151,Core protein,Tissue,,85
+1152,Receptor binding domain,Tissue,,85
+1153,Southeast Asia,Location,,85
+1154,Tropical southeast Asia,Location,,85
+1155,Australian brushtail possums,Species,,86
+1156,Trichosurus vulpecula,Species,,86
+1157,Enteroviruses,Pathogen,,86
+1158,W1,Pathogen,,86
+1159,W6,Pathogen,,86
+1160,Bovine enterovirus serotype 2,Pathogen,,86
+1161,PS87/Belfast,Pathogen,,86
+1162,Possum kidney cells,Host,Possum kidney cells,86
+1163,Madin-Darby bovine kidney cells,Host,Madin-Darby bovine kidney cells,86
+1164,New Zealand,Location,,86
+1165,Australia,Location,,86
+1166,Canis lupus,Host,Canis lupus,87;88
+1167,Minnesota,Location,,87;89
+1168,Microtiter agglutination test,Process,,87
+1169,Serovars,Property,,87
+1170,Australis,Pathogen,,87
+1171,Autumnalis,Pathogen,,87
+1172,Ballum,Pathogen,,87
+1173,Bataviae,Pathogen,,87
+1174,Bratislava,Pathogen,,87
+1175,Canicola,Pathogen,,87
+1176,Copenhageni,Pathogen,,87
+1177,Grippotyphosa,Pathogen,,87
+1178,Hardjo,Pathogen,,87
+1179,Pomona,Pathogen,,87
+1180,Pyrogenes,Pathogen,,87
+1181,Tarassovi,Pathogen,,87
+1182,gray wolf,Host,gray wolf,88
+1183,Croatia,Location,,88
+1184,Dalmatia,Location,,88
+1185,Leishmania infantum,Pathogen,,88
+1186,visceral leishmaniosis,Disease,,88
+1187,Brevinema andersonii,Pathogen,,89
+1188,Blarina brevicauda,Host,Blarina brevicauda,89
+1189,Peromyscus leucopus,Host,Peromyscus leucopus,89;90
+1190,Spirochaetales,Order,,89
+1191,16S rRNA,Measurement,,89
+1192,Sodium dodecyl sulfate-polyacrylamide gel electrophoresis,Measurement,,89
+1193,Fatty acid analysis,Measurement,,89
+1194,Enzyme analysis,Measurement,,89
+1195,Restriction endonuclease analysis,Measurement,,89
+1196,Southern hybridization,Measurement,,89
+1197,ATCC 43811,Type strain,,89
+1198,Borrelia burgdorferi,Pathogen,,90
+1199,Lyme disease,Disease,,90
+1200,Tamias striatus,Host,Tamias striatus,90
+1201,Dermacentor variabilis,Tick,,90
+1202,Ixodes dammini,Tick,,90
+1203,Feral rodents,Host,Feral rodents,90
+1204,Eastern Connecticut,Location,,90
+1205,Eyes,Tissue,,90
+1206,Livers,Tissue,,90
+1207,Spirochetes,Pathogen,,90
+1208,Arvicola scherman,Species,,91
+1209,Lymphocytic choriomeningitis virus,Pathogen,,91
+1210,Cowpox virus,Pathogen,,91
+1211,Montane water vole,Host,Montane water vole,91
+1212,Water vole,Host,Water vole,91
+1213,Immunoglobulin G,Measurement,,91
+1214,Population density cycle,Process,,91
+1215,Grassland areas,Environment,,91
+1216,Canidae,Species,,92
+1217,Canine coronaviruses,Pathogen,,92
+1218,RT-nPCR assay,Process,,92
+1219,Coronavirus,Pathogen,,92
+1220,CCV,Pathogen,,92
+1221,M gene,Tissue,,92
+1222,FCV-like CCV strain,Pathogen,,92
+1223,CCV 1-71,Pathogen,,92
+1224,Novel strain,Pathogen,,92
+1225,Poultry,Host,Poultry,93
+1226,Avian species,Host,Avian species,93
+1227,Nigeria,Location,,93
+1228,Guinea fowls,Host,Guinea fowls,93
+1229,Ducks,Host,Ducks,93
+1230,Pigeons,Host,Pigeons,93
+1231,Haemagglutination-inhibition test,Test,,93
+1232,Wyoming,Location,,94
+1233,5'UTR,Measurement,,94
+1234,E2 genes,Measurement,,94
+1235,Reverse transcriptase polymerase chain reaction,Process,,94
+1236,Serum neutralizing antibody titers,Measurement,,94
+1237,PaBV-5,Pathogen,,95
+1238,Palm cockatoo,Host,Palm cockatoo,95
+1239,Probosciger aterrimus,Host,Probosciger aterrimus,95
+1240,Proventricular dilatation disease,Disease,,95
+1241,Avian bornaviruses,Pathogen,,95
+1242,Aquatic bird bornaviruses,Pathogen,,95
+1243,Passerine bornaviruses,Pathogen,,95
+1244,Psittaciform 2 bornavirus,Pathogen,,95
+1245,Nucleotides,Entity,,95
+1246,Genomic regions,Entity,,95
+1247,Phylogenetic clade,Entity,,95
+1248,Bos grunniens,Species,,96
+1249,Bovine herpesvirus 1,Pathogen,,96
+1250,Moraxella bovis,Pathogen,,96
+1251,Neisseria spp.,Pathogen,,96
+1252,Yaks,Host,Yaks,96
+1253,Keratoconjunctivitis,Disease,,96
+1254,Conjunctival swabs,Tissue,,96
+1255,Single-strand conformation polymorphism analysis,Process,,96
+1256,Avidin biotin enzyme-linked immunosorbent assay,Process,,96
+1257,BoHV-1 reference strain,Pathogen,,96
+1258,DNA sequences,Measurement,,96
+1259,Nucleic acid sequences,Measurement,,96
+1260,Glycoproteins B and E,Property,,96
+1261,Poicepahlus robustus,Host,Poicepahlus robustus,97
+1262,Cape parrots,Host,Cape parrots,97
+1263,South Africa,Location,,97
+1264,BFDV,Pathogen,,97
+1265,Bipartite nuclear localisation signal,Property,,97
+1266,Nucleus,Tissue,,97
+1267,Coat protein,Property,,97
+1268,Full-length genomes,Measurement,,97
+1269,Sequences,Measurement,,97
+1270,Year,Measurement,,97
+1271,Location,Measurement,,97
+1272,KwaZulu-Natal Province,Location,,97
+1273,Budgerigars,Host,Budgerigars,97
+1274,Breeding facility,Location,,97
+1275,Virus infection,Event,,97
+1276,Disease outbreak,Event,,97
+1277,Turkey meningoencephalitis virus,Pathogen,,98
+1278,Turkey,Host,Turkey,98
+1279,RT-PCR,Process,,98
+1280,Virus isolation,Process,,98
+1281,Embryonated eggs,Environment,,98
+1282,Suckling mice,Environment,,98
+1283,Ntaya serogroup VI,Group,,98
+1284,Flavivirus,Group,,98
+1285,Arthopod,Host,Arthopod,98
+1286,Fall of 1997,Event,,98
+1287,TMEV,Pathogen,,98
+1288,TME,Disease,,98
+1289,Neurological signs,Property,,98
+1290,Human cytomegalovirus,Pathogen,,99
+1291,HCMV,Pathogen,,99
+1292,Cancer,Disease,,99
+1293,Glioblastoma,Disease,,99
+1294,Glioblastoma cells,Host,Glioblastoma cells,99
