@@ -1,0 +1,1491 @@
+entity_id,entity,doc_id,label
+1,Batrachochytrium dendrobatidis,1,Pathogen
+2,Eurycea neotenes,1,Host
+3,Eurycea pterophila,1,Host
+4,Eurycea nana,1,Host
+5,Eurycea sosorum,1,Host
+6,Eurycea tonkawae,1,Host
+7,Central Texas,1,Location
+8,USA,1,Location
+9,5.8S rRNA gene,1,Sequence
+10,ITS regions,1,Sequence
+11,PCR products,1,Measurement
+12,Nonconsumptive tail clippings,1,Sample
+13,Historically collected samples,1,Sample
+14,Endangered species,1,Category
+15,Threatened species,1,Category
+16,Spirometra erinacei,2,Pathogen
+17,Cyclops,2,Host
+18,Rana nigromaculata,2,Host
+19,ICR mice,2,Host
+20,Dogs,2,Host
+21,Cats,2,Host
+22,Mesocyclops leuckarti,2,Host
+23,Eucyclops serrulatus,2,Host
+24,Coracidium,2,Stage
+25,Procercoids,2,Stage
+26,Plerocercoids,2,Stage
+27,Eggs,2,Stage
+28,Laboratory,2,Location
+29,29 degrees C,2,Temperature
+30,8 to 14 days,2,Incubation period
+31,43.8 x 36.9 microns,2,Size
+32,Calcium corpuscles,2,Property
+33,Cercomer,2,Property
+34,Minute spines,2,Property
+35,Anterior end,2,Location
+36,Posterior end,2,Location
+37,Body parenchyme,2,Location
+38,amphibian,3,species
+39,chytridiomycosis,3,disease
+40,Batrachochytrium dendrobatidis,3,pathogen
+41,Xenopus,3,genus
+42,Xenopus laevis,3,species
+43,southern Africa,3,location
+44,interdigital webbing,3,anatomy
+45,Xenopus laevis frog,3,organism
+46,1938,3,date
+47,1879,3,date
+48,1999,3,date
+49,mid-1930s,3,date
+50,Protopolystoma xenopodis,4,Pathogen
+51,Xenopus laevis,4,Host
+52,African clawed toad,4,Host
+53,Monogenea,4,Taxon
+54,Polystomatidae,4,Family
+55,South Wales,4,Location
+56,U.K.,4,Location
+57,Temperature,4,Property
+58,Oviposition rate,4,Measurement
+59,Egg production,4,Process
+60,Urinary bladder,4,Location
+61,20 degrees C,4,Temperature
+62,8 degrees C,4,Temperature
+63,6 degrees C,4,Temperature
+64,20 degrees C,4,Temperature
+65,11.9 eggs/worm/day,4,Measurement
+66,0.9 eggs/worm/day,4,Measurement
+67,4.1 eggs/worm/day,4,Measurement
+68,0.2 eggs/worm/day,4,Measurement
+69,12.7 eggs/worm/day,4,Measurement
+70,130 days,4,Time
+71,9 days,4,Time
+72,141-150 days,4,Time
+73,130 days,4,Time
+74,9 days,4,Time
+75,Polystoma,5,Species
+76,anuran amphibians,5,Host
+77,Pseudodiplorchis americanus,5,Parasite
+78,Scaphiopus couchii,5,Host
+79,Protopolystoma xenopodis,5,Parasite
+80,Xenopus laevis,5,Host
+81,temperature,5,Environmental Factor
+82,behaviour,5,Host Factor
+83,population density,5,Host Factor
+84,intra-specific competitive interactions,5,Parasite Factor
+85,inter-specific competitive interactions,5,Parasite Factor
+86,survivorship,5,Parasite Factor
+87,reproductive output,5,Parasite Factor
+88,adult worms,5,Parasite
+89,immuneresponse,5,Host Response
+90,egg production,5,Parasite Characteristic
+91,Xenopus laevis laevis,6,Species
+92,Xenopus muelleri,6,Species
+93,Protopolystoma spp.,6,Parasite
+94,Protopolystoma xenopodis,6,Parasite
+95,Xenopus laevis,6,Host
+96,Xenopus muelleri,6,Host
+97,F1 hybrids,6,Host
+98,Parapatric zone,6,Location
+99,Laboratory,6,Location
+100,Allopolyploid speciation,6,Process
+101,Infectivity,6,Property
+102,Resistance,6,Property
+103,Hybridisation,6,Process
+104,Speciation,6,Process
+105,Protopolystoma xenopodis,7,Pathogen
+106,Xenopus laevis,7,Host
+107,South Africa,7,Location
+108,Wales,7,Location
+109,1960s,7,Time
+110,10°C,7,Temperature
+111,12°C,7,Temperature
+112,15°C,7,Temperature
+113,18°C,7,Temperature
+114,20°C,7,Temperature
+115,25°C,7,Temperature
+116,15·5°C,7,Temperature
+117,May-mid-July,7,Time
+118,July-September,7,Time
+119,2008,7,Time
+120,Global warming,7,Event
+121,Trypanosoma avium,8,Pathogen
+122,Raptors,8,Host
+123,Falconiformes,8,Taxon
+124,Sparrowhawk,8,Host
+125,Buzzard,8,Host
+126,Lesser-spotted eagle,8,Host
+127,Kestrel,8,Host
+128,Czech Republic,8,Location
+129,Slovak Republic,8,Location
+130,Black flies,8,Vector
+131,Eusimulium spp.,8,Vector
+132,Hippoboscid flies,8,Vector
+133,Ornithomyia avicularia,8,Vector
+134,Mosquitoes,8,Vector
+135,Culex pipiens pipiens,8,Vector
+136,Biting midges,8,Vector
+137,Culicoides spp.,8,Vector
+138,18S rRNA,8,Molecular sequence
+139,Kinetoplast,8,Structure
+140,Minicircle,8,Structure
+141,T. avium complex,8,Pathogen complex
+142,Mycoplasma gallisepticum,9,Pathogen
+143,House finches,9,Host
+144,Carpodacus mexicanus,9,Species
+145,Blue jay,9,Host
+146,Cyanocitta cristata,9,Species
+147,American goldfinches,9,Host
+148,Carduelis tristis,9,Species
+149,North Carolina,9,Location
+150,United States,9,Location
+151,DNA,9,Measurement
+152,RAPD,9,Process
+153,Outbreak,9,Event
+154,Conjunctivitis,9,Disease
+155,Songbirds,9,Host
+156,Commercial poultry,9,Host
+157,Vaccine,9,Measurement
+158,Reference strains,9,Measurement
+159,Mycoplasma sturni,10,pathogen
+160,blue jays,10,host
+161,northern mockingbirds,10,host
+162,Florida,10,location
+163,Mimus polyglottos,10,host
+164,Cyanocitta cristata,10,host
+165,Mycoplasma gallisepticum,10,pathogen
+166,house finches,10,host
+167,American goldfinches,10,host
+168,Carpodacus mexicanus,10,host
+169,Carduelis tristis,10,host
+170,conjunctivitis,10,disease
+171,sinusitis,10,disease
+172,epiphora,10,disease
+173,wildlife care facility,10,location
+174,USA,10,location
+175,Mycoplasma gallisepticum,11,pathogen
+176,House finches,11,host
+177,Carpodacus mexicanus,11,species
+178,Tompkins County,11,location
+179,New York,11,location
+180,USA,11,location
+181,American goldfinches,11,host
+182,Carduelis tristis,11,species
+183,Purple finch,11,host
+184,Carpodacus purpureus,11,species
+185,Brown-headed cowbirds,11,host
+186,Molothrus ater,11,species
+187,Tufted titmice,11,host
+188,Parus bicolor,11,species
+189,Conjunctivitis,11,disease
+190,February 1998,11,event
+191,March 1998,11,event
+192,February 1999,11,event
+193,March 1999,11,event
+194,Random amplification of polymorphic DNA (RAPD),11,technique
+195,Plate agglutination (PA),11,technique
+196,Mycoplasma gallisepticum,12,pathogen
+197,house finch,12,host
+198,Carpodacus mexicanus,12,scientific name
+199,American goldfinch,12,host
+200,Carduelis tristis,12,scientific name
+201,house sparrow,12,host
+202,Passer domesticus,12,scientific name
+203,conjunctival sac,12,location
+204,naive house finches,12,host
+205,Mycoplasma gallisepticum,13,Pathogen
+206,Mycoplasmosis,13,Disease
+207,Evening grosbeak,13,Host
+208,Pine grosbeak,13,Host
+209,Coccothraustes vespertinus,13,Species
+210,Pinicola enucleator,13,Species
+211,Quebec,13,Location
+212,Canada,13,Location
+213,1998-99,13,Time
+214,Winter,13,Season
+215,Conjunctivitis,13,Disease
+216,Rhinitis,13,Disease
+217,Mucopurulent infra-orbital sinusitis,13,Disease
+218,House finch,13,Host
+219,American gold finch,13,Host
+220,Carpodacus mexicanus,13,Species
+221,Carduelis tristis,13,Species
+222,Eastern North America,13,Location
+223,Polymerase chain reaction,13,Process
+224,Random amplified polymorphic DNA (RAPD) fingerprinting,13,Process
+225,Direct immunofluorescence,13,Process
+226,Mycoplasma gallisepticum,14,Pathogen
+227,House finches,14,Host
+228,Carpodacus mexicanus,14,Species
+229,American goldfinches,14,Host
+230,Carduelis tristis,14,Species
+231,Purple finches,14,Host
+232,Carpodacus purpureus,14,Species
+233,House sparrows,14,Host
+234,Passer domesticus,14,Species
+235,North America,14,Location
+236,House Finch Disease Survey,14,Event
+237,Feeding stations,14,Location
+238,Eastern North America,14,Location
+239,Conjunctivitis,14,Disease
+240,Myocoplasma conjunctivitis,14,Disease
+241,Mycoplasma gallisepticum,15,pathogen
+242,Mycoplasmal conjunctivitis,15,disease
+243,wild house finches,15,host
+244,Carpodacus mexicanus,15,species
+245,American goldfinch,15,host
+246,Carduelis tristis,15,species
+247,mid-Atlantic region,15,location
+248,eastern United States,15,location
+249,Canada,15,location
+250,wild songbirds,15,host population
+251,European starling,16,Species
+252,Mycoplasma sturni,16,Pathogen
+253,Sturnus vulgaris,16,Species
+254,Mycoplasma gallisepticum,16,Pathogen
+255,Carpodacus mexicanus,16,Species
+256,Conjunctivitis,16,Disease
+257,Glucose,16,Measurement
+258,Chicken erythrocytes,16,Measurement
+259,37 C,16,Measurement
+260,Passerine species,16,Group
+261,house finches,17,species
+262,Carpodacus mexicanus,17,scientific name
+263,Mycoplasma gallisepticum,17,pathogen
+264,Washington D.C.,17,location
+265,USA,17,location
+266,eastern North America,17,location
+267,conjunctivitis,17,disease
+268,epidemic,17,event
+269,November 1994,17,date
+270,March 1997,17,date
+271,monthly data forms,17,measurement
+272,"24,864",17,number
+273,winter,17,season
+274,fall,17,season
+275,juveniles,17,life stage
+276,cold winters,17,environmental condition
+277,high conjunctivitis prevalence,17,environmental condition
+278,house finches,18,species
+279,Mycoplasma gallisepticum,18,pathogen
+280,Carpodacus mexicanus,18,species
+281,eastern USA,18,location
+282,November 1994,18,date
+283,October 1996,18,date
+284,residential bird feeding sites,18,location
+285,eight state region,18,location
+286,questionnaires,18,tool
+287,health status,18,property
+288,bird feeders,18,object
+289,neighborhood housing locale,18,property
+290,altitude,18,property
+291,conjunctivitis,18,disease
+292,sympatric species,18,species
+293,platform type feeders,18,object
+294,hopper type feeders,18,object
+295,tube type feeders,18,object
+296,logistic regression model,18,tool
+297,season,18,property
+298,non-breeding periods,18,property
+299,outbreak,18,event
+300,House Finch,19,Species
+301,Mycoplasma gallisepticum,19,Pathogen
+302,Carpodacus mexicanus,19,Species
+303,Conjunctivitis,19,Disease
+304,Nasal discharge,19,Property
+305,Ocular swelling,19,Property
+306,Lymphoplasmacytic inflammation,19,Property
+307,Epithelial hyperplasia,19,Property
+308,Lymphoid hyperplasia,19,Property
+309,Trachea,19,Location
+310,Nasal turbinates,19,Location
+311,Conjunctivae,19,Location
+312,Polymerase chain reaction,19,Process
+313,Culture,19,Process
+314,Arbitrary primer PCR,19,Process
+315,Serum plate agglutination,19,Process
+316,Hemagglutination inhibition,19,Process
+317,Enzyme-linked immunosorbent assay,19,Process
+318,November 1995,19,Event
+319,January 1996,19,Event
+320,12 wk,19,Measurement
+321,2 wk,19,Measurement
+322,4 wk,19,Measurement
+323,2 to 4 wk,19,Measurement
+324,> or = 10 birds,19,Measurement
+325,> 50% of birds,19,Measurement
+326,89%,19,Measurement
+327,43%,19,Measurement
+328,House Finch,20,Species
+329,Carpodacus mexicanus,20,Species
+330,Mycoplasma gallisepticum,20,Pathogen
+331,Alabama,20,Location
+332,USA,20,Location
+333,March 1998,20,Time
+334,February 1999,20,Time
+335,September,20,Time
+336,November,20,Time
+337,1996,20,Time
+338,Serum plate agglutination (SPA) assay,20,Process
+339,Polymerase chain reaction (PCR),20,Process
+340,Conjunctivitis,20,Disease
+341,Epizootic,20,Event
+342,Epidemiological study,20,Process
+343,Prevalence,20,Measurement
+344,Host-parasite relationship,20,Interaction
+345,Mycoplasma gallisepticum,21,Pathogen
+346,House finches,21,Host
+347,Carpodacus mexicanus,21,Species
+348,Poultry production facilities,21,Location
+349,Northeast Georgia,21,Location
+350,Poultry farms,21,Location
+351,Feeder stations,21,Location
+352,Serum plate agglutination (SPA),21,Test
+353,Polymerase chain reaction (PCR),21,Test
+354,Hemagglutination inhibition,21,Test
+355,Histopathology,21,Test
+356,Tufted titmice,21,Host
+357,Baeolophus bicolor,21,Species
+358,Biosecurity recommendations,21,Process
+359,Transmission,21,Process
+360,Wild birds,21,Host
+361,Domestic birds,21,Host
+362,Mycoplasma gallisepticum,22,pathogen
+363,house finch,22,host
+364,Carpodacus mexicanus,22,species
+365,United States,22,location
+366,pvpA gene,22,gene
+367,polymerase chain reaction,22,process
+368,restriction fragment length polymorphism,22,process
+369,nucleotide sequencing,22,process
+370,PCR-RFLP analysis,22,process
+371,emerging disease,22,disease
+372,epidemiology,22,field
+373,molecular evolution,22,process
+374,house finch,23,species
+375,Carpodacus mexicanus,23,scientific name
+376,Mycoplasma gallicepticum,23,pathogen
+377,plumage coloration,23,property
+378,parasite,23,pathogen
+379,Hamilton-Zuk hypothesis,23,theory
+380,female mate choice,23,process
+381,carotenoid,23,compound
+382,disease,23,disease
+383,infection,23,process
+384,symptoms,23,property
+385,time to first symptoms,23,measurement
+386,clearance of disease,23,process
+387,Mycoplasma gallisepticum,24,pathogen
+388,songbirds,24,host
+389,house finches,24,host
+390,Carpodacus mexicanus,24,species
+391,North America,24,location
+392,random amplification of polymorphic DNA,24,technique
+393,amplified-fragment length polymorphism,24,technique
+394,RAPD,24,technique
+395,AFLP,24,technique
+396,New York,24,location
+397,vaccine,24,reference
+398,reference strains,24,reference
+399,wild songbird isolates,24,sample
+400,genomic variability,24,property
+401,epidemic,24,event
+402,conjunctivitis,24,disease
+403,Mycoplasma gallisepticum,25,pathogen
+404,house finches,25,host
+405,Carpodacus mexicanus,25,species
+406,North America,25,location
+407,chickens,25,host
+408,turkeys,25,host
+409,"Missoula, Montana",25,location
+410,"Portland, Oregon",25,location
+411,polymerase chain reaction,25,measurement
+412,conjunctivitis,25,disease
+413,1994,25,event
+414,2002,25,event
+415,2004,25,event
+416,2005,25,event
+417,House Finch,26,Species
+418,Mycoplasma gallisepticum,26,Pathogen
+419,Carpodacus mexicanus,26,Species
+420,Terrestrial mammalian hosts,26,Group
+421,West Nile Virus,26,Pathogen
+422,Avian influenza,26,Pathogen
+423,Seasonality,26,Property
+424,Elevation,26,Property
+425,Host abundance,26,Property
+426,Discrete barriers,26,Property
+427,Anthropogenic movement,26,Property
+428,Asymptomatic carriers,26,Group
+429,House Finch,27,Species
+430,Carpodacus mexicanus,27,Species
+431,Mycoplasma gallisepticum,27,Pathogen
+432,IgA,27,Antibody
+433,Mucosal Immunity,27,Process
+434,Spleen,27,Location
+435,cDNA,27,Measurement
+436,PCR,27,Process
+437,Western Blot,27,Process
+438,Harderian Gland,27,Location
+439,Conjunctiva,27,Location
+440,Lachrymal Samples,27,Location
+441,Rabbit,27,Host
+442,Recombinant Protein,27,Measurement
+443,ELISA,27,Process
+444,Galliform Birds,27,Species
+445,Passerine Birds,27,Species
+446,Mallard,27,Species
+447,Chicken,27,Species
+448,Mycoplasma sturni,28,pathogen
+449,California House Finch,28,host
+450,House Finches,28,host
+451,Carpodacus mexicanus,28,species
+452,North America,28,location
+453,Mycoplasma gallisepticum,28,pathogen
+454,European Starling,28,host
+455,Sturnus vulgaris,28,species
+456,conjunctivitis,28,disease
+457,eye lesions,28,property
+458,house finches,29,species
+459,Carpodacus mexicanus,29,species
+460,Mycoplasma gallisepticum,29,pathogen
+461,male house finches,29,host
+462,females,29,host
+463,healthy conspecifics,29,host
+464,infected conspecifics,29,host
+465,diseased males,29,host
+466,diseased females,29,host
+467,evolutionary trap,29,concept
+468,pathogen dynamics,29,concept
+469,infectious conspecifics,29,concept
+470,chemical cues,29,concept
+471,lethargy,29,symptom
+472,visible conjunctivitis,29,symptom
+473,aggression rates,29,measurement
+474,new environment,29,location
+475,wild populations,29,location
+476,epidemics,29,event
+477,Mycoplasma gallisepticum,30,pathogen
+478,house finches,30,host
+479,Carpodacus mexicanus,30,species
+480,American goldfinch,30,host
+481,Spinus tristis,30,species
+482,northern cardinal,30,host
+483,Cardinalis cardinalis,30,species
+484,northeastern United States,30,location
+485,winter-long bird and disease surveys,30,event
+486,disease prevalence,30,measurement
+487,bird communities,30,environment
+488,disease dynamics,30,process
+489,house finches,31,species
+490,Carpodacus mexicanus,31,scientific name
+491,Mycoplasma gallisepticum,31,pathogen
+492,mycoplasmal conjunctivitis,31,disease
+493,eastern North America,31,location
+494,southern California,31,location
+495,Proc. R. Soc. Lond.,31,publication
+496,Condor,31,publication
+497,J. Wild. Dis.,31,publication
+498,eastern house finch population,31,population
+499,northerly latitudes,31,location
+500,southerly populations,31,location
+501,northerly inland populations,31,location
+502,Mycoplasma gallisepticum,32,pathogen
+503,house finches,32,host
+504,Carpodacus mexicanus,32,species
+505,conjunctival samples,32,sample
+506,real-time polymerase chain reaction,32,test
+507,"TaqMan-based real-time, quantitative polymerase chain reaction",32,assay
+508,mgc2 gene,32,gene
+509,plasmid standard,32,standard
+510,M. gallisepticum genomic DNA,32,standard
+511,specific pathogen free chickens,32,host
+512,rag-1,32,gene
+513,internal control gene,32,property
+514,conjunctiva,32,location
+515,7-day period post infection,32,time
+516,clinical conjunctivitis,32,disease
+517,M. gallisepticum levels,32,measurement
+518,bird,32,host
+519,Mycoplasma gallisepticum,33,pathogen
+520,house finches,33,host
+521,Carpodacus mexicanus,33,species
+522,Culex pipiens pipiens,33,species
+523,mosquitoes,33,organism
+524,West Nile virus,33,pathogen
+525,arthropod-borne pathogens,33,category
+526,avian infections,33,category
+527,bird defensive behavior,33,property
+528,mosquito feeding patterns,33,property
+529,transmission,33,process
+530,infection,33,event
+531,curing,33,event
+532,blood meal DNA fingerprinting,33,measurement
+533,veterinary behaviors,33,property
+534,foot stomps,33,behavior
+535,defensive behaviors,33,property
+536,House Finches,34,Species
+537,House Sparrows,34,Species
+538,Mycoplasma gallisepticum,34,Pathogen
+539,Myeloplasma gallisepticum (MG),34,Strain
+540,United States,34,Location
+541,Northeastern United States,34,Location
+542,Christmas Bird Count,34,Event
+543,Project FeederWatch,34,Event
+544,Breeding Bird Survey,34,Event
+545,Interspecific competition,34,Process
+546,Disease,34,Disease
+547,Conjunctivitis,34,Disease
+548,Abundance,34,Measurement
+549,Distribution,34,Measurement
+550,Geometric change,34,Measurement
+551,ln[HOSP(t+1)/HOSP(t)],34,Measurement
+552,HOSP(t),34,Measurement
+553,HOFI(t),34,Measurement
+554,house finches,36,species
+555,Carpodacus mexicanus,36,scientific name
+556,Mycoplasma gallisepticum,36,pathogen
+557,MG,36,pathogen abbreviation
+558,multilocus heterozygosity,36,genetic property
+559,microsatellite loci,36,genetic feature
+560,humoral immunocompetence,36,immunological property
+561,cell-mediated immunocompetence,36,immunological property
+562,phytohaemagglutinin,36,antigen
+563,pathogen challenge,36,experimental process
+564,immune response,36,biological process
+565,disease,36,disease state
+566,individual hosts,36,host type
+567,outbred populations,36,population type
+568,non-domestic vertebrates,36,taxonomic group
+569,genetic variation,36,genetic property
+570,susceptibility,36,disease property
+571,resistance,36,disease property
+572,immunity,36,disease property
+573,Carpodacus mexicanus,37,Species
+574,Mycoplasma gallisepticum,37,Pathogen
+575,House finches,37,Host
+576,Eastern United States,37,Location
+577,Amplified Fragment Length Polymorphism (AFLP),37,Technique
+578,Major Histocompatibity Complex (MHC),37,Genetic Locus
+579,MHC class I,37,Genetic Locus
+580,MHC class II,37,Genetic Locus
+581,Cytomegalovirus,37,Pathogen
+582,Mice,37,Host
+583,Finch immune system,37,System
+584,Pathogen genome,37,Genome
+585,Mycoplasma gallisepticum,38,pathogen
+586,House finch,38,host
+587,Carpodacus mexicanus,38,species
+588,eastern US,38,location
+589,1994,38,event
+590,gene expression,38,process
+591,suppression subtractive hybridization,38,process
+592,cDNA macroarray,38,process
+593,spleen,38,location
+594,HSP 90,38,gene
+595,MHC II-associated invariant chain,38,gene
+596,T-cell immunoglobulin mucin 1,38,gene
+597,TIM1,38,gene
+598,CD74,38,gene
+599,heat shock protein,38,property
+600,molecular co-evolutionary studies,38,process
+601,avian host,38,host
+602,parasite-induced gene expression changes,38,process
+603,epizootic,38,event
+604,evolutionary change,38,process
+605,natural selection,38,process
+606,resistance,38,property
+607,SSH,38,process
+608,Northern blot,38,process
+609,blast searches,38,process
+610,database,38,environment
+611,macroarray resources,38,resource
+612,Mycoplasma gallisepticum,39,pathogen
+613,House finch,39,host
+614,Carpodacus mexicanus,39,host
+615,Eastern North America,39,location
+616,Auburn University,39,location
+617,Peri-urban environment,39,location
+618,Wild songbirds,39,host
+619,Conjunctivitis,39,disease
+620,Mourning doves,39,host
+621,Baeolophus bicolor,39,host
+622,Fringillidae,39,family
+623,Avian species,39,host
+624,Polymerase chain reaction,39,measurement
+625,Agglutination reactions,39,measurement
+626,Antibodies,39,property
+627,Experimental infections,39,process
+628,Field portion,39,process
+629,Survey,39,process
+630,PCR,39,measurement
+631,House Finch,40,Species
+632,Carpodacus mexicanus,40,Species
+633,Mycoplasma gallisepticum,40,Pathogen
+634,Corticosterone,40,Hormone
+635,Stress,40,Condition
+636,Immune Function,40,Process
+637,Disease,40,Disease
+638,North America,40,Location
+639,Eastern North America,40,Location
+640,Winter,40,Season
+641,December,40,Month
+642,March,40,Month
+643,Year,40,Time
+644,Latitude,40,Property
+645,Body Condition,40,Property
+646,Mycoplasma gallisepticum,41,Pathogen
+647,House finches,41,Host
+648,Carpodacus mexicanus,41,Species
+649,Eastern North America,41,Location
+650,House finch conjunctivitis,41,Disease
+651,Seasonal breeding,41,Process
+652,Social aggregation,41,Process
+653,Immunity,41,Property
+654,Latitudinal gradient,41,Property
+655,Field and laboratory information,41,Measurement
+656,Theoretical model,41,Process
+657,Mycoplasma gallicepticum,42,Pathogen
+658,Carotenoid,42,Property
+659,Plumage coloration,42,Property
+660,Male house finches,42,Host
+661,Carpodacus mexicanus,42,Species
+662,Alabama,42,Location
+663,Myoplasmosis,42,Disease
+664,Beta-cryptoxanthin,42,Property
+665,Red carotenoid pigment,42,Property
+666,Upper respiratory and ocular tissue,42,Location
+667,Mycoplasma gallisepticum,43,Pathogen
+668,House finch,43,Host
+669,Carpodacus mexicanus,43,Species
+670,Eastern house finch,43,Host
+671,Cayuga Basin,43,Location
+672,Central New York,43,Location
+673,USA,43,Location
+674,Rapid plate agglutination assay,43,Diagnostic test
+675,Polymerase chain reaction (PCR) assay,43,Diagnostic test
+676,Colony-forming units,43,Measurement
+677,Conjunctival sac,43,Anatomical location
+678,Preservative-free sterile saline solution,43,Control substance
+679,PCR,43,Diagnostic method
+680,Behavioral observations,43,Method
+681,Physical examination,43,Method
+682,Eye scoring,43,Method
+683,Body weight,43,Measurement
+684,Body condition index,43,Measurement
+685,Disease,43,Epidemiological concept
+686,Infection,43,Epidemiological concept
+687,Recovery,43,Outcome
+688,Chronic infection,43,Outcome
+689,Death,43,Outcome
+690,House Finch,44,Species
+691,Carpodacus mexicanus,44,Species
+692,Mycoplasma gallisepticum,44,Pathogen
+693,Wisconsin,44,Location
+694,Physiologic parameters,44,Property
+695,Weights,44,Measurement
+696,Fat scores,44,Measurement
+697,Packed cell volume,44,Measurement
+698,Total plasma protein,44,Measurement
+699,Avian pox,44,Disease
+700,Proctophyllodes spp.,44,Pathogen
+701,Feather mite,44,Pathogen
+702,Blood and gastrointestinal parasite infections,44,Disease
+703,Logistic regression analysis,44,Process
+704,Risk factors,44,Property
+705,house finch,45,species
+706,Mycoplasma gallisepticum,45,pathogen
+707,Carpodacus mexicanus,45,species
+708,Great Plains,45,location
+709,Missoula,45,location
+710,Montana,45,location
+711,Auburn,45,location
+712,Alabama,45,location
+713,USA,45,location
+714,Auburn University,45,organization
+715,serum plate agglutination assay,45,test
+716,polymerase chain reaction,45,test
+717,color changing units,45,measurement
+718,conjunctivitis,45,disease
+719,mycoplasmal conjunctivitis,45,disease
+720,population,45,concept
+721,epidemic,45,event
+722,infection,45,process
+723,exposure,45,process
+724,seroconversion,45,process
+725,disease,45,process
+726,Mycoplasma gallisepticum,46,Pathogen
+727,House finches,46,Host
+728,Carpodacus mexicanus,46,Species
+729,Auburn,46,Location
+730,AL,46,Location
+731,1995,46,Year
+732,1996,46,Year
+733,1998,46,Year
+734,Quarantine,46,Process
+735,Polymerase chain reaction,46,Detection method
+736,Serologic analysis,46,Detection method
+737,Conjunctivitis,46,Disease
+738,Epidemic,46,Event
+739,Host-parasite interaction,46,Interaction
+740,Flock,46,Group
+741,Birds,46,Group
+742,Blood,46,Sample
+743,Choanal swabs,46,Sample
+744,House Finch,47,Species
+745,Mycoplasma gallisepticum,47,Pathogen
+746,Minnesota,47,Location
+747,Wildlife Rehabilitation Center of Minnesota,47,Location
+748,Enrofloxacin,47,Antibiotic
+749,Gentamicin,47,Antibiotic
+750,PCR,47,Diagnostic Test
+751,Conjunctivitis,47,Disease
+752,Carpodacus mexicanus,47,Species
+753,Mycoplasma gallisepticum,48,Pathogen
+754,House finch,48,Host
+755,Carpodacus mexicanus,48,Species
+756,Eggs,48,Host
+757,Nestlings,48,Host
+758,Nests,48,Location
+759,April,48,Time
+760,August,48,Time
+761,1998,48,Year
+762,Vitelline membrane,48,Location
+763,Choanal cleft,48,Location
+764,Conjunctiva,48,Location
+765,Mycoplasma broth,48,Medium
+766,Polymerase chain reaction,48,Test
+767,PCR,48,Test
+768,Broods,48,Group
+769,Nestling mortality,48,Outcome
+770,Conjunctivitis,48,Disease
+771,Serologic tests,48,Test
+772,Antibodies,48,Property
+773,Transmission,48,Process
+774,Pseudovertical transmission,48,Process
+775,Transovarian transmission,48,Process
+776,Mycoplasma gallisepticum,49,pathogen
+777,finch strain of Mycoplasma gallisepticum,49,disease
+778,house finches,49,host
+779,chickens,49,host
+780,Carpodacus mexicanus,49,species
+781,33 states,49,location
+782,domestic poultry,49,location
+783,direct contact,49,process
+784,across-wire contact,49,process
+785,proximity contact,49,process
+786,seroconversion,49,measurement
+787,polymerase chain reaction (PCR),49,measurement
+788,culture,49,measurement
+789,arbitrary primed PCR,49,measurement
+790,serum plate agglutination,49,measurement
+791,biosecurity measures,49,process
+792,minimal biosecurity measures,49,process
+793,Mycoplasma gallisepticum,50,Pathogen
+794,House finches,50,Host
+795,Carpodacus mexicanus,50,Species
+796,USA,50,Location
+797,1994,50,Date
+798,Conjunctivitis,50,Disease
+799,Mid-Atlantic,50,Region
+800,Eastern states,50,Region
+801,Unilateral,50,Property
+802,Bilateral,50,Property
+803,Serous,50,Property
+804,Mucopurulent,50,Property
+805,Nasal exudate,50,Property
+806,Lymphoplasmacytic,50,Property
+807,Rhinitis,50,Disease
+808,Sinusitis,50,Disease
+809,Infraorbital sinus,50,Location
+810,Conjunctival,50,Location
+811,Direct immunofluorescence,50,Process
+812,DNA probe-based polymerase chain reactions,50,Process
+813,Epornitic,50,Event
+814,Mycoplasma gallisepticum,51,Pathogen
+815,House finches,51,Host
+816,Carpodacus mexicanus,51,Species
+817,Maryland,51,Location
+818,Georgia,51,Location
+819,Serum plate agglutination,51,Test
+820,Hemagglutination inhibition,51,Test
+821,Polymerase chain reaction,51,Test
+822,Conjunctivitis,51,Disease
+823,Keratitis,51,Disease
+824,Epithelial hyperplasia,51,Pathological finding
+825,Lymphoid hyperplasia,51,Pathological finding
+826,Lymphoplasmacytic inflammation,51,Pathological finding
+827,Avian host,52,Species
+828,Mosquito,52,Species
+829,West Nile virus,52,Pathogen
+830,St. Louis encephalitis virus,52,Pathogen
+831,NY99 strain of West Nile virus,52,Pathogen
+832,California passerine birds,52,Host
+833,Western scrub jays,52,Species
+834,Aphelocoma coerulescens,52,Species
+835,House finches,52,Species
+836,Carpodacus mexicanus,52,Species
+837,House sparrows,52,Species
+838,Passer domesticus,52,Species
+839,Mourning doves,52,Species
+840,Zenaidura macroura,52,Species
+841,Common ground doves,52,Species
+842,Columbina passerine,52,Species
+843,California quail,52,Species
+844,Callipepla californica,52,Species
+845,Chickens,52,Species
+846,Culex mosquitoes,52,Vector
+847,Culex stigmatosoma,52,Species
+848,Culex tarsalis,52,Species
+849,Culex p. quinquefasciatus,52,Species
+850,Plaque-forming units,52,Measurement
+851,WNV,52,Pathogen
+852,Endemic strain of St. Louis encephalitis virus,52,Pathogen
+853,Culex quinquefasciatus,53,Species
+854,West Nile virus,53,Pathogen
+855,Harris County,53,Location
+856,Texas,53,Location
+857,Diptera,53,Class
+858,Culicidae,53,Family
+859,Say,53,Scientist
+860,Cytochrome b gene,53,Gene
+861,Birds,53,Host
+862,Mammals,53,Host
+863,Dog,53,Host
+864,Mourning dove,53,Host
+865,Domestic cat,53,Host
+866,White-winged dove,53,Host
+867,House sparrow,53,Host
+868,House finch,53,Host
+869,Gray catbird,53,Host
+870,American robin,53,Host
+871,Blue jays,53,Host
+872,American crows,53,Host
+873,Trichostrongylus tenuis,60,pathogen
+874,Lagopus lagopus scoticus,60,host
+875,red grouse,60,common name
+876,caecal faeces,60,location
+877,moor,60,environment
+878,laboratory,60,environment
+879,eggs,60,organism
+880,infective 3rd-stage larvae,60,organism
+881,temperature,60,property
+882,rainfall,60,property
+883,desiccation,60,process
+884,winter,60,event
+885,summer,60,event
+886,Trichostrongylus tenuis,61,Pathogen
+887,Trichostrongylus tenuis,61,Parasite
+888,Lagopus lagopus scoticus,61,Host
+889,Lagopus lagopus scoticus,61,Species
+890,UK,61,Location
+891,Peter Hudson,61,Author
+892,Andrew Dobson,61,Author
+893,Upland estates,61,Location
+894,red grouse,62,species
+895,Lagopus lagopus scoticus,62,scientific name
+896,Trichostrongylus tenuis,62,species
+897,testosterone,62,hormone
+898,parasitic nematode,62,pathogen
+899,autumn,62,season
+900,anthelmintic,62,medication
+901,one month,62,time period
+902,one year,62,time period
+903,male grouse,62,host
+904,free-living,62,environment
+905,population,62,ecological concept
+906,population regulation,62,ecological concept
+907,intrinsic mechanisms,62,ecological concept
+908,extrinsic mechanisms,62,ecological concept
+909,cyclic species,62,ecological concept
+910,Lagopus lagopus scoticus,63,Species
+911,Trichostrongylus tenuis,63,Species
+912,Fenbendazole,63,Chemical
+913,UK,63,Location
+914,Red grouse estates,63,Location
+915,HPLC-MS-MS,63,Method
+916,Liver,63,Organ
+917,Wildlife species,63,Category
+918,Parasite control,63,Process
+919,Self-medication,63,Process
+920,red grouse,64,species
+921,Lagopus lagopus scoticus,64,scientific name
+922,Trichostrongylus tenuis,64,species
+923,parasitic nematode,64,pathogen
+924,male aggressiveness,64,property
+925,territoriality,64,property
+926,Bayesian state-space modeling,64,method
+927,population data,64,measurement
+928,field data,64,measurement
+929,mechanistic models,64,process
+930,statistical inference,64,process
+931,parameter values,64,property
+932,cyclic dynamics,64,phenomenon
+933,Usutu virus,65,Pathogen
+934,Gallus domesticus,65,Host
+935,Turdus merula,65,Host
+936,Austria,65,Location
+937,Europe,65,Location
+938,Mosquito,65,Vector
+939,Flavivirus,65,Type
+940,Arbovirus,65,Type
+941,Sentinel animals,65,Concept
+942,Pathogen-free chickens,65,Concept
+943,Clinical signs,65,Property
+944,Viraemia,65,Property
+945,Gross lesions,65,Property
+946,Microscopic lesions,65,Property
+947,Contact transmission,65,Process
+948,Immunological response,65,Property
+949,Splenomegaly,65,Property
+950,Follicular infiltrates,65,Property
+951,Encephalitis,65,Property
+952,Reverse-transcriptase polymerase chain reaction,65,Detection method
+953,Immunohistochemistry,65,Detection method
+954,Viral RNA,65,Property
+955,Cloacal swabs,65,Sample
+956,Pharyngeal swabs,65,Sample
+957,Peripheral blood mononuclear cells,65,Sample
+958,Antibody response,65,Property
+959,USUV-specific antibodies,65,Property
+960,Usutu virus,67,Pathogen
+961,Japanese encephalitis virus complex,67,Group
+962,Vienna,67,Location
+963,Austria,67,Location
+964,Weissenböck et al.,67,Author
+965,Culex pipiens complex,67,Mosquito species
+966,Turdus merula,67,Bird species
+967,West Nile virus,67,Pathogen
+968,American robins,67,Bird species
+969,North America,67,Location
+970,Mosquito,67,Arthropod
+971,Bird,67,Host
+972,Human,67,Host
+973,Arbovirus,67,Virus type
+974,Flavivirus,67,Virus type
+975,Emerg. Infect. Dis.,67,Journal
+976,Vet. Microbiol.,67,Journal
+977,Chvala et al.,67,Author
+978,Bakonyi et al.,67,Author
+979,Bukovsky et al.,67,Author
+980,Meister et al.,67,Author
+981,Brugger et al.,67,Author
+982,Rubel et al.,67,Author
+983,Nowotny et al.,67,Author
+984,Weissenböck et al.,67,Author
+985,Usutu virus,68,Pathogen
+986,West Nile virus,68,Pathogen
+987,Blackbirds,68,Host
+988,Turdus merula,68,Species
+989,Mosquitoes,68,Vector
+990,Birds,68,Host
+991,Austria,68,Location
+992,Vienna,68,Location
+993,IPCC,68,Organization
+994,Climate change,68,Event
+995,Epidemic,68,Event
+996,Outbreak,68,Event
+997,Temperature,68,Property
+998,Immunity,68,Property
+999,Reproduction number,68,Measurement
+1000,Year 2100,68,Time
+1001,Century,68,Time
+1002,1901-2100,68,Time
+1003,2001-2005,68,Time
+1004,2003,68,Time
+1005,2040,68,Time
+1006,Usutu virus,69,Pathogen
+1007,Austria,69,Location
+1008,2001,69,Year
+1009,2003,69,Year
+1010,2004,69,Year
+1011,2005,69,Year
+1012,Dead birds,69,Host
+1013,Reverse-transcriptase polymerase chain reaction,69,Detection method
+1014,Immunohistochemistry,69,Detection method
+1015,Nucleic acid,69,Property
+1016,Antigen,69,Property
+1017,Blackbirds,69,Host
+1018,Turdus merula,69,Scientific name
+1019,Lower Austria,69,Location
+1020,Burgenland,69,Location
+1021,Styria,69,Location
+1022,Vienna,69,Location
+1023,Herd immunity,69,Epidemiological concept
+1024,Usutu virus,70,Pathogen
+1025,Japanese encephalitis virus group,70,Group
+1026,Austria,70,Location
+1027,Eurasian blackbirds,70,Host
+1028,Turdus merula,70,Species
+1029,Domestic geese,70,Host
+1030,Anser anser f. domestica,70,Species
+1031,USUV strain Vienna-2001 blackbird,70,Strain
+1032,Bacterial septicaemia,70,Disease
+1033,Strangulation,70,Event
+1034,Reverse transcriptase-polymerase chain reaction,70,Process
+1035,Immunohistochemistry,70,Process
+1036,Plasma viraemia,70,Measurement
+1037,Viral excretion,70,Measurement
+1038,Seroconversion,70,Measurement
+1039,USUV antigen,70,Property
+1040,Viral lesions,70,Property
+1041,Usutu virus,71,Pathogen
+1042,Usutu virus,71,Disease
+1043,Eurasian blackbirds,71,Host
+1044,Turdus merula,71,Species
+1045,Austria,71,Location
+1046,2001,71,Year
+1047,2002,71,Year
+1048,Histopathology,71,Method
+1049,Immunohistochemistry,71,Method
+1050,In-situ hybridization,71,Method
+1051,Reverse-transcriptase polymerase chain reaction,71,Method
+1052,Brain neurons,71,Cell type
+1053,Myocardial fibres,71,Cell type
+1054,Splenic capsule,71,Cell type
+1055,Renal glomeruli,71,Cell type
+1056,Tunica muscularis of intestines,71,Cell type
+1057,Proventricular glands,71,Cell type
+1058,Lungs,71,Cell type
+1059,Hepatic Kupffer cells,71,Cell type
+1060,Neuronal necrosis,71,Pathological finding
+1061,Myocardial lesions,71,Pathological finding
+1062,Coagulative necrosis of the liver and spleen,71,Pathological finding
+1063,Hepatosplenomegaly,71,Pathological finding
+1064,Culex pipiens,72,Species
+1065,West Nile virus,72,Disease
+1066,Humans,72,Host
+1067,American robin,72,Species
+1068,House sparrow,72,Species
+1069,Mourning dove,72,Species
+1070,Raccoons,72,Host
+1071,Procyon lotor,72,Species
+1072,Polymerase chain reaction,72,Technique
+1073,DNA sequencing,72,Technique
+1074,PCR,72,Technique
+1075,Chicago,72,Location
+1076,Southwest suburban,72,Location
+1077,2005,72,Year
+1078,Cx. pipiens,72,Species
+1079,Cx. restuans,72,Species
+1080,Turdus migratorius,72,Species
+1081,Passer domesticus,72,Species
+1082,Zenaida macroura,72,Species
+1083,Procyon lotor,72,Species
+1084,West Nile virus RNA,72,Pathogen
+1085,Heads and thoraces,72,Location
+1086,Quantitative PCR,72,Technique
+1087,Epidemic,72,Event
+1088,Bridge vector,72,Concept
+1089,Culex tarsalis,73,Species
+1090,Weld County,73,Location
+1091,Colorado,73,Location
+1092,West Nile virus,73,Disease
+1093,WNV,73,Disease
+1094,Birds,73,Host
+1095,Mammals,73,Host
+1096,American robins,73,Host
+1097,Doves,73,Host
+1098,House sparrows,73,Host
+1099,Mosquitoes,73,Vector
+1100,Precipitin test,73,Method
+1101,Antibodies,73,Method
+1102,Culex pipiens,74,organism
+1103,West Nile virus,74,disease
+1104,American robin,74,organism
+1105,Turdus migratorius,74,scientific name
+1106,European starling,74,organism
+1107,Sternus vulgaris,74,scientific name
+1108,House sparrow,74,organism
+1109,Passer domesticus,74,scientific name
+1110,United States,74,location
+1111,Northeastern United States,74,location
+1112,North central United States,74,location
+1113,Outdoor cages,74,location
+1114,Experimental trials,74,event
+1115,Field studies,74,event
+1116,Host preference trials,74,event
+1117,Logistic regression analysis,74,process
+1118,Enzootic WNV transmission,74,process
+1119,passerine,75,species
+1120,filariasis,75,disease
+1121,West Nile virus,75,pathogen
+1122,arboviruses,75,pathogen
+1123,microfilariae,75,pathogen
+1124,mosquitoes,75,organism
+1125,vertebrates,75,organism
+1126,Quiscalus quiscula,75,species
+1127,Turdus migratorius,75,species
+1128,Tyrannus tyrannus,75,species
+1129,Chandlerella quiscali,75,species
+1130,Eufilaria,75,species
+1131,Culex pipiens,75,species
+1132,Culex tarsalis,75,species
+1133,North America,75,location
+1134,mid-western United States,75,location
+1135,midgut,75,anatomy
+1136,hemocoel,75,anatomy
+1137,vectorial capacity,75,measurement
+1138,vectorial capacity values,75,measurement
+1139,American robin,76,Species
+1140,Turdus migratorius,76,Species
+1141,West Nile virus,76,Pathogen
+1142,WNV,76,Pathogen
+1143,Culex mosquitoes,76,Species
+1144,DNA plasmid vaccine,76,Vaccine
+1145,Hatch-year American robins,76,Host
+1146,Encephalitis,76,Disease
+1147,Mosquitoes,76,Organism
+1148,Viremia,76,Measurement
+1149,Infectiousness,76,Property
+1150,Intramuscularly,76,Process
+1151,Biting,76,Process
+1152,Culex mosquitoes,76,Vector
+1153,Wildlife,76,Environment
+1154,Control strategies,76,Process
+1155,West Nile virus,77,Disease
+1156,West Nile virus,77,Pathogen
+1157,American robin,77,Host
+1158,Turdus migratorius,77,Scientific Latin binomial name
+1159,Mosquitoes,77,Vector
+1160,Crows,77,Host
+1161,Jays,77,Host
+1162,House sparrows,77,Host
+1163,Corvids,77,Host group
+1164,Avian species,77,Host group
+1165,Communities,77,Location
+1166,Populations,77,Location
+1167,Pathogen transmission dynamics,77,Epidemiological concept
+1168,Canada geese,78,Species
+1169,Branta canadensis,78,Species
+1170,Avian bornaviruses,78,Pathogen
+1171,Borna disease virus,78,Pathogen
+1172,Psittacine ABVs,78,Pathogen
+1173,Duck embryo fibroblasts,78,Host
+1174,Bornavirus,78,Pathogen
+1175,Reverse transcription-PCR (RT-PCR),78,Process
+1176,Oropharyngeal/cloacal swab,78,Measurement
+1177,Brain samples,78,Measurement
+1178,Urban flocks,78,Location
+1179,Goose isolates,78,Entity
+1180,Phylogenetic analyses,78,Process
+1181,Regulatory sequences,78,Property
+1182,Brachyspira,79,Pathogen
+1183,Brachyspira spp.,79,Pathogen
+1184,Anas platyrhynchos,79,Host
+1185,mallards,79,Host
+1186,pigs,79,Host
+1187,chickens,79,Host
+1188,humans,79,Host
+1189,southern Sweden,79,Location
+1190,16S rRNA,79,Gene
+1191,NADH oxidase (nox),79,Gene
+1192,PCR,79,Process
+1193,phenotypic tests,79,Process
+1194,sequencing,79,Process
+1195,phylogenetic analysis,79,Process
+1196,nox gene restriction enzyme analysis,79,Process
+1197,culture technique,79,Process
+1198,amplicons,79,Measurement
+1199,genotypes,79,Measurement
+1200,biodiversity,79,Property
+1201,enteropathogenic,79,Property
+1202,commensual,79,Property
+1203,anaerobic,79,Property
+1204,intestinal,79,Property
+1205,spirochaetes,79,Property
+1206,vertebrates,79,Property
+1207,enteric diseases,79,Disease
+1208,Brachyspira pilosicoli,79,Pathogen
+1209,Brachyspira intermedia,79,Pathogen
+1210,Brachyspira hyodysenteriae,79,Pathogen
+1211,Brachyspira alvinipulli,79,Pathogen
+1212,Brachyspira pulli,79,Pathogen
+1213,Brachyspira suanatina,81,Species
+1214,Brachyspira hyodysenteriae,81,Species
+1215,Pig,81,Host
+1216,Mallard,81,Host
+1217,Anas platyrhynchos,81,Species
+1218,Swine dysentery,81,Disease
+1219,16S rRNA,81,Gene
+1220,nox gene,81,Gene
+1221,Polymerase chain reaction,81,Process
+1222,Antimicrobial susceptibility testing,81,Process
+1223,Molecular analyses,81,Process
+1224,Culture and biochemical tests,81,Process
+1225,Challenge study,81,Event
+1226,Pigs,81,Host
+1227,B204(R),81,Strain
+1228,Diarrhoea,81,Symptom
+1229,Colonization,81,Process
+1230,Brachyspira pilosicoli,82,Pathogen
+1231,Pig,82,Host
+1232,Australian piggeries,82,Location
+1233,Faeces,82,Sample
+1234,DNA,82,Sample
+1235,Polymerase chain reaction (PCR),82,Technique
+1236,Multilocus enzyme electrophoresis (MLEE),82,Technique
+1237,Pulsed field gel electrophoresis (PFGE),82,Technique
+1238,Farm A,82,Location
+1239,Farm B,82,Location
+1240,Grower/finisher pigs,82,Host
+1241,Weaners,82,Host
+1242,Chickens,82,Host
+1243,Effluent pond water,82,Sample
+1244,Wild ducks,82,Host
+1245,Pond,82,Location
+1246,Stock,82,Material
+1247,Infection,82,Process
+1248,Prevalence,82,Measurement
+1249,Confidence interval (CI),82,Measurement
+1250,Epidemiology,82,Concept
+1251,Chlamydia psittaci,84,Species
+1252,Ducks,84,Host
+1253,Phage,84,Pathogen
+1254,Antiserum,84,Antibody
+1255,Indirect immunofluorescence,84,Detection method
+1256,McCoy cell monolayers,84,Cell culture
+1257,United Kingdom,84,Location
+1258,Chlamydiosis,84,Disease
+1259,Isolate,84,Sample
+1260,Strain,84,Genetic variation
+1261,Chlamydophila psittaci,85,Pathogen
+1262,Chlortetracycline,85,Drug
+1263,Doxycycline,85,Drug
+1264,Enrofloxacin,85,Drug
+1265,Difloxacin,85,Drug
+1266,Pekin duck,85,Host
+1267,Domestic pigeon,85,Host
+1268,Psittacine birds,85,Host
+1269,Buffalo Green Monkey (BGM) kidney cell cultures,85,Environment
+1270,Intracytoplasmic inclusions,85,Property
+1271,Giménez staining,85,Process
+1272,Logistic regression model,85,Process
+1273,IC50,85,Measurement
+1274,MIC,85,Measurement
+1275,Chlamydophila psittaci,86,Pathogen
+1276,ornithosis,86,Disease
+1277,poultry abattoir,86,Location
+1278,farm,86,Location
+1279,workers,86,Host
+1280,Victoria,86,Location
+1281,Australia,86,Location
+1282,slaughtering area,86,Location
+1283,blood,86,Property
+1284,feathers,86,Property
+1285,birds,86,Organism
+1286,respiratory protection,86,Process
+1287,airflow,86,Property
+1288,Chlamydophila psittaci,87,Pathogen
+1289,Avian species,87,Host
+1290,Mammalian species,87,Host
+1291,Dairy cows,87,Host
+1292,Duck,87,Host
+1293,Sheep,87,Host
+1294,Wild birds,87,Host
+1295,Pigs,87,Host
+1296,Human,87,Host
+1297,Psittacosis,87,Disease
+1298,Botulism,88,Disease
+1299,aquatic birds,88,Host
+1300,Starý u Pohorelic pond,88,Location
+1301,Breclav District,88,Location
+1302,Clostridium botulinum,88,Pathogen
+1303,C. botulinum toxin,88,Toxin
+1304,C type,88,Toxin type
+1305,Anas platyrhynchos,88,Host
+1306,Larus ridibundus,88,Host
+1307,Mice,88,Host
+1308,Intestinal contents,88,Location
+1309,Liver tissue,88,Location
+1310,Stomach contents,88,Location
+1311,Sludge samples,88,Sample
+1312,September 1981,88,Time
+1313,July 1982,88,Time
+1314,Neutralization test,88,Test
+1315,Botulotoxin,88,Toxin
+1316,duck,89,species
+1317,mallard,89,species
+1318,northern pintail,89,species
+1319,ranch mink,89,species
+1320,botulinum toxin,89,pathogen
+1321,botulinum antitoxin,89,antidote
+1322,type C botulism,89,disease
+1323,mouse lethal doses,89,measurement
+1324,Mustela vison,89,species
+1325,Anas platyrhynchos,89,species
+1326,Anas acuta,89,species
+1327,Enterococcus hirae DCH5,90,organism
+1328,Mallard ducks,90,organism
+1329,Anas platyrhynchos,90,species
+1330,hiracin JM79,90,pathogen
+1331,HirJM79,90,protein
+1332,HiriJM79,90,protein
+1333,orfC,90,protein
+1334,orfD,90,protein
+1335,orfE,90,protein
+1336,sec-dependent pathway,90,process
+1337,general secretory pathway,90,process
+1338,Mallards,91,Species
+1339,Anas platyrhynchos,91,Species
+1340,Clostridium botulinum,91,Pathogen
+1341,North America,91,Location
+1342,Western Canada,91,Location
+1343,Lakes,91,Location
+1344,Maggots,91,Organism
+1345,Toxin,91,Property
+1346,Botulism,91,Disease
+1347,Radio-marked Mallards,91,Host
+1348,July-August 1999-2000,91,Time
+1349,30 days,91,Time
+1350,Carcass density,91,Measurement
+1351,Carcass-free areas,91,Location
+1352,Maggot-laden carcasses,91,Location
+1353,Maggot-free carcass densities,91,Measurement
+1354,Survival rates,91,Measurement
+1355,Risk of mortality,91,Measurement
+1356,Clostridium botulinum,92,Pathogen
+1357,Botulism,92,Disease
+1358,Bovine,92,Host
+1359,Polymerase chain reaction,92,Process
+1360,Mouse bioassay,92,Process
+1361,Primer pair Y,92,Entity
+1362,Primer pair VC,92,Entity
+1363,Primer pair VD,92,Entity
+1364,TYG broth,92,Environment
+1365,CMM broth,92,Environment
+1366,DNA,92,Property
+1367,Enrichment,92,Process
+1368,Epizooty,92,Event
+1369,Nerve toxin,92,Property
+1370,Clostridium botulinum,93,organism
+1371,type C,93,pathogen
+1372,type D,93,pathogen
+1373,botulinum C/D mosaic toxoid,93,vaccine
+1374,avian botulism,93,disease
+1375,Anatidae,93,family
+1376,botulism-affected birds,93,host
+1377,ELISA,93,technique
+1378,antibody,93,antibody
+1379,IgG,93,antibody
+1380,chicken,93,host
+1381,duck,93,host
+1382,commercial oil-adjuvanted vaccine,93,vaccine
+1383,Clostridium botulinum,94,Pathogen
+1384,Clostridium botulinum type C,94,Pathogen
+1385,Avian,94,Host
+1386,Mallards,94,Host
+1387,Grey herons,94,Host
+1388,Mud,94,Environment
+1389,Anas platyrhynchos,94,Species
+1390,Ardea cinerea,94,Species
+1391,PCR,94,Detection method
+1392,Mouse bioassay,94,Detection method
+1393,Botulism,94,Disease
+1394,Botulinal neurotoxin,94,Toxin
+1395,DNA,94,Molecule
+1396,Spores,94,Particle
+1397,Samples,94,Sample
+1398,Outbreak,94,Event
+1399,Investigation,94,Process
+1400,mallard duck,95,Species
+1401,Anas platyrhynchos,95,Species
+1402,Clostridium botulinum,95,Pathogen
+1403,Clostridium botulinum C2 toxin,95,Toxin
+1404,C1 toxin,95,Toxin
+1405,Prophages,95,Entity
+1406,Mouse,95,Species
+1407,Pulmonary edema,95,Disease
+1408,Hemorrhage,95,Disease
+1409,Respiratory paralysis,95,Disease
+1410,Ricinus communis,96,Species
+1411,Ducks,96,Host
+1412,Texas panhandle,96,Location
+1413,Botulism,96,Disease
+1414,Castor bean,96,Pathogen
+1415,Liver,96,Organ
+1416,Petechial hemorrhages,96,Lesion
+1417,Catarrhal enteritis,96,Lesion
+1418,Mallards,96,Host
+1419,Anas platyrhynchos,96,Species
+1420,Clostridium botulinum,96,Pathogen
+1421,Mouse,96,Host
+1422,Blood serum,96,Measurement
+1423,Excreta,96,Measurement
+1424,Intestinal contents,96,Measurement
+1425,Hemagglutination test,96,Process
+1426,Precipitin test,96,Process
+1427,Clostridium botulinum,97,pathogen
+1428,type C toxin,97,toxin
+1429,botulism,97,disease
+1430,ducks,97,host
+1431,Anas platyrhynchos,97,species
+1432,mallards,97,species
+1433,mouse,97,organism
+1434,antitoxin,97,antibody
+1435,serum,97,biological sample
+1436,fecal extracts,97,biological sample
+1437,mouse toxicity test,97,diagnostic test
+1438,peroral dosing,97,process
+1439,LD50,97,measurement
+1440,hour,97,time unit
+1441,h,97,time unit
+1442,wild ducks,97,host
+1443,course of the disease,97,event
+1444,disease,97,disease
+1445,mallards,98,species
+1446,Anas platyrhynchos,98,scientific name
+1447,greater yellowlegs,98,species
+1448,Tringa melanoleuca,98,scientific name
+1449,New York State,98,location
+1450,Oak Orchard Wildlife Management Area,98,location
+1451,Clostridium botulinum,98,pathogen
+1452,botulism,98,disease
+1453,waterfowl,98,host
+1454,fly larvae,98,host
+1455,Lucilia spp.,98,species
+1456,mouse,98,organism
+1457,New York State,98,location
+1458,Mallard,99,Species
+1459,Anas platyrhynchos,99,Species
+1460,Clostridium botulinum,99,Pathogen
+1461,Clostridium botulinum type C toxin,99,Toxin
+1462,Ducks,99,Host
+1463,Saline water,99,Environment
+1464,Fresh water,99,Environment
+1465,Natural saline wetlands,99,Location
+1466,Water,99,Environment
+1467,Conductivity,99,Property
+1468,mu mhos/cm,99,Unit
+1469,Clinical signs of botulism,99,Disease
+1470,Botulism,99,Disease
+1471,Mortality,99,Measurement
+1472,Toxin,99,Pathogen
+1473,Cryptosporidium baileyi,100,Pathogen
+1474,Chickens,100,Host
+1475,Mallards,100,Host
+1476,Oocysts,100,Organism
+1477,Peritoneal macrophages,100,Cell
+1478,Peripheral macrophages,100,Cell
+1479,Carrageenan,100,Substance
+1480,Phagocytic activity,100,Property
+1481,Peritoneal cavity,100,Location
+1482,Peripheral blood,100,Location
+1483,Feces,100,Sample
+1484,Days 4-14,100,Time
+1485,Days 5-15,100,Time
+1486,Challenge infection,100,Event
+1487,Immunogenicity,100,Property
+1488,Patent periods,100,Property
+1489,Prepatent periods,100,Property
+1490,Oocysts shedding,100,Property
