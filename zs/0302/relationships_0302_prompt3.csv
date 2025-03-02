@@ -1,0 +1,880 @@
+source_id,source_text,target_id,target_text,relation_type,doc_id
+1,jackals,2,Kenya,are sampled from,1
+7,black-backed jackals,8,Canis mesomelas,are a species of,1
+9,golden jackals,10,C. aureus,are a species of,1
+11,side-striped jackals,12,C. adustus,are a species of,1
+1,jackals,3,rabies virus,are infected with,1
+1,jackals,4,canine parvovirus (CPV-2),are infected with,1
+1,jackals,5,canine distemper virus (CDV),are infected with,1
+1,jackals,6,Ehrlichia canis,are infected with,1
+7,black-backed jackals,3,rabies virus,have antibodies to,1
+1,jackals,14,African ecosystems,are an indicator species for,1
+15,Pacific harbor seal,17,adrenal glands,has,2
+15,Pacific harbor seal,18,necrosis,has,2
+15,Pacific harbor seal,19,inclusion bodies,has,2
+15,Pacific harbor seal,20,DNA,has,2
+15,Pacific harbor seal,21,sepsis,has,2
+15,Pacific harbor seal,22,bacterial omphalophlebitis,has,2
+15,Pacific harbor seal,23,pneumonia,has,2
+15,Pacific harbor seal,24,gastroenteritis,has,2
+15,Pacific harbor seal,25,thymic atrophy,has,2
+15,Pacific harbor seal,26,hepatic necrosis,has,2
+15,Pacific harbor seal,27,lymphopenia,has,2
+15,Pacific harbor seal,28,herpesvirus,is infected with,2
+16,Phoca vitulina richardsi,15,Pacific harbor seal,is a subspecies of,2
+29,Phocine adrenal and kidney cell lines,30,adrenal tissue homogenate,is cultured with,2
+29,Phocine adrenal and kidney cell lines,28,herpesvirus,is infected with,2
+33,Electron microscopy,32,viral particles,reveals,2
+34,Cell cultures,31,cytopathic effect,shows,2
+36,California,15,Pacific harbor seal,is the location of,2
+37,USA,36,California,is the country of,2
+38,island fox,41,canine adenovirus,is infected with,3
+38,island fox,,canine parvovirus,is infected with,3;45
+38,island fox,42,canine herpesvirus,is infected with,3
+38,island fox,43,canine coronavirus,is infected with,3
+38,island fox,44,leptospirosis,is infected with,3
+38,island fox,45,toxoplasmosis,is infected with,3
+40,Channel Islands,38,island fox,is home to,3
+36,California,38,island fox,is home to,3
+37,USA,38,island fox,is home to,3
+46,Pestivirus,47,Chamois,infection,4
+46,Pestivirus,49,Border disease virus cluster,assigned to,4
+52,southern chamois,53,border disease virus,associated with,5
+52,southern chamois,54,Pyrenees,found in,5
+52,southern chamois,55,Spain,found in,5
+52,southern chamois,58,brain,examined,5
+52,southern chamois,59,spleen,examined,5
+52,southern chamois,60,kidney,examined,5
+53,border disease virus,62,RT-PCR,detected by,5
+53,border disease virus,61,monoclonal antibodies,characterized by,5
+65,northern elephant seal,70,nephroliths,has,6
+65,northern elephant seal,71,uric acid,has,6
+65,northern elephant seal,72,ammonium urate,has,6
+65,northern elephant seal,73,renal pelvic dilation,has,6
+65,northern elephant seal,74,pyelonephritis,has,6
+65,northern elephant seal,75,hydronephrosis,has,6
+65,northern elephant seal,76,urine,has,6
+67,California sea lion,70,nephroliths,has,6
+67,California sea lion,72,ammonium urate,has,6
+67,California sea lion,73,renal pelvic dilation,has,6
+67,California sea lion,74,pyelonephritis,has,6
+67,California sea lion,75,hydronephrosis,has,6
+67,California sea lion,76,urine,has,6
+69,nephrolithiasis,65,northern elephant seal,affects,6
+69,nephrolithiasis,67,California sea lion,affects,6
+77,Amblyomma americanum,79,Ehrlichia chaffeensis,vector,7
+78,Ixodes scapularis,80,Human granulocytic ehrlichiosis (HGE) agent,vector,7
+77,Amblyomma americanum,82,Odocoileus virginianus,found on,7
+78,Ixodes scapularis,82,Odocoileus virginianus,found on,7
+82,Odocoileus virginianus,79,Ehrlichia chaffeensis,infected with,7
+82,Odocoileus virginianus,80,Human granulocytic ehrlichiosis (HGE) agent,infected with,7
+82,Odocoileus virginianus,83,Ehrlichia spp.,infected with,7;22
+79,Ehrlichia chaffeensis,86,Inguinal lymph node,detected in,7
+79,Ehrlichia chaffeensis,87,Blood,detected in,7
+80,Human granulocytic ehrlichiosis (HGE) agent,87,Blood,detected in,7
+83,Ehrlichia spp.,87,Blood,detected in,7
+89,United States,88,Southeastern United States,location,7
+90,Antibodies,91,Pathogenic agents,detect,8
+91,Pathogenic agents,92,Free-living wild species,infect,8
+90,Antibodies,96,Foot-and-mouth disease,detect,8
+90,Antibodies,97,Bovine herpes virus types 1 and 2,detect,8
+90,Antibodies,98,Lumpy skin disease,detect,8
+90,Antibodies,99,Bovine viral diarrhoea,detect,8
+90,Antibodies,100,Akabane,detect,8
+90,Antibodies,101,Bovine ephemeral fever,detect,8
+90,Antibodies,102,Bluetongue,detect,8
+90,Antibodies,103,Enzootic bovine leucosis,detect,8
+90,Antibodies,104,African horse sickness,detect,8
+90,Antibodies,105,African swine fever,detect,8
+90,Antibodies,106,Brucella abortus,detect,8
+108,Ursus americanus,107,black bear,is a type of,9
+109,Staphylococcus aureus,111,valvular endocarditis,causes,9
+109,Staphylococcus aureus,110,coagulase-positive,is a type of,9
+112,northern Labrador,113,Canada,is located in,9
+107,black bear,112,northern Labrador,was found in,9
+109,Staphylococcus aureus,107,black bear,was found in,9
+111,valvular endocarditis,107,black bear,occurred in,9
+116,Bison bison,115,parainfluenza 3 virus,infected by,10
+117,Delta bison,119,Delta Junction,found near,10
+119,Delta Junction,118,Alaska,located in,10
+118,Alaska,37,USA,located in,10
+116,Bison bison,120,domestic cattle,infected by,10
+121,cougars,,feline immunodeficiency virus (FIV),exposed to,11
+121,cougars,5,canine distemper virus (CDV),exposed to,11
+121,cougars,134,Yersinia pestis,exposed to,11
+139,Hawaiian monk seal,141,phocine herpesvirus-1,has antibodies to,12
+139,Hawaiian monk seal,142,Leptospira bratislava,has antibodies to,12
+139,Hawaiian monk seal,143,L. hardjo,has antibodies to,12
+139,Hawaiian monk seal,144,L. icterohaemorrhagiae,has antibodies to,12
+139,Hawaiian monk seal,145,L. pomona,has antibodies to,12
+139,Hawaiian monk seal,146,Brucella spp.,has antibodies to,12
+139,Hawaiian monk seal,148,Chlamydophila abortus,has antibodies to,12
+139,Hawaiian monk seal,149,Toxoplasma gondii,has antibodies to,12
+139,Hawaiian monk seal,150,Dirofilaria immitis,has antibodies to,12
+166,white-tailed deer,167,Ehrlichia sp.-like organism,hosts,13
+170,ticks,166,white-tailed deer,infest,13
+167,Ehrlichia sp.-like organism,171,humans,infects,13
+169,HGE agent,171,humans,infects,13
+84,16S rDNA,172,DGA primer,is amplified by,13
+84,16S rDNA,173,GA1UR primer,is amplified by,13
+84,16S rDNA,174,DCH primer,is amplified by,13
+84,16S rDNA,175,GE9f primer,is amplified by,13
+84,16S rDNA,63,PCR,is detected by,13
+84,16S rDNA,176,nested PCR,is detected by,13
+167,Ehrlichia sp.-like organism,177,indirect fluorescence assays,is detected by,13
+77,Amblyomma americanum,167,Ehrlichia sp.-like organism,is associated with,13
+167,Ehrlichia sp.-like organism,169,HGE agent,is associated with,13
+183,Hippopotamus amphibius,187,Anthrax,affected by,14
+183,Hippopotamus amphibius,186,Bacillus anthracis,affected by,14
+184,Syncerus caffer,187,Anthrax,affected by,14
+184,Syncerus caffer,186,Bacillus anthracis,affected by,14
+185,Loxodonta africana,187,Anthrax,affected by,14
+185,Loxodonta africana,186,Bacillus anthracis,affected by,14
+188,Luangwa Valley,183,Hippopotamus amphibius,location of,14
+188,Luangwa Valley,184,Syncerus caffer,location of,14
+188,Luangwa Valley,185,Loxodonta africana,location of,14
+190,Luangwa River,183,Hippopotamus amphibius,location of,14
+189,Zambia,188,Luangwa Valley,location of,14
+191,Borrelia burgdorferi,193,Dermacentor occidentalis,infected,15
+191,Borrelia burgdorferi,194,D. parumapertus,infected,15
+191,Borrelia burgdorferi,195,Ixodes neotomae,infected,15
+191,Borrelia burgdorferi,197,Haemaphysalis leporispalustris,infected,15
+192,Lepus californicus californicus,193,Dermacentor occidentalis,infested,15
+192,Lepus californicus californicus,194,D. parumapertus,infested,15
+192,Lepus californicus californicus,195,Ixodes neotomae,infested,15
+192,Lepus californicus californicus,196,I. pacificus,infested,15
+192,Lepus californicus californicus,197,Haemaphysalis leporispalustris,infested,15
+198,Odocoileus hemionus columbianus,191,Borrelia burgdorferi,infected,15
+201,Lyme borreliosis,191,Borrelia burgdorferi,associated with,15
+202,European badgers,204,Bovine tuberculosis,has,16
+202,European badgers,206,TB,has,16
+205,British cattle,204,Bovine tuberculosis,is affected by,16
+205,British cattle,206,TB,is affected by,16
+214,Females,211,Movement,influences,16
+215,Males,211,Movement,is influenced by,16
+219,Clostridium perfringens,220,polar bears,occurs in,17
+220,polar bears,222,Svalbard,found in,17
+220,polar bears,223,Norway,found in,17
+220,polar bears,224,2001,sampled in,17
+220,polar bears,221,Ursus maritimus,classified as,17
+166,white-tailed deer,229,lone star tick,infested by,18
+229,lone star tick,79,Ehrlichia chaffeensis,vector of,18
+79,Ehrlichia chaffeensis,166,white-tailed deer,found in,18
+109,Staphylococcus aureus,230,Great apes,found in,19
+109,Staphylococcus aureus,233,Western lowland gorilla,found in,19
+109,Staphylococcus aureus,235,Chimpanzees,found in,19
+232,Gabon,237,International Centre for Medical Research of Franceville,location of,19
+237,International Centre for Medical Research of Franceville,238,Franceville,location of,19
+233,Western lowland gorilla,232,Gabon,found in,19
+235,Chimpanzees,232,Gabon,found in,19
+239,Leptospira,240,Leptospira licerasiae,caused by,20
+240,Leptospira licerasiae,241,Rattus norvegicus,associated with,20
+240,Leptospira licerasiae,242,Rattus rattus,associated with,20
+240,Leptospira licerasiae,245,L. fainei,is phylogenetically related to,20
+240,Leptospira licerasiae,246,L. inadai,is phylogenetically related to,20
+240,Leptospira licerasiae,249,LipL32,has detectable lipl32,20
+240,Leptospira licerasiae,247,L. interrogans,has detectable lipl32,20
+240,Leptospira licerasiae,248,L. kirschneri,has detectable lipl32,20
+171,Humans,240,Leptospira licerasiae,infected by,20
+243,Peruvian Amazon,240,Leptospira licerasiae,location of,20
+244,Iquitos region,240,Leptospira licerasiae,location of,20
+250,Mycoplasma alligatoris,251,American alligators,is isolated from,21
+250,Mycoplasma alligatoris,252,Alligator mississippiensis,is a pathogen of,21
+250,Mycoplasma alligatoris,253,A21JP2T,has type strain,21
+253,A21JP2T,254,ATCC 700619T,is also known as,21
+82,Odocoileus virginianus,255,Alabama,is found in,22
+82,Odocoileus virginianus,256,Arkansas,is found in,22
+82,Odocoileus virginianus,257,Florida,is found in,22
+82,Odocoileus virginianus,258,Georgia,is found in,22
+82,Odocoileus virginianus,259,Illinois,is found in,22
+82,Odocoileus virginianus,260,Kentucky,is found in,22
+82,Odocoileus virginianus,261,Louisiana,is found in,22
+82,Odocoileus virginianus,262,Maryland,is found in,22
+82,Odocoileus virginianus,263,Massachusetts,is found in,22
+82,Odocoileus virginianus,264,Mississippi,is found in,22
+82,Odocoileus virginianus,265,Missouri,is found in,22
+82,Odocoileus virginianus,266,North Carolina,is found in,22
+82,Odocoileus virginianus,267,South Carolina,is found in,22
+82,Odocoileus virginianus,268,Tennessee,is found in,22
+82,Odocoileus virginianus,269,Texas,is found in,22
+82,Odocoileus virginianus,270,Virginia,is found in,22
+82,Odocoileus virginianus,271,West Virginia,is found in,22
+83,Ehrlichia spp.,88,Southeastern United States,is found in,22
+83,Ehrlichia spp.,89,United States,is found in,22
+,Brucella sp.,272,Pinnipeds,isolated from,23
+,Brucella sp.,273,Cetaceans,isolated from,23
+,Brucella sp.,274,Harbor seals,isolated from,23
+,Brucella sp.,276,Harp seals,isolated from,23
+,Brucella sp.,282,Lung,cultured from,23
+,Brucella sp.,283,Axillary lymph nodes,cultured from,23
+,Brucella sp.,284,Prescapular lymph nodes,cultured from,23
+286,Mycobacterium avium subsp. paratuberculosis,291,RFLP type B-C1,is identified as,24
+285,brown bears,286,Mycobacterium avium subsp. paratuberculosis,can become infected with,24
+288,National Park Low Tatras,289,Slovakia,is located in,24
+287,Ursus arctos,285,brown bears,is a species of,24
+293,ruminants,286,Mycobacterium avium subsp. paratuberculosis,are susceptible to,24
+294,Salmonella enterica,67,California sea lion,is isolated from,25
+294,Salmonella enterica,65,Northern elephant seal,is isolated from,25
+294,Salmonella enterica,296,Western gulls,is isolated from,25
+294,Salmonella enterica,298,Puget Sound,is isolated from,25
+294,Salmonella enterica,40,Channel Islands,is isolated from,25
+294,Salmonella enterica,299,San Miguel Island,is isolated from,25
+294,Salmonella enterica,300,San Nicolas Island,is isolated from,25
+302,Enteritidis,294,Salmonella enterica,is a serotype of,25
+303,Montevideo,294,Salmonella enterica,is a serotype of,25
+304,Newport,294,Salmonella enterica,is a serotype of,25
+305,Reading,294,Salmonella enterica,is a serotype of,25
+306,Saint Paul,294,Salmonella enterica,is a serotype of,25
+37,USA,294,Salmonella enterica,is home to,25
+36,California,294,Salmonella enterica,is home to,25
+301,Washington,294,Salmonella enterica,is home to,25
+307,Papio anubis,309,Trichuris sp.,hosts,26
+307,Papio anubis,310,Strongyloides sp.,hosts,26
+307,Papio anubis,311,Trichostrongylus sp.,hosts,26
+307,Papio anubis,312,Oesophagostomum sp.,hosts,26
+307,Papio anubis,313,Schistosoma mansoni,hosts,26
+307,Papio anubis,314,Entamoeba coli,hosts,26
+307,Papio anubis,315,Entamoeba histolytica/dispar,hosts,26
+307,Papio anubis,316,Blastocystis hominis,hosts,26
+307,Papio anubis,317,Cyclospora sp.,hosts,26
+307,Papio anubis,318,Cryptosporidium sp.,hosts,26
+308,Cercopithecus aethiops,309,Trichuris sp.,hosts,26
+308,Cercopithecus aethiops,312,Oesophagostomum sp.,hosts,26
+308,Cercopithecus aethiops,314,Entamoeba coli,hosts,26
+308,Cercopithecus aethiops,315,Entamoeba histolytica/dispar,hosts,26
+308,Cercopithecus aethiops,316,Blastocystis hominis,hosts,26
+308,Cercopithecus aethiops,317,Cyclospora sp.,hosts,26
+308,Cercopithecus aethiops,318,Cryptosporidium sp.,hosts,26
+307,Papio anubis,171,Humans,shares water sources with,26
+308,Cercopithecus aethiops,171,Humans,shares water sources with,26
+171,humans,322,earth's ecosystems,influence,27
+171,humans,321,wildlife,interact,27
+171,humans,333,anthropogenically modified environments,modify,27
+171,humans,338,human-provided food,provide,27
+171,humans,326,Opisthorchis viverrini,infect,27
+171,humans,327,Strongyloides stercoralis,infect,27
+323,long-tailed macaques,330,forest parks,inhabit,27
+323,long-tailed macaques,331,north-eastern Thailand,inhabit,27
+323,long-tailed macaques,325,helminth parasites,interact,27
+323,long-tailed macaques,332,non-human primates,interact,27
+323,long-tailed macaques,333,anthropogenically modified environments,contact,27
+323,long-tailed macaques,334,natural environments,contact,27
+337,macaque groups,338,human-provided food,have,27
+337,macaque groups,328,Strongyloides fuelleborni,infect,27
+337,macaque groups,329,Haplorchis sp.,infect,27
+336,macaque feces,325,helminth parasites,contain,27
+332,non-human primates,171,humans,infect,27
+156,Parasites,341,Ecosystem,are members of,28
+343,Fecal samples,342,Animal,were collected from,28
+343,Fecal samples,156,Parasites,were examined for,28
+344,Alouatta pigra,341,Ecosystem,lives in,28
+344,Alouatta pigra,345,Human settlements,lived near,28
+346,Belize,345,Human settlements,is the location of,28
+348,Alouatta palliata,350,Controrchis sp.,has,29
+348,Alouatta palliata,351,Trypanoxyuris sp.,has,29
+348,Alouatta palliata,310,Strongyloides sp.,has,29
+349,Ateles geoffroyi,350,Controrchis sp.,has,29
+349,Ateles geoffroyi,351,Trypanoxyuris sp.,has,29
+349,Ateles geoffroyi,310,Strongyloides sp.,has,29
+360,Infectious diseases,362,Conservation strategies,must be considered in,29
+360,Infectious diseases,363,Protected areas,must be considered in,29
+364,chacma baboons,366,gastrointestinal parasites,has,30
+365,Papio ursinus,364,chacma baboons,is a type of,30
+208,individual,356,age,has,30
+208,individual,357,sex,has,30
+208,individual,371,body condition,has,30
+208,individual,372,social rank,has,30
+373,group,369,ranging behavior,has,30
+373,group,370,home range productivity,has,30
+374,population,367,rainfall,has,30
+374,population,368,temperature,has,30
+375,desert population,364,chacma baboons,has,30
+343,fecal samples,208,individual,belong to,30
+378,"global, mixed model",377,mixed models,combines,30
+379,Phocascaris cystophorae,381,Cystophora cristata,parasite of,31
+379,Phocascaris cystophorae,384,Phocid seals,parasitic in,31
+380,Phocascaris,382,Contracaecum osculatum,comparable to,31
+382,Contracaecum osculatum,384,Phocid seals,parasitic in,31
+385,eastern spotted skunk,156,parasites,has,32
+385,eastern spotted skunk,387,nematodes,has,32
+385,eastern spotted skunk,388,protozoa,has,32
+385,eastern spotted skunk,389,feces,has,32
+385,eastern spotted skunk,390,west-central Arkansas,is found in,32
+385,eastern spotted skunk,394,species,is part of,32
+389,feces,156,parasites,contains,32
+389,feces,387,nematodes,contains,32
+389,feces,388,protozoa,contains,32
+47,chamois,396,gastrointestinal helminths,hosts,33
+402,Florida panther,404,Alaria marcianae,infected by,34
+402,Florida panther,405,Spirometra mansonoides,infected by,34
+402,Florida panther,406,Ancylostoma pluridentatum,infected by,34
+402,Florida panther,407,Ancylostoma caninum,infected by,34
+402,Florida panther,408,Taenia omissa,infected by,34
+402,Florida panther,409,Mesocestoides sp.,infected by,34
+410,Helminths,402,Florida panther,found in,34
+411,Anthelmintics,410,Helminths,used to treat,34
+412,coyotes,415,Filaroides osleri,infected with,35
+412,coyotes,416,Capillaria aerophila,infected with,35
+412,coyotes,417,Oklahoma,examined in,35
+412,coyotes,418,Colorado,examined in,35
+412,coyotes,419,Wyoming,examined in,35
+412,coyotes,420,Iowa,examined in,35
+412,coyotes,421,South Dakota,examined in,35
+412,coyotes,422,Nebraska,examined in,35
+412,coyotes,269,Texas,examined in,35
+412,coyotes,423,Kansas,examined in,35
+415,Filaroides osleri,420,Iowa,less frequent in,35
+415,Filaroides osleri,423,Kansas,less frequent in,35
+424,Eurasian lynx,426,Diphyllobothrium latum,hosts,36
+424,Eurasian lynx,427,Taenia pisiformis,hosts,36
+424,Eurasian lynx,428,Taenia laticollis,hosts,36
+424,Eurasian lynx,429,Taenia hydatigena,hosts,36
+424,Eurasian lynx,430,Taenia taeniaeformis,hosts,36
+424,Eurasian lynx,431,Toxocara cati,hosts,36
+424,Eurasian lynx,432,Trichinella spp.,hosts,36
+424,Eurasian lynx,433,Capillaria spp.,hosts,36
+434,Estonia,424,Eurasian lynx,location,36
+435,1999-2001,424,Eurasian lynx,time period,36
+436,European mink,444,Rivers,habitat,37
+436,European mink,438,Aleutian Disease Virus,hosts,37
+436,European mink,439,Parvovirus,hosts,37
+436,European mink,,Canine distemper virus,hosts,37
+436,European mink,448,Pulmonary adiaspiromycosis,hosts,37
+437,Mustela lutreola,436,European mink,is,37
+440,Mustelid hosts,438,Aleutian Disease Virus,hosts,37
+440,Mustelid hosts,439,Parvovirus,hosts,37
+440,Mustelid hosts,,Canine distemper virus,hosts,37
+55,Spain,436,European mink,location,37
+55,Spain,441,American mink,location,37
+442,Navarra,436,European mink,location,37
+442,Navarra,443,European mink habitat,location,37
+445,Blood samples,436,European mink,sampled,37
+446,Plasma samples,436,European mink,sampled,37
+447,Cadavers,436,European mink,sampled,37
+450,Elaeophora elaphi,449,Elaeophorosis,causes,38
+450,Elaeophora elaphi,451,Red deer,found in,38
+450,Elaeophora elaphi,452,Cervus elaphus,found in,38
+450,Elaeophora elaphi,453,Toledo Province,found in,38
+450,Elaeophora elaphi,55,Spain,found in,38
+451,Red deer,449,Elaeophorosis,infected with,38
+454,Fallow deer,450,Elaeophora elaphi,not infected by,38
+456,Australian fur seals,462,Parafilaroides normani,infected by,39
+458,New Zealand fur seals,462,Parafilaroides normani,infected by,39
+460,Sub-Antarctic fur seal,462,Parafilaroides normani,infected by,39
+456,Australian fur seals,457,Arctocephalus pusillus doriferus,host,39
+458,New Zealand fur seals,459,A. forsteri,host,39
+460,Sub-Antarctic fur seal,461,A. tropicalis,host,39
+465,Australia,456,Australian fur seals,location,39
+466,New Zealand,458,New Zealand fur seals,location,39
+467,South Africa,460,Sub-Antarctic fur seal,location,39
+468,Brugia beaveri,469,Raccoon,parasite of,40
+468,Brugia beaveri,471,Mosquito,develops in,40
+468,Brugia beaveri,472,Domestic cat,can be transmitted to,40
+468,Brugia beaveri,473,Jird,can be transmitted to,40
+475,Taenia parva,481,spermiogenesis,is characterized by,41
+475,Taenia parva,483,axoneme,has,41
+475,Taenia parva,484,cytoplasmic extension,has,41
+475,Taenia parva,485,flagellum,has,41
+475,Taenia parva,486,centrioles,has,41
+475,Taenia parva,476,Genetta genetta,is an intestinal cestode of,41
+475,Taenia parva,479,cyclophyllideans,is compared with,41
+475,Taenia parva,480,Taeniidae,is compared with,41
+235,chimpanzees,236,Pan troglodytes,has,42
+235,chimpanzees,491,leaf-swallowing,engages in,42
+235,chimpanzees,487,tapeworms,hosts,42
+487,tapeworms,488,Bertiella studeri,is,42
+235,chimpanzees,489,Kibale National Park,is found in,42
+235,chimpanzees,490,Uganda,is found in,42
+235,chimpanzees,493,leaves,consumes,42
+235,chimpanzees,492,dungs,consumes,42
+494,bighorn sheep,414,lungworms,exposure,43
+414,lungworms,497,terrestrial gastropods,transmission,43
+494,bighorn sheep,501,riparian habitat,habitat,43
+494,bighorn sheep,502,rock habitat,habitat,43
+494,bighorn sheep,503,desert shrub habitat,habitat,43
+494,bighorn sheep,504,grass habitat,habitat,43
+494,bighorn sheep,508,perennial water sources,reliance,43
+506,ram groups,499,Antelope Island,distribution,43
+507,nursery groups,499,Antelope Island,distribution,43
+505,lambs,499,Antelope Island,lungworm transmission,43
+509,Longistrongylus curvispiculum,510,Hippotragus niger,recovered from,44
+509,Longistrongylus curvispiculum,511,Addax nasomaculatus,recovered from,44
+509,Longistrongylus curvispiculum,512,Oryx beisa,recovered from,44
+513,Haemonchus contortus,509,Longistrongylus curvispiculum,dominated,44
+509,Longistrongylus curvispiculum,514,Ranches,found on,44
+514,Ranches,269,Texas,located in,44
+269,Texas,37,USA,located in,44
+,Mesocestoides,412,Coyotes,infects,45
+,Mesocestoides,526,Deer mice,infects,45
+,Mesocestoides,519,Dogs,infects,45
+,Mesocestoides,520,Mice,infects,45
+,Mesocestoides,522,Hamsters,infects,45
+,Mesocestoides,521,Lizards,infects,45
+,Schistosomiasis mansoni,537,Tourists,infects,46
+,Schistosomiasis mansoni,533,Park residents,infects,46
+,Schistosomiasis mansoni,534,Suri people,infects,46
+307,Papio anubis,,Schistosomiasis mansoni,hosts,46
+308,Cercopithecus aethiops,,Schistosomiasis mansoni,hosts,46
+535,Biomphalaria pfeifferi,536,Trematode larvae,hosts,46
+532,Mui River,535,Biomphalaria pfeifferi,is habitat for,46
+530,Omo National Park,537,Tourists,is visited by,46
+530,Omo National Park,533,Park residents,is home to,46
+530,Omo National Park,534,Suri people,is near,46
+216,Group size,542,Body contact,is associated with,47
+216,Group size,547,Intensity of home range use,correlates negatively with,47
+216,Group size,548,Range area size,correlates positively with,47
+348,Alouatta palliata,538,A. pigra,lives sympatrically with,47
+348,Alouatta palliata,343,Fecal samples,has fecal samples collected,47
+538,A. pigra,343,Fecal samples,has fecal samples collected,47
+539,Macuspana,540,Mexico,is located in,47
+494,bighorn sheep,549,Elaeophora schneideri,infected with,48
+494,bighorn sheep,554,mule deer,coexist with,48
+494,bighorn sheep,556,tabanid vectors,infected by,48
+550,New Mexico,494,bighorn sheep,location of,48
+37,USA,550,New Mexico,location of,48
+551,Fra Cristobal Mountains,494,bighorn sheep,location of,48
+552,Watson Mountain,494,bighorn sheep,location of,48
+553,Gila Wilderness area,494,bighorn sheep,location of,48
+557,Setaria thwaitei,510,Hippotragus niger,described from,49
+557,Setaria thwaitei,559,Hippotragus equinus,described from,49
+557,Setaria thwaitei,560,Kobus ellipsiprymnus,described from,49
+557,Setaria thwaitei,558,Setaria hornbyi,synonym of,49
+557,Setaria thwaitei,563,Roan antelope,found in,49
+557,Setaria thwaitei,562,Sable antelope,found in,49
+557,Setaria thwaitei,565,Gemsbuck,found in,49
+568,Spirometra erinacei,571,Andean hog-nosed skunk,infects,50
+568,Spirometra erinacei,569,Cestoda,is a type of,50
+568,Spirometra erinacei,570,Diphyllobothridae,is a member of,50
+573,Abra La Raya,571,Andean hog-nosed skunk,is a location of,50
+574,Cusco,573,Abra La Raya,is a location of,50
+575,Peru,574,Cusco,is a location of,50
+576,Japanese serows,580,Eimeriid coccidians,infected by,51
+576,Japanese serows,581,Eimeria,infected by,51
+576,Japanese serows,582,Eimeria kamoshika,infected by,51
+578,Formosan serows,580,Eimeriid coccidians,infected by,51
+578,Formosan serows,581,Eimeria,infected by,51
+581,Eimeria,582,Eimeria kamoshika,has species,51
+588,Hepatozoon,589,Japanese martens,found in,52
+588,Hepatozoon,592,Pine marten,found in,52
+595,18S rRNA gene,588,Hepatozoon,analyzed,52
+593,Scotland,592,Pine marten,location,52
+598,Tana River red colobus,366,Gastrointestinal parasites,has,53
+600,Mangabey,366,Gastrointestinal parasites,has,53
+603,Human population,606,Habitat loss,causes,53
+603,Human population,607,Habitat fragmentation,causes,53
+614,Colobus,615,Arboreal folivores,are,53
+600,Mangabey,616,Terrestrial habitat generalists,are,53
+617,Papio cynocephalus,618,Entopolypoides maaci,hosts,54
+617,Papio cynocephalus,619,Hepatocystis kochi,hosts,54
+2,Kenya,617,Papio cynocephalus,location,54
+620,Hemoglobin,618,Entopolypoides maaci,affected by,54
+621,RBC,618,Entopolypoides maaci,affected by,54
+622,African lions,624,Intu Afrika Kalahari Game Reserve,habitat,55
+622,African lions,626,Ancylostoma braziliense,parasites,55
+622,African lions,627,Gnathostoma spinigerum,parasites,55
+622,African lions,628,Uncinaria stenocephala,parasites,55
+622,African lions,149,Toxoplasma gondii,parasites,55
+622,African lions,629,Isospora felis,parasites,55
+630,I. felis,,faeces,oocysts,55
+630,I. felis,622,African lions,infection,55
+234,Gorilla gorilla gorilla,643,Endoparasites,infected by,56
+234,Gorilla gorilla gorilla,644,Amoebae,infected by,56
+234,Gorilla gorilla gorilla,645,Entodiniomorph ciliates,infected by,56
+234,Gorilla gorilla gorilla,646,Prototapirella gorillae,infected by,56
+234,Gorilla gorilla gorilla,647,Troglodytella spp.,infected by,56
+234,Gorilla gorilla gorilla,648,Gorillophilus thoracatus,infected by,56
+234,Gorilla gorilla gorilla,649,Balantidium-like organism,infected by,56
+234,Gorilla gorilla gorilla,310,Strongyloides sp.,infected by,56
+234,Gorilla gorilla gorilla,650,Probstmayria sp.,infected by,56
+234,Gorilla gorilla gorilla,651,Spirurid,infected by,56
+234,Gorilla gorilla gorilla,652,Trichuroid,infected by,56
+234,Gorilla gorilla gorilla,653,Trematodes,infected by,56
+639,Bai Hokou,234,Gorilla gorilla gorilla,location of,56
+640,Dzangha-Ndoki National Park,234,Gorilla gorilla gorilla,location of,56
+,Central African Republic,234,Gorilla gorilla gorilla,location of,56
+171,Humans,234,Gorilla gorilla gorilla,co-located with,56
+657,Colobus vellerosus,660,Entamoeba sp.,hosts,57
+657,Colobus vellerosus,661,Isospora sp.,hosts,57
+657,Colobus vellerosus,662,Ascaris sp.,hosts,57
+657,Colobus vellerosus,663,Enterobius sp.,hosts,57
+657,Colobus vellerosus,309,Trichuris sp.,hosts,57
+657,Colobus vellerosus,664,Strongyle sp.,hosts,57
+657,Colobus vellerosus,665,Giardia sp.,hosts,57
+657,Colobus vellerosus,667,Blastocystis sp.,hosts,57
+657,Colobus vellerosus,666,G. duodenalis Assemblage B,hosts,57
+171,Humans,669,I. belli,hosts,57
+658,Boabeng-Fiema Monkey Sanctuary,659,Ghana,location,57
+658,Boabeng-Fiema Monkey Sanctuary,657,Colobus vellerosus,location,57
+171,Humans,657,Colobus vellerosus,interacts with,57
+236,Pan troglodytes,674,Gombe,studied at,58
+236,Pan troglodytes,93,Tanzania,studied at,58
+671,Papio spp.,675,Mt. Assirik,studied at,58
+671,Papio spp.,676,Senegal,studied at,58
+672,P. anubis,674,Gombe,found at,58
+673,P. papio,675,Mt. Assirik,found at,58
+598,Tana River red colobus,387,nematodes,has gastrointestinal parasites,59
+598,Tana River red colobus,,protozoans,has gastrointestinal parasites,59
+677,Crested mangabey,387,nematodes,has gastrointestinal parasites,59
+677,Crested mangabey,,protozoans,has gastrointestinal parasites,59
+678,Tana River,2,Kenya,is located in,59
+598,Tana River red colobus,609,forest,is endemic to,59
+677,Crested mangabey,609,forest,is endemic to,59
+598,Tana River red colobus,541,primates,is a primate,59
+677,Crested mangabey,541,primates,is a primate,59
+215,Males,598,Tana River red colobus,have different parasite species,59
+679,Lactating females,598,Tana River red colobus,have different parasite species,59
+680,Phagicola angrense,470,Procyon lotor,associated with,60
+470,Procyon lotor,681,Parramore Island,found on,60
+470,Procyon lotor,270,Virginia,found in,60
+470,Procyon lotor,37,USA,found in,60
+682,Mesenteric vessels,470,Procyon lotor,appeared prominent in,60
+683,Stomach,470,Procyon lotor,contained,60
+684,Intestines,470,Procyon lotor,contained,60
+685,Small intestinal mucosa,680,Phagicola angrense,contained,60
+686,Crypts,680,Phagicola angrense,contained,60
+687,Epithelium,686,Crypts,was attenuated in,60
+692,Trypanosome,63,PCR,detected by,61
+692,Trypanosome,712,Quantitative buffy coat,detected by,61
+700,Cercocebus torquatus,698,T. b. gambiense group 1,carrying,61
+701,Cercopithecus nictitans,698,T. b. gambiense group 1,carrying,61
+702,Cephalophus dorsalis,698,T. b. gambiense group 1,carrying,61
+703,C. monticola,698,T. b. gambiense group 1,carrying,61
+704,Nandinia binotata,698,T. b. gambiense group 1,carrying,61
+705,Genetta servalina,698,T. b. gambiense group 1,carrying,61
+706,Cricetomys gambianus,693,T. brucei s.l.,carrying,61
+707,Atherurus africanus,693,T. brucei s.l.,carrying,61
+714,Ungulates,698,T. b. gambiense group 1,carrying,61
+517,Rodents,693,T. brucei s.l.,carrying,61
+715,Pangolins,693,T. brucei s.l.,carrying,61
+716,Carnivores,698,T. b. gambiense group 1,carrying,61
+518,Reptiles,693,T. brucei s.l.,carrying,61
+541,Primates,698,T. b. gambiense group 1,carrying,61
+717,Plasmodium brasilianum,720,Man,infects,62
+717,Plasmodium brasilianum,541,Primates,infects,62
+717,Plasmodium brasilianum,724,Alouatta seniculus straminea,infects,62
+717,Plasmodium brasilianum,725,Chiropotes satanas chiropotes,infects,62
+717,Plasmodium brasilianum,726,Ateles paniscus paniscus,infects,62
+717,Plasmodium brasilianum,727,Saimiri ustus,infects,62
+717,Plasmodium brasilianum,728,Ateles paniscus chamek,infects,62
+721,Balbina,719,Brazilian Amazon,location,62
+722,Samuel,719,Brazilian Amazon,location,62
+721,Balbina,609,Forest,location,62
+722,Samuel,609,Forest,location,62
+723,Hydroelectric plants,719,Brazilian Amazon,location,62
+723,Hydroelectric plants,721,Balbina,location,62
+723,Hydroelectric plants,722,Samuel,location,62
+412,Coyotes,170,Ticks,infested with,63
+412,Coyotes,736,Gulf Coast ticks,harbor,63
+412,Coyotes,734,Hepatozoon americanum,had infections of,63
+738,Central Oklahoma,412,Coyotes,location of,63
+37,USA,738,Central Oklahoma,location of,63
+739,Leishmania,742,Cebus apella,is described from,64
+739,Leishmania,,Chiropotes satanus,is described from,64
+739,Leishmania,743,Choloepus didactylus,is described from,64
+739,Leishmania,744,Bradypus tridactylus,is described from,64
+739,Leishmania,745,Nasua nasua,is described from,64
+739,Leishmania,746,Lutzomyia whitmani,is described from,64
+739,Leishmania,748,Brazil,is described from,64
+750,red foxes,754,sarcoptic mange,infected by,66
+750,red foxes,755,canine distemper,infected by,66
+750,red foxes,759,otodectic mange,infected by,66
+750,red foxes,758,intradermal tick infestation,infected by,66
+750,red foxes,756,capture myopathy,affected by,66
+750,red foxes,757,congenital absence of guard hairs,affected by,66
+750,red foxes,760,toxicosis,affected by,66
+88,southeastern United States,750,red foxes,location of,66
+752,1967,753,1995,start year of study,66
+751,Vulpes vulpes,750,red foxes,species of,66
+761,Sarcocystis,762,skeletal muscles,found in,67
+761,Sarcocystis,107,black bear,found in,67
+107,black bear,266,North Carolina,from,67
+761,Sarcocystis,764,bradyzoites,has,67
+166,white-tailed deer,149,Toxoplasma gondii,infected with,68
+166,white-tailed deer,90,antibodies,examined for,68
+166,white-tailed deer,765,heart tissue,had,68
+765,heart tissue,520,mice,examined in,68
+766,serum,90,antibodies,examined for,68
+166,white-tailed deer,767,tissue cysts,had,68
+255,Alabama,166,white-tailed deer,location of,68
+768,Japanese raccoon dogs,761,Sarcocystis,infected with,69
+768,Japanese raccoon dogs,770,Japanese red fox,had similar sarcocysts,69
+768,Japanese raccoon dogs,589,Japanese martens,had similar sarcocysts,69
+772,Japanese badgers,761,Sarcocystis,had different sarcocysts,69
+772,Japanese badgers,777,microtubules,had sarcocysts with microtubules,69
+768,Japanese raccoon dogs,774,Honshu Island,found on,69
+770,Japanese red fox,774,Honshu Island,found on,69
+589,Japanese martens,774,Honshu Island,found on,69
+772,Japanese badgers,774,Honshu Island,found on,69
+775,Japan,774,Honshu Island,located,69
+778,red fox,149,Toxoplasma gondii,infected by,70
+778,red fox,779,Fairmount Park,found in,70
+778,red fox,780,Philadelphia,found in,70
+778,red fox,781,Pennsylvania,found in,70
+778,red fox,37,USA,found in,70
+784,liver,149,Toxoplasma gondii,infected by,70
+,lungs,149,Toxoplasma gondii,infected by,70
+17,adrenal glands,149,Toxoplasma gondii,infected by,70
+149,Toxoplasma gondii,787,acute disseminated toxoplasmosis,causes,70
+789,Rocky Mountain bighorn sheep,149,Toxoplasma gondii,infected by,71
+789,Rocky Mountain bighorn sheep,790,Hells Canyon,resided in,71
+789,Rocky Mountain bighorn sheep,301,Washington,resided in,71
+789,Rocky Mountain bighorn sheep,37,USA,resided in,71
+789,Rocky Mountain bighorn sheep,792,Pneumonic pasteurellosis,had,71
+789,Rocky Mountain bighorn sheep,793,Encephalitis,had,71
+149,Toxoplasma gondii,793,Encephalitis,caused,71
+388,Protozoa,149,Toxoplasma gondii,identified as,71
+541,primates,794,logging,associated with,72
+235,chimpanzees,,Giardia,are infected with,72
+803,apes,541,primates,are a type of,72
+804,African apes,803,apes,are a type of,72
+805,Megatrypanum trypanosomes,807,Cervidae,isolated from,73
+805,Megatrypanum trypanosomes,808,Cervus dama,isolated from,73
+805,Megatrypanum trypanosomes,452,Cervus elaphus,isolated from,73
+805,Megatrypanum trypanosomes,809,Capreolus capreolus,isolated from,73
+805,Megatrypanum trypanosomes,810,Schneider's Drosophila medium,propagated in,73
+805,Megatrypanum trypanosomes,812,isocitrate dehydrogenase,characterized by,73
+805,Megatrypanum trypanosomes,813,phosphoglucomutase,characterized by,73
+805,Megatrypanum trypanosomes,814,starch gel electrophoresis,characterized by,73
+805,Megatrypanum trypanosomes,815,cluster analysis,separated by,73
+805,Megatrypanum trypanosomes,816,pulsed-field gradient gel electrophoresis (PFGE),separated by,73
+332,nonhuman primates,817,primate ecology,relates to,74
+332,nonhuman primates,818,primate behaviour,relates to,74
+332,nonhuman primates,819,primate genetics,relates to,74
+820,wild primates,819,primate genetics,relates to,74
+821,yellow baboons,617,Papio cynocephalus,relates to,74
+821,yellow baboons,822,Amboseli National Park,relates to,74
+821,yellow baboons,2,Kenya,relates to,74
+823,FY (DARC) gene,824,malaria,relates to,74
+823,FY (DARC) gene,825,Plasmodium vivax,relates to,74
+823,FY (DARC) gene,826,Hepatocystis,relates to,74
+,baboon,823,FY (DARC) gene,relates to,74
+827,African wild dogs,,canine distemper virus,infected by,75
+827,African wild dogs,829,Botswana,found in,75
+,carnivore species,832,multi-host feline and canine viruses,exposed to,75
+,carnivore species,831,southern Africa,found in,75
+830,East African predators,,canine distemper virus,affected by,75
+832,multi-host feline and canine viruses,835,domestic animal reservoirs,transmitted through,75
+839,population depression,606,habitat loss,caused by,75
+839,population depression,840,wildlife conflict,caused by,75
+841,hantavirus pulmonary syndrome,843,Peromyscus leucopus,caused by,76
+845,Four Corners virus,844,New York virus,differed from,76
+849,Borna disease virus,850,Japanese macaques,detected in,78
+850,Japanese macaques,852,Chiba prefecture,found in,78
+850,Japanese macaques,775,Japan,found in,78
+858,Brain tissue,62,RT-PCR,examined by,78
+861,Astrovirus,860,Cheetahs,identified in,79
+862,Mamastrovirus,860,Cheetahs,identified in,79
+865,RNA-dependent-RNA polymerase,861,Astrovirus,product of,79
+866,Capsid protein,861,Astrovirus,product of,79
+867,Bayesian analysis,865,RNA-dependent-RNA polymerase,performed on,79
+868,Maximum likelihood analysis,865,RNA-dependent-RNA polymerase,performed on,79
+867,Bayesian analysis,866,Capsid protein,performed on,79
+868,Maximum likelihood analysis,866,Capsid protein,performed on,79
+864,Bismuth subsalicylate,860,Cheetahs,used to treat,79
+869,Kuril harbor seals,152,Influenza A virus,infected by,80
+869,Kuril harbor seals,871,Hokkaido,sampled from,80
+869,Kuril harbor seals,775,Japan,sampled from,80
+869,Kuril harbor seals,872,Nosappu,sampled from,80
+869,Kuril harbor seals,873,Akkeshi,sampled from,80
+869,Kuril harbor seals,874,Erimo,sampled from,80
+877,Avians,,H6 subtype,host,80
+878,Mammals,,H6 subtype,potential host,80
+166,white-tailed deer,879,Jamestown Canyon virus,infected by,81
+166,white-tailed deer,880,Bunyamwera group virus,infected by,81
+166,white-tailed deer,881,La Crosse virus,infected by,81
+882,central Wisconsin,166,white-tailed deer,location of,81
+884,Alouatta,888,Yellow Fever,is affected by,82
+885,Alouatta caraya,888,Yellow Fever,is affected by,82
+886,Alouatta guariba clamitans,888,Yellow Fever,is affected by,82
+887,Haemagogus leucocelaenus,888,Yellow Fever,transmits,82
+891,Tree hole breeding mosquitoes,888,Yellow Fever,transmit,82
+332,Nonhuman primates,888,Yellow Fever,are involved in,82
+890,Monkeys,888,Yellow Fever,are involved in,82
+803,Apes,888,Yellow Fever,are involved in,82
+820,Wild primates,888,Yellow Fever,may indicate,82
+748,Brazil,888,Yellow Fever,is affected by,82
+889,Rio Grande do Sul State,888,Yellow Fever,is affected by,82
+171,Humans,888,Yellow Fever,can be infected by,82
+885,Alouatta caraya,887,Haemagogus leucocelaenus,is isolated from,82
+886,Alouatta guariba clamitans,887,Haemagogus leucocelaenus,is isolated from,82
+782,rabies,895,bat-eared fox,associated with,83
+,rabies viruses,895,bat-eared fox,collected from,83
+,rabies viruses,467,South Africa,collected from,83
+,rabies viruses,898,G-L intergenic region,analyzed for,83
+,rabies viruses,899,nucleoprotein gene,analyzed for,83
+897,PCR amplicons,898,G-L intergenic region,specific to,83
+900,antigenic data,782,rabies,related to,83
+901,surveillance data,782,rabies,related to,83
+906,preS2 mAb 116-34,,preS2 region,binds to,84
+,preS2 gene,912,Glutamine,has substitution,84
+,preS2 gene,913,Lysine,has substitution,84
+,preS2 gene,914,Valine,has substitution,84
+,preS2 gene,915,Threonine,has substitution,84
+,preS2 gene,916,Alanine,has substitution,84
+910,preS1 region,917,Glutamic acid,has substitution,84
+910,preS1 region,918,Aspartic acid,has substitution,84
+910,preS1 region,919,Leucine,has substitution,84
+910,preS1 region,916,Alanine,has substitution,84
+920,European bat lyssavirus type 1,921,Stone marten,is associated with,85
+920,European bat lyssavirus type 1,923,Germany,is endemic in,85
+921,Stone marten,925,Burg,was found in,85
+921,Stone marten,924,Saxony-Anhalt,was found in,85
+3,Rabies virus,920,European bat lyssavirus type 1,is related to,85
+920,European bat lyssavirus type 1,,EBLV-1a,is similar to,85
+926,EBLV-1,,EBLV-1a,is similar to,85
+926,EBLV-1,927,Serotine bat,is found in,85
+926,EBLV-1,923,Germany,is found in,85
+926,EBLV-1,928,Denmark,is found in,85
+929,bat,931,lyssaviruses,carries,86
+930,Thailand,929,bat,location,86
+932,Pteropus lylei,929,bat,species,86
+933,Eonycteris spelaea,929,bat,species,86
+934,Hipposideros armiger,929,bat,species,86
+935,Rousettus leschennaulti,929,bat,species,86
+932,Pteropus lylei,936,Aravan virus,hosts,86
+932,Pteropus lylei,937,Khujand virus,hosts,86
+932,Pteropus lylei,938,Irkut virus,hosts,86
+932,Pteropus lylei,939,Australian bat lyssavirus,hosts,86
+933,Eonycteris spelaea,936,Aravan virus,hosts,86
+936,Aravan virus,931,lyssaviruses,related,86
+937,Khujand virus,931,lyssaviruses,related,86
+938,Irkut virus,931,lyssaviruses,related,86
+939,Australian bat lyssavirus,931,lyssaviruses,related,86
+3,rabies virus,90,antibodies,target,86
+936,Aravan virus,90,antibodies,target,86
+937,Khujand virus,90,antibodies,target,86
+938,Irkut virus,90,antibodies,target,86
+939,Australian bat lyssavirus,90,antibodies,target,86
+941,Sus scrofa,942,Pseudorabies virus,has,87
+257,Florida,941,Sus scrofa,is location of,87
+37,USA,941,Sus scrofa,is location of,87
+943,Feral swine,941,Sus scrofa,is type of,87
+157,Serum samples,943,Feral swine,are collected from,87
+157,Serum samples,942,Pseudorabies virus,are tested for,87
+944,Serum neutralization test,157,Serum samples,is used to test,87
+945,Latex agglutination test,157,Serum samples,is used to test,87
+158,Enzyme-linked immunosorbent assay,157,Serum samples,is used to test,87
+946,PRV infections,943,Feral swine,occur in,87
+947,European wild boar,942,Pseudorabies virus,infected by,88
+941,Sus scrofa,947,European wild boar,is a type of,88
+947,European wild boar,949,Eastern Germany,found in,88
+942,Pseudorabies virus,953,domestic animal populations,was eradicated from,88
+942,Pseudorabies virus,954,domestic pig population,does not affect,88
+955,wild fish,958,infectious pancreatic necrosis virus,infected by,89
+955,wild fish,959,viral hemorrhagic septicemia virus,infected by,89
+955,wild fish,960,viral nervous necrosis virus,infected by,89
+961,Chelon labrosus,956,Gulf of Cadiz,sampled,89
+961,Chelon labrosus,974,San Pedro River,sampled,89
+962,Sphyraena sphyraena,958,infectious pancreatic necrosis virus,infected by,89
+963,Pagellus acarne,958,infectious pancreatic necrosis virus,infected by,89
+964,Diplodus vulgaris,958,infectious pancreatic necrosis virus,infected by,89
+965,P. erythrinus,958,infectious pancreatic necrosis virus,infected by,89
+966,D. bellottii,958,infectious pancreatic necrosis virus,infected by,89
+967,Mullus surmuletus,958,infectious pancreatic necrosis virus,infected by,89
+968,axillary seabream,960,viral nervous necrosis virus,infected by,89
+969,common pandora,960,viral nervous necrosis virus,infected by,89
+970,black seabream,960,viral nervous necrosis virus,infected by,89
+971,red mullet,960,viral nervous necrosis virus,infected by,89
+972,Lusitanian toadfish,960,viral nervous necrosis virus,infected by,89
+973,tub gurnard,960,viral nervous necrosis virus,infected by,89
+956,Gulf of Cadiz,955,wild fish,location of,89
+974,San Pedro River,955,wild fish,location of,89
+975,Bay of Cadiz,955,wild fish,location of,89
+977,Rana grylio,978,Iridovirus,hosts,90
+977,Rana grylio,982,Ranavirus,hosts,90
+977,Rana grylio,979,RGV-9506,hosts,90
+977,Rana grylio,980,RGV-9807,hosts,90
+978,Iridovirus,982,Ranavirus,is similar to,90
+978,Iridovirus,981,FV3,is similar to,90
+979,RGV-9506,981,FV3,is a strain of,90
+980,RGV-9807,981,FV3,is a strain of,90
+979,RGV-9506,983,Iridoviridae,is a member of,90
+980,RGV-9807,983,Iridoviridae,is a member of,90
+981,FV3,983,Iridoviridae,is a member of,90
+981,FV3,982,Ranavirus,is the type species of,90
+984,Cottontail rabbit,986,Cottontail rabbit papillomavirus,infected by,91
+985,Sylvilagus audubonii,984,Cottontail rabbit,is a type of,91
+985,Sylvilagus audubonii,986,Cottontail rabbit papillomavirus,infected with,91
+987,Dengue virus,988,Mexican bats,found in,92
+988,Mexican bats,853,ELISA,examined by,92
+988,Mexican bats,62,RT-PCR,examined by,92
+988,Mexican bats,996,NS1 protein,examined for,92
+989,Myotis nigricans,853,ELISA,examined by,92
+989,Myotis nigricans,987,Dengue virus,found positive for,92
+989,Myotis nigricans,996,NS1 protein,found positive for,92
+990,Pteronotus parnellii,853,ELISA,examined by,92
+990,Pteronotus parnellii,987,Dengue virus,found positive for,92
+991,Natalus stramineus,853,ELISA,examined by,92
+991,Natalus stramineus,987,Dengue virus,found positive for,92
+992,Artibeus jamaicensis,853,ELISA,examined by,92
+992,Artibeus jamaicensis,987,Dengue virus,found positive for,92
+993,Carollia brevicauda,62,RT-PCR,examined by,92
+993,Carollia brevicauda,987,Dengue virus,found positive for,92
+994,Gulf coast,987,Dengue virus,location of,92
+995,Pacific coast,987,Dengue virus,location of,92
+540,Mexico,987,Dengue virus,location of,92
+997,porcupines,1003,montane coniferous forest,habitat,93
+997,porcupines,1001,Dermacentor andersoni,host,93
+1001,Dermacentor andersoni,999,Colorado tick fever virus,vector,93
+1001,Dermacentor andersoni,1002,CTF,vector,93
+1004,questing adult D. andersoni ticks,999,Colorado tick fever virus,vector,93
+1004,questing adult D. andersoni ticks,1002,CTF,vector,93
+997,porcupines,999,Colorado tick fever virus,infected with,93
+997,porcupines,1002,CTF,infected with,93
+82,Odocoileus virginianus,1005,West Nile virus,infected by,94
+82,Odocoileus virginianus,1006,Tifton Veterinary Diagnostic and Investigational Laboratory,submitted to,94
+1006,Tifton Veterinary Diagnostic and Investigational Laboratory,1007,The University of Georgia,located at,94
+1007,The University of Georgia,1008,Tifton,located in,94
+1007,The University of Georgia,258,Georgia,located in,94
+1007,The University of Georgia,37,USA,located in,94
+1009,ring-necked pheasants,1011,Marble spleen disease,is affected by,95
+1011,Marble spleen disease,1012,Type II avian adenovirus,is caused by,95
+1012,Type II avian adenovirus,1013,Hemorrhagic enteritis virus,is closely related to,95
+1012,Type II avian adenovirus,1014,Splenomegaly virus,is closely related to,95
+1011,Marble spleen disease,1017,Agar gel precipitin test,is detected by,95
+1011,Marble spleen disease,1019,Epizootic,is associated with,95
+1020,Himalayan monal,1022,avian bornavirus,infected with,96
+1020,Himalayan monal,1024,psittacine birds,shared aviary with,96
+1020,Himalayan monal,1025,pheasant,shared aviary with,96
+1025,pheasant,1024,psittacine birds,shared aviary with,96
+1025,pheasant,1022,avian bornavirus,infected with,96
+1026,juvenile white-bellied caique,1022,avian bornavirus,infected with,96
+1026,juvenile white-bellied caique,1025,pheasant,shared aviary with,96
+1028,Order Galliformes,1020,Himalayan monal,includes,96
+1028,Order Galliformes,1025,pheasant,includes,96
+850,Japanese macaques,1029,measles virus,infected by,97
+850,Japanese macaques,1030,anorexia,experienced,97
+850,Japanese macaques,1031,diarrhea,experienced,97
+850,Japanese macaques,1032,dermatitis,experienced,97
+1029,measles virus,1033,histopathology,detected by,97
+1029,measles virus,1034,immunohistochemistry,detected by,97
+1029,measles virus,1035,in situ hybridization,detected by,97
+1029,measles virus,33,electron microscopy,detected by,97
+1029,measles virus,1039,human visitors,transmitted by,97
+850,Japanese macaques,1037,cytomegalovirus,infected by,97
+850,Japanese macaques,1038,adenovirus,infected by,97
+850,Japanese macaques,155,bacteria,infected by,97
+850,Japanese macaques,1036,Candida albicans,infected by,97
+782,rabies,517,rodents,occurs in,98
+782,rabies,1041,lagomorphs,occurs in,98
+782,rabies,89,United States,occurs in,98
+89,United States,901,surveillance data,has,98
+1042,Centers for Disease Control,901,surveillance data,provides,98
+782,rabies,1019,epizootic,is associated with,98
+782,rabies,171,humans,affects,98
+1043,rabies postexposure prophylaxis,171,humans,is recommended for,98
+782,rabies,1044,epidemiology,is studied in,98
+1045,Columbid herpesvirus-1,1046,Great horned owl,infects,99
+1045,Columbid herpesvirus-1,26,Hepatic necrosis,causes,99
+1045,Columbid herpesvirus-1,1051,Splenetic necrosis,causes,99
+1045,Columbid herpesvirus-1,1052,Pharyngeal ulceration,causes,99
+1045,Columbid herpesvirus-1,1053,Gastrointestinal necrosis,causes,99
+1045,Columbid herpesvirus-1,1054,Eosinophilic intranuclear viral inclusion bodies,causes,99
+1045,Columbid herpesvirus-1,1056,Herpesvirus-induced disease,causes,99
+1048,Calgary,1050,Necropsy,location,99
+1049,Alberta,1050,Necropsy,location,99
+1050,Necropsy,26,Hepatic necrosis,finds,99
+1050,Necropsy,1051,Splenetic necrosis,finds,99
+1050,Necropsy,1052,Pharyngeal ulceration,finds,99
+1050,Necropsy,1053,Gastrointestinal necrosis,finds,99
+1055,Polymerase chain reaction,1056,Herpesvirus-induced disease,diagnoses,99
