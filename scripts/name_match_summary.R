@@ -144,16 +144,6 @@ validation_100_title_abs <- validation_100_title_abs %>%
 								tidyr::unite(., col = "title_abs",  title, abs, na.rm=TRUE, sep = " ") %>%
 								unique()
 
-
-
-
-
-
-require(stringi)
-validation_100_title_abs$title_abs <- stri_unescape_unicode(validation_100_title_abs$title_abs)
-
-validation_100_title_abs
-
 write.csv(validation_100_title_abs, "../raw_data/validation_100.csv", row.names=F)
 
 
