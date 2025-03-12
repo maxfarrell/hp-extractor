@@ -1,0 +1,66 @@
+<!-- manual_validation_display.Rmd -->
+
+---
+title: "Manual validation of prompt-1 extracted entities/relations"
+author: "Zhongtian Sun, Liam Brierley, Maxwell J. Farrell"
+date: "`r format(Sys.time(), '%B %d %Y')`"
+output: 
+html_document:
+highlight: default
+toc: yes
+toc_depth: 3
+theme: yeti
+urlcolor: blue
+---
+<style type="text/css">
+.main-container {
+  max-width: 100% !important;
+  margin: auto;
+}
+</style>
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, error=TRUE)
+options(kableExtra.html.bsTable = T)
+
+custom_kable <- function(x, caption=NULL) {
+  kable(x, caption=caption) %>% kable_styling(font_size = 10, bootstrap_options = c("striped", "hover", "condensed", "responsive"), fixed_thead = T)
+}
+```
+
+## Table to assist reading: highlight entities
+
+```{r table_ent, results="asis"}
+ent1 %>%
+  left_join(val %>% mutate(absID = as.character(absID)), by = c("doc_id" = "absID")) %>%
+  select(-single_multi, -latin_name) %>%
+  arrange(factor(doc_id, levels = val$absID)) %>%  # preserve same order as in validation 100 csv
+  rowwise() %>%
+  mutate(title_abs = gsub(entity, paste0("<b><u>",entity,"</u></b>"), title_abs, ignore.case = TRUE)) %>%
+  DT::datatable(escape = FALSE,
+            rownames= FALSE,
+            options = list(
+              autoWidth = TRUE,
+              scrollX = TRUE,
+              columnDefs = list(list(width = '1500px', targets = 3)))) %>%
+  DT::formatStyle(columns = c(1:4), fontSize = '90%')
+```
+
+## Table to assist reading: highlight relations
+
+```{r table_rel, results="asis"}
+rel1 %>%
+  left_join(val %>% mutate(absID = as.character(absID)), by = c("doc_id" = "absID")) %>%
+  select(-source_id, -target_id) %>%
+  arrange(factor(doc_id, levels = val$absID)) %>%  # preserve same order as in validation 100 csv
+  rowwise() %>%
+  mutate(title_abs = gsub(source_text, paste0("<b><u>",source_text,"</u></b>"), title_abs, ignore.case = TRUE)) %>%
+  mutate(title_abs = gsub(target_text, paste0("<b><u>",target_text,"</u></b>"), title_abs, ignore.case = TRUE)) %>%
+  DT::datatable(escape = FALSE,
+            rownames= FALSE,
+            options = list(
+              autoWidth = TRUE,
+              scrollX = TRUE,
+              columnDefs = list(list(width = '1200px', targets = 5)))) %>%
+  DT::formatStyle(columns = c(1:6), fontSize = '90%')
+```
