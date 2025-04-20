@@ -2,8 +2,14 @@ library(tidyverse)
 library(knitr)
 library(rmarkdown)
 
+### Run automated overview and descriptive stats
 run <- "0331"
 setwd(paste0("H:\\Working\\hp-extractor\\zs\\", run))
+
+render("H:\\Working\\hp-extractor\\zs\\overview.Rmd", 
+       output_file=paste0("H:\\Working\\hp-extractor\\zs\\", run, "\\overview.html"))
+
+### Manually examine
 
 files <- list.files()
 files
@@ -143,32 +149,23 @@ fent %>% filter(type == "Common name" & doc_id %in% (frel %>% filter(relation_ty
 frel %>% filter(doc_id == 85)
 fent %>% filter(doc_id == 85)
 
-
 val %>% filter(doc_id == 85)
-
-
-
-
 
 ### Compare different models
 
-run <- "0331"
-setwd(paste0("H:\\Working\\hp-extractor\\zs\\", run))
-
 files <- list.files()
-files
 
-ent_d <- read.csv("entities_0327_no_merge_single_id_deepseek-r1-distill-qwen-32b.csv")%>% distinct
-ent_g <- read.csv("entities_0327_no_merge_single_id_gemma2.csv") %>% distinct
-ent_l <- read.csv("entities_0327_no_merge_single_id_llama.csv") %>% distinct
-ent_ll <- read.csv("entities_0403_no_merge_single_id_llama70b.csv") %>% distinct
-ent_m <- read.csv("entities_0327_no_merge_single_id_mistral.csv") %>% distinct
+ent_d <- read.csv(files[grepl("entities", files) & grepl("deepseek", files)])%>% distinct
+ent_g <- read.csv(files[grepl("entities", files) & grepl("gemma", files)]) %>% distinct
+ent_l <- read.csv(files[grepl("entities", files) & grepl("llama3", files)]) %>% distinct
+ent_ll <- read.csv(files[grepl("entities", files) & grepl("llama70b", files)]) %>% distinct
+ent_m <- read.csv(files[grepl("entities", files) & grepl("mistral", files)]) %>% distinct
 
-rel_d <- read.csv("relationships_0327_no_merge_single_id_deepseek-r1-distill-qwen-32b.csv") %>% distinct
-rel_g <- read.csv("relationships_0327_no_merge_single_id_gemma2.csv") %>% distinct
-rel_l <- read.csv("relationships_0327_no_merge_single_id_llama.csv") %>% distinct
-rel_ll <- read.csv("relationships_0403_no_merge_single_id_llama70b.csv") %>% distinct
-rel_m <- read.csv("relationships_0327_no_merge_single_id_mistral.csv") %>% distinct
+rel_d <- read.csv(files[grepl("relationships", files) & grepl("deepseek", files)])%>% distinct
+rel_g <- read.csv(files[grepl("relationships", files) & grepl("gemma", files)]) %>% distinct
+rel_l <- read.csv(files[grepl("relationships", files) & grepl("llama3", files)]) %>% distinct
+rel_ll <- read.csv(files[grepl("relationships", files) & grepl("llama70b", files)]) %>% distinct
+rel_m <- read.csv(files[grepl("relationships", files) & grepl("mistral", files)]) %>% distinct
 
 meta_aug <- read.table("H:\\Working\\system_specificity\\raw_data\\dat_aug9_2021.tsv", sep = '\t', comment.char="", quote = "\"", header=TRUE) %>% distinct
 
@@ -190,6 +187,7 @@ bind_rows(
   ent_d %>% group_by(doc_id) %>% tally %>% mutate(model = "deepseek"),
   ent_g %>% group_by(doc_id) %>% tally %>% mutate(model = "gemma2"),
   ent_l %>% group_by(doc_id) %>% tally %>% mutate(model = "llama"),
+  ent_ll %>% group_by(doc_id) %>% tally %>% mutate(model = "llama-70b"),
   ent_m %>% group_by(doc_id) %>% tally %>% mutate(model = "mistral"),
 ) %>%
   ggplot(aes(x=n, fill=model)) +
@@ -202,6 +200,7 @@ bind_rows(
   rel_d %>% group_by(doc_id) %>% tally %>% mutate(model = "deepseek"),
   rel_g %>% group_by(doc_id) %>% tally %>% mutate(model = "gemma2"),
   rel_l %>% group_by(doc_id) %>% tally %>% mutate(model = "llama"),
+  rel_ll %>% group_by(doc_id) %>% tally %>% mutate(model = "llama-70b"),
   rel_m %>% group_by(doc_id) %>% tally %>% mutate(model = "mistral"),
 ) %>%
   ggplot(aes(x=n, fill=model)) +
@@ -215,6 +214,7 @@ plot_lev_ent <- bind_rows(
   ent_d %>% group_by(type) %>% tally %>% mutate(model = "deepseek"),
   ent_g %>% group_by(type) %>% tally %>% mutate(model = "gemma2"),
   ent_l %>% group_by(type) %>% tally %>% mutate(model = "llama"),
+  ent_ll %>% group_by(type) %>% tally %>% mutate(model = "llama-70b"),
   ent_m %>% group_by(type) %>% tally %>% mutate(model = "mistral"),
 ) %>% filter(n>25) %>% select(-model) %>% group_by(type) %>% summarise(ov = sum(n)) %>% arrange(ov) %>% pull(type)
 
@@ -222,6 +222,7 @@ bind_rows(
   ent_d %>% group_by(type) %>% tally %>% mutate(model = "deepseek"),
   ent_g %>% group_by(type) %>% tally %>% mutate(model = "gemma2"),
   ent_l %>% group_by(type) %>% tally %>% mutate(model = "llama"),
+  ent_ll %>% group_by(type) %>% tally %>% mutate(model = "llama-70b"),
   ent_m %>% group_by(type) %>% tally %>% mutate(model = "mistral"),
 ) %>%
   filter(n > 50) %>%
@@ -234,6 +235,7 @@ plot_lev_rel <- bind_rows(
   rel_d %>% group_by(relation_type) %>% tally %>% mutate(model = "deepseek"),
   rel_g %>% group_by(relation_type) %>% tally %>% mutate(model = "gemma2"),
   rel_l %>% group_by(relation_type) %>% tally %>% mutate(model = "llama"),
+  rel_ll %>% group_by(relation_type) %>% tally %>% mutate(model = "llama-70b"),
   rel_m %>% group_by(relation_type) %>% tally %>% mutate(model = "mistral"),
 ) %>% filter(n>25) %>% select(-model) %>% group_by(relation_type) %>% summarise(ov = sum(n)) %>% arrange(ov) %>% pull(relation_type)
 
@@ -241,6 +243,7 @@ bind_rows(
   rel_d %>% group_by(relation_type) %>% tally %>% mutate(model = "deepseek"),
   rel_g %>% group_by(relation_type) %>% tally %>% mutate(model = "gemma2"),
   rel_l %>% group_by(relation_type) %>% tally %>% mutate(model = "llama"),
+  rel_ll %>% group_by(relation_type) %>% tally %>% mutate(model = "llama-70b"),
   rel_m %>% group_by(relation_type) %>% tally %>% mutate(model = "mistral"),
 ) %>%
   filter(n > 25) %>%
@@ -250,51 +253,60 @@ bind_rows(
   theme_bw()
 
 
-ent_d %>% filter(!(doc_id %in% c(ent_d %>% filter(type == "Host") %>% pull(doc_id)))) # abs without "Host" ent
-ent_g %>% filter(!(doc_id %in% c(ent_g %>% filter(type == "Host") %>% pull(doc_id)))) # abs without "Host" ent
-ent_l %>% filter(!(doc_id %in% c(ent_l %>% filter(type == "Host") %>% pull(doc_id)))) # abs without "Host" ent
-ent_m %>% filter(!(doc_id %in% c(ent_m %>% filter(type == "Host") %>% pull(doc_id)))) # abs without "Host" ent
+ent_d %>% filter(!(doc_id %in% c(ent_d %>% filter(type == "Host") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "Host" ent
+ent_g %>% filter(!(doc_id %in% c(ent_g %>% filter(type == "Host") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "Host" ent
+ent_l %>% filter(!(doc_id %in% c(ent_l %>% filter(type == "Host") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "Host" ent
+ent_ll %>% filter(!(doc_id %in% c(ent_ll %>% filter(type == "Host") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "Host" ent
+ent_m %>% filter(!(doc_id %in% c(ent_m %>% filter(type == "Host") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "Host" ent
 
 ent_d %>% filter(!(doc_id %in% c(ent_d %>% filter(type == "Pathogen") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "Pathogen" ent
 ent_g %>% filter(!(doc_id %in% c(ent_g %>% filter(type == "Pathogen") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "Pathogen" ent
 ent_l %>% filter(!(doc_id %in% c(ent_l %>% filter(type == "Pathogen") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "Pathogen" ent
+ent_ll %>% filter(!(doc_id %in% c(ent_ll %>% filter(type == "Pathogen") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "Pathogen" ent
 ent_m %>% filter(!(doc_id %in% c(ent_m %>% filter(type == "Pathogen") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "Pathogen" ent
 
 
 rel_d %>% filter(!(doc_id %in% c(rel_d %>% filter(relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "hosts" rel
 rel_g %>% filter(!(doc_id %in% c(rel_g %>% filter(relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "hosts" rel
 rel_l %>% filter(!(doc_id %in% c(rel_l %>% filter(relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "hosts" rel
+rel_ll %>% filter(!(doc_id %in% c(rel_ll %>% filter(relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "hosts" rel
 rel_m %>% filter(!(doc_id %in% c(rel_m %>% filter(relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length  # abs without "hosts" rel
 
 rel_d %>% filter(!(doc_id %in% c(rel_d %>% filter(relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "infects" rel
 rel_g %>% filter(!(doc_id %in% c(rel_g %>% filter(relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "infects" rel
 rel_l %>% filter(!(doc_id %in% c(rel_l %>% filter(relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "infects" rel
+rel_ll %>% filter(!(doc_id %in% c(rel_ll %>% filter(relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "infects" rel
 rel_m %>% filter(!(doc_id %in% c(rel_m %>% filter(relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without "infects" rel
 
 rel_d %>% filter(!(doc_id %in% c(rel_d %>% filter(relation_type == "infects"|relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without either
 rel_g %>% filter(!(doc_id %in% c(rel_g %>% filter(relation_type == "infects"|relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without either
 rel_l %>% filter(!(doc_id %in% c(rel_l %>% filter(relation_type == "infects"|relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without either
+rel_ll %>% filter(!(doc_id %in% c(rel_ll %>% filter(relation_type == "infects"|relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without either
 rel_m %>% filter(!(doc_id %in% c(rel_m %>% filter(relation_type == "infects"|relation_type == "hosts") %>% pull(doc_id)))) %>% pull(doc_id) %>% unique %>% length # abs without either
 
 # Find entities in source/target but not extracted in the entity file
 missing_source_d <- lapply(val$absID, function(i) rel_d %>% filter(doc_id == i & !(tolower(source_text) %in% (ent_d %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 missing_source_g <- lapply(val$absID, function(i) rel_g %>% filter(doc_id == i & !(tolower(source_text) %in% (ent_g %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 missing_source_l <- lapply(val$absID, function(i) rel_l %>% filter(doc_id == i & !(tolower(source_text) %in% (ent_l %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
+missing_source_ll <- lapply(val$absID, function(i) rel_ll %>% filter(doc_id == i & !(tolower(source_text) %in% (ent_ll %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 missing_source_m <- lapply(val$absID, function(i) rel_m %>% filter(doc_id == i & !(tolower(source_text) %in% (ent_m %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 
 missing_source_d %>% pull(doc_id) %>% unique %>% length
 missing_source_g %>% pull(doc_id) %>% unique %>% length
 missing_source_l %>% pull(doc_id) %>% unique %>% length
+missing_source_ll %>% pull(doc_id) %>% unique %>% length
 missing_source_m %>% pull(doc_id) %>% unique %>% length
 
 missing_target_d <- lapply(val$absID, function(i) rel_d %>% filter(doc_id == i & !(tolower(target_text) %in% (ent_d %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 missing_target_g <- lapply(val$absID, function(i) rel_g %>% filter(doc_id == i & !(tolower(target_text) %in% (ent_g %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 missing_target_l <- lapply(val$absID, function(i) rel_l %>% filter(doc_id == i & !(tolower(target_text) %in% (ent_l %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
+missing_target_ll <- lapply(val$absID, function(i) rel_ll %>% filter(doc_id == i & !(tolower(target_text) %in% (ent_ll %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 missing_target_m <- lapply(val$absID, function(i) rel_m %>% filter(doc_id == i & !(tolower(target_text) %in% (ent_m %>% filter(doc_id == i) %>% mutate(entity = tolower(entity)) %>% pull(entity))))) %>%  bind_rows
 
 missing_target_d %>% pull(doc_id) %>% unique %>% length
 missing_target_g %>% pull(doc_id) %>% unique %>% length
 missing_target_l %>% pull(doc_id) %>% unique %>% length
+missing_target_ll %>% pull(doc_id) %>% unique %>% length
 missing_target_m %>% pull(doc_id) %>% unique %>% length
 
 
@@ -302,6 +314,7 @@ missing_target_m %>% pull(doc_id) %>% unique %>% length
 ent_d %>% filter(type == "Common name") # view Common name entities
 ent_g %>% filter(type == "Common name") # view Common name entities
 ent_l %>% filter(type == "Common name") # view Common name entities
+ent_ll %>% filter(type == "Common name") # view Common name entities
 ent_m %>% filter(type == "Common name") # view Common name entities
 
 rel_d %>% filter(relation_type == "common name of") # View synonym relations
@@ -313,10 +326,12 @@ rel_g %>% filter(relation_type == "latin name of") # View synonym relations
 rel_l %>% filter(relation_type == "common name of") # View synonym relations
 rel_l %>% filter(relation_type == "latin name of") # View synonym relations
 
+rel_ll %>% filter(relation_type == "common name of") # View synonym relations
+rel_ll %>% filter(relation_type == "latin name of") # View synonym relations
+
 rel_m %>% filter(relation_type == "common name of") # View synonym relations
 rel_m %>% filter(relation_type == "latin name of") # View synonym relations
 
-# 10/4/25
 
 # Find duplicated entity rows - are they for the same abstracts?
 ent_d_dup <- ent_d %>% group_by(entity, type, doc_id) %>% tally %>% filter(n > 1) %>% pull(doc_id) %>% unique
@@ -367,28 +382,25 @@ ent_m %>% select(entity, type, doc_id) %>% anti_join(ent_m %>% filter(grepl("^[[
 
 
 # How many entities have >1 type per model? (removing rtype errors first)
-bind_rows(ent_d %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_g %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_l %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_ll %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_m %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100
+bind_rows(ent_d %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_g %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_l %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_ll %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_m %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100
+) %>% bind_cols(model = c("deepseek", "gemma2", "llama", "llama70b", "mistral"),.)
+
+bind_rows(ent_d %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_g %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_l %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_ll %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
+          ent_m %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100
 ) %>% bind_cols(model = c("deepseek", "gemma2", "llama", "llama70b", "mistral"),.) %>% write.csv(paste0("multi_type_entities_", run, ".csv"))
 
 # Just for the ~95% of entities that have 1 type, collapse and compare types across models
-bind_rows(ent_d %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_g %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_l %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_ll %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
-          ent_m %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100
-) %>% bind_cols(model = c("deepseek", "gemma2", "llama", "llama70b", "mistral"),.) %>% write.csv(paste0("multi_type_entities_", run, ".csv"))
-
-
-
 singletype_entity_ext<- function(df){
   df %>% 
-    filter(grepl("^[[:upper:]]", type)) %>% 
     filter(entity %in% 
-             (df %>% filter(grepl("^[[:upper:]]", type)) %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% filter(nt == 1) %>% pull(entity)
+             (df %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% filter(nt == 1) %>% pull(entity)
              )) %>%
     select(entity, type) %>%
     distinct()
@@ -421,7 +433,7 @@ ent_type_comp <- purrr::reduce(
 ent_type_comp %>%
   write.csv(paste0("model_entity_type_comparison_", run, ".csv"))
 
-ent_type_comp %>% with(., table(models_present)) %>% rev
+# ent_type_comp %>% with(., table(models_present)) %>% rev
 ent_type_comp %>% with(., table(models_present, n_entity_types))%>% .[5:1,]
 
 ent_type_comp %>% filter(models_present == 5 & n_entity_types == 1) %>% sample_n(1)

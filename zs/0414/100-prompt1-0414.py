@@ -332,6 +332,8 @@ def build_relationships_from_entities(abstract, doc_id, known_entities, max_retr
                     Entities should represent organisms, species, locations, diseases, tissues, pathogens, events, measurements, units, processes, interactions, environments, properties, and any relevant concepts in addition to the examples given.
 
                     Relationships should capture interactions such as  "infects," "hosts," "lives in," "found in," "detected by," "affected by", “causes” or other relevant relations in addition to these examples.
+                    
+                    If no evidence is present that a given host is infected by a given pathogen like a negative test result, capture the interaction as a negative relation like “does not infect” or “does not host”.
 
                     This has to be Unbiased extraction - pull out all entities and relations in a strict JSON format.
                     Each entity should be represented as ["text", "type"], and each relationship as ["src", "relation", "tgt"], with exactly three elements for relationships.
