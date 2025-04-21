@@ -1,0 +1,363 @@
+---
+title: "Beta diversity for LLM comparison"
+# author: "Maxwell J. Farrell"
+date: "`r format(Sys.time(), '%B %d %Y')`"
+output: 
+  html_document:
+    highlight: default
+    code_folding: hide
+    toc: yes
+    toc_depth: 3
+    toc_float: true
+    collapsed: false
+    theme: yeti
+urlcolor: blue
+---
+
+
+```{r loading packages, echo=T, message=F, warning=F}
+# Packages 
+require(betapart);packageVersion("betapart")#1.6
+require(dplyr);packageVersion("dplyr")#1.1.4
+require(ggplot2);packageVersion("ggplot2")#3.4.4
+
+# markdown setup
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+
+```
+
+
+```{r data_v1, echo=F, eval=T}
+
+run <- "0414"
+files <- list.files(paste0("./",run), full.names=TRUE)
+
+# entities 
+ent_deepseek <- read.csv(grep("entities.*deepseek.*", files, value=TRUE))
+ent_gemma <- read.csv(grep("entities.*gemma.*", files, value=TRUE))
+ent_llama8b <- read.csv(grep("entities.*llama3-8.*", files, value=TRUE))
+ent_mistral <- read.csv(grep("entities.*mistral.*", files, value=TRUE))
+ent_llama70b <- read.csv(grep("entities.*llama70b.*", files, value=TRUE))
+
+entities <- bind_rows(lst(ent_deepseek, ent_gemma, ent_llama8b, ent_mistral, ent_llama70b), .id='model')
+
+entities$model <- gsub("ent_","",entities$model)
+
+n_distinct(entities$type)#955
+
+# remove lower case entity types (?) - likely to be relations
+
+# make entities and types lower case
+# entities$entity <- tolower(entities$entity)
+# entities$type <- tolower(entities$type)
+
+
+
+# check for duplicated entity-types for 
+
+# look at lower case entity types (are these relations?)
+
+# relations
+rel_deepseek <- read.csv(grep("relations.*deepseek.*", files, value=TRUE))
+rel_gemma <- read.csv(grep("relations.*gemma.*", files, value=TRUE))
+rel_llama8b <- read.csv(grep("relations.*llama3-8.*", files, value=TRUE))
+rel_mistral <- read.csv(grep("relations.*mistral.*", files, value=TRUE))
+rel_llama70b <- read.csv(grep("relations.*llama70b.*", files, value=TRUE))
+
+relations <- bind_rows(lst(rel_deepseek, rel_gemma, rel_llama8b, rel_mistral, rel_llama70b), .id='model')
+
+relations$model <- gsub("rel_","",relations$model)
+
+```
+
+
+```{r lower_case_types}
+# are there repeated entities per document?
+dim(entities)# 11712
+entities %>% select(-entity_id) %>% unique() %>% dim() # still 11712
+# therefore no repeated entities within documents
+
+entities %>% select(-c("entity_id", "type")) %>% unique() %>% dim() # still 11712
+
+## which entities are entirely lower case?
+require(stringr)
+
+entities$type[str_detect(entities$type,"[[:upper:]]", negate=TRUE)] %>% unique()
+# hosts, p-value, causes, detects, matabolite, had, is a, amplifies, affected, has property, are completely lower case entities
+
+# keeping metabolite and p-value
+rels_as_types <- c("hosts", "causes", "detects", "had", "is a", "amplifies", "affected", "has property")
+
+entities[entities$type %in% rels_as_types,] %>% group_by(model) %>%
+      summarise(n_rows=n(), n_entities=n_distinct(entity), n_types=n_distinct(type), n_docs=n_distinct(doc_id))
+
+entities$doc_id[entities$type %in% rels_as_types] %>% unique()
+# 23 abstracts...
+
+# entities[entities$type %in% rels_as_types,] %>% View()
+entities <- entities[!entities$type %in% rels_as_types,]
+
+
+# case of relation_type
+relations$relation_type[str_detect(relations$relation_type,"[[:upper:]]")] %>% unique()
+# none
+
+```
+
+```{r to_lower}
+
+# set entity names to lower case
+entities$entity <- tolower(entities$entity)
+
+# set source and target text to lower case
+relations$source_text <- tolower(relations$source_text)
+relations$target_text <- tolower(relations$target_text)
+
+```
+
+
+
+```{r alphadiv}
+
+# by model
+ent_dat <- entities %>% group_by(model) %>% 
+                          summarise(n_entities = n_distinct(entity_id),
+                                    n_entity_names = n_distinct(entity),
+                                    n_entity_types = n_distinct(type))
+
+ent_dat %>% ggplot(aes(x=n_entity_names, y=n_entity_types, color=model)) + geom_point(aes(color=factor(model), size=n_entities)) + ggtitle("Entities by model")
+
+
+# by model x doc_id
+ent_dat <- entities %>% group_by(model, doc_id) %>% 
+                          summarise(n_entities = n_distinct(entity_id),
+                                    n_entity_names = n_distinct(entity),
+                                    n_entity_types = n_distinct(type))
+
+ent_dat %>% ggplot(aes(x=n_entity_names, y=n_entity_types, color=model)) + geom_jitter(aes(color=factor(model), size=n_entities), alpha=0.5) + ggtitle("Entities by model-document")
+
+
+
+# by model
+rel_dat <- relations %>% group_by(model) %>% 
+                          summarise(n_relations = n_distinct(paste(source_text, target_text, relation_type))
+                            , n_relation_types = n_distinct(relation_type),
+                            n_entities = n_distinct(c(source_text, target_text)))
+
+rel_dat %>% ggplot(aes(x=n_entities, y=n_relation_types, color=model)) + geom_point(aes(color=factor(model), size=n_relations)) + ggtitle("Relations by model")
+
+
+# by model x doc_id
+rel_dat <- relations %>% group_by(model, doc_id) %>% 
+                          summarise(n_relations = n_distinct(paste(source_text, target_text, relation_type))
+                            , n_relation_types = n_distinct(relation_type),
+                            n_entities = n_distinct(c(source_text, target_text)))
+
+rel_dat %>% ggplot(aes(x=n_entities, y=n_relation_types, color=model)) + geom_jitter(aes(color=factor(model), size=n_relations), alpha=0.5) + ggtitle("Relations by model-document")
+
+
+
+```
+
+
+## Entity-type-document turnover
+
+```{r etd_betadiv, results='hide',fig.keep='all'}
+
+# based on betapart R package
+# https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210x.2012.00224.x
+
+# entity-type-doc across models
+etd_list <- entities %>% group_by(model) %>% reframe(etd = paste0(entity, type, doc_id))
+
+
+etd_mat <- table(etd_list) %>% unclass() %>% as.matrix()
+
+range(etd_mat)
+# some entries are >1 meaning that a single model is finding the same entity-type multiple times in a single abstract
+
+# setting to PA
+etd_mat[etd_mat>1] <- 1
+
+
+# get betapart objects
+etd_core <- betapart.core(etd_mat)
+
+# multiple site measures
+etd_multi <- beta.multi(etd_core)
+
+# sampling 
+etd_samp <- beta.sample(etd_core, sites=5, samples=1000)
+
+# # plotting the distributions of components
+# dist_etd <- etd_samp$sampled.values
+
+# plot(density(dist_etd$beta.SOR), xlim=c(0,1.5), ylim=c(0, 70), xlab="Beta diversity", main="", lwd=3)
+
+# lines(density(dist_etd$beta.SNE), lty=1, lwd=2)
+
+# lines(density(dist_etd$beta.SIM), lty=2, lwd=2)
+
+
+# pairwise 
+pair_etd <- beta.pair(etd_mat)
+
+# plotting clusters
+dist_etd <- etd_samp$sampled.values
+
+# Beta_sor (Sorensen's dissimilarity) = Beta_sim + Beta_sne
+
+plot(hclust(pair_etd$beta.sor, method="average"), main="", sub="", xlab="")
+
+title(xlab=expression(beta[sor]), line=0.3)
+
+# Beta_sim = Simpson's dissimilarity (turnover component of Sorensen)
+
+plot(hclust(pair_etd$beta.sim, method="average"), main="", sub="", xlab="")
+
+title(xlab=expression(beta[sim]), line=0.3)
+
+
+# Beta_sne = Nestedness comoponent of Sorensen dissimilarity
+
+plot(hclust(pair_etd$beta.sne, method="average"), main="", sub="",, xlab="")
+
+title(xlab=expression(beta[sne]), line=0.3)
+
+```
+
+
+Beta SOR represents total dissimilarity while Beta SIM represents the component attributed to turnover and Beta SNE representes the component attributed to nestedness
+
+
+
+## Entity-document turnover
+
+```{r ed_betadiv, results='hide',fig.keep='all'}
+
+# based on betapart R package
+# https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210x.2012.00224.x
+
+# entity-type-doc across models
+
+ed_list <- entities %>% group_by(model) %>% reframe(ed = paste0(entity,doc_id))
+
+
+ed_mat <- table(ed_list) %>% unclass() %>% as.matrix()
+
+range(ed_mat)
+# some entries are >1 meaning that a single model is finding the same entity-type multiple times in a single abstract
+
+# setting to PA
+ed_mat[ed_mat>1] <- 1
+
+
+# get betapart objects
+ed_core <- betapart.core(ed_mat)
+
+# multiple site measures
+ed_multi <- beta.multi(ed_core)
+
+# sampling 
+ed_samp <- beta.sample(ed_core, sites=5, samples=1000)
+
+# # plotting the distributions of components
+# dist_ed <- ed_samp$sampled.values
+
+# plot(density(dist_ed$beta.SOR), xlim=c(0,1.5), ylim=c(0, 70), xlab="Beta diversity", main="", lwd=3)
+
+# lines(density(dist_ed$beta.SNE), lty=1, lwd=2)
+
+# lines(density(dist_ed$beta.SIM), lty=2, lwd=2)
+
+# pairwise 
+pair_ed <- beta.pair(ed_mat)
+
+# plotting clusters
+dist_ed <- ed_samp$sampled.values
+
+# Beta SOR
+
+plot(hclust(pair_ed$beta.sor, method="average"), main="", sub="", xlab="")
+
+title(xlab=expression(beta[sor]), line=0.3)
+
+
+# Beta Sim
+plot(hclust(pair_ed$beta.sim, method="average"),  main="", sub="", xlab="")
+
+title(xlab=expression(beta[sim]), line=0.3)
+
+# Beta SNE
+plot(hclust(pair_ed$beta.sne, method="average"),  main="", sub="",, xlab="")
+
+title(xlab=expression(beta[sne]), line=0.3)
+
+```
+
+
+
+## EntityType-document turnover
+
+```{r et_betadiv, results='hide',fig.keep='all'}
+
+# based on betapart R package
+# https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210x.2012.00224.x
+
+# entity-type-doc across models
+
+et_list <- entities %>% group_by(model) %>% reframe(et = paste0(type,doc_id))
+
+
+et_mat <- table(et_list) %>% unclass() %>% as.matrix()
+
+range(et_mat)
+# some entries are >1 meaning that a single model is finding the same entity-type multiple times in a single abstract
+
+# setting to PA
+et_mat[et_mat>1] <- 1
+
+
+# get betapart objects
+et_core <- betapart.core(et_mat)
+
+# multiple measures
+et_multi <- beta.multi(et_core)
+
+# sampling 
+et_samp <- beta.sample(et_core, sites=5, samples=1000)
+
+# # plotting the distributions of components
+# dist_et <- et_samp$samplet.values
+
+# plot(density(dist_et$beta.SOR), xlim=c(0,1.5), ylim=c(0, 70), xlab="Beta diversity", main="", lwd=3)
+
+# lines(density(dist_et$beta.SNE), lty=1, lwd=2)
+
+# lines(density(dist_et$beta.SIM), lty=2, lwd=2)
+
+# pairwise 
+pair_et <- beta.pair(et_mat)
+
+# plotting clusters
+dist_et <- et_samp$samplet.values
+
+
+# Beta Sor
+plot(hclust(pair_et$beta.sor, method="average"), main="", sub="", xlab="")
+
+title(xlab=expression(beta[sor]), line=0.3)
+
+# Beta Sim
+plot(hclust(pair_et$beta.sim, method="average"), main="", sub="", xlab="")
+
+title(xlab=expression(beta[sim]), line=0.3)
+
+# Beta SNE
+plot(hclust(pair_et$beta.sne, method="average"), main="", sub="",, xlab="");title(xlab=expression(beta[sne]), line=0.3)
+
+title(xlab=expression(beta[sne), line=0.3)
+
+```
+
+
