@@ -16,7 +16,7 @@ from datetime import datetime
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 
-# GROQ_API_KEY = os.getenv("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")  # Store your API key as an environment variable or directly here
+# GROQ_API_KEY = os.getenv("")  # Store your API key as an environment variable or directly here
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 # model = SentenceTransformer('all-MiniLM-L6-v2')
 # model = model.to('cpu')  # Explicitly set to CPU
