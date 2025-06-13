@@ -1,0 +1,2672 @@
+entity_id,entity,type,doc_id
+1,Leptospirosis,Disease,59826
+2,Connecticut,GeopoliticalEntity,59826
+3,peridomestic wildlife,Host,59826
+4,domestic dogs,Host,59826
+5,northeastern United States,Geopolitical Region,59826
+6,Leptospira,Bacterium,59826
+7,Leptospira serovars,Bacterial Pathogen,59826
+8,serovars pomona,Leptospira serovar,59826
+9,serovars icterohemorrhagiae,Leptospira serovar,59826
+10,serovars canicola,Leptospira serovar,59826
+11,serovars hardjo,Leptospira serovar,59826
+12,serovars grippotyphosa,Leptospira serovar,59826
+13,small wild mammals,Host,59826
+14,raccoons,Animal,59826
+15,Procyon lotor,Host,59826
+16,skunks,Animal,59826
+17,Mephitis mephitis,Host,59826
+18,opossums,Animal,59826
+19,Didelphis virginiana,Host,59826
+20,gray squirrels,Animal,59826
+21,Sciurus carolinensis,Host,59826
+22,serologic evidence,MedicalTest,59826
+23,exposure,Disease exposure,59826
+24,serosurvey,Study,59826
+25,antibody titers,Biological Assay,59826
+26,zoonotic disease,Disease,59826
+27,February 27,Date,59826
+28,"September 17, 2001",Date,59826
+29,36%,Percentage,59826
+30,13%,Percentage,59826
+31,31,Year,59826
+32,30,Year,59826
+33,28,Year,59826
+34,20,Year,59826
+35,109,Year,59826
+36,5,Number,59826
+37,Serologic survey,Scientific study,58605
+38,canine pathogens,Bacterial and viral pathogens affecting dogs,58605
+39,free-ranging jackals,Host,58605
+40,Kenya,GeopoliticalEntity,58605
+41,serum samples,Biological specimen,58605
+42,rabies virus,virus,58605
+43,canine parvovirus (CPV-2),Virus,58605
+44,canine distemper virus (CDV),Virus,58605
+45,Ehrlichia canis,Bacterial species,58605
+46,black-backed jackals,Animal species,58605
+47,Canis mesomelas,hosts,58605
+48,golden jackals,Canis aureus,58605
+49,C. aureus,Host,58605
+50,side-striped jackals,Animal species,58605
+51,C. adustus,hosts,58605
+52,April 1987,Date,58605
+53,January 1988,Date,58605
+54,antibodies,Biological Molecules,58605
+55,prevalence,Disease Prevalence,58605
+56,34%,Percentage,58605
+57,14,Number,58605
+58,55,Number,58605
+59,9%,Percentage,58605
+60,4,Number,58605
+61,3%,Percentage,58605
+62,1,Number,58605
+63,28,Number,58605
+64,2%,Percentage,58605
+65,36,Number,58605
+66,9,Number,58605
+67,16,Number,58605
+68,5,Number,58605
+69,26,Number,58605
+70,3,Number,58605
+71,antibodies to CPV-2,Biological Molecules,58605
+72,antibodies to CDV,Biological Molecules,58605
+73,wild carnivore,Canis species,58605
+74,African ecosystems,Geographical region,58605
+75,indicator species,Biological species used to monitor environmental health,58605
+76,canine diseases,Disease,58605
+77,Herpesvirus,Virus,59830
+78,Pacific harbor seals,Animal species,59830
+79,Phoca vitulina richardsi,Host,59830
+80,adrenal necrosis,Disease,59830
+81,adrenal cells,Cell Type,59830
+82,DNA,Biological Molecule,59830
+83,sepsis,Disease,59830
+84,bacterial omphalophlebitis,Disease,59830
+85,pneumonia,Disease,59830
+86,gastroenteritis,Disease,59830
+87,thymic atrophy,Disease,59830
+88,hepatic necrosis,Disease,59830
+89,lymphopenia,Medical Condition,59830
+90,viral particles,virions,59830
+91,phocine adrenal and kidney cell lines,Cell Line,59830
+92,adrenal tissue homogenate,Biological sample,59830
+93,cytopathic effect,Biological Phenomenon,59830
+94,cell cultures,biological sample,59830
+95,male seals,Host,59830
+96,female seals,Host,59830
+97,birth weight,Measurement,59830
+98,species,Biological species,59830
+99,central and northern California,Geographical Region,59830
+100,USA,Geopolitical Entity,59830
+101,0 to 63 days,Duration,59830
+102,45%,Percentage,59830
+103,74 of 162,QuantitativeValue,59830
+104,162,Number,59830
+105,42 of 95,Fraction,59830
+106,32 of 67,QuantitativeValue,59830
+107,100 nm,Measurement,59830
+108,160 nm,Measurement,59830
+109,5 days,Time duration,59830
+110,island fox,Animal,59699
+111,Urocyon littoralis,Species,59699
+112,Channel Islands,Geographical Location,59699
+113,California,Geopolitical entity,59699
+114,USA,Geopolitical Entity,59699
+115,serologic survey,Scientific Study,59699
+116,194,Quantity,59699
+117,canine adenovirus,Virus,59699
+118,canine parvovirus,Virus,59699
+119,canine herpesvirus,Virus,59699
+120,canine coronavirus,Virus,59699
+121,leptospirosis,Disease,59699
+122,toxoplasmosis,Disease,59699
+123,canine distemper virus,Virus,59699
+124,threatened species,Biological classification,59699
+125,97%,Prevalence,59699
+126,59%,Prevalence,59699
+127,low,Prevalence,59699
+128,not detected,Prevalence,59699
+129,Pestivirus,Virus,59904
+130,Pyrenean Chamois,Animal Species,59904
+131,Rupicapra pyrenaica pyrenaica,Animal Species,59904
+132,Spain,Geopolitical Entity,59904
+133,2001-02,YearRange,59904
+134,northeastern Spain,Geographical Location,59904
+135,Mortality,Biological Phenomenon,59904
+136,16,Number,59904
+137,17,Number,59904
+138,noncoding regions,Genomic region,59904
+139,border disease virus cluster,Viral Cluster,59904
+140,82.1% to 88.1%,PercentageRange,59904
+141,disease,Infectious Disease,59904
+142,southern chamois,Animal species,59578
+143,Rupicapra pyrenaica,Species,59578
+144,border disease virus,Virus,59578
+145,central Pyrenees,Geographical Location,59578
+146,NE Spain,Geographical Location,59578
+147,2001,Year,59578
+148,2002,Year,59578
+149,February,Month,59578
+150,June,Month,59578
+151,42%,Percentage,59578
+152,20,Year,59578
+153,depression,Mental disorder,59578
+154,weakness,Symptom,59578
+155,movement difficulties,Symptom,59578
+156,abnormal behaviour,Symptom,59578
+157,absence of flight reaction,Symptom,59578
+158,alopecia,Symptom,59578
+159,skin hyperpigmentation,Symptom,59578
+160,cachexia,Symptom,59578
+161,abscesses,Medical Condition,59578
+162,pneumonia,Disease,59578
+163,subcutaneous infection,Disease,59578
+164,orchitis,Disease,59578
+165,edema,Medical Condition,59578
+166,gliosis,Medical Condition,59578
+167,espongiosis,Disease,59578
+168,cariorrexis,Disease,59578
+169,neuronal multifocal necrosis,Pathological Condition,59578
+170,perivascular mononuclear inflammatory infiltrate,Pathological finding,59578
+171,follicular atrophy,Pathological Condition,59578
+172,epidermal hyperplasia,Pathological Condition,59578
+173,orthokeratotic hyperkeratosis,Disease,59578
+174,follicular hyperkeratosis,Disease,59578
+175,hypermelanosis,Disease,59578
+176,haemosiderin deposits,Pathological finding,59578
+177,intraeritrocitic parasites,Pathogen,59578
+178,pestivirus,Virus,59578
+179,RT-PCR,DiagnosticTest,59578
+180,monoclonal antibodies,Biological product,59578
+181,high-mortality disease,Disease,59578
+182,wild species,Animal,59578
+183,Urate nephrolithiasis,Disease,59831
+184,northern elephant seal,Animal,59831
+185,Mirounga angustirostris,Animal species,59831
+186,California sea lion,Animal species,59831
+187,Zalophus californianus,Species,59831
+188,nephrolithiasis,Disease,59831
+189,nephroliths,Medical Condition,59831
+190,white-tailed deer,Animal species,59842
+191,Odocoileus virginianus,Species,59842
+192,Ehrlichia spp.,Bacteria,59842
+193,Ehrlichia chaffeensis,Bacterium,59842
+194,human granulocytic ehrlichiosis (HGE) agent,Bacterium,59842
+195,Amblyomma americanum,Species,59842
+196,Ixodes scapularis,Tick species,59842
+197,coastal Georgia,Geographical Location,59842
+198,serologic,Technique,59842
+199,molecular,Technique,59842
+200,culture,Technique,59842
+201,indirect fluorescent antibody testing,Technique,59842
+202,nested polymerase chain reaction,Technique,59842
+203,16S rDNA fragments,Genetic Material,59842
+204,Ehrlichia-like organism,Bacterium,59842
+205,geometric mean titer,Biological Measurement,59842
+206,111,Geometric Mean Titer,59842
+207,"1,024",GeometricMeanTiter,59842
+208,ingual lymph node,Anatomical structure,59842
+209,Ehrlichia-type morula,Pathological structure,59842
+210,neutrophil,Cell,59842
+211,blood smears,biological sample,59842
+212,nonhuman host,Animal,59842
+213,southeastern United States,Geographical Region,59842
+214,human ehrlichioses agents,Bacterial pathogens,59842
+215,Antibodies,Biological Molecules,59912
+216,pathogenic agents,Microorganisms,59912
+217,wild species,Host,59912
+218,Tanzania,Country,59912
+219,game areas,Geographical Location,59912
+220,1987,Year,59912
+221,1989,Year,59912
+222,535,Number of samples,59912
+223,eight species,Biological Taxonomic Group,59912
+224,buffalo,Animal,59912
+225,Syncerus caffer,hosts,59912
+226,wildebeest,Animal,59912
+227,Connochaetes taurinus,hosts,59912
+228,topi,Animal species,59912
+229,Damaliscus korrigum,hosts,59912
+230,foot-and-mouth disease,Disease,59912
+231,bovine herpes virus types 1 and 2,Virus,59912
+232,lumpy skin disease,Disease,59912
+233,bovine viral diarrhoea,Disease,59912
+234,Akabane,Disease,59912
+235,bovine ephemeral fever,Disease,59912
+236,bluetongue,Disease,59912
+237,enzootic bovine leucosis,Disease,59912
+238,African horse sickness,Disease,59912
+239,African swine fever,Disease,59912
+240,Brucella abortus,Bacterium,59912
+241,Zebra,Animal species,59912
+242,wart hog,Animal,59912
+243,reservoirs of infection,Biological entities,59912
+244,aetiological agents,Pathogens,59912
+245,susceptibility,Biological susceptibility,59912
+246,isolation,Biological sample collection,59912
+247,Staphylococcus aureus,Bacterial species,59921
+248,black bear,Animal,59921
+249,Ursus americanus,Animal species,59921
+250,valvular endocarditis,Disease,59921
+251,Labrador,Geographical location,59921
+252,Canada,Geopolitical Entity,59921
+253,fall 1991,Temporal Event,59921
+254,radio-collared,Animal tracking device,59921
+255,widespread dissemination,Pathological process,59921
+256,other organs,Anatomical Structure,59921
+257,death,Event,59921
+258,first reported case,Medical Event,59921
+259,parainfluenza 3 virus,Virus,58455
+260,Bison bison,Animal species,58455
+261,Delta bison,Animal species,58455
+262,Delta Junction,Location,58455
+263,Alaska,Geopolitical Entity,58455
+264,USA,Geopolitical Entity,58455
+265,serum antibody prevalence,Biological Measure,58455
+266,0%,Percentage,58455
+267,100%,Percentage,58455
+268,1977,Year,58455
+269,1984,Year,58455
+270,domestic cattle,Animal,58455
+271,clinical disease,Medical Condition,58455
+272,decrease in productivity,Symptom,58455
+273,infection,disease,58455
+274,herd,Animal Group,58455
+275,Rocky Mountain cougars,Animal species,59903
+276,Puma concolor,hosts,59903
+277,feline immunodeficiency virus,Virus,59903
+278,FIV,Virus,59903
+279,feline parvovirus,Virus,59903
+280,FPV,Feline Panleukopenia Virus,59903
+281,feline coronavirus,virus,59903
+282,FCoV,Feline Coronavirus,59903
+283,feline calicivirus,Virus,59903
+284,FCV,Feline Calicivirus,59903
+285,canine distemper virus,Virus,59903
+286,CDV,Canine Distemper Virus,59903
+287,feline herpesvirus,Virus,59903
+288,FHV,Feline Herpesvirus,59903
+289,Yersinia pestis,Bacterium,59903
+290,serological,Biological Sample Type,59903
+291,genetic material,DNA,59903
+292,15 years,Duration,59903
+293,1990-2004,Time Period,59903
+294,207,Number of cougars,59903
+295,four populations,Geographic populations,59903
+296,Rocky Mountains,Geographical Location,59903
+297,seroconversions,Biological Event,59903
+298,epidemic,Property,59903
+299,endemic,Property,59903
+300,family membership,Social Group,59903
+301,age,Temporal Attribute,59903
+302,sex,Biological Attribute,59903
+303,location,Geographical region,59903
+304,risk of exposure,Property,59903
+305,transmission,Disease Transmission,59903
+306,family groups,Social Group,59903
+307,host sex,Biological Attribute,59903
+308,exposure probability,Property,59903
+309,pathogen presence,Property,59903
+310,pathogen prevalence,Property,59903
+311,risk factors,Biological Factors,59903
+312,study region,Geographical Area,59903
+313,Hawaiian monk seal,Animal species,59836
+314,Monachus schauinslandi,hosts,59836
+315,infectious disease,Disease,59836
+316,conservation efforts,Conservation Program,59836
+317,1997,Year,59836
+318,2001,Year,59836
+319,northwestern Hawaiian Islands,Geographical Location,59836
+320,25%,Percentage,59836
+321,332 animals,Quantity,59836
+322,serum samples,Biological specimen,59836
+323,antibodies,Biological molecules,59836
+324,viruses,Pathogen,59836
+325,bacteria,Microorganism,59836
+326,parasites,Pathogen,59836
+327,morbidity,Health Condition,59836
+328,mortality,Population metric,59836
+329,marine mammal species,Animal,59836
+330,phocine herpesvirus-1,Virus,59836
+331,enzyme-linked immunosorbent assay,Test,59836
+332,seropositive results,MedicalTestResult,59836
+333,virus neutralization test,Test,59836
+334,Leptospira bratislava,Bacteria,59836
+335,Leptospira hardjo,Bacterium,59836
+336,Leptospira icterohaemorrhagiae,Bacterium,59836
+337,Leptospira pomona,Bacteria,59836
+338,microagglutination test,Test,59836
+339,Brucella spp.,Bacteria,59836
+340,conventional serologic tests,Test,59836
+341,culture,Test,59836
+342,Brucella canis,Bacterial species,59836
+343,card test,Test,59836
+344,Chlamydophila abortus,Bacterium,59836
+345,complement fixation (CF) test,Test,59836
+346,prevalence,Disease Prevalence,59836
+347,age,Property,59836
+348,sensitivity,Property,59836
+349,specificity,Property,59836
+350,Toxoplasma gondii,Parasite,59836
+351,Dirofilaria immitis,Parasitic nematode,59836
+352,morbilliviruses,Virus,59836
+353,influenza A virus,Virus,59836
+354,canine adenovirus,Virus,59836
+355,caliciviruses,Virus,59836
+356,selected viruses,Biological entity,59836
+357,surveillance,Conservation Monitoring,59836
+358,diagnostic tools,Medical equipment,59836
+359,Ehrlichia sp.,Bacterium,59858
+360,white-tailed deer,Animal,59858
+361,Odocoileus virginianus,Animal species,59858
+362,Ehrlichia chaffeensis,Bacterium,59858
+363,human granulocytic ehrlichiosis,Disease,59858
+364,HGE,Disease,59858
+365,16S rDNA,Genetic sequence,59858
+366,wild deer,Animal,59858
+367,Ehrlichia sp.-like organism,Bacterium,59858
+368,DGA,Primer,59858
+369,GA1UR,Primer,59858
+370,DCH,Primer,59858
+371,GE9f,Primer,59858
+372,white blood cells,biological sample,59858
+373,62,Number of deer,59858
+374,10,Number of populations,59858
+375,four U.S. states,Geopolitical Entity,59858
+376,65%,Percentage,59858
+377,5%,Percentage,59858
+378,indirect fluorescence assays,Laboratory Technique,59858
+379,E. chaffeensis-reactive antibodies,Biological molecule,59858
+380,Amblyomma americanum,Species,59858
+381,serologic cross-reactions,Biological Phenomenon,59858
+382,non-specific PCR products,Biological artifact,59858
+383,ehrlichial pathogens,Bacterial species,59858
+384,Anthrax,Disease,56169
+385,wildlife,Host,56169
+386,Luangwa Valley,Geographical Location,56169
+387,Zambia,Country,56169
+388,hippos,Animal species,56169
+389,Hippopotamus amphibius,Host,56169
+390,Luangwa River valley,Geographical Location,56169
+391,June,Month,56169
+392,November,Month,56169
+393,1987,Year,56169
+394,4000,Number of deaths,56169
+395,Cape buffalo,Animal species,56169
+396,Syncerus caffer,Host,56169
+397,elephant,Animal,56169
+398,Loxodonta africana,Host,56169
+399,August,Month,56169
+400,September,Month,56169
+401,1988,Year,56169
+402,100 km,Distance,56169
+403,up-river,Directional Location,56169
+404,Bacillus anthracis,Bacterium,56169
+405,people,Host,56169
+406,area,Geographical Area,56169
+407,field study,Event,56169
+408,1989,Year,56169
+409,environmental contamination,Process,56169
+410,risks,Health risks,56169
+411,methods of control,Process,56169
+412,local laboratory staff,Healthcare Professional,56169
+413,monitoring,Process,56169
+414,disease,Infectious Disease,56169
+415,enzootic status,Disease status,56169
+416,region,geographical region,56169
+417,outbreaks,Event,56169
+418,results,Study Findings,56169
+419,Spirochetes,Bacterial phylum,59837
+420,mammals,Host,59837
+421,ticks,Host,59837
+422,Acari: Ixodidae,Family of ticks,59837
+423,Lyme borreliosis,Disease,59837
+424,California,Geopolitical Entity,59837
+425,Borrelia burgdorferi,Bacterium,59837
+426,antibodies,Biological Molecules,59837
+427,black-tailed jackrabbits,Mammal,59837
+428,Lepus californicus californicus,Host,59837
+429,indirect immunofluorescence,Method,59837
+430,direct immunofluorescence,Method,59837
+431,spirochetemias,Bacterial infection,59837
+432,Dermacentor occidentalis,Host,59837
+433,D. parumapertus,Host,59837
+434,Ixodes neotomae,Host,59837
+435,I. pacificus,Host,59837
+436,Haemaphysalis leporispalustris,Host,59837
+437,rabbits,Host,59837
+438,spirochetes,Bacteria,59837
+439,strain,Bacterial strain,59837
+440,B. burgdorferi,Bacterium,59837
+441,progeny,Biological offspring,59837
+442,black-tailed jackrabbit,Mammal,59837
+443,D. occidentalis,Host,59837
+444,I. neotomae,Host,59837
+445,sentinel,Animal,59837
+446,surveillance,Disease Surveillance,59837
+447,Columbian black-tailed deer,Mammal,59837
+448,Odocoileus hemionus columbianus,Host,59837
+449,Borrelia-specific monoclonal antibody,Biological reagent,59837
+450,H9724,Borrelia burgdorferi,59837
+451,H5332,Borrelia burgdorferi,59837
+452,spirochetal serosurveys,Medical Study,59837
+453,serologic tests,Method,59837
+454,bovine tuberculosis,Disease,59823
+455,Meles meles,Host,59823
+456,European badger,Animal species,59823
+457,British cattle,Host,59823
+458,culling,Process,59823
+459,disease spread,Process,59823
+460,south-west England,Geographical Location,59823
+461,TB,Disease,59823
+462,clinical samples,Biological specimens,59823
+463,bacilli,Bacteria,59823
+464,demographic processes,Process,59823
+465,movement,Process,59823
+466,social organization,Process,59823
+467,disease dynamics,Process,59823
+468,incident case,Medical Condition,59823
+469,group size,Biological Group Size,59823
+470,group size reduction,Process,59823
+471,individual-level movement,Process,59823
+472,group-level movement,Process,59823
+473,females,Host,59823
+474,males,Host,59823
+475,social structure,Process,59823
+476,transmission dynamics,Process,59823
+477,stable social structure,Process,59823
+478,new incident cases,Disease Occurrence,59823
+479,badger culling,Process,59823
+480,Clostridium perfringens,Bacterium,57733
+481,polar bears,Animal Species,57733
+482,Ursus maritimus,Animal species,57733
+483,Svalbard,Geographical Location,57733
+484,Norway,Geopolitical Entity,57733
+485,fecal samples,Biological specimen,57733
+486,bacteriologic analysis,LaboratoryTest,57733
+487,live-captured bears,Animal,57733
+488,Svalbard Archipelago,Geographical Location,57733
+489,2001,Year,57733
+490,40,Number,57733
+491,92,Number,57733
+492,44%,Percentage,57733
+493,type A,Toxin type,57733
+494,beta2-toxin,Toxin,57733
+495,gene encoding beta2-toxin,Gene,57733
+496,fatal diseases,Medical Condition,57733
+497,gastrointestinal tract,Anatomical Structure,57733
+498,normal inhabitant,Microorganism,57733
+499,Amblyomma americanum,Tick species,59859
+500,Acari: Ixodidae,Taxonomic Family,59859
+501,Ehrlichia chaffeensis,Bacterium,59859
+502,Rickettsiales: Ehrlichieae,Bacterial order,59859
+503,white-tailed deer,Animal,59859
+504,Odocoileus virginianus Zimmermann,Species,59859
+505,"Ehrlichia chaffeensis Anderson, Dawson, Jones, & Wilson",Bacterium,59859
+506,human ehrlichiosis,Disease,59859
+507,serum samples,Biological specimen,59859
+508,southeastern United States,Geographical Region,59859
+509,1982 through 1992,Time Period,59859
+510,lone star tick,Species,59859
+511,Amblyomma americanum L.,Tick species,59859
+512,E. chaffeensis,Bacterium,59859
+513,fluorescent antibody analysis,Laboratory Technique,59859
+514,125 of 300 (41.7%),Percentage,59859
+515,300,Numerical Value,59859
+516,30,Number,59859
+517,100%,Percentage,59859
+518,121/150 (80.7%),Percentage,59859
+519,4/150 (2.7%),Statistical Measure,59859
+520,2 of 30 (6.7%),Percentage,59859
+521,site-specific geographic association,Geographic Correlation,59859
+522,A. americanum,Species,59859
+523,E. chaffeensis-reactive antibodies,Biological entity,59859
+524,natural vector,biological vector,59859
+525,Staphylococcus aureus,Bacterial species,56156
+526,S. aureus,Bacterial species,56156
+527,great ape,Pan troglodytes,56156
+528,Central Africa,Geopolitical Region,56156
+529,Gabon,Country,56156
+530,human,Taxonomic species,56156
+531,primate,Animal,56156
+532,monkey,Animal,56156
+533,gorilla,Animal,56156
+534,Gorilla gorilla gorilla,Species,56156
+535,chimpanzee,Animal,56156
+536,Pan troglodytes,Species,56156
+537,spa-type t148,Staphylococcus aureus strain type,56156
+538,necrotizing wound,Medical Condition,56156
+539,staphylococcal sepsis,Disease,56156
+540,International Centre for Medical Research of Franceville,Research Institute,56156
+541,interspecies transmission,Process,56156
+542,habitat conservation,Process,56156
+543,risk of contact with human pathogens,Health Hazard,56156
+544,serious infections,Medical Condition,56156
+545,distribution,Process,56156
+546,spread,Process,56156
+547,captivity,Environmental Condition,56156
+548,study,Research Project,56156
+549,data,Information,56156
+550,wound,Medical Condition,56156
+551,death,Event,56156
+552,Leptospira,Bacterium,56805
+553,Leptospira licerasiae,Bacterial species,56805
+554,Leptospira fainei,Bacterial species,56805
+555,Leptospira inadai,Bacterial species,56805
+556,Leptospira interrogans,Bacterium,56805
+557,Leptospira kirschneri,Bacterial species,56805
+558,Rattus norvegicus,Host,56805
+559,Rattus rattus,Host,56805
+560,Rattus species,Host,56805
+561,human,hosts,56805
+562,Leptospirosis,Disease,56805
+563,acute febrile illness,Disease,56805
+564,Peruvian Amazon,Geographical Location,56805
+565,Iquitos region,Geographical location,56805
+566,urban,Not relevant,56805
+567,peri-urban,Geographical location,56805
+568,rural,Geographical location,56805
+569,serological typing,Process,56805
+570,16S ribosomal RNA gene sequencing,Process,56805
+571,pulsed-field gel electrophoresis,Process,56805
+572,DNA-DNA hybridization analysis,Process,56805
+573,microscopic agglutination test,Process,56805
+574,Southern blot hybridization,Process,56805
+575,Western immunoblot,Process,56805
+576,LipL32,Protein,56805
+577,serovar Varillal,Leptospira serovar,56805
+578,VAR 010(T),Leptospira strain,56805
+579,Hurstbridge,Person,56805
+580,2/45,Ratio,56805
+581,881,Leptospira strain,56805
+582,30%,Percentage,56805
+583,7%,Percentage,56805
+584,27 kDa,Protein Size,56805
+585,32 kDa,Protein Size,56805
+586,1:100,Ratio,56805
+587,biodiversity,Ecological Concept,56805
+588,phylogenetically related,Biological relationship,56805
+589,genetically distinct,Genetic trait,56805
+590,cross-reaction,Biological phenomenon,56805
+591,prospective study,Medical Research Study,56805
+592,isolates,Bacterial strains,56805
+593,febrile patients,Medical Condition,56805
+594,Mycoplasma alligatoris sp. nov.,Bacteria,57753
+595,American alligators,Animal,57753
+596,Alligator mississippiensis,Species,57753
+597,diseased,Medical Condition,57753
+598,tissues,Biological tissues,57753
+599,biochemical,Biochemical analysis,57753
+600,serological,Biological Assay,57753
+601,molecular genetic,Field of Study,57753
+602,lethal,Pathogen characteristic,57753
+603,pathogen,Bacterium,57753
+604,name,Scientific name,57753
+605,type strain,Bacterial strain,57753
+606,A21JP2T,Bacterial strain,57753
+607,ATCC 700619T,Bacterial strain,57753
+608,White-tailed deer,Animal species,59860
+609,Odocoileus virginianus,Species,59860
+610,Ehrlichia spp.,Bacteria,59860
+611,antibody prevalence,Ehrlichia spp. antibody prevalence,59860
+612,indirect fluorescent antibody test,DiagnosticTest,59860
+613,544,Number of deer,59860
+614,1269,Number of deer,59860
+615,43%,Percentage,59860
+616,544 (43%),Percentage,59860
+617,84 counties,GeographicalLocation,59860
+618,Alabama,State,59860
+619,Arkansas,State,59860
+620,Florida,State,59860
+621,Georgia,State,59860
+622,Illinois,State,59860
+623,Kentucky,State,59860
+624,Louisiana,State,59860
+625,Maryland,State,59860
+626,Massachusetts,State,59860
+627,Mississippi,State,59860
+628,Missouri,State,59860
+629,North Carolina,Geopolitical Entity,59860
+630,South Carolina,Geopolitical Entity,59860
+631,Tennessee,State,59860
+632,Texas,State,59860
+633,Virginia,State,59860
+634,West Virginia,State,59860
+635,USA,Country,59860
+636,southerly latitude,Geographical Location,59860
+637,low elevation,Geographical Feature,59860
+638,milder climatic conditions,Climate,59860
+639,natural history,Biological process,59860
+640,infection,Disease,59860
+641,southeastern United States,Geographical Region,59860
+642,Brucella sp.,Bacterium,59886
+643,marine mammals,Host,59886
+644,pinnipeds,Host,59886
+645,cetaceans,Host,59886
+646,Phoca vitulina,Host,59886
+647,harbor seals,Animal species,59886
+648,Phoca groenlandica,Host,59886
+649,harp seals,Animal Species,59886
+650,coast of southern New England,Geographical Location,59886
+651,Connecticut,GeopoliticalEntity,59886
+652,Rhode Island,Geopolitical Entity,59886
+653,serum samples,Biological specimen,59886
+654,serum,Biological sample,59886
+655,brucellosis card test,Test,59886
+656,buffered acidified plate antigen test,Test,59886
+657,rivanol test,Test,59886
+658,lymphoid tissues,Tissue,59886
+659,visceral tissues,Tissue,59886
+660,lung,Tissue,59886
+661,axillary lymph nodes,Tissue,59886
+662,inguinal lymph nodes,Tissue,59886
+663,prescapular lymph nodes,Tissue,59886
+664,gross changes,Pathological finding,59886
+665,histopathologic changes,Pathological finding,59886
+666,119,Page number,59886
+667,4,Number,59886
+668,1985,Year,59886
+669,2000,Year,59886
+670,1998,Year,59886
+671,20,Number,59886
+672,21,Number,59886
+673,14%,Percentage,59886
+674,53,Number,59886
+675,8%,Percentage,59886
+676,50%,Percentage,59886
+677,9,Number,59886
+678,33%,Percentage,59886
+679,5,Number,59886
+680,2,Number,59886
+681,3,Number,59886
+682,Mycobacterium avium subsp. paratuberculosis,Bacteria,57730
+683,brown bears,Animal Species,57730
+684,Ursus arctos,Animal species,57730
+685,National Park Low Tatras,Geographical Location,57730
+686,central European Carpathians,Geographical Location,57730
+687,Slovakia,Country,57730
+688,tissue samples,Biological specimen,57730
+689,kidney,Organ,57730
+690,intestinal mucosa,Anatomical Structure,57730
+691,Ziehl-Neelsen staining,Method,57730
+692,smear,Biological sample,57730
+693,acid-fast rods,Bacteria,57730
+694,culture,Method,57730
+695,polymerase chain reaction,Method,57730
+696,IS900,Insertion Sequence,57730
+697,RFLP type B-C1,Mycobacterium avium subspecies paratuberculosis strain,57730
+698,paratuberculosis,Disease,57730
+699,ruminants,Animal group,57730
+700,cattle,Animal,57730
+701,infection,disease,57730
+702,vectors,Biological vectors,57730
+703,reservoirs,Biological reservoirs,57730
+704,20,Quantity,57730
+705,two,CardinalNumber,57730
+706,Salmonella spp.,Bacterial genus,59832
+707,Salmonella enterica,Bacterium,59832
+708,Channel Islands,Geographical Location,59832
+709,California,Geopolitical Entity,59832
+710,USA,Geopolitical entity,59832
+711,San Miguel Island,Geographical Location,59832
+712,San Nicolas Island,Geographical Location,59832
+713,Zalophus californianus,hosts,59832
+714,California sea lion,Animal,59832
+715,Mirounga angustirostris,hosts,59832
+716,northern elephant seal,Animal,59832
+717,Larus occidentalis,hosts,59832
+718,western gull,Animal,59832
+719,Puget Sound,Geographical location,59832
+720,WA,State,59832
+721,fecal samples,Biological specimen,59832
+722,90,Percentage,59832
+723,30,Year,59832
+724,87,Page number,59832
+725,59,Year,59832
+726,21%,Percentage,59832
+727,19,Year,59832
+728,87%,Percentage,59832
+729,26,Year,59832
+730,9%,Percentage,59832
+731,8,Number,59832
+732,Enteritidis,Serotype,59832
+733,Montevideo,Serotype,59832
+734,Newport,Serotype,59832
+735,Reading,Serotype,59832
+736,Saint Paul,Serotype,59832
+737,pulsed-field gel electrophoresis,Technique,59832
+738,antimicrobial susceptibility testing,MedicalProcedure,59832
+739,zoonotic potential,Biological property,59832
+740,researchers,Scientific Researchers,59832
+741,veterinarians,Profession,59832
+742,prevalence,Measurement,59832
+743,antimicrobial sensitivity,Measurement,59832
+744,genetic similarity,Measurement,59832
+745,Papio anubis,hosts,60194
+746,baboon,Animal,60194
+747,Cercopithecus aethiops,hosts,60194
+748,vervet,Species,60194
+749,Ethiopia,Geopolitical Entity,60194
+750,Rift Valley,Geographical region,60194
+751,faecal samples,Biological specimen,60194
+752,59,Number,60194
+753,41,Number,60194
+754,Ziehl-Neelsen method,Diagnostic technique,60194
+755,10% formalin,Chemical,60194
+756,Trichuris sp.,Parasite,60194
+757,Strongyloides sp.,Parasitic nematode,60194
+758,Trichostrongylus sp.,Parasite,60194
+759,Oesophagostomum sp.,Parasitic nematode,60194
+760,Schistosoma mansoni,Parasitic worm,60194
+761,Entamoeba coli,Parasite,60194
+762,Entamoeba histolytica/dispar,Parasite,60194
+763,Blastocystis hominis,Parasite,60194
+764,Cyclospora sp.,Parasite,60194
+765,Cryptosporidium sp.,Parasite,60194
+766,zoonotic intestinal parasites,Disease,60194
+767,parasitic protozoa,Disease,60194
+768,helminths,Disease,60194
+769,human welfare,Concept,60194
+770,water sources,Environmental factor,60194
+771,human habitats,Environmental Context,60194
+772,parasitic infection,Disease,60194
+773,control programme,Research Study,60194
+774,Human contact,Biological interaction,60248
+775,foraging behaviour,Biological Behavior,60248
+776,parasite community,Biological Community,60248
+777,long-tailed macaques,Animal Species,60248
+778,Macaca fascicularis,Species,60248
+779,forest parks,Geographical Location,60248
+780,north-eastern Thailand,Geopolitical Region,60248
+781,helminth parasite associations,Parasitological relationship,60248
+782,non-human primates,Animal Group,60248
+783,anthropogenically modified environments,Environmental Category,60248
+784,sylvatic groups,Biological Group,60248
+785,natural environments,Ecosystem,60248
+786,human–non-human primate transmission,Biological Process,60248
+787,parasites,Biological Organisms,60248
+788,Opisthorchis viverrini,Parasite,60248
+789,Strongyloides stercoralis,Parasite,60248
+790,macaque feces,Biological Sample,60248
+791,Strongyloides fuelleborni,Parasitic nematode,60248
+792,Haplorchis sp.,Parasite,60248
+793,human-provided food,Dietary component,60248
+794,zoonotic helminth infection,Disease,60248
+795,wild non-human primates,Animal,60248
+796,habitat,Ecological habitat,60248
+797,behaviour,Biological Behavior,60248
+798,prevalence,DiseasePrevalence,60248
+799,intensity,Disease Severity,60248
+800,infection,Disease,60248
+801,time foraging on the ground,Behavioral Activity,60248
+802,human alteration,Environmental Impact,60248
+803,Parasites,Biological Organisms,60137
+804,free-ranging black howler monkeys,Animal Species,60137
+805,Alouatta pigra,hosts,60137
+806,Belize,Country,60137
+807,Mexico,Geopolitical Entity,60137
+808,ecological web,ecological concept,60137
+809,ecosystem health,Ecological Indicator,60137
+810,baseline parasitological data,Biological Data,60137
+811,2003,Year,60137
+812,2003 and 2004,Year,60137
+813,283,Parasite,60137
+814,50,Number,60137
+815,fecal samples,Biological specimen,60137
+816,standard quantitative centrifugation concentration techniques,Method,60137
+817,sugar,Substance,60137
+818,zinc sulfate,Substance,60137
+819,flotation media,Substance,60137
+820,bright-field microscopy,Method,60137
+821,phase microscopy,Method,60137
+822,antigen capture enzyme-linked immunosorbent assays (ELISAs),Method,60137
+823,protozoa,Parasite,60137
+824,Controrchis biliophilus,Parasite,60137
+825,Dicrocoeliidae,Family,60137
+826,Trypanoxyuris minutus,Parasitic Nematode,60137
+827,Oxyuridae,Family,60137
+828,Giardia sp.,Parasite,60137
+829,Hexamitidae,Family,60137
+830,Entamoeba sp.,Parasite,60137
+831,Endamoebidae,Family,60137
+832,Giardia duodenalis,Parasite,60137
+833,G. lamblia,Parasite,60137
+834,G. intestinalis,Parasite,60137
+835,Assemblages A and B,Parasite groups,60137
+836,people,Host,60137
+837,domestic animals,Host,60137
+838,DNA,Biological molecule,60137
+839,wet season,Environmental Condition,60137
+840,dry season,Environmental Condition,60137
+841,80%,Percentage,60137
+842,81%,Prevalence rate,60137
+843,8%,Percentage,60137
+844,27%,Percentage,60137
+845,40%,Percentage,60137
+846,80% (wet season),Percentage,60137
+847,81% (dry season),Percentage,60137
+848,8% (wet season),Seasonal Prevalence Rate,60137
+849,27% (dry season),Temporal indicator,60137
+850,40% (wet season),Percentage,60137
+851,intestinal parasites,Parasitic organism,60134
+852,howler monkey,Animal,60134
+853,Alouatta palliata,Host,60134
+854,spider monkey,Animal,60134
+855,Ateles geoffroyi,Host,60134
+856,tropical dry forest,Ecosystem,60134
+857,Costa Rica,Geopolitical Entity,60134
+858,endoparasite species richness,Biological Measure,60134
+859,prevalence,Biological Measure,60134
+860,host traits,Property,60134
+861,reproductive status,Property,60134
+862,social status,Property,60134
+863,age,Property,60134
+864,sex,Property,60134
+865,host population density,Property,60134
+866,environmental factors,Property,60134
+867,humidity,Property,60134
+868,Controrchis sp.,Parasite,60134
+869,Trypanoxyuris sp.,Parasite,60134
+870,Strongyloides sp.,Parasite,60134
+871,males,Host,60134
+872,lactating females,Host,60134
+873,infectious diseases,Disease,60134
+874,conservation strategies,Conservation Planning,60134
+875,protected areas,Conservation Zones,60134
+876,parasite,Biological organism,60321
+877,parasite richness,Biological Diversity Metric,60321
+878,host parasite diversity,Ecological Concept,60321
+879,ecological processes,Biological Process,60321
+880,evolutionary processes,Biological Process,60321
+881,rainfall,Environmental Factor,60321
+882,temperature,Environmental Factor,60321
+883,ranging behavior,Behavioral Trait,60321
+884,home range productivity,Ecological Measure,60321
+885,age,Property,60321
+886,sex,Property,60321
+887,body condition,Property,60321
+888,social rank,Property,60321
+889,chacma baboons,Animal Species,60321
+890,Papio ursinus,Host,60321
+891,fecal samples,Biological specimen,60321
+892,individuals,Host,60321
+893,age-sex classes,Property,60321
+894,groups,Social groups,60321
+895,dry seasons,Temporal Period,60321
+896,desert population,Geographic Population,60321
+897,mixed models,Statistical models,60321
+898,individual age,Property,60321
+899,females,Host,60321
+900,animals in poor condition,Host,60321
+901,day range,Biological parameter,60321
+902,effect size,Biological Measure,60321
+903,Phocascaris cystophorae,Nematode species,59994
+904,"Phocascaris cystophorae Berland, 1964",Parasitic Nematode,59994
+905,Nematoda,Phylum,59994
+906,Anisakidae,Family,59994
+907,hooded seal,Animal,59994
+908,Cystophora cristata,Animal species,59994
+909,Scanning electron microscopy,Technique,59994
+910,excretory pore,Structure,59994
+911,interlabia knobs,Structure,59994
+912,lips,Structure,59994
+913,adjacent structures,Structure,59994
+914,caudal papillae,Structure,59994
+915,papilla-like structures,Structure,59994
+916,Phocascaris,Genus,59994
+917,Contracaecum osculatum,Parasitic nematode species,59994
+918,Contracaecum osculatum (sensu lato),Nematode species,59994
+919,phocid seals,Animal,59994
+920,parasite,Nematode,59994
+921,eastern spotted skunk,Animal,60365
+922,Spilogale putorius,Host,60365
+923,feces,Biological sample,60365
+924,Arkansas,GeopoliticalEntity,60365
+925,March 2005,Date,60365
+926,January 2007,Date,60365
+927,west-central Arkansas,Geographical Location,60365
+928,broader study,Research Project,60365
+929,ecology,Field of study,60365
+930,species,Taxonomic species,60365
+931,nine nematodes,Biological species,60365
+932,four protozoa,Protozoa,60365
+933,82 fecal samples,Biological sample,60365
+934,Mean (+/-SD) number of species per individual skunk,Statistical Measure,60365
+935,4.1,NumericalValue,60365
+936,2.1,Numerical Value,60365
+937,underestimate,Noun,60365
+938,individuals,Human,60365
+939,parasite species,Biological Taxon,60365
+940,other skunk species,Host,60365
+941,small carnivore species,Host,60365
+942,Steroid hormone,Chemical,60360
+943,male biased parasitism,Biological Phenomenon,60360
+944,chamois,Animal species,60360
+945,Rupicapra rupicapra rupicapra,Host,60360
+946,parasites,Biological organisms,60360
+947,host,Host,60360
+948,immune response,Biological Process,60360
+949,communities,Ecological Communities,60360
+950,biodiversity,Biological Diversity,60360
+951,sex,Property,60360
+952,life history strategy,Biological Concept,60360
+953,response to parasites,Biological Phenomenon,60360
+954,males,Host,60360
+955,females,Host,60360
+956,vertebrate species,Host,60360
+957,sex-associated hormones,Chemical,60360
+958,immunocompetence,Property,60360
+959,bias,Property,60360
+960,field study,Research Method,60360
+961,free ranging chamois,Host,60360
+962,gastrointestinal helminths,Parasite,60360
+963,lung helminths,Parasitic Worm,60360
+964,faecal androgen,Chemical,60360
+965,testosterone,Chemical,60360
+966,epiandrosterone,Chemical,60360
+967,cortisol,Chemical,60360
+968,oestrogen,Chemical,60360
+969,enzyme immunoassays,Method,60360
+970,EIA,Method,60360
+971,non-invasive methods,Method,60360
+972,study,Field Study,60360
+973,year,TimePeriod,60360
+974,seasonal patterns,Temporal Phenomenon,60360
+975,hormone levels,Measurement,60360
+976,parasite counts,Measurement,60360
+977,male chamois,Host,60360
+978,gastrointestinal eggs,Parasitic eggs,60360
+979,lungworm larvae,Parasite,60360
+980,hypothesis of MBP,Biological Hypothesis,60360
+981,sex related hormone levels,Chemical,60360
+982,elevated output of lungworm larvae,Parasitological Phenomenon,60360
+983,gastrointestinal nematodes,Parasitic worm,60360
+984,faecal output of lungworm larvae,Biological Sample,60360
+985,androgen,Chemical,60360
+986,cortisol metabolite levels,Measurement,60360
+987,Gastrointestinal helminths,Parasitic organism,60352
+988,Florida panthers,Animal species,60352
+989,Puma concolor coryi,hosts,60352
+990,"Puma concolor coryi [Bangs, 1899]",Animal species,60352
+991,southern Florida,Geographical Location,60352
+992,1978,Year,60352
+993,2003,Year,60352
+994,necropsy,MedicalProcedure,60352
+995,anthelmintics,Drug,60352
+996,17,Number,60352
+997,18,Number,60352
+998,nine species of helminths,Biological Taxon,60352
+999,trematode,Parasitic flatworm,60352
+1000,nematodes,Parasitic worm,60352
+1001,cestodes,Parasitic flatworms,60352
+1002,Alaria marcianae,Parasitic Trematode,60352
+1003,"LaRue, 1917",Scientific name,60352
+1004,Spirometra mansonoides,Parasitic helminth,60352
+1005,"Mueller, 1935",Scientific name,60352
+1006,Ancylostoma pluridentatum,Parasitic nematode,60352
+1007,"Alessandrini, 1859",Scientific name,60352
+1008,Ancylostoma caninum,Parasitic nematode,60352
+1009,"Ercolani, 1859",Scientific name,60352
+1010,A. marcianae,Helminth species,60352
+1011,A. pluridentatum,Helminth species,60352
+1012,S. mansonoides,Helminth,60352
+1013,Taenia omissa,Parasitic helminth,60352
+1014,"Lühe, 1910",Scientific name,60352
+1015,Mesocestoides sp.,Parasitic worm,60352
+1016,Forrester et al. (1985),Scientific Publication,60352
+1017,parasite misidentification,Medical Issue,60352
+1018,intensity,Parasite load,60352
+1019,prevalence,DiseasePrevalence,60352
+1020,posttreatment,Time period,60352
+1021,6 mo,Time period,60352
+1022,9 mo,Time period,60352
+1023,< or =6 mo,Time period,60352
+1024,>9 mo,Time period,60352
+1025,6 and 9 mo,Time period,60352
+1026,< or =6 mo PT,Time period,60352
+1027,>9 mo PT,Time period,60352
+1028,6 and 9 mo PT,Time period,60352
+1029,1978-1983,Time period,60352
+1030,1996-2003,Time period,60352
+1031,lungworms,Parasitic nematodes,60155
+1032,coyotes,Animal,60155
+1033,Canis latrans,Animal species,60155
+1034,Filaroides osleri,Parasitic nematode,60155
+1035,Capillaria aerophila,Parasitic nematode,60155
+1036,trachea,Tissue,60155
+1037,bronchial trees,Tissue,60155
+1038,Coyote carcasses,Biological specimen,60155
+1039,Oklahoma,State,60155
+1040,Colorado,State,60155
+1041,Wyoming,State,60155
+1042,Iowa,State,60155
+1043,South Dakota,State,60155
+1044,Nebraska,State,60155
+1045,Texas,State,60155
+1046,Kansas,GeopoliticalEntity,60155
+1047,carcasses,Animal remains,60155
+1048,cysts,Dermatological condition,60155
+1049,mucus,Biological Substance,60155
+1050,bronchi,Tissue,60155
+1051,60,Quantity,60155
+1052,395,Quantity,60155
+1053,68,Percentage,60155
+1054,17%,Prevalence rate,60155
+1055,151,Number,60155
+1056,38%,Prevalence rate,60155
+1057,6%,Prevalence rate,60155
+1058,195,Number,60155
+1059,49%,Percentage,60155
+1060,Filaroides,Genus,60155
+1061,Capillaria,Parasitic nematode,60155
+1062,Helminth,Parasitic worm,60242
+1063,Eurasian lynx,Animal species,60242
+1064,Lynx lynx,hosts,60242
+1065,Estonia,Country,60242
+1066,1999-2001,Time Period,60242
+1067,Diphyllobothrium latum,Parasitic helminth,60242
+1068,Taenia pisiformis,Parasitic helminth,60242
+1069,Taenia laticollis,Parasitic helminth,60242
+1070,Taenia hydatigena,Helminth,60242
+1071,Taenia taeniaeformis,Parasitic helminth,60242
+1072,Toxocara cati,Parasitic nematode,60242
+1073,Trichinella spp.,Parasitic nematode,60242
+1074,Capillaria spp.,Parasitic Nematode,60242
+1075,Parasites,Helminths,60242
+1076,Carcasses,Biological specimens,60242
+1077,Fecal samples,Biological specimen,60242
+1078,Snow tracking,Biological process,60242
+1079,Age,Temporal Attribute,60242
+1080,Sex,Biological Attribute,60242
+1081,Prevalence,Biological Prevalence,60242
+1082,37,Number,60242
+1083,61,Year,60242
+1084,9,Year,60242
+1085,5%,Percentage,60242
+1086,100%,Percentage,60242
+1087,41%,Percentage,60242
+1088,3%,Percentage,60242
+1089,68%,Percentage,60242
+1090,22%,Percentage,60242
+1091,38,Number,60242
+1092,8,Year,60242
+1093,P < or = 0.05,Statistical Threshold,60242
+1094,older male lynx,Animal,60242
+1095,younger lynx,Animal,60242
+1096,greater number of T. pisiformis and T. laticollis,Parasitic Helminths,60242
+1097,greater number of species of helminth,Biological Taxon,60242
+1098,first systematic investigation,Research Study,60242
+1099,Aleutian Disease Virus,Virus,60035
+1100,ADV,Disease,60035
+1101,parvovirus,Virus,60035
+1102,European mink,Animal species,60035
+1103,Mustela lutreola,Species,60035
+1104,Navarra,Geopolitical entity,60035
+1105,Spain,Geopolitical entity,60035
+1106,20th century,Time period,60035
+1107,carnivores,Animal group,60035
+1108,420,Page number,60035
+1109,two thirds,Fraction,60035
+1110,Aleutian Disease,Viral Disease,60035
+1111,small carnivores,Taxonomic group,60035
+1112,American mink,Mentioned species,60035
+1113,genotype,Biological trait,60035
+1114,immune status,Biological Condition,60035
+1115,February-March 2004,Time period,60035
+1116,2004,Year,60035
+1117,2005,Year,60035
+1118,September-December 2004,Time period,60035
+1119,seven rivers,Geographical location,60035
+1120,European mink habitat,Geographical location,60035
+1121,Antibody counter immunoelectrophoresis,Laboratory test,60035
+1122,84,Year,60035
+1123,blood samples,Sample type,60035
+1124,negative,MedicalTestResult,60035
+1125,protein electrophoresis,biomedical technique,60035
+1126,93,Year,60035
+1127,plasma samples,Sample type,60035
+1128,gamma globulin,Protein,60035
+1129,20%,Percentage,60035
+1130,total plasma protein,Biological Measurement,60035
+1131,complete necropsies,Medical Procedure,60035
+1132,23,Year,60035
+1133,cadavers,Sample type,60035
+1134,2000,Year,60035
+1135,traumatic and hemorrhagic lesions,Pathological Condition,60035
+1136,vehicular impact injuries,Medical Condition,60035
+1137,histopathologic lesions,Pathological findings,60035
+1138,canine distemper virus,Virus,60035
+1139,pulmonary adiaspiromycosis,Disease,60035
+1140,three,Cardinal number,60035
+1141,Elaeophorosis,Disease,60186
+1142,Elaeophora elaphi,Parasite,60186
+1143,red deer,Animal species,60186
+1144,Cervus elaphus,Animal species,60186
+1145,Toledo Province,Geopolitical Entity,60186
+1146,Spain,Geopolitical Entity,60186
+1147,adult specimens,Nematodes,60186
+1148,hepatic vessels,Blood vessels in the liver,60186
+1149,nine,Cardinality,60186
+1150,151,Number of red deer,60186
+1151,October 1994,Date,60186
+1152,September 1995,Date,60186
+1153,fall,Season,60186
+1154,early spring,Season,60186
+1155,sex,BiologicalSex,60186
+1156,age groups,Demographic category,60186
+1157,fallow deer,Animal,60186
+1158,Dama dama,Species,60186
+1159,blood samples,Biological specimen,60186
+1160,microfilariae,Parasite,60186
+1161,negative,TestResult,60186
+1162,Parafilaroides,Genus,60142
+1163,Nematoda,Phylum,60142
+1164,Filaroididae,Family,60142
+1165,fur seals,Animal,60142
+1166,Carnivora,Taxonomic Order,60142
+1167,Otariidae,Family,60142
+1168,Southern Hemisphere,Geographical Region,60142
+1169,Australian fur seals,Animal species,60142
+1170,Arctocephalus pusillus doriferus,Host,60142
+1171,"Wood Jones, 1925",Scientific name,60142
+1172,New Zealand fur seals,Animal species,60142
+1173,A. forsteri,Host,60142
+1174,"Lesson, 1828",Scientific name,60142
+1175,sub-Antarctic fur seal,Animal,60142
+1176,A. tropicalis,Host,60142
+1177,"Gray, 1872",Scientific name,60142
+1178,Australia,Geographical Location,60142
+1179,New Zealand,Geopolitical entity,60142
+1180,South Africa,Geopolitical Entity,60142
+1181,lungs,Organ,60142
+1182,Parafilaroides normani,Species,60142
+1183,eared seal,Animal,60142
+1184,body size,Property,60142
+1185,spicule shape,Property,60142
+1186,spicule size,Property,60142
+1187,vulva to anus length,Property,60142
+1188,vaginal sphincter musculature,Property,60142
+1189,6 recognized species,Biological species,60142
+1190,genus,Taxonomic rank,60142
+1191,Brugia beaveri,Parasitic nematode species,60342
+1192,filaria,Parasitic nematode,60342
+1193,raccoons,Animal,60342
+1194,Procyon lotor,Host,60342
+1195,Louisiana,GeopoliticalEntity,60342
+1196,microfilariae,Parasitic worm stage,60342
+1197,peripheral blood,Tissue,60342
+1198,mosquitoes,Vector,60342
+1199,domestic cat,Animal,60342
+1200,Felis catus,Host,60342
+1201,jirds,Animal,60342
+1202,Meriones unguiculatus,Host,60342
+1203,prepatent period,Biological Time Period,60342
+1204,70-107 days,Duration,60342
+1205,adult worms,Parasitic nematodes,60342
+1206,lymphatics,Tissue,60342
+1207,subcutaneous tissues,Tissue,60342
+1208,heart,Tissue,60342
+1209,lungs,Tissue,60342
+1210,testes,Tissue,60342
+1211,body wall,Tissue,60342
+1212,cuticle,Tissue,60342
+1213,lateral fields,Tissue,60342
+1214,"lateral, internal cuticular ridge",Tissue,60342
+1215,hypodermis,Tissue,60342
+1216,lateral chords,Tissue,60342
+1217,dorsal and ventral chords,Tissue,60342
+1218,muscle cells,Tissue,60342
+1219,coelomyarian,Cell type,60342
+1220,internal organs,Tissue,60342
+1221,Taenia parva,Parasitic flatworm,60214
+1222,"Taenia parvaBaer, 1926",Parasitic Cestode Species,60214
+1223,Cestoda,Phylum,60214
+1224,Cyclophyllidea,Taxonomic family,60214
+1225,Taeniidae,Family,60214
+1226,common genet,Animal,60214
+1227,Genetta genetta,Host organism,60214
+1228,spermiogenesis,Process,60214
+1229,spermatozoon,Cell,60214
+1230,axoneme,Cellular structure,60214
+1231,cytoplasmic extension,Cellular structure,60214
+1232,free flagellum,Cellular structure,60214
+1233,striated roots,Cellular structure,60214
+1234,centrioles,Cellular structure,60214
+1235,intercentriolar body,Cellular structure,60214
+1236,flagellar rotation,Process,60214
+1237,mature spermatozoon,Cell,60214
+1238,periaxonemal sheath,Cellular structure,60214
+1239,intracytoplasmic walls,Cellular structure,60214
+1240,crest-like body,Cellular structure,60214
+1241,Bâ and Marchand,Person,60214
+1242,type III spermiogenesis,Process,60214
+1243,cyclophyllideans,Taxonomic group,60214
+1244,chimpanzees,Pan troglodytes,60302
+1245,Pan troglodytes,Species,60302
+1246,tapeworm,Parasite,60302
+1247,Bertiella studeri,Parasitic worm,60302
+1248,leaf-swallowing,Behavior,60302
+1249,parasites,Biological organisms,60302
+1250,tapeworm infection,Disease,60302
+1251,Kibale National Park,Location,60302
+1252,Uganda,Country,60302
+1253,seven-month period,Time Period,60302
+1254,6.5 years,Duration,60302
+1255,whole leaves,Plant Part,60302
+1256,dungs,Fecal matter,60302
+1257,tapeworm fragments,Parasitic organism part,60302
+1258,tapeworm infections,Disease,60302
+1259,tapeworms,Parasite,60302
+1260,chimpanzee communities,Group,60302
+1261,two chimpanzee communities,Group,60302
+1262,tape-worms,Parasitic Worm,60302
+1263,gastropod,Mollusk,60295
+1264,bighorn sheep,Animal,60295
+1265,Ovis canadensis,Animal Species,60295
+1266,lungworm,Parasitic nematode,60295
+1267,Protostrongylus spp.,Parasitic nematode,60295
+1268,fecal material,Biological sample,60295
+1269,semiarid climates,Geographical feature,60295
+1270,terrestrial gastropods,Host,60295
+1271,intermediate hosts,Biological organisms that harbor the larval stages of parasites,60295
+1272,Antelope Island,Geographical Location,60295
+1273,Newfoundland Mountains,Geographical Location,60295
+1274,northern Utah,Geographical Location,60295
+1275,USA,Geopolitical Entity,60295
+1276,May-August 2001-02,Time Period,60295
+1277,riparian,Ecological habitat,60295
+1278,rock,Geological formation,60295
+1279,desert shrub,Plant,60295
+1280,grass,Plant,60295
+1281,bighorn sheep groups,Group,60295
+1282,fecal pellet groups,Group,60295
+1283,lungworm levels,Measurement,60295
+1284,Vallonia,Genus of terrestrial pulmonate gastropod mollusks,60295
+1285,protostrongylid-type larvae,Parasitic nematode larvae,60295
+1286,lungworm prevalence,Measurement,60295
+1287,bighorn fecal samples,Biological Sample,60295
+1288,ram groups,Group,60295
+1289,nursery groups,Group,60295
+1290,fecal larvae counts,Measurement,60295
+1291,dry years,Environmental Condition,60295
+1292,perennial water sources,Hydrological Feature,60295
+1293,Longistrongylus curvispiculum,Nematode species,60119
+1294,Nematoda,Phylum,60119
+1295,Trichostrongyloidea,Taxonomic family,60119
+1296,free-ranging exotic antelope,Host,60119
+1297,Texas,Geopolitical entity,60119
+1298,USA,Geopolitical Entity,60119
+1299,sable,Animal,60119
+1300,Hippotragus niger,Host,60119
+1301,addax,Animal species,60119
+1302,Addax nasomaculatus,Host,60119
+1303,biesa oryx,Animal species,60119
+1304,Oryx beisa,Host,60119
+1305,ranches,Location,60119
+1306,central Texas,Geographical Location,60119
+1307,abomasal worm burden,Parasitic infection,60119
+1308,Haemonchus contortus,Parasitic nematode species,60119
+1309,female L. curvispiculum,Biological organism,60119
+1310,ostertaginae,Taxonomic group,60119
+1311,spicules,Male reproductive organ,60119
+1312,males,BiologicalSex,60119
+1313,Mesocestoides,Genus,60157
+1314,Cestoda,Taxonomic Order,60157
+1315,Mesocestoididae,Family,60157
+1316,deer mice,animal species,60157
+1317,Peromyscus maniculatus,Host,60157
+1318,coyotes,Animal,60157
+1319,Canis latrans,Host,60157
+1320,San Miguel Island,Geographical Location,60157
+1321,Hopland Research and Extension Center,Research Facility,60157
+1322,California,Geopolitical entity,60157
+1323,clade A,Biological clade,60157
+1324,clade B,Taxonomic group,60157
+1325,tapeworm infections,Disease,60157
+1326,proglottids,Life stage,60157
+1327,tetrathyridia,Life stage,60157
+1328,acephalic metacestodes,Life stage,60157
+1329,mice,Animal,60157
+1330,lizards,Animal,60157
+1331,hamsters,Animal,60157
+1332,western fence lizards,Animal,60157
+1333,laboratory mice,Animal,60157
+1334,domestic dogs,Animal,60157
+1335,adult tapeworm infection,Disease,60157
+1336,peritoneal tetrathyridial infections,Disease,60157
+1337,"a second, as of yet unidentified, intermediate host",Host,60157
+1338,asexual replication,Biological Process,60157
+1339,life cycles,Biological life cycles,60157
+1340,Schistosomiasis,Disease,60195
+1341,Schistosomiasis mansoni,Disease,60195
+1342,Omo National Park,Geographical Location,60195
+1343,southwest Ethiopia,Geopolitical Region,60195
+1344,tourists,Host,60195
+1345,Mui River,Geographical Feature,60195
+1346,Park residents,Host,60195
+1347,Suri people,Host,60195
+1348,Papio anubis,Host,60195
+1349,Cercopithecus aethiops,Host,60195
+1350,Biomphalaria pfeifferi,Host,60195
+1351,Trematode larvae,Parasitic worm larvae,60195
+1352,eggs,Schistosomiasis mansoni eggs,60195
+1353,adult worms,Parasitic organism,60195
+1354,stools,Biological Sample,60195
+1355,autopsy,MedicalProcedure,60195
+1356,snails,Host,60195
+1357,disease,Parasitic disease,60195
+1358,development,Biomedical Research,60195
+1359,Omo Valley,Geographical Location,60195
+1360,41%,Percentage,60195
+1361,33%,Percentage,60195
+1362,27%,Percentage,60195
+1363,home range use,Behavioral trait,60135
+1364,group size,Biological population parameter,60135
+1365,parasitism,Biological interaction,60135
+1366,primates,Animal Group,60135
+1367,body contact,Physical Interaction,60135
+1368,contaminated items,Environmental Object,60135
+1369,environment,Physical Environment,60135
+1370,infection,Disease,60135
+1371,directly transmitted parasites,Parasite,60135
+1372,exposure,Biological exposure,60135
+1373,individuals,hosts,60135
+1374,parasites,Biological Organisms,60135
+1375,range use,Behavioral trait,60135
+1376,hypothesis,Scientific Hypothesis,60135
+1377,Alouatta palliata,Species,60135
+1378,large group size,Group Size,60135
+1379,A. pigra,Species,60135
+1380,small group size,Biological population characteristic,60135
+1381,forest fragment,habitat,60135
+1382,Macuspana,Location,60135
+1383,Mexico,Country,60135
+1384,range area size,Ecological parameter,60135
+1385,intensity of home range use,Biological Measure,60135
+1386,DTP prevalence,Disease Prevalence,60135
+1387,DTP load,Parasite load,60135
+1388,ecological factors,Biological Concept,60135
+1389,microclimate,Environmental Condition,60135
+1390,social factors,Biological factor,60135
+1391,contact rate,Medical Term,60135
+1392,physiological factors,Biological Factors,60135
+1393,immune function,Biological Process,60135
+1394,dynamics of DTP,Biological Process,60135
+1395,Elaeophorosis,Disease,60291
+1396,bighorn sheep,Animal species,60291
+1397,Ovis canadensis,Animal species,60291
+1398,Elaeophora schneideri,Parasitic nematode,60291
+1399,New Mexico,Geopolitical Entity,60291
+1400,USA,Country,60291
+1401,Fra Cristobal Mountains,Geographical Location,60291
+1402,carotid arteries,Tissue,60291
+1403,iliac arteries,Tissue,60291
+1404,microfilariae,Parasitic worm larvae,60291
+1405,skin,Tissue,60291
+1406,nasal mucosa,Tissue,60291
+1407,brain,Tissue,60291
+1408,lungs,Tissue,60291
+1409,ram,Animal,60291
+1410,1997,Year,60291
+1411,26,Quantity,60291
+1412,euthanasia,Veterinary Procedure,60291
+1413,lesions,Dermatological Condition,60291
+1414,head,Animal Body Part,60291
+1415,crusty,Medical Condition,60291
+1416,scabby,Disease or Condition,60291
+1417,yearling ewe,Animal,60291
+1418,1998,Year,60291
+1419,Watson Mountain,Geographical Location,60291
+1420,Gila Wilderness area,Geographical Location,60291
+1421,13,Quantity,60291
+1422,heart,Organ,60291
+1423,mule deer,Animal,60291
+1424,Odocoileus hemionus hemionus,Animal species,60291
+1425,tabanid vectors,Biological vector,60291
+1426,"Setaria Viborg, 1795",Taxon,60229
+1427,Setaria thwaitei,Species,60229
+1428,Hippotragus niger,Host,60229
+1429,sable antelope,Animal species,60229
+1430,Hippotragus equinus,Host,60229
+1431,roan antelope,Animal,60229
+1432,Kobus ellipsiprymnus,Host,60229
+1433,waterbuck,Animal,60229
+1434,Setaria hornbyi,Species,60229
+1435,Oryx gazella,Host,60229
+1436,gemsbuck,Animal,60229
+1437,South Africa,Geopolitical Entity,60229
+1438,Mönnig,Scientific author,60229
+1439,Yeh,Person,60229
+1440,Scanning electron microscopy,Technique,60229
+1441,adult worms,Biological Organism,60229
+1442,female worms,Biological Organism,60229
+1443,measurements,BiologicalData,60229
+1444,species,Taxonomic species,60229
+1445,"Conepatus chinga Molina, 1782",Species,60201
+1446,Andean hog-nosed skunk,Animal species,60201
+1447,"Spirometra erinacei Faust, Campbell & Kellog, 1929",Parasitic flatworm species,60201
+1448,Cestoda,Taxonomic Order,60201
+1449,Diphyllobothridae,Family,60201
+1450,Abra La Raya,Geographical Location,60201
+1451,Cusco,Geographical Location,60201
+1452,Peru,Geopolitical Entity,60201
+1453,four,Cardinal number,60201
+1454,small intestine,Anatomical Structure,60201
+1455,first report,Scientific Publication,60201
+1456,Eimeria species,Parasitic protozoan,60431
+1457,serows,Animal,60431
+1458,Capricornis spp.,Host,60431
+1459,Capricornis crispus,Host,60431
+1460,Capricornis swinhoei,Host,60431
+1461,Japanese serows,Animal species,60431
+1462,Formosan serows,Subspecies,60431
+1463,fecal samples,Biological specimen,60431
+1464,35,Number,60431
+1465,5,Number,60431
+1466,October 1998,Date,60431
+1467,March 1999,Date,60431
+1468,Eimeriid coccidians,Parasitic protozoa,60431
+1469,12,Number,60431
+1470,1,Number,60431
+1471,34%,Percentage,60431
+1472,20%,Percentage,60431
+1473,3,Number,60431
+1474,2,Number,60431
+1475,Eimeria kamoshika,Parasitic protozoan species,60431
+1476,"Inoue, 1989",Publication,60431
+1477,Sporulated oocysts,Parasitic life stage,60431
+1478,20.7 x 16.8 microm,Measurement,60431
+1479,18-23 x 14-19 microm,Measurement range,60431
+1480,1.2,Species identifier,60431
+1481,1.1-1.4,Range,60431
+1482,micropyle,Anatomical structure,60431
+1483,oocyst residuum,Parasitological structure,60431
+1484,1-2 polar granules,Microscopic feature,60431
+1485,Sporocysts,Parasitic life stage,60431
+1486,10.5 x 5.9 microm,Measurement,60431
+1487,9-13 x 5-7 microm,Measurement range,60431
+1488,1.8,Measurement,60431
+1489,1.5-2.4,Range,60431
+1490,Stieda body,Anatomical structure,60431
+1491,sporocyst residuum,Parasitological term,60431
+1492,broadly ellipsoidal,Shape,60431
+1493,ellipsoidal,Shape,60431
+1494,broadly ovoidal,Shape,60431
+1495,28.2 x 22.0 microm,Measurement,60431
+1496,25-33 x 19-23 microm,Measurement range,60431
+1497,1.3,Species identifier,60431
+1498,1.1-1.5,Range,60431
+1499,slightly pointed end,Anatomical feature,60431
+1500,12.9 x 8.1 microm,Measurement,60431
+1501,11-15 x 7-10,Measurement range,60431
+1502,1.6,Species identifier,60431
+1503,1.3-1.9,Range,60431
+1504,Hepatozoon species,Parasite,60486
+1505,Japanese Marten,Animal Species,60486
+1506,Martes melampus melampus,Animal species,60486
+1507,myocardium,Anatomical Structure,60486
+1508,granulomatous nodules,Pathological finding,60486
+1509,merozoites,Parasitic stage,60486
+1510,gametocytes,Cell,60486
+1511,schizonts,Parasitic stage,60486
+1512,zoite,Parasitic life stage,60486
+1513,phagocytes,Immune cells,60486
+1514,nuclei,Cellular component,60486
+1515,18S rRNA gene sequence,Genetic Sequence,60486
+1516,Pine Marten,Animal,60486
+1517,Martes martes,Species,60486
+1518,Scotland,Geopolitical entity,60486
+1519,primates,Host,60177
+1520,habitat loss,Environmental Factor,60177
+1521,fragmentation,Environmental process,60177
+1522,parasitic diseases,Disease,60177
+1523,human activities,Human activity,60177
+1524,forest,Habitat,60177
+1525,Tana River red colobus,Species,60177
+1526,Procolobus rufomitratus,Host,60177
+1527,mangabey,Animal species,60177
+1528,Cercocebus galeritus galeritus,Host,60177
+1529,population density,Measurement,60177
+1530,epidemiological theory,Scientific Concept,60177
+1531,gastrointestinal parasites,Parasitic organism,60177
+1532,eastern Kenya,Geopolitical Region,60177
+1533,human population,Human activity,60177
+1534,forest resources,Natural Resource,60177
+1535,cultivation,Human activity,60177
+1536,monkeys,Animal,60177
+1537,colobus,Animal,60177
+1538,arboreal folivores,Animal Group,60177
+1539,terrestrial habitat generalists,Animal ecological niche,60177
+1540,forest area,Measurement,60177
+1541,disturbance,Environmental disturbance,60177
+1542,prevalence,Measurement,60177
+1543,richness,Measurement,60177
+1544,behavioural ecology,Biological field of study,60177
+1545,Entopolypoides macaci,Parasitic nematode,60522
+1546,"Mayer, 1934",Author,60522
+1547,African baboon,Animal,60522
+1548,Papio cynocephalus,Species,60522
+1549,L. 1766,Taxonomic authority,60522
+1550,Kenya,Geopolitical Entity,60522
+1551,Hepatocystis kochi,Parasite,60522
+1552,splenectomy,MedicalProcedure,60522
+1553,hemoglobin,Protein,60522
+1554,RBC,Cell,60522
+1555,primates,Animal,60522
+1556,E. macaci,Bacterial species,60522
+1557,H. kochi,Bacteria,60522
+1558,Parasitemia,Medical Condition,60522
+1559,descriptions,MedicalTerm,60522
+1560,differentiation,Biological Process,60522
+1561,African lions,Animal species,60306
+1562,Panthera leo,Animal species,60306
+1563,Intu Afrika Kalahari Game Reserve,Location,60306
+1564,southwestern Namibia,Geographical Location,60306
+1565,winter,Season,60306
+1566,summer,Season,60306
+1567,2003,Year,60306
+1568,2004,Year,60306
+1569,23,Quantity,60306
+1570,fresh lion scats,Biological Sample,60306
+1571,flotation technique,Diagnostic procedure,60306
+1572,parasites,Biological Organisms,60306
+1573,Ancylostoma braziliense,Nematode,60306
+1574,Gnathostoma spinigerum,Nematode,60306
+1575,Uncinaria stenocephala,Nematode,60306
+1576,Toxoplasma gondii,Parasite,60306
+1577,Isospora felis,Coccidian,60306
+1578,McMaster method,Technique,60306
+1579,14866 oocysts per gram of faeces,Measurement,60306
+1580,I. felis,Parasite,60306
+1581,endoparasite survey,Scientific Study,60306
+1582,endoparasite taxa,Biological classification,60306
+1583,habitat,EnvironmentalCondition,60306
+1584,semi-captive conditions,Environmental Condition,60306
+1585,deworming,MedicalProcedure,60306
+1586,rates of infection,Medical Condition,60306
+1587,levels of association,Biological Interaction,60306
+1588,western lowland gorillas,Animal Species,60223
+1589,Gorilla gorilla gorilla,hosts,60223
+1590,Bai Hokou,Location,60223
+1591,Dzangha-Ndoki National Park,Protected Area,60223
+1592,Central African Republic,Geopolitical Entity,60223
+1593,E,Study,60223
+1594,October 1999,Date,60223
+1595,November 2000,Date,60223
+1596,75,Quantity,60223
+1597,endoparasites,Parasitic organism,60223
+1598,amoebae,Biological genus,60223
+1599,entodiniomorph ciliates,Taxonomic group,60223
+1600,Prototapirella gorillae,Species,60223
+1601,Troglodytella spp.,Parasitic organism,60223
+1602,Gorillophilus thoracatus,Parasitic organism,60223
+1603,Balantidium-like organism,Parasite,60223
+1604,strongyle/trichostrongyle eggs,Parasitic Egg,60223
+1605,Mammomonogamus sp.,Parasitic Nematode,60223
+1606,Strongyloides sp.,Parasitic nematode,60223
+1607,Probstmayria sp.,Parasitic organism,60223
+1608,spirurid,Nematode,60223
+1609,trichuroid,Nematode,60223
+1610,trematodes,Parasitic flatworms,60223
+1611,flagellates,Protozoa,60223
+1612,cestodes,Parasitic flatworms,60223
+1613,ecotourism,affects,60223
+1614,health-monitoring program,Medical Program,60223
+1615,parasitism,Biological process,60223
+1616,baseline parasitologic data,Medical Data,60223
+1617,health,health status,60223
+1618,Colobus vellerosus,hosts,60200
+1619,ursine colobus monkeys,Animal species,60200
+1620,Boabeng-Fiema Monkey Sanctuary,Location,60200
+1621,Ghana,Country,60200
+1622,sacred grove,Geographical location,60200
+1623,monkeys,Host,60200
+1624,humans,hosts,60200
+1625,fecal samples,Biological specimen,60200
+1626,27,Year,60200
+1627,adult,Life Stage,60200
+1628,subadult,Life stage,60200
+1629,males,BiologicalSex,60200
+1630,six bisexual groups,Biological Group,60200
+1631,one all-male band,Social group,60200
+1632,July 2004,Date,60200
+1633,August 2005,Date,60200
+1634,fecal floatation,Diagnostic procedure,60200
+1635,Entamoeba sp.,Parasite,60200
+1636,Isospora sp.,Parasite,60200
+1637,Ascaris sp.,Parasite,60200
+1638,Enterobius sp.,Parasite,60200
+1639,Trichuris sp.,Parasite,60200
+1640,strongyle sp.,Parasitic Nematode,60200
+1641,digenean trematode,Parasitic flatworm,60200
+1642,Giardia sp.,Parasite,60200
+1643,G. duodenalis Assemblage B,Parasite,60200
+1644,Blastocystis sp.,Parasite,60200
+1645,subtype 2,Parasite subtype,60200
+1646,G. duodenalis,Parasite,60200
+1647,I. belli,Parasite,60200
+1648,parasite richness,Biological Measure,60200
+1649,parasite prevalence,Biological Measure,60200
+1650,long wet season,Climate Phenomenon,60200
+1651,long dry season,Environmental Phenomenon,60200
+1652,age,BiologicalAge,60200
+1653,rank,Taxonomic rank,60200
+1654,human settlements,Geographical location,60200
+1655,anthropozoonotic transmission,Biological Process,60200
+1656,zoonotic transmission,Biological Process,60200
+1657,Pan troglodytes,Host,60303
+1658,Papio Spp.,Host,60303
+1659,Gombe,Location,60303
+1660,Tanzania,Country,60303
+1661,Mt. Assirik,Geographical Location,60303
+1662,Senegal,Country,60303
+1663,Parasites,Intestinal parasites,60303
+1664,Nematodes,Parasitic Worms,60303
+1665,Papio anubis,Host,60303
+1666,Papio papio,Host,60303
+1667,Chimpanzees,Animal,60303
+1668,Baboons,Animal,60303
+1669,Fecal specimens,Biological sample,60303
+1670,Presence or absence of parasites,Measurement,60303
+1671,Infection,Disease,60303
+1672,Incidence of infection,Measurement,60303
+1673,Prevalence of infection,Measurement,60303
+1674,Wet season,Environmental phenomenon,60303
+1675,Dry season,Environmental condition,60303
+1676,Three baboon troops,Animal group,60303
+1677,Experimental and clinical parasitology,Field of study,60303
+1678,Normative data,Biological data,60303
+1679,Intestinal parasite loads,Measurement,60303
+1680,Gastrointestinal parasites,Parasitic organism,60178
+1681,Tana River red colobus,Animal species,60178
+1682,Procolobus rufomitratus,Host,60178
+1683,crested mangabey,Animal,60178
+1684,Cercocebus galeritus,Host,60178
+1685,Tana River,Geographical Location,60178
+1686,Kenya,Geopolitical entity,60178
+1687,fecal egg counts,Parasitological Test,60178
+1688,prevalence,DiseasePrevalence,60178
+1689,body size,Property,60178
+1690,behavioral ecology,Property,60178
+1691,terrestrial omnivores,Property,60178
+1692,social groups,Property,60178
+1693,parasite species,Biological Taxon,60178
+1694,nematodes,Parasitic worms,60178
+1695,protozoans,Parasite,60178
+1696,males,Host,60178
+1697,females,Host,60178
+1698,lactating females,Host,60178
+1699,nonlactating females,Host,60178
+1700,intermediate hosts,Host,60178
+1701,parasites,Gastrointestinal parasites,60178
+1702,mangabeys,Animal,60178
+1703,colobus,Animal,60178
+1704,monkeys,Animal,60178
+1705,difference,Property,60178
+1706,trend,Property,60178
+1707,Phagicola angrense,Parasitic Worm,60350
+1708,Digenea,Taxonomic family,60350
+1709,Heterophyidae,Family,60350
+1710,raccoon,animal,60350
+1711,Procyon lotor,Animal species,60350
+1712,Parramore Island,Geographical Location,60350
+1713,Virginia,GeopoliticalEntity,60350
+1714,USA,Geopolitical Entity,60350
+1715,enteritis,Disease,60350
+1716,juvenile,Animal age stage,60350
+1717,male,Gender,60350
+1718,weak,Medical Sign or Symptom,60350
+1719,ataxic,Medical Sign or Symptom,60350
+1720,melenic soft feces,Medical Condition,60350
+1721,carcass,Animal remains,60350
+1722,emaciated,Medical Condition,60350
+1723,pale,Medical Sign,60350
+1724,ascites,Medical Condition,60350
+1725,mesenteric vessels,Organ,60350
+1726,stomach,Organ,60350
+1727,intestines,Organ,60350
+1728,fetid bloody material,Pathological substance,60350
+1729,small intestinal mucosa,Organ,60350
+1730,necrosis,Pathological Condition,60350
+1731,lamina propria,Organ,60350
+1732,hemorrhage,Pathological Condition,60350
+1733,plasma cells,Cell Type,60350
+1734,eosinophils,Cell Type,60350
+1735,epithelium,tissue,60350
+1736,crypts,Organ,60350
+1737,parasite,Digenean,60350
+1738,first record,Medical Record,60350
+1739,trypanosomes,Parasite,60415
+1740,wild animals,Host,60415
+1741,Cameroon,Geopolitical Entity,60415
+1742,PCR,Method,60415
+1743,sleeping sickness,disease,60415
+1744,Central Africa,Geopolitical Region,60415
+1745,Bipindi,Location,60415
+1746,Quantitative buffy coat,Method,60415
+1747,KIVI,Method,60415
+1748,T. brucei s.l.,Trypanosoma brucei sensu lato,60415
+1749,T. congolense forest type,Trypanosoma species,60415
+1750,T. congolense savannah type,Trypanosoma congolense subspecies,60415
+1751,T. vivax,Parasite,60415
+1752,T. simiae,Trypanosoma species,60415
+1753,T. b. gambiense group 1,Trypanosoma brucei gambiense subtype,60415
+1754,164 animals,Sample size,60415
+1755,24 species,Biological classification,60415
+1756,ungulates,Animal Group,60415
+1757,rodents,Animal,60415
+1758,pangolins,Animal,60415
+1759,carnivores,Animal,60415
+1760,reptiles,Animal,60415
+1761,primates,Animal Group,60415
+1762,Cercocebus torquatus,Host,60415
+1763,Cercopithecus nictitans,Host,60415
+1764,Cephalophus dorsalis,Host,60415
+1765,C. monticola,Host,60415
+1766,Nandinia binotata,Host,60415
+1767,Genetta servalina,Host,60415
+1768,Cricetomys gambianus,Host,60415
+1769,Atherurus africanus,Host,60415
+1770,13 species,Biological classification,60415
+1771,54%,Percentage,60415
+1772,Plasmodium brasilianum,Parasite,60412
+1773,Simian malaria,Disease,60412
+1774,Brazilian Amazon,Geographical Location,60412
+1775,non-human primates,Host,60412
+1776,humans,Host,60412
+1777,zoonosis,Disease,60412
+1778,hydroelectric plants,Infrastructure,60412
+1779,Balbina,Hydroelectric Plant,60412
+1780,Samuel,Hydroelectric Plant,60412
+1781,Alouatta seniculus straminea,Host,60412
+1782,red-howler monkey,Animal species,60412
+1783,Chiropotes satanas chiropotes,Host,60412
+1784,bearded-saki,Animal species,60412
+1785,Ateles paniscus paniscus,Host,60412
+1786,spider-monkey,Animal,60412
+1787,Saimiri ustus,Host,60412
+1788,squirrel-monkey,Animal species,60412
+1789,Ateles paniscus chamek,Host,60412
+1790,black-faced-spider-monkey,Animal,60412
+1791,15.8%,Percentage,60412
+1792,9.9%,Percentage,60412
+1793,126,Number,60412
+1794,252,Number,60412
+1795,seven,CardinalNumber,60412
+1796,eight,CardinalNumber,60412
+1797,32.3%,Percentage,60412
+1798,50%,Percentage,60412
+1799,2[1+],Genetic Variant,60412
+1800,21%,Percentage,60412
+1801,28.6%,Percentage,60412
+1802,Hepatozoon americanum,Parasite,60423
+1803,coyotes,Animal,60423
+1804,Canis latrans,Species,60423
+1805,Oklahoma,Geopolitical Entity,60423
+1806,USA,Geopolitical Entity,60423
+1807,Hepatozoonosis,Disease,60423
+1808,tissue stages,Tissue,60423
+1809,skeletal muscle,Tissue,60423
+1810,cardiac muscle,Tissue,60423
+1811,Gulf Coast ticks,Species,60423
+1812,Amblyomma maculatum,Species,60423
+1813,epizootiology,Field of study,60423
+1814,canine hepatozoonosis,Disease,60423
+1815,North America,Geographical Region,60423
+1816,nine,CardinalNumber,60423
+1817,16,Number,60423
+1818,free-ranging,Animal Behavior,60423
+1819,Leishmania (Viannia) shawi sp. n.,Parasite,60444
+1820,monkeys,Animal,60444
+1821,Cebus apella,Host,60444
+1822,Chiropotes satanus,Host,60444
+1823,sloths,Animal,60444
+1824,Choloepus didactylus,Host,60444
+1825,Bradypus tridactylus,Host,60444
+1826,procyonids,Animal,60444
+1827,Nasua nasua,Host,60444
+1828,phlebotomine sandfly,Arthropod,60444
+1829,Lutzomyia whitmani,Host,60444
+1830,primary forest,ecological habitat,60444
+1831,State of Pará,Geopolitical entity,60444
+1832,north Brazil,Geographical Region,60444
+1833,biological,Characteristic,60444
+1834,biochemical,Characteristic,60444
+1835,serological,Characteristic,60444
+1836,morphology,Characteristic,60444
+1837,isoenzyme profiles,Characteristic,60444
+1838,kDNA buoyant densities,Characteristic,60444
+1839,monoclonal antibodies,Characteristic,60444
+1840,Hepatozoon sp.,Parasite,60487
+1841,Martes melampus,Animal species,60487
+1842,wild martens,Animal Species,60487
+1843,Gifu,Location,60487
+1844,Japan,Geopolitical Entity,60487
+1845,1991,Year,60487
+1846,1992,Year,60487
+1847,heart,Organ,60487
+1848,perirenal adipose tissue,Organ,60487
+1849,diaphragm,Organ,60487
+1850,mesentery,Organ,60487
+1851,tongue,Organ,60487
+1852,omentum,Organ,60487
+1853,perisplenic adipose tissue,Organ,60487
+1854,nodular lesions,Pathological finding,60487
+1855,schizonts,Parasitic stage,60487
+1856,merozoite-gametocytes,Parasitic stage,60487
+1857,67,Number,60487
+1858,70,Number,60487
+1859,96%,Percentage,60487
+1860,36%,Percentage,60487
+1861,10 to 15%,Percentage,60487
+1862,two types of nodular lesions,Biological Structure,60487
+1863,mature schizonts,Parasitic stage,60487
+1864,membrane-bound merozoites,Parasitic stage,60487
+1865,electron-dense cytoplasmic granules,Cellular Structure,60487
+1866,phagocytes,Cell type,60487
+1867,phagosome-like vacuole,Cellular structure,60487
+1868,nucleus,Cellular component,60487
+1869,parasite,Plasmodium,60487
+1870,merozoite-gamont nodule,Parasitic structure,60487
+1871,red foxes,Animal Species,60566
+1872,Vulpes vulpes,Species,60566
+1873,southeastern United States,Geographical Region,60566
+1874,1967 to 1995,Time Period,60566
+1875,sarcoptic mange,Disease,60566
+1876,traumatic injury,Disease,60566
+1877,canine distemper,Disease,60566
+1878,capture myopathy,Disease,60566
+1879,congenital absence of guard hairs,Disease,60566
+1880,intradermal tick infestation,Disease,60566
+1881,otodectic mange,Disease,60566
+1882,toxicosis,Disease,60566
+1883,morbidity,Medical Condition,60566
+1884,Sarcoptes scabiei,Parasite,60566
+1885,Sarcocystis,Parasite,60553
+1886,bear,Ursus americanus,60553
+1887,Ursus americanus,Animal species,60553
+1888,Sarcocystis infection,Disease,60553
+1889,skeletal muscles,Anatomical Structure,60553
+1890,North Carolina,GeopoliticalEntity,60553
+1891,sarcocysts,Parasitic Organism,60553
+1892,45 x 37.5 microm,Measurement,60553
+1893,67.5 x 50 microm,Measurement,60553
+1894,<2 microm,Measurement,60553
+1895,2 microm,Measurement,60553
+1896,0.7 microm,Measurement,60553
+1897,6 X 2.5 microm,Measurement,60553
+1898,first report,Medical Report,60553
+1899,Muscular Sarcocystis,Parasitic infection,60553
+1900,Toxoplasma gondii,Parasite,60511
+1901,white-tailed deer,Animal,60511
+1902,Odocoileus virginianus,Species,60511
+1903,Alabama,GeopoliticalEntity,60511
+1904,20 grams,Quantity,60511
+1905,heart tissue,biological sample,60511
+1906,mice,animal model,60511
+1907,direct agglutination test,DiagnosticTest,60511
+1908,tissue cysts,Pathological structure,60511
+1909,21%,Percentage,60511
+1910,4 of 19,Fraction,60511
+1911,1:50,Dilution ratio,60511
+1912,44%,Percentage,60511
+1913,7 of 16,Fraction,60511
+1914,negative,TestResult,60511
+1915,histological examinations,Medical Procedure,60511
+1916,sections,Anatomical part,60511
+1917,Muscular sarcocystosis,Disease,60488
+1918,wild carnivores,Animal,60488
+1919,Honshu,Geographical Location,60488
+1920,Japan,Geopolitical Entity,60488
+1921,65,Quantity,60488
+1922,12,Quantity,60488
+1923,Japanese raccoon dogs,Animal species,60488
+1924,Nyctereutes procyonoides viverrinus,Host,60488
+1925,one,Cardinal number,60488
+1926,Japanese red fox,Animal,60488
+1927,Vulpes vulpes japonica,Host,60488
+1928,three,CardinalNumber,60488
+1929,Japanese martens,Animal species,60488
+1930,Martes melampus melampus,Host,60488
+1931,two,CardinalNumber,60488
+1932,Japanese badgers,Animal species,60488
+1933,Meles meles anakuma,Host,60488
+1934,sarcocysts,Parasite,60488
+1935,Sarcocystis species,Parasite,60488
+1936,inflammation,Medical Condition,60488
+1937,ultrastructure,Biological structure,60488
+1938,sarcocyst wall,Biological Structure,60488
+1939,thin,Property,60488
+1940,undulations,Property,60488
+1941,thick,Property,60488
+1942,finger-like protrusions,Property,60488
+1943,microtubules,Property,60488
+1944,first published report,Publication,60488
+1945,red fox,animal species,60565
+1946,Vulpes vulpes,Animal species,60565
+1947,Fairmount Park,Location,60565
+1948,Philadelphia,City,60565
+1949,Pennsylvania,State,60565
+1950,USA,Country,60565
+1951,neurological disease,Disease,60565
+1952,captivity,State of being confined or held in a restricted environment,60565
+1953,rabies,Disease,60565
+1954,liver,Organ,60565
+1955,pale foci,Pathological lesion,60565
+1956,4 mm,Measurement,60565
+1957,diameter,Measurement,60565
+1958,foci of necrosis,Pathological finding,60565
+1959,Toxoplasma gondii,Parasite,60565
+1960,tachyzoites,Parasite,60565
+1961,organs,Organ,60565
+1962,lungs,Organ,60565
+1963,adrenal glands,Organ,60565
+1964,rabies antigen,Biological molecule,60565
+1965,distemper virus,virus,60565
+1966,inclusions,Pathological findings,60565
+1967,acute disseminated toxoplasmosis,Disease,60565
+1968,immunohistochemical staining,Diagnostic procedure,60565
+1969,Toxoplasmic encephalitis,Disease,60516
+1970,Rocky Mountain bighorn sheep,Animal,60516
+1971,Ovis canadensis canadensis,Animal,60516
+1972,Hells Canyon,Geographical Location,60516
+1973,Washington,Geopolitical entity,60516
+1974,USA,Geopolitical Entity,60516
+1975,4-mo-old,Age,60516
+1976,free-ranging,Animal behavior,60516
+1977,Toxoplasma gondii,Parasite,60516
+1978,encephalitis,Disease,60516
+1979,pneumonic pasteurellosis,Disease,60516
+1980,Pasteurella,Bacterium,60516
+1981,brain,Organ,60516
+1982,protozoa,parasite,60516
+1983,intralesional,Anatomical Location,60516
+1984,immunohistochemistry,DiagnosticTechnique,60516
+1985,first report,Medical Report,60516
+1986,logging,Process,60460
+1987,low-impact logging,Process,60460
+1988,prevalence,Disease Prevalence,60460
+1989,potentially pathogenic protozoa,Parasite,60460
+1990,free-ranging gorillas,Animal,60460
+1991,Gorilla gorilla gorilla,Host,60460
+1992,chimpanzees,Animal,60460
+1993,Pan troglodytes troglodytes,Host,60460
+1994,Republic of Congo,Geopolitical Entity,60460
+1995,parasitism,Process,60460
+1996,African apes,Animal,60460
+1997,selective logging,Process,60460
+1998,primate species,Biological Taxon,60460
+1999,hunting,Process,60460
+2000,food trees,Food source,60460
+2001,frugivores,Animal Group,60460
+2002,pathogens,Biological agents,60460
+2003,primate population declines,Biological Phenomenon,60460
+2004,host ecology,Ecological niche,60460
+2005,forest structure,Ecological Feature,60460
+2006,pathogen dynamics,Process,60460
+2007,resident wildlife populations,Ecosystem component,60460
+2008,environmental pollution,Process,60460
+2009,human fecal material,biological material,60460
+2010,zoonotic protozoa,Parasitic organism,60460
+2011,Cryptosporidium,Genus,60460
+2012,Giardia,Genus,60460
+2013,sympatric western lowland gorillas,Animal species,60460
+2014,Goualougo Triangle,Geographical Location,60460
+2015,Nouabalé-Ndoki National Park,Geographical Location,60460
+2016,Kabo Concession,Geographical Location,60460
+2017,Congo,Country,60460
+2018,Cryptosporidium infections,Disease,60460
+2019,infection,Disease,60460
+2020,3.73%,Percentage,60460
+2021,low-intensity logging,Process,60460
+2022,long-term elevated prevalence,Medical Condition,60460
+2023,Megatrypanum trypanosomes,Parasitic organism,60430
+2024,European Cervidae,Host,60430
+2025,Trypanosoma (Megatrypanum) theileri,Parasitic protozoan,60430
+2026,cattle,Mammal,60430
+2027,Bos taurus,Host,60430
+2028,fallow deer,Animal,60430
+2029,Cervus dama,hosts,60430
+2030,red deer,Animal,60430
+2031,Cervus elaphus,hosts,60430
+2032,roe deer,Animal,60430
+2033,Capreolus capreolus,hosts,60430
+2034,blood culture,Process,60430
+2035,biphasic medium,Laboratory reagent,60430
+2036,NNN agar slopes,Laboratory material,60430
+2037,Schneider's Drosophila medium,Cell culture medium,60430
+2038,isoenzyme analysis,Process,60430
+2039,molecular karyotyping,Process,60430
+2040,starch gel electrophoresis,Process,60430
+2041,isocitrate dehydrogenase,Enzyme,60430
+2042,phosphoglucomutase,Enzyme,60430
+2043,cluster analysis,Process,60430
+2044,pulsed-field gradient gel electrophoresis,Process,60430
+2045,PFGE,Process,60430
+2046,chromosomes,Biological Structure,60430
+2047,kb,Abbreviation,60430
+2048,"Evolution of a malaria resistance gene in wild primates. The ecology, behaviour and genetics of our closest living relatives, the nonhuman primates, should help us to understand the evolution of our own lineage. Although a large amount of data has been amassed on primate ecology and behaviour, much less is known about the functional and evolutionary genetic aspects of primate biology, especially in wild primates. As a result, even in well-studied populations in which nongenetic factors that influence adaptively important characteristics have been identified, we have almost no understanding of the underlying genetic basis for such traits. Here, we report on the functional consequences of genetic variation at the malaria-related FY (DARC) gene in a well-studied population of yellow baboons (Papio cynocephalus) living in Amboseli National Park in Kenya. FY codes for a chemokine receptor normally expressed on the erythrocyte surface that is the known entry point for the malarial parasite Plasmodium vivax. We identified variation in the cis-regulatory region of the baboon FY gene that was associated with phenotypic variation in susceptibility to Hepatocystis, a malaria-like pathogen that is common in baboons. Genetic variation in this region also influenced gene expression in vivo in wild individuals, a result we confirmed using in vitro reporter gene assays. The patterns of genetic variation in and around this locus were also suggestive of non-neutral evolution, raising the possibility that the evolution of the FY cis-regulatory region in baboons has exhibited both mechanistic and selective parallels with the homologous region in humans. Together, our results represent the first reported association and functional characterization linking genetic variation and a complex trait in a natural population of nonhuman primates.",LLM_Default_Classification,60523
+2049,"Multi-host pathogens and carnivore management in southern Africa. A retrospective serosurvey of multi-host feline and canine viruses among carnivore species in southern Africa (n=1018) identified widespread pathogen exposure even in remote protected areas. In contrast to mortality experienced in East African predators, canine distemper virus (CDV) infection among African wild dogs (Lycaon pictus) in Botswana was not associated with identifiable change in pup survivorship or disease related mortality of adults. A disease outbreak of unknown aetiology occurred in the same population over 4 weeks in 1996. Outbreak boundaries coincided with ecotones, not the spatial distribution of contiguous packs, highlighting the potential importance of landscape heterogeneities in these processes. Direct management of pathogens in domestic animal reservoirs is complicated by the apparent complexity of pathogen maintenance and transmission in these large systems. Conservation effort should be focused at securing large metapopulations able to compensate for expected episodic generalist pathogen invasion and attention directed to addressing underlying causes of population depression such as habitat loss and wildlife conflict.",LLM_Default_Classification,59954
+2050,"Molecular linkage of hantavirus pulmonary syndrome to the white-footed mouse, Peromyscus leucopus: genetic characterization of the M genome of New York virus. The complete M segment sequences of hantaviruses amplified from tissues of a patient with hantavirus pulmonary syndrome in the northeastern United States and from white-footed mice, Peromyscus leucopus, from New York were 99% identical and differed from those of Four Corners virus by 23%. The serum of this patient failed to recognize a conserved, immunodominant epitope of the Four Corners virus G1 glycoprotein. Collectively, these findings indicate that P. leucopus harbors a genetically and antigenically distinct hantavirus that causes hantavirus pulmonary syndrome.",LLM_Default_Classification,59037
+2051,"Characterization of the capsid protein gene from a nodavirus strain affecting the Atlantic halibut Hippoglossus hippoglossus and design of an optimal reverse-transcriptase polymerase chain reaction (RT-PCR) detection assay. A 1349 nucleotide fragment of the RNA2 from a nodavirus affecting Atlantic halibut Hippoglossus hippoglossus was characterised and the nuclotide sequence (accession no. AJ245641) was employed to develop an optimal reverse-transcriptase polymerase chain reaction (RT-PCR) detection assay. The sequenced part of the RNA2 of Atlantic halibut nodavirus (strain AH95NorA) was highly similar in organisation to that of the RNA2 of striped jack nervous necrosis virus (SJNNV), and comprised features common to all nodaviruses. These characteristics confirmed that the virus that causes viral encephalopathy and retinopathy (VER) in Atlantic halibut is a nodavirus. The nucleotide sequence of the 1349 nucleotide fragment of Atlantic halibut nodavirus RNA2 was 80% identical to the RNA2 of SJNNV. The T2 region (830 nucleotides) of the RNA2 of Atlantic halibut nodavirus shared 98% of the nucleotide sequence when compared with the homologous region of barfin flounder nervous necrosis virus (BFNNV), while the nucleotide sequence identity to SJNNV in this region was 76%. Phylogenetic analysis based on the nucleotide sequences of the T4 region (421 nucleotides) of Atlantic halibut nodavirus and of other fish nodaviruses revealed a close relationship to the nodaviruses of the barfin flounder clad that have been found in other cold-water species (Pacific cod Gadus macrocephalus and barfin founder Verasper moseri). The nucleotide sequence of the RNA2 of Atlantic halibut nodavirus included some features that differ from that of SJNNV. The ORF of the RNA2 of Atlantic halibut nodavirus lacked 6 nucleotides through a single deletion and a 5-nucleotide deletion, separated by 4 nucleotides. The 3'-non-encoding region contained a 21 nucleotide insert and a 3 nucleotide deletion when compared with SJNNV. In comparison with the RNA2 of SJNNV, the 3'-non-encoding region showed a nucleotide sequence identity of 84.5%. A primer set based on the Atlantic halibut nodavirus nucleotide sequence was employed in order to design an optimal RT-PCR. The detection limit of the PCR was 10 to 100 copies of plasmid, while the detection limit of the RT-PCR assay was 100 to 1000 copies of in vitro transcribed viral RNA.",LLM_Default_Classification,57824
+2052,Borna disease virus,Virus,59194
+2053,Macaca fuscata,Species,59194
+2054,Japanese macaques,Animal species,59194
+2055,BDV,Virus,59194
+2056,Chiba prefecture,Geopolitical entity,59194
+2057,Japan,Geopolitical Entity,59194
+2058,peninsula,GeographicalFeature,59194
+2059,serum samples,Biological specimen,59194
+2060,ELISA,Test,59194
+2061,Western blot,Test,59194
+2062,immunofluorescence assays,Test,59194
+2063,serum antibodies,Biological Molecules,59194
+2064,BDV antigens,Biological molecule,59194
+2065,RT-PCR,Test,59194
+2066,brain tissue,Anatomical Structure,59194
+2067,BDV sequences,Viral RNA,59194
+2068,genetic conservation,Biological Phenomenon,59194
+2069,phylogenetic analysis,Biological Technique,59194
+2070,49,Number,59194
+2071,6,Number,59194
+2072,12.2%,Seroprevalence rate,59194
+2073,one case,BiologicalSample,59194
+2074,four seropositive cases,Medical Condition Group,59194
+2075,unique differences,Biological Variation,59194
+2076,Mamastrovirus,Virus,58337
+2077,Acinonyx jubatus,Animal species,58337
+2078,cheetah,Animal,58337
+2079,diarrhea,Disease,58337
+2080,lethargy,Symptom,58337
+2081,anorexia,Symptom,58337
+2082,regurgitation,Medical Symptom,58337
+2083,fecal samples,Biological specimen,58337
+2084,electron microscopy,Diagnostic procedure,58337
+2085,culture,Microbiological culture,58337
+2086,astrovirus,Virus,58337
+2087,RNA-dependent-RNA polymerase (RdRp),Viral enzyme,58337
+2088,capsid,Viral protein,58337
+2089,bismuth subsalicylate,Drug,58337
+2090,524mg PO BID for 5 days,Dosage,58337
+2091,11-day period,Duration,58337
+2092,Bayesian and maximum likelihood phylogenetic analyses,Phylogenetic Methods,58337
+2093,367 base pair partial RNA-dependent-RNA polymerase (RdRp) product,Biological Sequence,58337
+2094,628 base pair partial capsid product,Viral Capsid Fragment,58337
+2095,first report,Document,58337
+2096,influenza A virus,Viral species,60063
+2097,Kuril harbor seal,Animal species,60063
+2098,Phoca vitulina stejnegeri,Animal species,60063
+2099,Hokkaido,Geopolitical entity,60063
+2100,Japan,Geopolitical Entity,60063
+2101,serological analysis,MedicalTest,60063
+2102,serum samples,Biological specimen,60063
+2103,ELISA,Diagnostic test,60063
+2104,antibodies,Biological Molecules,60063
+2105,Nosappu,Location,60063
+2106,Akkeshi,Location,60063
+2107,Erimo,Location,60063
+2108,1998,Year,60063
+2109,2005,Year,60063
+2110,2003,Year,60063
+2111,2004,Year,60063
+2112,11%,Percentage,60063
+2113,3%,Percentage,60063
+2114,12%,Percentage,60063
+2115,6%,Percentage,60063
+2116,1/9,Ratio,60063
+2117,2/66,Ratio,60063
+2118,7/59,Ratio,60063
+2119,5/77,Ratio,60063
+2120,juvenile seals,Host,60063
+2121,late 1990s,Time Period,60063
+2122,recent years,Time Period,60063
+2123,hemagglutination inhibition (HI) tests,Diagnostic test,60063
+2124,H3,Viral subtype,60063
+2125,H6,Viral subtype,60063
+2126,avians,Host,60063
+2127,genetic analysis,BiomedicalProcedure,60063
+2128,tissue,Biological tissue,60063
+2129,mucus,Biological substance,60063
+2130,virus,Influenza A virus,60063
+2131,white-tailed deer,Animal,60043
+2132,Odocoileus virginianus,Species,60043
+2133,central Wisconsin,Geographical Region,60043
+2134,1979-1980,Time Period,60043
+2135,serologic evidence,Diagnostic finding,60043
+2136,infection,Viral infection,60043
+2137,selected arboviruses,Virus,60043
+2138,Jamestown Canyon virus,Virus,60043
+2139,Bunyamwera group virus,Virus,60043
+2140,La Crosse virus,Virus,60043
+2141,sera,Biological sample,60043
+2142,antibody,Biological molecule,60043
+2143,41,Number of deer,60043
+2144,56%,Percentage,60043
+2145,80%,Percentage,60043
+2146,5%,Percentage,60043
+2147,Yellow Fever,Disease,58382
+2148,Alouatta,Genus,58382
+2149,Alouatta caraya,Animal species,58382
+2150,Alouatta guariba clamitans,Species,58382
+2151,Yellow Fever Virus,Virus,58382
+2152,YFV,Disease,58382
+2153,Rio Grande do Sul State,Geopolitical Entity,58382
+2154,Brazil,Geopolitical Entity,58382
+2155,2008-2009,Time period,58382
+2156,2001,Year,58382
+2157,2008,Year,58382
+2158,2009,Year,58382
+2159,October 2008,Time period,58382
+2160,June 2009,Time period,58382
+2161,Haemagogus leucocelaenus,Mosquito species,58382
+2162,mosquito,Aedes aegypti,58382
+2163,howler monkey,Animal,58382
+2164,monkey,Alouatta,58382
+2165,apes,Mammal,58382
+2166,nonhuman primates,Animal,58382
+2167,NHP,Non-Human Primate,58382
+2168,wildlife,Animal,58382
+2169,wild primates,host,58382
+2170,forest-dwelling mosquito,Vector,58382
+2171,State Secretariat of Health,Government Agency,58382
+2172,municipalities,Geopolitical entity,58382
+2173,monkey captures,Event,58382
+2174,monkey casualties,Event,58382
+2175,investigations,Event,58382
+2176,monkey carcasses,Event,58382
+2177,samples,Event,58382
+2178,outbreaks,Event,58382
+2179,YF-related death,Event,58382
+2180,YFV circulation,Event,58382
+2181,human infection,Event,58382
+2182,human cases,Event,58382
+2183,surveillance activities,Event,58382
+2184,surveillance system,Event,58382
+2185,monitoring program,Event,58382
+2186,"2,013",Year,58382
+2187,830,Year,58382
+2188,"1,183",Year,58382
+2189,297,Year,58382
+2190,204,Year,58382
+2191,154,Year,58382
+2192,50,Year,58382
+2193,2,Year,58382
+2194,67,Year,58382
+2195,21,Year,58382
+2196,69%,Percentage,58382
+2197,rabies,Disease,59406
+2198,bat-eared foxes,Animal species,59406
+2199,Otocyon megalotis,Host,59406
+2200,South Africa,Geopolitical Entity,59406
+2201,rabies viruses,Virus,59406
+2202,wildlife host species,Host,59406
+2203,domestic carnivore species,Host,59406
+2204,1980,Year,59406
+2205,2005,Year,59406
+2206,1980 and 2005,DateRange,59406
+2207,region,Geographical Region,59406
+2208,molecular epidemiology,Process,59406
+2209,nucleotide sequence analyses,Process,59406
+2210,PCR amplicons,Molecular Biology Product,59406
+2211,G-L intergenic region,Genetic region,59406
+2212,nucleoprotein gene,Gene,59406
+2213,phylogenetic groups,Biological Classification,59406
+2214,antigenic data,Biological data,59406
+2215,surveillance data,Epidemiological data,59406
+2216,rabies cycles,Process,59406
+2217,geographical loci,Location,59406
+2218,molecular epidemiological investigation,Process,59406
+2219,rabies transmission dynamics,Process,59406
+2220,hepatitis B virus,Virus,60004
+2221,Hepatitis B virus,Virus,60004
+2222,HBV,Virus,60004
+2223,gibbon,Animal,60004
+2224,Hylobates lar,Species,60004
+2225,chimpanzee,Animal,60004
+2226,monoclonal anti-preS2 antibody,Antibody,60004
+2227,preS2 mAb 116-34,Antibody,60004
+2228,anti-preS1 mAb,Antibody,60004
+2229,preS1 hepatocyte receptor region,Protein Domain,60004
+2230,DNA sequence,Viral DNA sequence,60004
+2231,PreS gene,Gene,60004
+2232,glutamine,Amino acid,60004
+2233,lysine,Amino acid,60004
+2234,valine,Amino acid,60004
+2235,threonine,Amino acid,60004
+2236,alanine,Amino acid,60004
+2237,glutamic acid,Amino acid,60004
+2238,aspartic acid,Amino acid,60004
+2239,leucine,Amino acid,60004
+2240,amino acid residue 27,Protein Sequence Feature,60004
+2241,preS1 position 33,Genetic Variant,60004
+2242,amino acid changes,Biological Sequence Variation,60004
+2243,preS mAb reactivity,Property,60004
+2244,nucleotide substitution,Genetic Mutation,60004
+2245,codon,Gene,60004
+2246,amino acid positions,Gene,60004
+2247,experimental inoculation,Process,60004
+2248,sera,Biological sample,60004
+2249,unique nucleotide substitution,Genetic Variant,60004
+2250,unique changes,Genetic Mutation,60004
+2251,unique preS sequence,Gene,60004
+2252,HBV variant,Viral strain,60004
+2253,gibbon HBV,Virus,60004
+2254,human HBV,Virus,60004
+2255,human HBV specimens,Biological material,60004
+2256,gibbon HBV PreS gene,Gene,60004
+2257,human derived HBV sequences,Viral genetic material,60004
+2258,preS1 region,Gene,60004
+2259,preS2 region,Gene,60004
+2260,preS2 mAb (116-34) binding,Property,60004
+2261,European bat lyssavirus type 1,Virus,59229
+2262,EBLV-1,Virus,59229
+2263,genotype 5,Viral Genotype,59229
+2264,insectivorous bat populations,Host,59229
+2265,stone marten,Animal,59229
+2266,Martes foina,Animal species,59229
+2267,Germany,Country,59229
+2268,Saxony-Anhalt,German state,59229
+2269,Burg,Location,59229
+2270,rabies suspect stone marten,Animal,59229
+2271,rabies virus,virus,59229
+2272,genotype 1,Viral Genotype,59229
+2273,classical rabies virus,Virus,59229
+2274,brain samples,Biological specimen,59229
+2275,fluorescent antibody test,Test,59229
+2276,mouse inoculation test,Test,59229
+2277,rabies tissue culture inoculation test,Test,59229
+2278,rabies viral RNA,Viral RNA,59229
+2279,nested RT-PCR,Test,59229
+2280,heminested RT-PCR,Test,59229
+2281,nucleoprotein gene,Genetic Sequence,59229
+2282,nucleoprotein phosphoprotein junction,Protein Complex,59229
+2283,amplification products,Measurement,59229
+2284,sequence data,Measurement,59229
+2285,first-round RT-PCR products,Measurement,59229
+2286,EBLV-1a,Virus,59229
+2287,serotine bat,Eulalia serotina,59229
+2288,phylogenetic comparison,Biological Process,59229
+2289,sequences,Measurement,59229
+2290,genotype five isolates,Genetic Variant,59229
+2291,Denmark,Country,59229
+2292,EBLV-1 infected stone marten,Infected Animal,59229
+2293,99.5%,Percentage,59229
+2294,spill-over,Zoonotic event,59229
+2295,wildlife,Host,59229
+2296,Europe,Geographical Region,59229
+2297,suspect stone marten isolate,Biological Sample,59229
+2298,bat lyssaviruses,Virus,58774
+2299,Thailand,Country,58774
+2300,8 provinces,Geopolitical Region,58774
+2301,2002,Year,58774
+2302,2003,Year,58774
+2303,932,Quantity,58774
+2304,11 species,Biological species count,58774
+2305,bat populations,Host,58774
+2306,serum collection,Biological sample collection,58774
+2307,virus neutralization assays,Laboratory Procedure,58774
+2308,bat serum samples,Biological Sample,58774
+2309,538,Quantity,58774
+2310,hemolysed,Medical Condition,58774
+2311,insufficient in volume,Medical Condition,58774
+2312,394,Quantity,58774
+2313,Pteropus lylei,Host,58774
+2314,Eonycteris spelaea,Host,58774
+2315,Hipposideros armiger,Host,58774
+2316,Rousettus leschennaulti,Host,58774
+2317,rabies virus,virus,58774
+2318,Aravan virus,Virus,58774
+2319,Khujand virus,Virus,58774
+2320,Irkut virus,Virus,58774
+2321,Australian bat lyssavirus,Virus,58774
+2322,fruit bats,Host,58774
+2323,naturally occurring viruses,Biological Entity,58774
+2324,new putative lyssavirus genotypes,Viral Genotypes,58774
+2325,pseudorabies,Virus,60098
+2326,Aujeszky's disease,Disease,60098
+2327,pseudorabies virus,virus,60098
+2328,PRV,Virus,60098
+2329,feral swine,Animal,60098
+2330,Sus scrofa,Species,60098
+2331,Florida,Geopolitical Entity,60098
+2332,USA,Geopolitical Entity,60098
+2333,serum samples,Biological specimen,60098
+2334,serum neutralization test,Test,60098
+2335,latex agglutination test,Test,60098
+2336,enzyme-linked immunosorbent assay,Test,60098
+2337,seropositive swine,Animal,60098
+2338,seroprevalence,MedicalMeasurement,60098
+2339,579,NumericalValue,60098
+2340,"1,662",Quantity,60098
+2341,34.8%,Prevalence rate,60098
+2342,5.9% to 58.2%,PercentageRange,60098
+2343,age,Biological Attribute,60098
+2344,sex,BiologicalSex,60098
+2345,males,BiologicalSex,60098
+2346,females,Gender,60098
+2347,adult,Age group,60098
+2348,juvenile,Age group,60098
+2349,8 mo,Age,60098
+2350,P = 0.62,Statistical Significance Value,60098
+2351,P < 0.05,Statistical Significance Threshold,60098
+2352,domestic swine,Animal,60098
+2353,domestic swine population,Animal Group,60098
+2354,Pseudorabies,Disease,60097
+2355,European wild boar,Animal species,60097
+2356,Sus scrofa,Animal species,60097
+2357,pseudorabies virus,Virus,60097
+2358,PRV,Virus,60097
+2359,Eastern Germany,Geopolitical Region,60097
+2360,Sera,Biological sample,60097
+2361,Enzyme-linked immunosorbent assay,Test,60097
+2362,ELISA,Test,60097
+2363,Neutralizing antibodies,Biological molecule,60097
+2364,Immunoblotting,Test,60097
+2365,Host age,Property,60097
+2366,Host sex,Property,60097
+2367,Temporal factors,Property,60097
+2368,Spatial factors,Property,60097
+2369,Seroprevalence,MedicalMeasurement,60097
+2370,Domestic animal populations,Animal group,60097
+2371,Domestic pig population,Animal population,60097
+2372,Endemic,Property,60097
+2373,Eradication,Disease Control Strategy,60097
+2374,1985,Year,60097
+2375,1991,Year,60097
+2376,1994,Year,60097
+2377,January,Month,60097
+2378,December,Month,60097
+2379,"3,143",Quantity,60097
+2380,281,Number,60097
+2381,13,Number,60097
+2382,8.9%,Percentage,60097
+2383,0.4%,Percentage,60097
+2384,220,Number,60097
+2385,74.8%,Percentage,60097
+2386,22%,Percentage,60097
+2387,several years,Duration,60097
+2388,viruses,Pathogen,57815
+2389,wild fish populations,Host,57815
+2390,Gulf of Cadiz,Geographical Location,57815
+2391,South Atlantic Iberian Peninsula,Geographical Region,57815
+2392,infectious pancreatic necrosis virus,Viral Pathogen,57815
+2393,IPNV,Virus,57815
+2394,viral hemorrhagic septicemia virus,Virus,57815
+2395,VHSV,Viral hemorrhagic septicemia virus,57815
+2396,viral nervous necrosis virus,Virus,57815
+2397,VNNV,Viral species,57815
+2398,Chelon labrosus,Host,57815
+2399,San Pedro River,Hydrological Feature,57815
+2400,Bay of Cadiz,Geographical Location,57815
+2401,barracuda,Fish,57815
+2402,Sphyraena sphyraena,Host,57815
+2403,axillary seabream,Fish species,57815
+2404,Pagellus acarne,hosts,57815
+2405,common two-banded seabream,Fish species,57815
+2406,Diplodus vulgaris,Host,57815
+2407,common pandora,virus,57815
+2408,Pagellus erythrinus,hosts,57815
+2409,Senegal seabream,Fish species,57815
+2410,Diplodus bellottii,Host,57815
+2411,surmullet,Fish species,57815
+2412,Mullus surmuletus,Host,57815
+2413,black seabream,Fish species,57815
+2414,Spondyliosoma cantharus,Host,57815
+2415,red mullet,Fish species,57815
+2416,Mullus barbatus,Host,57815
+2417,Lusitanian toadfish,Fish species,57815
+2418,Halobatrachus didactylus,Host,57815
+2419,tub gurnard,Fish species,57815
+2420,Chelidonichtys lucerna,Host,57815
+2421,river mouth,Geographical Feature,57815
+2422,oceanographic campaigns,Scientific Research Projects,57815
+2423,cell culture,Process,57815
+2424,molecular diagnosis,Process,57815
+2425,reamplification,Process,57815
+2426,prevalence percentages,Epidemiological Data,57815
+2427,anthropogenic influence,Environmental Factor,57815
+2428,natural reassortants,Viral strain,57815
+2429,proximity of the sampling sites to the coast,Geographical Feature,57815
+2430,Rana grylio,Species,57899
+2431,pig frog,Animal,57899
+2432,Ranavirus,Genus,57899
+2433,Iridovirus,Virus,57899
+2434,FV3,Virus,57899
+2435,RGV-9506,Virus isolate,57899
+2436,RGV-9807,Virus isolate,57899
+2437,RGV-9808,Virus isolate,57899
+2438,RGV,Virus,57899
+2439,lethal syndrome,Disease,57899
+2440,cultured pig frogs,biological specimen,57899
+2441,ultrastructural and morphological studies,Method,57899
+2442,experimental infection studies,Method,57899
+2443,histopathology,Method,57899
+2444,electron microscopy,Method,57899
+2445,serological reactivity,Method,57899
+2446,gel electrophoresis of viral polypeptides,Method,57899
+2447,DNA restriction fragments,Method,57899
+2448,PCR amplification,Method,57899
+2449,nucleic acid sequence analysis,Method,57899
+2450,major capsid protein (MCP) gene,Gene,57899
+2451,family Iridoviridae,Viral family,57899
+2452,genus Ranavirus,Genus,57899
+2453,"widespread, severe disease",Disease,57899
+2454,cultured frogs,Animal,57899
+2455,Cottontail rabbit papillomavirus,Virus,59668
+2456,desert cottontail,Animal,59668
+2457,Sylvilagus audubonii,Species,59668
+2458,Colorado,Geopolitical Entity,59668
+2459,USA,Geopolitical Entity,59668
+2460,"large, pedunculated, dark cutaneous lesions",Dermatological Condition,59668
+2461,cylindrical masses,Pathological growth,59668
+2462,morphologically,Adverbial modifier,59668
+2463,virally induced papillomas,Disease,59668
+2464,DNA analysis,Laboratory test,59668
+2465,widespread infection,Disease,59668
+2466,Dengue virus,Virus,58651
+2467,Dengue virus (DV),Virus,58651
+2468,DV NS1 protein,Viral protein,58651
+2469,Mexican bats,Animal,58651
+2470,bats,Animal,58651
+2471,Myotis nigricans,Host,58651
+2472,Pteronotus parnellii,Host,58651
+2473,Natalus stramineus,Host,58651
+2474,Artibeus jamaicensis,Host,58651
+2475,Carollia brevicauda,Host,58651
+2476,dengue endemic areas,Geographical location,58651
+2477,Gulf coast,Geographical region,58651
+2478,Pacific coast,Geographical location,58651
+2479,Mexico,Geopolitical Entity,58651
+2480,ELISA,Laboratory Technique,58651
+2481,RT-PCR,Molecular Biology Technique,58651
+2482,seropositive,Medical Condition,58651
+2483,seronegative,Medical Condition,58651
+2484,seroprevalence,Medical Condition,58651
+2485,12.86%,Percentage,58651
+2486,rainy season,Environmental Phenomenon,58651
+2487,12,Number of genera,58651
+2488,19,Number of species,58651
+2489,4,Number,58651
+2490,35,Number,58651
+2491,2,Number,58651
+2492,1,Number,58651
+2493,9,Number,58651
+2494,11,Number,58651
+2495,3,Number,58651
+2496,porcupines,Animal,58837
+2497,Erethizon dorsatum,Animal species,58837
+2498,Colorado tick fever virus,Virus,58837
+2499,Rocky Mountain National Park,Geographical Location,58837
+2500,1975-1977,Time Period,58837
+2501,porcupine dens,Animal Habitat,58837
+2502,feeding activity,Behavioral Activity,58837
+2503,rocky knolls,Geographical feature,58837
+2504,south-facing slopes,Geographical Feature,58837
+2505,montane coniferous forest,Ecosystem,58837
+2506,20,Quantity,58837
+2507,Dermacentor andersoni Stiles,Species,58837
+2508,ticks,Arthropod,58837
+2509,D. andersoni,Species,58837
+2510,24.6 +/- 5.4,QuantitativeValue,58837
+2511,17.5-31.4,Range,58837
+2512,CTF virus infection rate,Viral infection rate,58837
+2513,129-257,Year,58837
+2514,205,Year,58837
+2515,1976,Year,58837
+2516,virus,Colorado tick fever virus,58837
+2517,20 animals,Animal Group,58837
+2518,85%,Percentage,58837
+2519,neutralizing antibody,Biological molecule,58837
+2520,CTF ecosystem,Ecological habitat,58837
+2521,West Nile virus,Viral species,59380
+2522,white-tailed deer,Animal,59380
+2523,Odocoileus virginianus,Animal species,59380
+2524,3-yr-old male,Animal,59380
+2525,ataxia,Neurological Condition,59380
+2526,tremors,Medical Symptom,59380
+2527,Tifton Veterinary Diagnostic and Investigational Laboratory,Laboratory,59380
+2528,The University of Georgia,Laboratory,59380
+2529,Tifton,Location,59380
+2530,Georgia,State,59380
+2531,USA,Country,59380
+2532,necropsy,MedicalProcedure,59380
+2533,gross findings,Medical Observation,59380
+2534,unremarkable,Medical finding,59380
+2535,brain,Tissue,59380
+2536,multifocal lymphoplasmacytic perivascular inflammation,Pathological finding,59380
+2537,scattered gliosis,Pathological finding,59380
+2538,rare satellitosis,Pathological finding,59380
+2539,retropharyngeal lymph nodes,Tissue,59380
+2540,mild hemorrhage,Pathological Condition,59380
+2541,mild congestion,Symptom,59380
+2542,tonsil,Tissue,59380
+2543,mild lymphoid depletion,Pathological finding,59380
+2544,reverse transcription-polymerase chain reaction test,MedicalTest,59380
+2545,positive result,TestResult,59380
+2546,first report,Medical Event,59380
+2547,Marble spleen disease,Disease,58254
+2548,ring-necked pheasants,Animal Species,58254
+2549,Phasianus colchicus,Bird species,58254
+2550,MSD,Disease,58254
+2551,contagious disease,Disease,58254
+2552,captive-reared,Adjective,58254
+2553,mortality,Disease symptom,58254
+2554,morbidity,Medical Condition,58254
+2555,type II avian adenovirus,Virus,58254
+2556,hemorrhagic enteritis virus,Virus,58254
+2557,turkeys,Animal,58254
+2558,splenomegaly virus,virus,58254
+2559,chickens,Animal,58254
+2560,spleen,Organ,58254
+2561,pulmonary edema,Medical Condition,58254
+2562,reticuloendothelial (RE) cell hyperplasia,Pathological Condition,58254
+2563,lymphoid necrosis,Pathological process,58254
+2564,intranuclear viral inclusions,Pathological finding,58254
+2565,hyperplastic RE cells,Cell Type,58254
+2566,agar gel precipitin test,Diagnostic test,58254
+2567,oral vaccination,MedicalProcedure,58254
+2568,avirulent strains of MSD virus,Virus,58254
+2569,supportive care,Medical Treatment,58254
+2570,strict sanitation,Medical Practice,58254
+2571,good management practices,MedicalProcedure,58254
+2572,epizootic,Disease,58254
+2573,mortalities,DiseaseOutcome,58254
+2574,avian bornavirus,virus,58190
+2575,Himalayan monal,Bird species,58190
+2576,Lophophorus impejanus,Bird species,58190
+2577,neurological disease,Disease,58190
+2578,one-year-old male,Animal,58190
+2579,chronic wasting,Symptom,58190
+2580,weakness,Symptom,58190
+2581,ataxia,Medical Condition,58190
+2582,mild non-suppurative encephalitis,Disease,58190
+2583,degenerative encephalopathy,Disease or Syndrome,58190
+2584,lymphoplasmacytic myenteric ganglioneuritis,Pathological Condition,58190
+2585,Wallerian degeneration,Pathological process,58190
+2586,sciatic nerves,Peripheral Nerve,58190
+2587,brain,Anatomical Structure,58190
+2588,immunohistochemistry,Laboratory Technique,58190
+2589,reverse-transcriptase polymerase chain reaction,Biological Assay,58190
+2590,ABV genotype 4,Viral strain,58190
+2591,psittacine birds,Bird species,58190
+2592,pheasant,Animal,58190
+2593,white-bellied caique,Animal,58190
+2594,Pionites leucogaster,Bird species,58190
+2595,aviary,Animal housing facility,58190
+2596,Order Galliformes,Taxonomic Order,58190
+2597,Measles virus,Virus,59196
+2598,Japanese macaques,Animal species,59196
+2599,Macaca fuscata,Species,59196
+2600,Measles,Disease,59196
+2601,outbreak,DiseaseOutbreak,59196
+2602,4 months,Duration,59196
+2603,12,Quantity,59196
+2604,53,Number of animals,59196
+2605,2-23 days,Duration,59196
+2606,anorexia,Medical Condition,59196
+2607,diarrhea,Symptom,59196
+2608,dermatitis,Disease or Syndrome,59196
+2609,outdoor exhibits,Animal housing facility,59196
+2610,indoor caging,Animal housing structure,59196
+2611,new outdoor exhibits,Physical Location,59196
+2612,histopathology,Diagnostic method,59196
+2613,immunohistochemistry (IHC),Diagnostic method,59196
+2614,in situ hybridization (ISH),Diagnostic method,59196
+2615,electron microscopy,Diagnostic method,59196
+2616,lung,Tissue,59196
+2617,stomach,Tissue,59196
+2618,skin,Tissue,59196
+2619,salivary gland,Tissue,59196
+2620,spleen,Tissue,59196
+2621,lymph nodes,Tissue,59196
+2622,"tangled, tubular nucleocapsids",Viral structure,59196
+2623,paramyxovirus,virus,59196
+2624,immunosuppression,Medical Condition,59196
+2625,disseminated cytomegalovirus infection,Disease,59196
+2626,adenoviral pneumonia,Disease,59196
+2627,bacterial pneumonia,Disease,59196
+2628,Candida albicans,Fungal species,59196
+2629,gingivitis,Disease,59196
+2630,esophagitis,Disease,59196
+2631,human visitors,Potential Source of Infection,59196
+2632,primary infective source,DiseaseTransmissionSource,59196
+2633,mode of infection,Transmission route,59196
+2634,Rabies,Disease,59228
+2635,rodents,Animal,59228
+2636,lagomorphs,Animal Group,59228
+2637,United States,Geopolitical Entity,59228
+2638,1971-1984,Time Period,59228
+2639,woodchuck,Animal,59228
+2640,Marmota monax,Animal species,59228
+2641,mid-Atlantic states,Geopolitical Region,59228
+2642,surveillance data,Epidemiological data,59228
+2643,Centers for Disease Control,Government Agency,59228
+2644,104,Number of cases,59228
+2645,80%,Percentage,59228
+2646,1980-1984,Time Period,59228
+2647,64%,Percentage,59228
+2648,epizootic,Disease outbreak,59228
+2649,raccoons,Animal,59228
+2650,Procyon lotor,Animal species,59228
+2651,humans,Biological organism,59228
+2652,postexposure prophylaxis,Medical Treatment,59228
+2653,exposing species,Biological species,59228
+2654,Columbid herpesvirus-1,Virus,58036
+2655,great horned owl,Animal,58036
+2656,Bubo virginianus,Species,58036
+2657,Calgary,Location,58036
+2658,Alberta,Geopolitical entity,58036
+2659,Necropsy,Process,58036
+2660,hepatic necrosis,Pathological Condition,58036
+2661,splenic necrosis,Pathological Condition,58036
+2662,pharyngeal ulceration,Pathological finding,58036
+2663,gastrointestinal necrosis,Pathological Condition,58036
+2664,eosinophilic intranuclear viral inclusion bodies,Pathological finding,58036
+2665,polymerase chain reaction,Process,58036
+2666,PCR,Process,58036
+2667,PCR testing,Process,58036
+2668,PCR amplicon,DNA fragment,58036
+2669,99.7%,Percentage,58036
+2670,herpesvirus-induced disease,Disease,58036
+2671,four,CardinalNumber,58036
