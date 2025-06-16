@@ -3,11 +3,30 @@ library(knitr)
 library(rmarkdown)
 
 ### Run automated overview and descriptive stats
-run <- "0331"
+run <- "0612"
 setwd(paste0("H:\\Working\\hp-extractor\\zs\\", run))
 
 render("H:\\Working\\hp-extractor\\zs\\overview.Rmd", 
        output_file=paste0("H:\\Working\\hp-extractor\\zs\\", run, "\\overview.html"))
+
+### Produce validation reader - for llama 70b
+ent_ll <- read.csv(files[grepl("entities", files) & grepl("llama3-70b", files)]) %>% distinct
+rel_ll <- read.csv(files[grepl("relationships", files) & grepl("llama3-70b", files)]) %>% distinct
+
+ent_ll %>%
+  arrange(factor(doc_id, levels = val$absID)) %>%
+  write.csv(paste0("entities_", run, "_VALID.csv"))
+
+rel_ll %>%
+  arrange(factor(doc_id, levels = val$absID)) %>%
+  write.csv(paste0("relationships_", run, "_VALID.csv"))
+
+render("manual_validation_display.Rmd", output_file="manual_validation_display.html")
+
+
+
+
+
 
 ### Manually examine
 
@@ -37,20 +56,9 @@ val <- read.csv("H:\\Working\\hp-extractor\\raw_data\\validation_100.csv")
 meta %>% filter(pmid == 24023772) %>% pull(absID)
 meta_aug %>% filter(pmid == 24023772) %>% pull(absID)
 
-# Produce reader
-ent1 %>%
-  arrange(factor(doc_id, levels = val$absID)) %>%
-  write.csv(paste0("entities_", run, "_prompt1_VALID.csv"))
-
-rel1 %>%
-  arrange(factor(doc_id, levels = val$absID)) %>%
-  write.csv(paste0("relationships_", run, "_prompt1_VALID.csv"))
-
-render("manual_validation_display.Rmd", output_file="manual_validation_display.html")
-
 # Check canon H-P from CLOVER
 
-val %>% left_join(meta_aug) %>% select(absID, Host, HostOriginal, Host_AsReported, Pathogen, PathogenOriginal, Pathogen_AsReported) %>% write.csv("valid_hp_canon.csv")
+val %>% left_join(meta_aug) %>% select(absID, Host, HostOriginal, Host_AsReported, Pathogen, PathogenOriginal, Pathogen_AsReported) %>% write.csv("valid_canon_hp.csv")
 
 
 # # Should be docs 1 - 99

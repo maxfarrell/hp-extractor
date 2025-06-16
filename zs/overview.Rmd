@@ -36,14 +36,14 @@ files <- list.files()
 
 ent_d <- read.csv(files[grepl("entities", files) & grepl("deepseek", files)]) %>% distinct
 ent_g <- read.csv(files[grepl("entities", files) & grepl("gemma", files)]) %>% distinct
-ent_l <- read.csv(files[grepl("entities", files) & grepl("llama3|llama.csv", files)]) %>% distinct
-ent_ll <- read.csv(files[grepl("entities", files) & grepl("llama70b", files)]) %>% distinct
+ent_l <- read.csv(files[grepl("entities", files) & grepl("llama3-8b|llama.csv", files)]) %>% distinct
+ent_ll <- read.csv(files[grepl("entities", files) & grepl("llama3-70b", files)]) %>% distinct
 ent_m <- read.csv(files[grepl("entities", files) & grepl("mistral", files)]) %>% distinct
 
 rel_d <- read.csv(files[grepl("relationships", files) & grepl("deepseek", files)])%>% distinct
 rel_g <- read.csv(files[grepl("relationships", files) & grepl("gemma", files)]) %>% distinct
-rel_l <- read.csv(files[grepl("relationships", files) & grepl("llama3|llama.csv", files)]) %>% distinct
-rel_ll <- read.csv(files[grepl("relationships", files) & grepl("llama70b", files)]) %>% distinct
+rel_l <- read.csv(files[grepl("relationships", files) & grepl("llama3-8b|llama.csv", files)]) %>% distinct
+rel_ll <- read.csv(files[grepl("relationships", files) & grepl("llama3-70b", files)]) %>% distinct
 rel_m <- read.csv(files[grepl("relationships", files) & grepl("mistral", files)]) %>% distinct
 
 meta_aug <- read.table("H:\\Working\\system_specificity\\raw_data\\dat_aug9_2021.tsv", sep = '\t', comment.char="", quote = "\"", header=TRUE) %>% distinct
@@ -175,7 +175,7 @@ ent_d %>% filter(type == "Undefined") %>% slice(1:25)
 
 ### Compare entity types for same entity texts WITHIN models
 
-_How many entity types is each entity text associated with within each model? 2-3% of entities have >1 type. Ideal is zero?_
+_How many entity types is each entity text associated with within each model? 6-7% of entities have >1 type. Ideal is zero?_
 
 ```{r entitywithinmodel, echo=F, message=FALSE, layout="l-body-outset"}
 bind_rows(ent_d %>% group_by(entity) %>% summarise(nt = n_distinct(type)) %>% with(., table(nt)) %>% prop.table() %>% round(3)*100,
