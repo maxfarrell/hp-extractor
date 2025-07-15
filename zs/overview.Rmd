@@ -337,7 +337,7 @@ data.frame("Abs with no 'Host' entity" =
 __
 
 ```{r diagnosemissing, include = FALSE}
-rel_ll %>% filter(doc_id == (rel_ll %>% filter(!(doc_id %in% c(rel_ll %>% filter(relation_type == "hosts"|relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id)))
+rel_ll %>% filter(doc_id %in% (rel_ll %>% filter(!(doc_id %in% c(rel_ll %>% filter(relation_type == "hosts"|relation_type == "infects") %>% pull(doc_id)))) %>% pull(doc_id)))
 ```
 
 __

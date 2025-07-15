@@ -3,7 +3,7 @@ library(knitr)
 library(rmarkdown)
 
 ### Run automated overview and descriptive stats
-run <- "0612"
+run <- "0715"
 setwd(paste0("H:\\Working\\hp-extractor\\zs\\", run))
 
 render("H:\\Working\\hp-extractor\\zs\\overview.Rmd", 
